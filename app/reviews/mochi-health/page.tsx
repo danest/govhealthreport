@@ -6,7 +6,7 @@ import { getProviderBySlug } from "@/lib/providers";
 const provider = getProviderBySlug("mochi-health");
 
 export const metadata: Metadata = {
-  title: `${provider?.name} Review 2024 - Is It Worth It? | Rx Saver Hub`,
+  title: `${provider?.name} Review 2026 - Is It Worth It? | Rx Saver Hub`,
   description: provider?.description,
 };
 
