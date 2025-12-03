@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/best-weight-loss-injections',
     '/about',
     '/contact',
+    '/faq',
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified,
