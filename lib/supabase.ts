@@ -1,24 +1,9 @@
-import { createClient, SupabaseClient } from "@supabase/supabase-js";
+import { createClient } from "@supabase/supabase-js";
 
-let supabaseInstance: SupabaseClient | null = null;
+const supabaseUrl = "https://orvdwjmrzndvyhcmmsdb.supabase.co";
+const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ydmR3am1yem5kdnloY21tc2RiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ3MzkwMjksImV4cCI6MjA4MDMxNTAyOX0.n2EJzaaRFiIpnnIZBK7LLFH8fA5vhMf-q5q0577Bbt0";
 
-function getSupabase(): SupabaseClient {
-  if (supabaseInstance) return supabaseInstance;
-
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-
-  if (!supabaseUrl || !supabaseAnonKey) {
-    throw new Error("Supabase environment variables are not configured");
-  }
-
-  supabaseInstance = createClient(supabaseUrl, supabaseAnonKey);
-  return supabaseInstance;
-}
-
-export const supabase = {
-  from: (table: string) => getSupabase().from(table),
-};
+export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
 // Types for our database tables
 export interface Review {
