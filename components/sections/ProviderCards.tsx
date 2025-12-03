@@ -85,19 +85,19 @@ export function ProviderCards() {
         </div>
 
         {/* Desktop Layout - CoreAge in middle */}
-        <div className="hidden lg:grid lg:grid-cols-3 gap-8 items-end">
+        <div className="hidden lg:grid lg:grid-cols-3 gap-8 items-end pt-8">
           {providers.map((provider) => (
             <Card
               key={provider.name}
-              className={`relative overflow-hidden transition-all duration-300 hover:shadow-xl ${
+              className={`relative transition-all duration-300 hover:shadow-xl ${
                 provider.featured
                   ? "border-primary shadow-2xl ring-2 ring-primary/30 scale-105 z-10"
-                  : "border-border/50 hover:-translate-y-1"
+                  : "border-border/50 hover:-translate-y-1 overflow-hidden"
               }`}
             >
               {/* Featured Crown/Award for #1 */}
               {provider.featured && (
-                <div className="absolute -top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
+                <div className="absolute -top-6 left-1/2 -translate-x-1/2 z-20">
                   <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary shadow-lg">
                     <Award className="h-6 w-6 text-primary-foreground" />
                   </div>
