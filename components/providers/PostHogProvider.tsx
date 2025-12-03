@@ -5,9 +5,10 @@ import { PostHogProvider as PHProvider, usePostHog } from 'posthog-js/react'
 import { usePathname, useSearchParams } from 'next/navigation'
 import { useEffect, Suspense } from 'react'
 
-if (typeof window !== 'undefined') {
+if (typeof window !== 'undefined' && process.env.NODE_ENV === 'production') {
   posthog.init('phc_hvBWe4aeP58vxVPuFnhfDk7UWwsj2dP6m1sgUTr8sp1', {
     api_host: 'https://us.i.posthog.com',
+    person_profiles: 'always',
     capture_pageview: false, // We'll capture manually for better SPA tracking
     capture_pageleave: true,
     autocapture: true,
