@@ -48,7 +48,7 @@ export default function BestAlcoholOnTirzepatidePage() {
               </div>
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1470338950318-40f17fefc9bd?w=600&q=80&fit=crop&crop=center"
+                  src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80&fit=crop&crop=center"
                   alt="Alcohol choices on tirzepatide"
                   className="rounded-lg shadow-lg w-full h-64 object-cover"
                   loading="lazy"

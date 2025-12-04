@@ -48,7 +48,7 @@ export default function BestVitaminsOnSemaglutidePage() {
               </div>
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1550572017-edd951aa8f72?w=600&q=80&fit=crop&crop=center"
+                  src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80&fit=crop&crop=center"
                   alt="Vitamins and supplements"
                   className="rounded-lg shadow-lg w-full h-64 object-cover"
                   loading="lazy"
