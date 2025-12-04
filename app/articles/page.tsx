@@ -22,6 +22,16 @@ export const metadata: Metadata = {
 // Article data - in a real app this could come from a CMS or database
 const articles = [
   {
+    slug: "who-should-not-take-ozempic",
+    title: "Who Should Not Take Ozempic?",
+    excerpt:
+      "Learn who should avoid Ozempic (semaglutide). Comprehensive guide to contraindications, medical conditions requiring caution, drug interactions, and safer alternatives.",
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "10 min read",
+    category: "Safety",
+  },
+  {
     slug: "do-glp-1-agonists-cause-gallstones",
     title: "Do GLP-1 Agonists Cause Gallstones?",
     excerpt:
@@ -31,7 +41,6 @@ const articles = [
     readTime: "8 min read",
     category: "Side Effects",
   },
-  // Add more articles here as they're created
 ];
 
 export default function ArticlesPage() {

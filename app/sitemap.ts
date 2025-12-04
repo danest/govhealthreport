@@ -42,6 +42,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Article pages
   const articlePages = [
+    '/articles/who-should-not-take-ozempic',
     '/articles/do-glp-1-agonists-cause-gallstones',
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
