@@ -3,6 +3,12 @@ import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { PostHogProvider } from "@/components/providers/PostHogProvider";
+import {
+  SITE_NAME,
+  SITE_URL,
+  SITE_DESCRIPTION,
+  SITE_TAGLINE,
+} from "@/lib/site-config";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,9 +22,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rx Saver Hub - Compare Weight Loss Treatments",
-  description:
-    "Review the leading brands in weight loss solutions. Compare effectiveness, safety profiles, approved uses, pricing, and more. Find the best weight loss treatment for you.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: `${SITE_NAME} - ${SITE_TAGLINE}`,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
   keywords: [
     "weight loss",
     "weight loss treatments",
@@ -31,10 +40,20 @@ export const metadata: Metadata = {
     "telehealth weight loss",
   ],
   openGraph: {
-    title: "Rx Saver Hub - Compare Weight Loss Treatments",
-    description:
-      "Review the leading brands in weight loss solutions. Compare effectiveness, safety profiles, approved uses, pricing, and more.",
+    title: `${SITE_NAME} - ${SITE_TAGLINE}`,
+    description: SITE_DESCRIPTION,
+    url: SITE_URL,
+    siteName: SITE_NAME,
     type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE_NAME} - ${SITE_TAGLINE}`,
+    description: SITE_DESCRIPTION,
+  },
+  icons: {
+    icon: "/icon.svg",
   },
 };
 
