@@ -80,6 +80,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/articles/glp-1-and-fatty-liver',
     '/articles/glp-1-and-menstruation',
     '/articles/glp-1-and-healthy-aging',
+    '/articles/ozempic-headaches',
+    '/articles/glp-1-and-anxiety',
+    '/articles/ozempic-fatigue',
+    '/articles/glp-1-and-joint-pain',
+    '/articles/glp-1-and-blood-pressure',
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified,

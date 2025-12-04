@@ -4415,3 +4415,485 @@ export const GLP1AgingContent = () => (
     </Card>
   </>
 );
+
+// Managing Headaches on GLP-1 Medications
+export const OzempicHeadachesContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Headaches are reported by 10-15% of people starting GLP-1 medications. While usually mild
+      and temporary, understanding why they happen and how to manage them can help you stay
+      comfortable during treatment.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Why GLP-1s May Cause Headaches
+        </h2>
+        <ul className="text-muted-foreground space-y-2">
+          <li>• Dehydration from reduced fluid intake or GI side effects</li>
+          <li>• Blood sugar changes during adjustment period</li>
+          <li>• Reduced calorie intake (similar to dieting headaches)</li>
+          <li>• Caffeine reduction if changing eating habits</li>
+          <li>• Temporary adjustment as body adapts</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Tips for Relief
+    </h2>
+    <div className="space-y-4 mb-6">
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Stay Well Hydrated</h3>
+        <p className="text-sm text-muted-foreground">
+          Dehydration is the most common cause. Aim for 8+ glasses of water daily. Set reminders
+          if you&apos;re not feeling thirsty due to appetite suppression.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Eat Regularly</h3>
+        <p className="text-sm text-muted-foreground">
+          Even with reduced appetite, try to eat small meals throughout the day. Skipping meals
+          can trigger headaches from low blood sugar.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Monitor Caffeine Intake</h3>
+        <p className="text-sm text-muted-foreground">
+          If you&apos;ve reduced coffee or soda due to appetite changes, caffeine withdrawal can cause
+          headaches. Taper gradually rather than stopping suddenly.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Over-the-Counter Pain Relief</h3>
+        <p className="text-sm text-muted-foreground">
+          Acetaminophen or ibuprofen can help occasional headaches. Avoid overuse, which can cause
+          rebound headaches.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      When to Seek Medical Attention
+    </h2>
+    <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800 mb-6">
+      <p className="text-muted-foreground mb-2">
+        Contact your doctor if you experience:
+      </p>
+      <ul className="text-muted-foreground space-y-1">
+        <li>• Severe or sudden headaches</li>
+        <li>• Headaches with vision changes</li>
+        <li>• Headaches with confusion or slurred speech</li>
+        <li>• Persistent headaches that don&apos;t improve</li>
+        <li>• Headaches with fever or stiff neck</li>
+      </ul>
+    </div>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Headaches on GLP-1 medications are usually mild and related to dehydration or dietary
+          changes. Stay hydrated, eat regularly, and taper caffeine gradually. Most headaches
+          resolve within the first few weeks of treatment.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// GLP-1 Medications and Anxiety
+export const GLP1AnxietyContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Some people report changes in mood or anxiety while on GLP-1 medications. Understanding
+      the relationship between these medications and mental health can help you make informed
+      decisions and know when to seek support.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          What the Research Shows
+        </h2>
+        <ul className="text-muted-foreground space-y-2">
+          <li>• No consistent link between GLP-1s and increased anxiety</li>
+          <li>• Some people report improvement in mood (likely weight-loss related)</li>
+          <li>• Others report temporary mood changes during adjustment</li>
+          <li>• Rapid lifestyle changes can affect mental health</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Possible Causes of Mood Changes
+    </h2>
+    <div className="space-y-4 mb-6">
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Hormonal Shifts</h3>
+        <p className="text-sm text-muted-foreground">
+          Rapid weight loss affects hormone levels, including those that regulate mood. This
+          is usually temporary as the body adjusts.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Blood Sugar Fluctuations</h3>
+        <p className="text-sm text-muted-foreground">
+          Changes in blood sugar can affect mood and energy. Eating regular, balanced meals
+          helps stabilize blood sugar levels.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Relationship with Food</h3>
+        <p className="text-sm text-muted-foreground">
+          If you&apos;ve used food for emotional comfort, reduced appetite may feel unsettling at
+          first. This adjustment is normal but worth discussing with a professional if difficult.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Physical Side Effects</h3>
+        <p className="text-sm text-muted-foreground">
+          Dealing with nausea, fatigue, or other side effects can increase stress and affect
+          mood temporarily.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Managing Mental Health on GLP-1s
+    </h2>
+    <div className="space-y-4 mb-6">
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Maintain Support Systems</h3>
+        <p className="text-sm text-muted-foreground">
+          Stay connected with friends, family, or support groups. Weight loss journeys can be
+          emotional, and support helps.
+        </p>
+      </div>
+
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Continue Mental Health Treatment</h3>
+        <p className="text-sm text-muted-foreground">
+          If you&apos;re already seeing a therapist or taking medication for anxiety, continue
+          treatment and inform your provider about starting GLP-1s.
+        </p>
+      </div>
+    </div>
+
+    <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
+      <h3 className="font-semibold text-foreground mb-2">When to Get Help</h3>
+      <p className="text-sm text-muted-foreground">
+        Contact your healthcare provider if you experience persistent anxiety, panic attacks,
+        depression, or thoughts of self-harm. These warrant immediate attention.
+      </p>
+    </div>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          GLP-1 medications don&apos;t consistently cause anxiety, but the lifestyle changes they
+          enable can affect mood. Monitor your mental health, maintain support systems, and
+          communicate with your healthcare providers about any concerns.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// Managing Fatigue on GLP-1 Medications
+export const OzempicFatigueContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Fatigue is reported by some people starting GLP-1 medications, especially during the
+      initial weeks. Understanding the causes and solutions can help you maintain your energy
+      levels during treatment.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Common Causes of Fatigue
+        </h2>
+        <ul className="text-muted-foreground space-y-2">
+          <li>• Reduced calorie intake (your body is adjusting)</li>
+          <li>• Dehydration from GI side effects</li>
+          <li>• Blood sugar changes</li>
+          <li>• Nutrient deficiencies from eating less</li>
+          <li>• Poor sleep from lifestyle changes</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Strategies to Boost Energy
+    </h2>
+    <div className="space-y-4 mb-6">
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Prioritize Protein</h3>
+        <p className="text-sm text-muted-foreground">
+          Protein provides sustained energy. Aim for 60-100g daily, even with reduced appetite.
+          Start meals with protein to ensure you get enough.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Stay Hydrated</h3>
+        <p className="text-sm text-muted-foreground">
+          Dehydration is a major cause of fatigue. Aim for 8+ glasses of water daily. Add
+          electrolytes if you&apos;ve had GI issues.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Don&apos;t Skip Meals</h3>
+        <p className="text-sm text-muted-foreground">
+          Even if not hungry, eat small, regular meals to maintain blood sugar and energy.
+          Extreme calorie restriction leads to fatigue.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Consider a Multivitamin</h3>
+        <p className="text-sm text-muted-foreground">
+          Eating less can lead to vitamin deficiencies. A daily multivitamin, especially
+          with B vitamins and iron, can help maintain energy.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Light Exercise</h3>
+        <p className="text-sm text-muted-foreground">
+          It seems counterintuitive, but light activity like walking can actually boost energy
+          levels. Start slow and listen to your body.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      When Fatigue May Indicate a Problem
+    </h2>
+    <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
+      <p className="text-muted-foreground mb-2">
+        See your doctor if fatigue is:
+      </p>
+      <ul className="text-muted-foreground space-y-1">
+        <li>• Severe or debilitating</li>
+        <li>• Getting worse over time</li>
+        <li>• Accompanied by other symptoms (dizziness, rapid heartbeat)</li>
+        <li>• Not improving after several weeks</li>
+      </ul>
+    </div>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Fatigue on GLP-1 medications is usually temporary and related to reduced calorie intake
+          and adjustment period. Prioritize protein, hydration, and regular meals. Most people
+          find their energy improves as their body adapts.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// GLP-1 Medications and Joint Pain
+export const GLP1JointPainContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Joint pain is occasionally reported by people on GLP-1 medications. Interestingly, while
+      some experience new discomfort, many others find their joint pain improves with weight
+      loss. Here&apos;s what you need to know.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          The Complex Picture
+        </h2>
+        <ul className="text-muted-foreground space-y-2">
+          <li>• Joint pain is not a common side effect in clinical trials</li>
+          <li>• Weight loss typically improves joint pain over time</li>
+          <li>• Some people report temporary discomfort during rapid weight loss</li>
+          <li>• New exercise routines may cause muscle/joint soreness</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Why Some People Experience Joint Issues
+    </h2>
+    <div className="space-y-4 mb-6">
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Rapid Weight Loss Effects</h3>
+        <p className="text-sm text-muted-foreground">
+          Losing weight quickly can temporarily affect how your body moves and puts stress on
+          joints that are adjusting to new mechanics.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Increased Activity</h3>
+        <p className="text-sm text-muted-foreground">
+          Many people become more active as they lose weight. New or increased exercise can
+          cause temporary muscle and joint soreness.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Dehydration</h3>
+        <p className="text-sm text-muted-foreground">
+          Joint cartilage needs water to stay healthy. Dehydration from GI side effects can
+          temporarily increase joint stiffness.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      The Good News: Long-Term Benefits
+    </h2>
+    <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800 mb-6">
+      <p className="text-muted-foreground">
+        Weight loss significantly reduces joint stress. Every pound lost removes about 4 pounds
+        of pressure from your knees. Most people with obesity-related joint pain see substantial
+        improvement as they lose weight on GLP-1 medications.
+      </p>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Managing Joint Discomfort
+    </h2>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li>Stay well hydrated for joint lubrication</li>
+      <li>Start new exercise gradually</li>
+      <li>Consider low-impact activities (swimming, cycling)</li>
+      <li>Use over-the-counter anti-inflammatories as needed</li>
+      <li>Apply ice or heat for temporary relief</li>
+    </ul>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          While some people experience temporary joint discomfort on GLP-1 medications, most
+          find their joint pain improves significantly with weight loss. Stay hydrated, start
+          exercise gradually, and give your body time to adjust.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// GLP-1 Medications and Blood Pressure
+export const GLP1BloodPressureContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      GLP-1 medications typically lower blood pressure—a significant benefit for people with
+      hypertension. Understanding how these medications affect blood pressure can help you
+      and your doctor optimize your treatment.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Blood Pressure Benefits
+        </h2>
+        <ul className="text-muted-foreground space-y-2">
+          <li>• Average reduction of 4-6 mmHg systolic</li>
+          <li>• Effects seen independent of weight loss</li>
+          <li>• May reduce need for blood pressure medications</li>
+          <li>• Part of overall cardiovascular protection</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      How GLP-1s Lower Blood Pressure
+    </h2>
+    <div className="space-y-4 mb-6">
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Weight Loss</h3>
+        <p className="text-sm text-muted-foreground">
+          Losing 10% of body weight can reduce systolic blood pressure by 5-10 mmHg. GLP-1s
+          produce significant weight loss.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Direct Vascular Effects</h3>
+        <p className="text-sm text-muted-foreground">
+          GLP-1 receptors in blood vessels may promote relaxation and improve blood flow,
+          independent of weight loss.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Reduced Sodium Retention</h3>
+        <p className="text-sm text-muted-foreground">
+          GLP-1s may increase sodium excretion through the kidneys, helping to lower blood
+          pressure naturally.
+        </p>
+      </div>
+
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Improved Insulin Sensitivity</h3>
+        <p className="text-sm text-muted-foreground">
+          Better insulin function is associated with healthier blood vessel function and
+          lower blood pressure.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Important Considerations
+    </h2>
+    <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
+      <h3 className="font-semibold text-foreground mb-2">If You Take Blood Pressure Medications</h3>
+      <p className="text-sm text-muted-foreground">
+        As GLP-1s lower your blood pressure, you may need to reduce blood pressure medications
+        to avoid hypotension (low blood pressure). Monitor regularly and work with your doctor
+        to adjust medications as needed.
+      </p>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Signs of Low Blood Pressure
+    </h2>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li>Dizziness, especially when standing</li>
+      <li>Lightheadedness or feeling faint</li>
+      <li>Fatigue</li>
+      <li>Blurred vision</li>
+      <li>Nausea</li>
+    </ul>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          GLP-1 medications typically lower blood pressure by 4-6 mmHg—a meaningful cardiovascular
+          benefit. If you take blood pressure medications, monitor closely and work with your
+          doctor to adjust doses as needed to prevent hypotension.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);

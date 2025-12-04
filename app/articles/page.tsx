@@ -401,6 +401,56 @@ const articles = [
     readTime: "9 min read",
     category: "Research",
   },
+  {
+    slug: "ozempic-headaches",
+    title: "Managing Headaches on GLP-1 Medications",
+    excerpt:
+      "Experiencing headaches on Ozempic or Mounjaro? Learn why GLP-1 medications can cause headaches and proven strategies for relief.",
+    image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "7 min read",
+    category: "Side Effects",
+  },
+  {
+    slug: "glp-1-and-anxiety",
+    title: "GLP-1 Medications and Anxiety: What You Need to Know",
+    excerpt:
+      "Concerned about anxiety on Ozempic or Mounjaro? Learn about the relationship between GLP-1 medications and mental health, plus tips for managing mood changes.",
+    image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Mental Health",
+  },
+  {
+    slug: "ozempic-fatigue",
+    title: "Managing Fatigue on GLP-1 Medications",
+    excerpt:
+      "Feeling tired on Ozempic or Mounjaro? Learn why GLP-1 medications can cause fatigue and strategies to boost your energy during treatment.",
+    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Side Effects",
+  },
+  {
+    slug: "glp-1-and-joint-pain",
+    title: "GLP-1 Medications and Joint Pain: Causes & Relief",
+    excerpt:
+      "Experiencing joint pain on Ozempic? Learn about the relationship between GLP-1 medications and joint health, and how weight loss typically improves joint pain.",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "7 min read",
+    category: "Side Effects",
+  },
+  {
+    slug: "glp-1-and-blood-pressure",
+    title: "GLP-1 Medications and Blood Pressure: What to Know",
+    excerpt:
+      "Learn how GLP-1 medications like Ozempic and Mounjaro affect blood pressure. Understand the cardiovascular benefits and what to monitor during treatment.",
+    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Benefits",
+  },
 ];
 
 export default function ArticlesPage() {
