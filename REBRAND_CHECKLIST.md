@@ -64,6 +64,9 @@ git push -u origin main
 ### components/sections/ProviderList.tsx
 - [ ] Line 9: Change `utm_source=rxsaverhub` → `utm_source=new_brand_slug`
 
+### components/sections/Top3Providers.tsx
+- [ ] Line 9: Change `utm_source=rxsaverhub` → `utm_source=new_brand_slug`
+
 ---
 
 ## 4. LocalStorage Key (Recommended)
@@ -133,6 +136,22 @@ Find and replace `Rx Saver Hub` with `NEW_BRAND_NAME` in all these files:
 ### app/best-weight-loss-injections/page.tsx
 - [ ] Line 11: Title
 
+### Guide Pages (14 pages - Title suffix)
+- [ ] app/best-place-to-get-tirzepatide/page.tsx - Line 9
+- [ ] app/best-place-to-inject-tirzepatide/page.tsx - Line 9
+- [ ] app/best-time-to-take-tirzepatide/page.tsx - Line 9
+- [ ] app/best-online-semaglutide-program/page.tsx - Line 9
+- [ ] app/best-online-tirzepatide-program/page.tsx - Line 9
+- [ ] app/best-compounding-pharmacy-for-semaglutide/page.tsx - Line 9
+- [ ] app/best-compounding-pharmacy-for-tirzepatide/page.tsx - Line 9
+- [ ] app/best-place-to-inject-semaglutide/page.tsx - Line 9
+- [ ] app/best-time-of-day-to-take-semaglutide-for-weight-loss/page.tsx - Line 9
+- [ ] app/best-time-of-day-to-take-tirzepatide-for-weight-loss/page.tsx - Line 9
+- [ ] app/best-alcohol-on-semaglutide/page.tsx - Line 9
+- [ ] app/best-alcohol-on-tirzepatide/page.tsx - Line 9
+- [ ] app/best-vitamins-to-take-while-on-semaglutide/page.tsx - Line 9
+- [ ] app/best-vitamins-to-take-while-on-tirzepatide/page.tsx - Line 9
+
 ---
 
 ## 6. Site Slug Configuration (Required - Keeps Data Separate)
@@ -167,6 +186,16 @@ find . -type f -name "*.tsx" -o -name "*.ts" | xargs sed -i '' 's/rxsaverhub/new
 # Replace domain
 find . -type f -name "*.ts" | xargs sed -i '' 's/www.rxsaverhub.com/www.yournewdomain.com/g'
 ```
+
+---
+
+## 8. Content Guide (Required for Content Consistency)
+
+### content-guide.md
+- [ ] Update brand name from "Rx Saver Hub" to `NEW_BRAND_NAME`
+- [ ] Review tone/voice guidelines and adjust for new brand
+- [ ] Update SEO title format from `| Rx Saver Hub` to `| NEW_BRAND_NAME`
+- [ ] Customize messaging pillars if needed for brand positioning
 
 ---
 

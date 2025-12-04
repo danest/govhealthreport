@@ -27,13 +27,28 @@ const footerLinks = {
     { label: "Clinic Secret Review", href: "/reviews/clinic-secret" },
     { label: "All Reviews", href: "/reviews" },
   ],
+  guides: [
+    { label: "Best Place to Get Tirzepatide", href: "/best-place-to-get-tirzepatide" },
+    { label: "Best Online Semaglutide Program", href: "/best-online-semaglutide-program" },
+    { label: "Best Online Tirzepatide Program", href: "/best-online-tirzepatide-program" },
+    { label: "Best Compounding Pharmacy for Semaglutide", href: "/best-compounding-pharmacy-for-semaglutide" },
+    { label: "Best Compounding Pharmacy for Tirzepatide", href: "/best-compounding-pharmacy-for-tirzepatide" },
+    { label: "Best Place to Inject Semaglutide", href: "/best-place-to-inject-semaglutide" },
+    { label: "Best Place to Inject Tirzepatide", href: "/best-place-to-inject-tirzepatide" },
+    { label: "Best Time to Take Semaglutide", href: "/best-time-of-day-to-take-semaglutide-for-weight-loss" },
+    { label: "Best Time to Take Tirzepatide", href: "/best-time-of-day-to-take-tirzepatide-for-weight-loss" },
+    { label: "Best Alcohol on Semaglutide", href: "/best-alcohol-on-semaglutide" },
+    { label: "Best Alcohol on Tirzepatide", href: "/best-alcohol-on-tirzepatide" },
+    { label: "Vitamins for Semaglutide", href: "/best-vitamins-to-take-while-on-semaglutide" },
+    { label: "Vitamins for Tirzepatide", href: "/best-vitamins-to-take-while-on-tirzepatide" },
+  ],
 };
 
 export function Footer() {
   return (
     <footer className="bg-muted/30 border-t border-border/50">
       <div className="container mx-auto max-w-6xl px-4 py-8">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-4">
@@ -89,6 +104,23 @@ export function Footer() {
             <h3 className="font-semibold text-foreground mb-4">Provider Reviews</h3>
             <ul className="space-y-3">
               {footerLinks.providers.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Guides */}
+          <div>
+            <h3 className="font-semibold text-foreground mb-4">Guides</h3>
+            <ul className="space-y-3">
+              {footerLinks.guides.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

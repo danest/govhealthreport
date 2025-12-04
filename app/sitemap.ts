@@ -39,6 +39,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  // Guide pages
+  const guidePages = [
+    '/best-place-to-get-tirzepatide',
+    '/best-place-to-inject-tirzepatide',
+    '/best-time-to-take-tirzepatide',
+    '/best-online-semaglutide-program',
+    '/best-online-tirzepatide-program',
+    '/best-compounding-pharmacy-for-semaglutide',
+    '/best-compounding-pharmacy-for-tirzepatide',
+    '/best-place-to-inject-semaglutide',
+    '/best-time-of-day-to-take-semaglutide-for-weight-loss',
+    '/best-time-of-day-to-take-tirzepatide-for-weight-loss',
+    '/best-alcohol-on-semaglutide',
+    '/best-alcohol-on-tirzepatide',
+    '/best-vitamins-to-take-while-on-semaglutide',
+    '/best-vitamins-to-take-while-on-tirzepatide',
+  ].map((route) => ({
+    url: `${BASE_URL}${route}`,
+    lastModified,
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }))
+
   // Legal pages (lower priority)
   const legalPages = [
     '/disclosure',
@@ -53,5 +76,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.3,
   }))
 
-  return [...mainPages, ...providerPages, ...legalPages]
+  return [...mainPages, ...providerPages, ...guidePages, ...legalPages]
 }
