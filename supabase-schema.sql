@@ -7,6 +7,7 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 -- Reviews table (for user reviews with optional rating)
 CREATE TABLE reviews (
   id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  site_slug VARCHAR(100) NOT NULL DEFAULT 'rxsaverhub',
   provider_slug VARCHAR(100) NOT NULL,
   author_name VARCHAR(100) NOT NULL,
   author_email VARCHAR(255),
@@ -22,6 +23,7 @@ CREATE TABLE reviews (
 -- Ratings table (for quick ratings without review)
 CREATE TABLE ratings (
   id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  site_slug VARCHAR(100) NOT NULL DEFAULT 'rxsaverhub',
   provider_slug VARCHAR(100) NOT NULL,
   rating INTEGER NOT NULL CHECK (rating >= 1 AND rating <= 5),
   user_identifier VARCHAR(255), -- optional: can be email or anonymous identifier
@@ -31,6 +33,7 @@ CREATE TABLE ratings (
 -- Discussions table (for questions and discussions)
 CREATE TABLE discussions (
   id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  site_slug VARCHAR(100) NOT NULL DEFAULT 'rxsaverhub',
   provider_slug VARCHAR(100) NOT NULL,
   author_name VARCHAR(100) NOT NULL,
   author_email VARCHAR(255),
@@ -84,10 +87,10 @@ CREATE TABLE reply_votes (
 );
 
 -- Indexes for performance
-CREATE INDEX idx_reviews_provider ON reviews(provider_slug);
+CREATE INDEX idx_reviews_site_provider ON reviews(site_slug, provider_slug);
 CREATE INDEX idx_reviews_created ON reviews(created_at DESC);
-CREATE INDEX idx_ratings_provider ON ratings(provider_slug);
-CREATE INDEX idx_discussions_provider ON discussions(provider_slug);
+CREATE INDEX idx_ratings_site_provider ON ratings(site_slug, provider_slug);
+CREATE INDEX idx_discussions_site_provider ON discussions(site_slug, provider_slug);
 CREATE INDEX idx_discussions_created ON discussions(created_at DESC);
 CREATE INDEX idx_replies_discussion ON discussion_replies(discussion_id);
 
@@ -166,9 +169,10 @@ CREATE TRIGGER reply_votes_count
 AFTER INSERT OR DELETE ON reply_votes
 FOR EACH ROW EXECUTE FUNCTION update_reply_upvote_count();
 
--- View for aggregated provider ratings
+-- View for aggregated provider ratings (grouped by site_slug and provider_slug)
 CREATE OR REPLACE VIEW provider_rating_stats AS
 SELECT
+  site_slug,
   provider_slug,
   COUNT(*) as total_ratings,
   ROUND(AVG(rating)::numeric, 1) as average_rating,
@@ -178,15 +182,16 @@ SELECT
   COUNT(*) FILTER (WHERE rating = 2) as two_star,
   COUNT(*) FILTER (WHERE rating = 1) as one_star
 FROM (
-  SELECT provider_slug, rating FROM reviews WHERE rating IS NOT NULL
+  SELECT site_slug, provider_slug, rating FROM reviews WHERE rating IS NOT NULL
   UNION ALL
-  SELECT provider_slug, rating FROM ratings
+  SELECT site_slug, provider_slug, rating FROM ratings
 ) combined_ratings
-GROUP BY provider_slug;
+GROUP BY site_slug, provider_slug;
 
 -- Contact form submissions
 CREATE TABLE contact_submissions (
   id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
+  site_slug VARCHAR(100) NOT NULL DEFAULT 'rxsaverhub',
   name VARCHAR(100) NOT NULL,
   email VARCHAR(255) NOT NULL,
   subject VARCHAR(200) NOT NULL,
@@ -196,6 +201,7 @@ CREATE TABLE contact_submissions (
 );
 
 -- Index for contact submissions
+CREATE INDEX idx_contact_site ON contact_submissions(site_slug);
 CREATE INDEX idx_contact_created ON contact_submissions(created_at DESC);
 CREATE INDEX idx_contact_status ON contact_submissions(status);
 

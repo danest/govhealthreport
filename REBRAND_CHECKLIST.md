@@ -135,7 +135,19 @@ Find and replace `Rx Saver Hub` with `NEW_BRAND_NAME` in all these files:
 
 ---
 
-## 6. Keep As-Is (Shared Supabase)
+## 6. Site Slug Configuration (Required - Keeps Data Separate)
+
+The `site_slug` is used to keep reviews, discussions, and contact submissions separate between brands while sharing the same Supabase database.
+
+### lib/site-config.ts (CRITICAL)
+- [ ] Line 2: Change `SITE_SLUG = "rxsaverhub"` → `SITE_SLUG = "new_brand_slug"`
+- [ ] Line 3: Change `SITE_NAME = "Rx Saver Hub"` → `SITE_NAME = "NEW_BRAND_NAME"`
+
+**Important:** The `site_slug` must be unique for each brand. All reviews, discussions, ratings, and contact form submissions are tagged with this slug, ensuring data stays separate between sites.
+
+---
+
+## 7. Keep As-Is (Shared Supabase)
 
 These files use the shared Supabase instance - DO NOT change:
 - `lib/supabase.ts` - Supabase URL and anon key (lines 4-5)

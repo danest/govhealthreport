@@ -1,13 +1,18 @@
 import { createClient } from "@supabase/supabase-js";
+import { SITE_SLUG } from "./site-config";
 
 const supabaseUrl = "https://orvdwjmrzndvyhcmmsdb.supabase.co";
 const supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ydmR3am1yem5kdnloY21tc2RiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjQ3MzkwMjksImV4cCI6MjA4MDMxNTAyOX0.n2EJzaaRFiIpnnIZBK7LLFH8fA5vhMf-q5q0577Bbt0";
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
+// Re-export site slug for components that need it
+export { SITE_SLUG };
+
 // Types for our database tables
 export interface Review {
   id: string;
+  site_slug: string;
   provider_slug: string;
   author_name: string;
   author_email?: string;
@@ -22,6 +27,7 @@ export interface Review {
 
 export interface Rating {
   id: string;
+  site_slug: string;
   provider_slug: string;
   rating: number;
   user_identifier?: string;
@@ -30,6 +36,7 @@ export interface Rating {
 
 export interface Discussion {
   id: string;
+  site_slug: string;
   provider_slug: string;
   author_name: string;
   author_email?: string;
@@ -55,6 +62,7 @@ export interface DiscussionReply {
 }
 
 export interface ProviderRatingStats {
+  site_slug: string;
   provider_slug: string;
   total_ratings: number;
   average_rating: number;
@@ -82,6 +90,7 @@ export async function getReviews(providerSlug: string): Promise<Review[]> {
   const { data, error } = await supabase
     .from("reviews")
     .select("*")
+    .eq("site_slug", SITE_SLUG)
     .eq("provider_slug", providerSlug)
     .order("created_at", { ascending: false });
 
@@ -99,7 +108,7 @@ export async function createReview(review: {
 }): Promise<Review> {
   const { data, error } = await supabase
     .from("reviews")
-    .insert(review)
+    .insert({ ...review, site_slug: SITE_SLUG })
     .select()
     .single();
 
@@ -124,6 +133,7 @@ export async function createRating(providerSlug: string, rating: number): Promis
   const { error } = await supabase
     .from("ratings")
     .insert({
+      site_slug: SITE_SLUG,
       provider_slug: providerSlug,
       rating,
       user_identifier: userIdentifier
@@ -136,6 +146,7 @@ export async function getProviderRatingStats(providerSlug: string): Promise<Prov
   const { data, error } = await supabase
     .from("provider_rating_stats")
     .select("*")
+    .eq("site_slug", SITE_SLUG)
     .eq("provider_slug", providerSlug)
     .single();
 
@@ -148,6 +159,7 @@ export async function getDiscussions(providerSlug: string): Promise<Discussion[]
   const { data, error } = await supabase
     .from("discussions")
     .select("*")
+    .eq("site_slug", SITE_SLUG)
     .eq("provider_slug", providerSlug)
     .order("created_at", { ascending: false });
 
@@ -165,7 +177,7 @@ export async function createDiscussion(discussion: {
 }): Promise<Discussion> {
   const { data, error } = await supabase
     .from("discussions")
-    .insert(discussion)
+    .insert({ ...discussion, site_slug: SITE_SLUG })
     .select()
     .single();
 
@@ -223,6 +235,7 @@ export async function upvoteReply(replyId: string): Promise<void> {
 // Contact Submissions API
 export interface ContactSubmission {
   id: string;
+  site_slug: string;
   name: string;
   email: string;
   subject: string;
@@ -239,7 +252,7 @@ export async function createContactSubmission(submission: {
 }): Promise<ContactSubmission> {
   const { data, error } = await supabase
     .from("contact_submissions")
-    .insert(submission)
+    .insert({ ...submission, site_slug: SITE_SLUG })
     .select()
     .single();
 
