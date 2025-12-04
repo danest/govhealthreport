@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/about',
     '/contact',
     '/faq',
+    '/articles',
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified,
@@ -36,6 +37,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${BASE_URL}${route}`,
     lastModified,
     changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }))
+
+  // Article pages
+  const articlePages = [
+    '/articles/do-glp-1-agonists-cause-gallstones',
+  ].map((route) => ({
+    url: `${BASE_URL}${route}`,
+    lastModified,
+    changeFrequency: 'monthly' as const,
     priority: 0.7,
   }))
 
@@ -76,5 +87,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.3,
   }))
 
-  return [...mainPages, ...providerPages, ...guidePages, ...legalPages]
+  return [...mainPages, ...providerPages, ...articlePages, ...guidePages, ...legalPages]
 }
