@@ -50,7 +50,7 @@ export const providers: Provider[] = [
       "Ongoing Medical Support",
       "Free Shipping"
     ],
-    pricing: "Contact for pricing",
+    pricing: "Click here for best pricing",
     bestFor: "Those seeking a premium, comprehensive weight loss program with personalized medical care"
   },
   {
@@ -248,7 +248,7 @@ export const providers: Provider[] = [
       "Free Shipping",
       "Special Savings Available"
     ],
-    pricing: "Save $120 with special offer",
+    pricing: "Click here for best pricing",
     bestFor: "Those who prefer a simple, fully online process with no in-person visits"
   },
   {
@@ -314,7 +314,7 @@ export const providers: Provider[] = [
       "Compounded Semaglutide & Tirzepatide",
       "Free Shipping"
     ],
-    pricing: "Save $120 with exclusive offer",
+    pricing: "Click here for best pricing",
     bestFor: "Those who want access to a large network of doctors with all-inclusive pricing"
   },
   {
@@ -347,7 +347,7 @@ export const providers: Provider[] = [
       "Ozempic, Semaglutide & Tirzepatide",
       "Promo Code Available"
     ],
-    pricing: "$100 off with code BEST2025",
+    pricing: "Click here for best pricing",
     bestFor: "Budget-conscious individuals who want basic access without additional fees"
   }
 ];

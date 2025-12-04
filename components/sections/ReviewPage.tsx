@@ -59,7 +59,7 @@ export function ReviewPage({ provider }: ReviewPageProps) {
                     <Crown className="h-5 w-5 text-primary" />
                   )}
                 </div>
-                <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl mb-2">
+                <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl md:text-5xl mb-2">
                   {provider.name} <span className="text-primary">Review</span>
                 </h1>
                 <p className="text-lg text-muted-foreground">
@@ -67,10 +67,10 @@ export function ReviewPage({ provider }: ReviewPageProps) {
                 </p>
               </div>
 
-              <div className="flex flex-col items-center bg-card rounded-xl p-6 shadow-lg border border-border/50">
+              <div className="flex flex-col items-center bg-card rounded-xl p-4 sm:p-6 shadow-lg border border-border/50 w-full sm:w-auto">
                 <div className="flex items-center gap-2 mb-1">
-                  <Star className="h-8 w-8 fill-yellow-400 text-yellow-400" />
-                  <span className={`text-4xl font-bold ${getRatingColor(provider.rating)}`}>
+                  <Star className="h-6 w-6 sm:h-8 sm:w-8 fill-yellow-400 text-yellow-400" />
+                  <span className={`text-3xl sm:text-4xl font-bold ${getRatingColor(provider.rating)}`}>
                     {provider.rating}
                   </span>
                   <span className="text-muted-foreground">/10</span>
@@ -83,12 +83,69 @@ export function ReviewPage({ provider }: ReviewPageProps) {
           </div>
         </section>
 
-        {/* Main Content */}
-        <section className="py-8 bg-background">
+        {/* Mobile CTA - Shows only on mobile at top */}
+        <section className="lg:hidden py-4 bg-background border-b">
           <div className="container mx-auto max-w-4xl px-4">
-            <div className="grid gap-8 lg:grid-cols-3">
+            <Card className={`${provider.rank === 1 ? 'border-primary ring-2 ring-primary/20' : ''}`}>
+              <CardContent className="p-4">
+                <div className="flex items-center justify-between gap-4">
+                  <div>
+                    <div className="flex items-center gap-2 mb-1">
+                      <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
+                      <span className={`font-bold ${getRatingColor(provider.rating)}`}>
+                        {provider.rating}/10
+                      </span>
+                      {provider.rank === 1 && (
+                        <Badge className="bg-primary text-primary-foreground text-xs">#1</Badge>
+                      )}
+                    </div>
+                    {provider.pricing.toLowerCase().includes("click here") ? (
+                      <TrackedLink
+                        href={`${provider.url}${UTM_PARAMS}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        providerSlug={provider.slug}
+                        providerName={provider.name}
+                        position={provider.rank}
+                        elementType="mobile_pricing_link"
+                        className="text-sm text-primary hover:underline font-medium"
+                      >
+                        {provider.pricing} →
+                      </TrackedLink>
+                    ) : (
+                      <p className="text-sm text-muted-foreground">{provider.pricing}</p>
+                    )}
+                  </div>
+                  <Button
+                    size="default"
+                    className="gap-2 cursor-pointer shrink-0"
+                    asChild
+                  >
+                    <TrackedLink
+                      href={`${provider.url}${UTM_PARAMS}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      providerSlug={provider.slug}
+                      providerName={provider.name}
+                      position={provider.rank}
+                      elementType="mobile_top_cta"
+                    >
+                      Visit Site
+                      <ExternalLink className="h-4 w-4" />
+                    </TrackedLink>
+                  </Button>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
+        {/* Main Content */}
+        <section className="py-6 sm:py-8 bg-background">
+          <div className="container mx-auto max-w-4xl px-4">
+            <div className="grid gap-6 sm:gap-8 lg:grid-cols-3">
               {/* Main Review Content */}
-              <div className="lg:col-span-2 space-y-8">
+              <div className="lg:col-span-2 space-y-6 sm:space-y-8">
                 {/* Overview */}
                 <Card>
                   <CardContent className="p-6">
@@ -183,7 +240,22 @@ export function ReviewPage({ provider }: ReviewPageProps) {
                           {provider.rating}/10
                         </span>
                       </div>
-                      <p className="text-sm text-muted-foreground">{provider.pricing}</p>
+                      {provider.pricing.toLowerCase().includes("click here") ? (
+                        <TrackedLink
+                          href={`${provider.url}${UTM_PARAMS}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          providerSlug={provider.slug}
+                          providerName={provider.name}
+                          position={provider.rank}
+                          elementType="pricing_link"
+                          className="text-sm text-primary hover:underline font-medium"
+                        >
+                          {provider.pricing} →
+                        </TrackedLink>
+                      ) : (
+                        <p className="text-sm text-muted-foreground">{provider.pricing}</p>
+                      )}
                     </div>
 
                     <Button
@@ -229,7 +301,22 @@ export function ReviewPage({ provider }: ReviewPageProps) {
                       </div>
                       <div className="flex justify-between text-sm">
                         <span className="text-muted-foreground">Pricing</span>
-                        <span className="font-medium">{provider.pricing}</span>
+                        {provider.pricing.toLowerCase().includes("click here") ? (
+                          <TrackedLink
+                            href={`${provider.url}${UTM_PARAMS}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            providerSlug={provider.slug}
+                            providerName={provider.name}
+                            position={provider.rank}
+                            elementType="pricing_link_stats"
+                            className="font-medium text-primary hover:underline"
+                          >
+                            Best pricing →
+                          </TrackedLink>
+                        ) : (
+                          <span className="font-medium">{provider.pricing}</span>
+                        )}
                       </div>
                     </div>
                   </CardContent>

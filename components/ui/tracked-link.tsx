@@ -12,7 +12,7 @@ export interface TrackedLinkProps
   providerSlug: string;
   providerName: string;
   position?: number;
-  elementType?: "cta_button" | "card_click" | "sidebar_cta" | "bottom_cta" | "top_choice";
+  elementType?: "cta_button" | "card_click" | "sidebar_cta" | "bottom_cta" | "top_choice" | "pricing_link" | "pricing_link_stats" | "mobile_pricing_link" | "mobile_top_cta";
 }
 
 function getPageType(pathname: string): string {
