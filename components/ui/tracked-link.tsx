@@ -44,6 +44,8 @@ export function TrackedLink({
       page_type: getPageType(pathname),
       page_path: pathname,
       destination_url: href,
+      site_domain: typeof window !== "undefined" ? window.location.hostname : "",
+      full_url: typeof window !== "undefined" ? window.location.href : "",
     });
   };
 
