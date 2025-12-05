@@ -501,6 +501,126 @@ const articles = [
     readTime: "9 min read",
     category: "Safety",
   },
+  {
+    slug: "wegovy-vs-ozempic",
+    title: "Wegovy vs Ozempic: What's the Difference?",
+    excerpt:
+      "Understand the differences between Wegovy and Ozempic. Same medication, different uses - learn about dosing, FDA approval, and insurance coverage.",
+    image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Comparisons",
+  },
+  {
+    slug: "zepbound-vs-mounjaro",
+    title: "Zepbound vs Mounjaro: Understanding the Difference",
+    excerpt:
+      "Learn the difference between Zepbound and Mounjaro. Both contain tirzepatide but have different FDA approvals - find out which is right for you.",
+    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "7 min read",
+    category: "Comparisons",
+  },
+  {
+    slug: "semaglutide-vs-tirzepatide",
+    title: "Semaglutide vs Tirzepatide: Which Is Better for Weight Loss?",
+    excerpt:
+      "Compare semaglutide (Ozempic/Wegovy) vs tirzepatide (Mounjaro/Zepbound). Understand the differences in weight loss, side effects, and cost.",
+    image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "10 min read",
+    category: "Comparisons",
+  },
+  {
+    slug: "what-to-do-if-you-miss-a-glp-1-dose",
+    title: "What to Do If You Miss a GLP-1 Dose",
+    excerpt:
+      "Step-by-step guide for what to do when you miss an Ozempic, Wegovy, Mounjaro, or Zepbound dose. Learn the rules for each medication.",
+    image: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "6 min read",
+    category: "Medication Guide",
+  },
+  {
+    slug: "glp-1-and-food-noise",
+    title: "GLP-1 and Food Noise: How These Medications Quiet the Mind",
+    excerpt:
+      "Discover how GLP-1 medications like Ozempic and Mounjaro reduce 'food noise' - the constant mental chatter about eating.",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "7 min read",
+    category: "Science",
+  },
+  {
+    slug: "oral-vs-injectable-glp-1",
+    title: "Oral vs Injectable GLP-1s: Pros and Cons",
+    excerpt:
+      "Compare oral semaglutide (Rybelsus) with injectable GLP-1s. Understand the differences in effectiveness, convenience, and cost.",
+    image: "https://images.unsplash.com/photo-1550572017-edd951aa8f72?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Medication Guide",
+  },
+  {
+    slug: "glp-1-dose-titration",
+    title: "GLP-1 Dose Titration: Why Starting Low Matters",
+    excerpt:
+      "Learn why GLP-1 medications require gradual dose increases. Complete titration schedules for semaglutide and tirzepatide.",
+    image: "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Medication Guide",
+  },
+  {
+    slug: "switching-between-glp-1-medications",
+    title: "Switching Between GLP-1 Medications: A Complete Guide",
+    excerpt:
+      "Everything you need to know about switching between semaglutide and tirzepatide. Learn proper transition protocols and what to expect.",
+    image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "7 min read",
+    category: "Medication Guide",
+  },
+  {
+    slug: "glp-1-injection-site-rotation",
+    title: "GLP-1 Injection Site Rotation: Best Practices",
+    excerpt:
+      "Learn proper injection site rotation for Ozempic, Wegovy, Mounjaro, and Zepbound. Prevent skin problems and ensure consistent absorption.",
+    image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "6 min read",
+    category: "Medication Guide",
+  },
+  {
+    slug: "maintaining-weight-loss-after-stopping-glp-1",
+    title: "Maintaining Weight Loss After Stopping GLP-1 Medications",
+    excerpt:
+      "What happens when you stop taking GLP-1 medications? Learn about weight regain research, maintenance strategies, and long-term options.",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "9 min read",
+    category: "Weight Management",
+  },
+  {
+    slug: "glp-1-medications-for-older-adults",
+    title: "GLP-1 Medications for Older Adults: Special Considerations",
+    excerpt:
+      "Important considerations for older adults taking GLP-1 medications. Learn about muscle preservation, medication interactions, and monitoring.",
+    image: "https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Safety",
+  },
+  {
+    slug: "compounded-glp-1-medications",
+    title: "Compounded GLP-1 Medications: What You Need to Know",
+    excerpt:
+      "Everything you need to know about compounded GLP-1 medications. Learn about 503A vs 503B pharmacies, safety concerns, and cost savings.",
+    image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "9 min read",
+    category: "Cost Savings",
+  },
 ];
 
 export default function ArticlesPage() {

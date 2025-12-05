@@ -135,6 +135,50 @@ Example: `Best Time to Take Tirzepatide for Weight Loss 2025 | Rx Saver Hub`
 - Avoid stock photo clichés
 - Use appropriate sizing parameters (w=600, q=80)
 
+### Image Selection Strategy (IMPORTANT: Ensure Variety)
+
+When selecting Unsplash images, **DO NOT** just use the first result. Follow this process:
+
+1. **Search multiple keywords** for the topic:
+   - For a weight loss article, try: "weight loss", "healthy lifestyle", "fitness", "nutrition", "wellness"
+   - For a medication article, try: "medicine", "pharmacy", "healthcare", "medical", "pills"
+   - For exercise content, try: "workout", "exercise", "gym", "running", "active lifestyle"
+
+2. **Pick from different pages/positions** of search results:
+   - Don't always use the top result - scroll down or go to page 2-3
+   - Mix featured and regular results
+   - Use the Unsplash API `page` and `per_page` parameters if searching programmatically
+
+3. **Vary the image ID ranges**:
+   - Older photos (photo-14xxxxx, photo-15xxxxx) - classic, timeless
+   - Mid-range (photo-16xxxxx, photo-17xxxxx) - good variety
+   - Newer photos (photo-18xxxxx, photo-19xxxxx) - fresh content
+
+4. **Keep a mental note** of recently used images:
+   - Avoid reusing the same image across multiple articles
+   - If an image ID looks familiar, pick a different one
+   - Aim for visual variety across the site
+
+5. **Use different search terms for similar topics**:
+   - Instead of always "medication", try "pharmacy", "prescription", "pills", "treatment"
+   - Instead of always "weight loss", try "fitness journey", "healthy eating", "active lifestyle"
+
+### Example Good Variety
+```
+Article 1: photo-1571019613454-1cb2f99b2d8b (fitness)
+Article 2: photo-1559757175-5700dde675bc (healthcare)
+Article 3: photo-1506784365847-bbad939e9335 (calendar/time)
+Article 4: photo-1544367567-0f2fcb009e0b (wellness)
+Article 5: photo-1447452001602-7090c7ab2db3 (senior health)
+```
+
+### Example Bad (No Variety)
+```
+Article 1: photo-1571019613454-1cb2f99b2d8b (fitness)
+Article 2: photo-1571019613914-2cb3f99b2d8c (fitness - too similar!)
+Article 3: photo-1571019614234-3cb2f99b2d7d (fitness - same photographer!)
+```
+
 ### Image Implementation
 ```html
 <img

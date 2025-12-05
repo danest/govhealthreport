@@ -5336,3 +5336,1927 @@ export const GLP1SurgeryGuideContent = () => (
     </Card>
   </>
 );
+
+// Wegovy vs Ozempic: What's the Difference?
+export const WegovyVsOzempicContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Wegovy and Ozempic are both brand names for semaglutide—the same active ingredient manufactured
+      by Novo Nordisk. So why do two medications exist, and what&apos;s actually different between them?
+      This guide breaks down everything you need to know.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          The Quick Answer
+        </h2>
+        <p className="text-muted-foreground">
+          <strong>Wegovy and Ozempic contain the same drug (semaglutide)</strong>, but they&apos;re
+          FDA-approved for different purposes. Ozempic is approved for type 2 diabetes, while Wegovy
+          is approved for chronic weight management. The main differences are dosing, approval status,
+          and insurance coverage.
+        </p>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Key Differences at a Glance
+    </h2>
+    <div className="overflow-x-auto mb-8">
+      <table className="w-full text-sm border-collapse">
+        <thead>
+          <tr className="border-b-2 border-primary/20">
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Feature</th>
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Ozempic</th>
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Wegovy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">FDA Approval</td>
+            <td className="py-3 px-4 text-muted-foreground">Type 2 diabetes</td>
+            <td className="py-3 px-4 text-muted-foreground">Chronic weight management</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Maximum Dose</td>
+            <td className="py-3 px-4 text-muted-foreground">2 mg weekly</td>
+            <td className="py-3 px-4 text-muted-foreground">2.4 mg weekly</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Starting Dose</td>
+            <td className="py-3 px-4 text-muted-foreground">0.25 mg</td>
+            <td className="py-3 px-4 text-muted-foreground">0.25 mg</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Titration Period</td>
+            <td className="py-3 px-4 text-muted-foreground">8-16 weeks</td>
+            <td className="py-3 px-4 text-muted-foreground">16-20 weeks</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Insurance Coverage</td>
+            <td className="py-3 px-4 text-muted-foreground">Often covered for diabetes</td>
+            <td className="py-3 px-4 text-muted-foreground">Rarely covered for weight loss</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">List Price</td>
+            <td className="py-3 px-4 text-muted-foreground">~$935/month</td>
+            <td className="py-3 px-4 text-muted-foreground">~$1,350/month</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Same Drug, Different Approvals
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Both Wegovy and Ozempic contain semaglutide and work identically in your body. The reason two
+      products exist comes down to FDA regulations and marketing:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>Ozempic came first</strong> — Approved in 2017 for type 2 diabetes</li>
+      <li><strong>Weight loss was a side effect</strong> — Clinical trials showed significant weight reduction</li>
+      <li><strong>Novo Nordisk sought separate approval</strong> — Wegovy approved in 2021 specifically for obesity</li>
+      <li><strong>Different clinical trials</strong> — Each has its own trial data for its specific indication</li>
+    </ul>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      The Dosing Difference
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      The most significant practical difference is the maximum dose:
+    </p>
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
+      <div className="p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800">
+        <h3 className="font-semibold text-foreground mb-2">Ozempic Dosing</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• 0.25 mg (weeks 1-4)</li>
+          <li>• 0.5 mg (weeks 5-8)</li>
+          <li>• 1 mg (maintenance)</li>
+          <li>• 2 mg (max dose if needed)</li>
+        </ul>
+      </div>
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Wegovy Dosing</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• 0.25 mg (weeks 1-4)</li>
+          <li>• 0.5 mg (weeks 5-8)</li>
+          <li>• 1 mg (weeks 9-12)</li>
+          <li>• 1.7 mg (weeks 13-16)</li>
+          <li>• 2.4 mg (maintenance)</li>
+        </ul>
+      </div>
+    </div>
+    <p className="text-muted-foreground mb-6">
+      The higher maximum dose of Wegovy (2.4 mg vs 2 mg) may produce slightly more weight loss for
+      some patients, though individual responses vary significantly.
+    </p>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Insurance and Cost Considerations
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      This is where the differences matter most for many patients:
+    </p>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
+        <h3 className="font-semibold text-foreground mb-2">Ozempic Coverage</h3>
+        <p className="text-sm text-muted-foreground">
+          More likely to be covered if you have type 2 diabetes. Even without diabetes, some doctors
+          prescribe Ozempic off-label for weight loss, though insurance typically won&apos;t cover this use.
+        </p>
+      </div>
+      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
+        <h3 className="font-semibold text-foreground mb-2">Wegovy Coverage</h3>
+        <p className="text-sm text-muted-foreground">
+          Most insurance plans don&apos;t cover weight loss medications. However, coverage is slowly
+          improving, especially for patients with obesity-related conditions. Medicare and Medicaid
+          generally don&apos;t cover Wegovy.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Which One Should You Choose?
+    </h2>
+    <div className="space-y-4 mb-6">
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Choose Ozempic if:</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• You have type 2 diabetes (better insurance coverage)</li>
+          <li>• Your insurance covers it but not Wegovy</li>
+          <li>• You&apos;re sensitive to medications and want the lower max dose option</li>
+        </ul>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Choose Wegovy if:</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• Weight loss is your primary goal</li>
+          <li>• You want the FDA-approved weight loss indication</li>
+          <li>• You may benefit from the higher 2.4 mg dose</li>
+          <li>• Your insurance covers it or you&apos;re paying out of pocket</li>
+        </ul>
+      </div>
+    </div>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Wegovy and Ozempic are essentially the same medication packaged differently. The choice
+          between them often comes down to insurance coverage, whether you have diabetes, and your
+          doctor&apos;s recommendation. From a clinical standpoint, both are highly effective for
+          weight loss when combined with diet and exercise.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// Zepbound vs Mounjaro: Understanding the Difference
+export const ZepboundVsMounjaro = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Just like Wegovy and Ozempic, Zepbound and Mounjaro are two brand names for the same medication—
+      tirzepatide. This guide explains the differences between these two products and helps you
+      understand which one might be right for you.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          The Quick Answer
+        </h2>
+        <p className="text-muted-foreground">
+          <strong>Zepbound and Mounjaro contain identical medication (tirzepatide)</strong> made by
+          Eli Lilly. Mounjaro is approved for type 2 diabetes, while Zepbound is approved for chronic
+          weight management. The dosing is the same—the only real differences are the FDA-approved
+          uses and insurance coverage.
+        </p>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Comparison at a Glance
+    </h2>
+    <div className="overflow-x-auto mb-8">
+      <table className="w-full text-sm border-collapse">
+        <thead>
+          <tr className="border-b-2 border-primary/20">
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Feature</th>
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Mounjaro</th>
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Zepbound</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Active Ingredient</td>
+            <td className="py-3 px-4 text-muted-foreground">Tirzepatide</td>
+            <td className="py-3 px-4 text-muted-foreground">Tirzepatide</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">FDA Approval</td>
+            <td className="py-3 px-4 text-muted-foreground">Type 2 diabetes (2022)</td>
+            <td className="py-3 px-4 text-muted-foreground">Chronic weight management (2023)</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Dose Range</td>
+            <td className="py-3 px-4 text-muted-foreground">2.5 mg to 15 mg</td>
+            <td className="py-3 px-4 text-muted-foreground">2.5 mg to 15 mg</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Available Doses</td>
+            <td className="py-3 px-4 text-muted-foreground">2.5, 5, 7.5, 10, 12.5, 15 mg</td>
+            <td className="py-3 px-4 text-muted-foreground">2.5, 5, 7.5, 10, 12.5, 15 mg</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">List Price</td>
+            <td className="py-3 px-4 text-muted-foreground">~$1,060/month</td>
+            <td className="py-3 px-4 text-muted-foreground">~$1,060/month</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Why Two Products?
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Eli Lilly followed the same strategy as Novo Nordisk with semaglutide:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>Mounjaro launched first</strong> — Approved May 2022 for type 2 diabetes</li>
+      <li><strong>Weight loss trials followed</strong> — The SURMOUNT studies showed exceptional results</li>
+      <li><strong>Zepbound launched</strong> — Approved November 2023 specifically for obesity</li>
+      <li><strong>Different packaging</strong> — But identical medication inside</li>
+    </ul>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Tirzepatide&apos;s Dual Action
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      What makes tirzepatide unique is its dual mechanism:
+    </p>
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">GLP-1 Receptor Agonist</h3>
+        <p className="text-sm text-muted-foreground">
+          Like semaglutide, it activates GLP-1 receptors to reduce appetite and slow gastric emptying.
+        </p>
+      </div>
+      <div className="p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800">
+        <h3 className="font-semibold text-foreground mb-2">GIP Receptor Agonist</h3>
+        <p className="text-sm text-muted-foreground">
+          Also activates GIP receptors, which may enhance insulin sensitivity and improve fat metabolism.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Insurance and Coverage
+    </h2>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
+        <h3 className="font-semibold text-foreground mb-2">Mounjaro Coverage</h3>
+        <p className="text-sm text-muted-foreground">
+          Better coverage if you have type 2 diabetes. Many insurance plans cover it for this indication.
+          Off-label use for weight loss typically isn&apos;t covered.
+        </p>
+      </div>
+      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
+        <h3 className="font-semibold text-foreground mb-2">Zepbound Coverage</h3>
+        <p className="text-sm text-muted-foreground">
+          Limited coverage for weight loss indications. Some commercial plans are starting to cover it,
+          but Medicare and most Medicaid programs don&apos;t cover weight loss medications.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Clinical Results
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Both products produce the same impressive results from the SURMOUNT trials:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>Average weight loss:</strong> 20-26% of body weight at highest doses</li>
+      <li><strong>Metabolic improvements:</strong> Significant A1C reduction, improved lipids</li>
+      <li><strong>Blood pressure:</strong> Average 4-6 mmHg reduction</li>
+      <li><strong>72-week results:</strong> Sustained weight loss with continued use</li>
+    </ul>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Zepbound and Mounjaro are the same medication. Your choice will likely depend on whether
+          you have type 2 diabetes (favoring Mounjaro for insurance purposes) or are primarily seeking
+          weight loss (Zepbound has the specific approval). Both offer the most powerful weight loss
+          results currently available in a medication.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// Semaglutide vs Tirzepatide: Which Is Better?
+export const SemaglutideVsTirzepatideContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Semaglutide (Ozempic/Wegovy) and tirzepatide (Mounjaro/Zepbound) are the two most effective
+      weight loss medications available today. But which one is actually better? This comprehensive
+      comparison breaks down the evidence.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          The Quick Answer
+        </h2>
+        <p className="text-muted-foreground">
+          <strong>Tirzepatide generally produces more weight loss in clinical trials</strong>—about
+          20-26% vs 15% for semaglutide at maximum doses. However, both are highly effective, and the
+          &quot;best&quot; choice depends on individual factors including side effect tolerance, cost,
+          insurance coverage, and personal response.
+        </p>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Head-to-Head Comparison
+    </h2>
+    <div className="overflow-x-auto mb-8">
+      <table className="w-full text-sm border-collapse">
+        <thead>
+          <tr className="border-b-2 border-primary/20">
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Factor</th>
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Semaglutide</th>
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Tirzepatide</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Mechanism</td>
+            <td className="py-3 px-4 text-muted-foreground">GLP-1 only</td>
+            <td className="py-3 px-4 text-muted-foreground">GLP-1 + GIP (dual)</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Avg Weight Loss</td>
+            <td className="py-3 px-4 text-muted-foreground">~15% body weight</td>
+            <td className="py-3 px-4 text-muted-foreground">~20-26% body weight</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">FDA Approved Since</td>
+            <td className="py-3 px-4 text-muted-foreground">2017 (Ozempic), 2021 (Wegovy)</td>
+            <td className="py-3 px-4 text-muted-foreground">2022 (Mounjaro), 2023 (Zepbound)</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Oral Option</td>
+            <td className="py-3 px-4 text-muted-foreground">Yes (Rybelsus)</td>
+            <td className="py-3 px-4 text-muted-foreground">Not yet (in trials)</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">Long-term Data</td>
+            <td className="py-3 px-4 text-muted-foreground">More extensive</td>
+            <td className="py-3 px-4 text-muted-foreground">Growing but less</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 font-medium text-foreground">CV Outcome Data</td>
+            <td className="py-3 px-4 text-muted-foreground">SELECT trial positive</td>
+            <td className="py-3 px-4 text-muted-foreground">SURPASS-CVOT ongoing</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Weight Loss Comparison
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      The SURMOUNT and STEP trials provide the best data:
+    </p>
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
+      <div className="p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800">
+        <h3 className="font-semibold text-foreground mb-2">Semaglutide 2.4 mg (STEP 1)</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• Average: 14.9% weight loss</li>
+          <li>• 1/3 lost 20%+ of body weight</li>
+          <li>• 68-week trial duration</li>
+          <li>• Placebo: 2.4% loss</li>
+        </ul>
+      </div>
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Tirzepatide 15 mg (SURMOUNT-1)</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• Average: 22.5% weight loss</li>
+          <li>• Over 1/3 lost 25%+ of body weight</li>
+          <li>• 72-week trial duration</li>
+          <li>• Placebo: 2.4% loss</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Side Effect Comparison
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Both medications share similar GI side effects, though rates differ:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>Nausea:</strong> ~40-45% for both (most common early on)</li>
+      <li><strong>Diarrhea:</strong> 30-35% semaglutide, 20-25% tirzepatide</li>
+      <li><strong>Constipation:</strong> ~25% for both</li>
+      <li><strong>Vomiting:</strong> ~25% semaglutide, ~15% tirzepatide</li>
+      <li><strong>Injection site reactions:</strong> Slightly higher with tirzepatide</li>
+    </ul>
+    <p className="text-muted-foreground mb-6">
+      Side effects typically improve over time for both medications. Some patients tolerate one
+      better than the other, which is impossible to predict beforehand.
+    </p>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Why Tirzepatide May Be More Effective
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      The dual mechanism of tirzepatide offers potential advantages:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>GIP activation</strong> — May enhance fat burning and insulin sensitivity</li>
+      <li><strong>Synergistic effects</strong> — The two hormones together may exceed single-hormone effects</li>
+      <li><strong>Possible muscle preservation</strong> — Some data suggests better body composition</li>
+      <li><strong>Metabolic benefits</strong> — Strong improvements in lipids and liver fat</li>
+    </ul>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Why Semaglutide May Be the Better Choice
+    </h2>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Longer Track Record</h3>
+        <p className="text-sm text-muted-foreground">
+          Semaglutide has been on the market longer with more extensive safety data and
+          cardiovascular outcome evidence from the SELECT trial.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Oral Option Available</h3>
+        <p className="text-sm text-muted-foreground">
+          Rybelsus offers a daily pill for those who prefer not to inject. Oral tirzepatide
+          is still in clinical trials.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Compounded Availability</h3>
+        <p className="text-sm text-muted-foreground">
+          During shortages, compounded semaglutide is more widely available than compounded tirzepatide.
+        </p>
+      </div>
+    </div>
+
+    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          Important Consideration
+        </h3>
+        <p className="text-muted-foreground">
+          Clinical trial averages don&apos;t predict individual results. Some people respond better
+          to semaglutide, others to tirzepatide. If one doesn&apos;t work well for you, switching
+          to the other is a reasonable option.
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Both semaglutide and tirzepatide are excellent medications. Tirzepatide produces more
+          weight loss on average, but semaglutide has a longer track record and more options
+          (including oral). The best medication is the one you can access, afford, and tolerate—
+          discuss both options with your healthcare provider.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// What to Do If You Miss a GLP-1 Dose
+export const MissedDoseGuideContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Missed your GLP-1 injection? Don&apos;t panic. Here&apos;s exactly what to do depending on
+      which medication you take and how long it&apos;s been since your missed dose.
+    </p>
+
+    <Card className="mb-8 border-amber-200 bg-amber-50 dark:bg-amber-950/20">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          The General Rule
+        </h2>
+        <p className="text-muted-foreground">
+          For weekly injections (Ozempic, Wegovy, Mounjaro, Zepbound): <strong>Take the missed dose
+          if it&apos;s within 5 days of when you were supposed to take it.</strong> If more than 5 days
+          have passed, skip the missed dose and take your next scheduled dose on time.
+        </p>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Missed Dose Guidelines by Medication
+    </h2>
+
+    <div className="space-y-6 mb-8">
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-foreground mb-3">Ozempic & Wegovy (Semaglutide Weekly)</h3>
+          <div className="space-y-3">
+            <div className="p-3 bg-green-50 dark:bg-green-950/30 rounded-lg">
+              <p className="text-sm"><strong>Within 5 days of missed dose:</strong> Take it as soon as you remember, then resume your regular schedule.</p>
+            </div>
+            <div className="p-3 bg-amber-50 dark:bg-amber-950/30 rounded-lg">
+              <p className="text-sm"><strong>More than 5 days:</strong> Skip the missed dose. Take your next dose on the regularly scheduled day.</p>
+            </div>
+            <div className="p-3 bg-red-50 dark:bg-red-950/30 rounded-lg">
+              <p className="text-sm"><strong>Never:</strong> Take two doses at once or double up to make up for a missed dose.</p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-foreground mb-3">Mounjaro & Zepbound (Tirzepatide Weekly)</h3>
+          <div className="space-y-3">
+            <div className="p-3 bg-green-50 dark:bg-green-950/30 rounded-lg">
+              <p className="text-sm"><strong>Within 4 days of missed dose:</strong> Take it as soon as possible, then continue your regular schedule.</p>
+            </div>
+            <div className="p-3 bg-amber-50 dark:bg-amber-950/30 rounded-lg">
+              <p className="text-sm"><strong>More than 4 days:</strong> Skip the missed dose and wait for your next scheduled injection day.</p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-foreground mb-3">Rybelsus (Oral Semaglutide Daily)</h3>
+          <div className="space-y-3">
+            <div className="p-3 bg-green-50 dark:bg-green-950/30 rounded-lg">
+              <p className="text-sm"><strong>Missed one day:</strong> Skip it and take your next dose the following morning as usual.</p>
+            </div>
+            <div className="p-3 bg-amber-50 dark:bg-amber-950/30 rounded-lg">
+              <p className="text-sm"><strong>Important:</strong> Always take on an empty stomach with no more than 4 oz of plain water, then wait 30 minutes before eating.</p>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      What Happens If You Miss Multiple Doses?
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Missing several doses can affect your treatment:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>1-2 weeks missed:</strong> Usually can resume at your current dose</li>
+      <li><strong>2+ weeks missed:</strong> May need to restart at a lower dose to minimize side effects</li>
+      <li><strong>Extended break:</strong> Contact your provider—you may need to re-titrate from the beginning</li>
+    </ul>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          When to Contact Your Doctor
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li>You&apos;ve missed more than 2 consecutive doses</li>
+          <li>You&apos;re unsure whether to restart at full dose or lower</li>
+          <li>You&apos;re experiencing increased side effects after resuming</li>
+          <li>Your blood sugar becomes unstable (if diabetic)</li>
+          <li>You need to stop medication temporarily for surgery or illness</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Tips to Avoid Missing Doses
+    </h2>
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Set Reminders</h3>
+        <p className="text-sm text-muted-foreground">
+          Use phone alarms, calendar alerts, or medication reminder apps for the same day each week.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Pick a Consistent Day</h3>
+        <p className="text-sm text-muted-foreground">
+          Choose a day that&apos;s easy to remember—like every Sunday morning or every Friday evening.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Keep Medication Visible</h3>
+        <p className="text-sm text-muted-foreground">
+          Store your pen where you&apos;ll see it (in the fridge door, for example) as a visual reminder.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Track Your Doses</h3>
+        <p className="text-sm text-muted-foreground">
+          Use a simple log, app, or calendar to mark each dose. This helps you know if you&apos;ve taken it.
+        </p>
+      </div>
+    </div>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Missing an occasional dose isn&apos;t a crisis. Take it when you remember if it&apos;s within
+          the appropriate window, otherwise skip to your next scheduled dose. If you frequently forget,
+          set up reminders. And if you&apos;ve missed multiple doses, contact your healthcare provider
+          before restarting to get personalized guidance.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// GLP-1 and Food Noise: Quieting the Mind
+export const FoodNoiseContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      One of the most remarkable effects reported by GLP-1 users isn&apos;t just weight loss—it&apos;s
+      the sudden silence in their heads. &quot;Food noise,&quot; the constant mental chatter about food,
+      cravings, and eating, often dramatically decreases. Here&apos;s what the science shows and what
+      users experience.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          What Is Food Noise?
+        </h2>
+        <p className="text-muted-foreground">
+          &quot;Food noise&quot; describes the persistent, intrusive thoughts about food that many people
+          experience: thinking about your next meal, craving specific foods, struggling to stop eating,
+          or constantly negotiating with yourself about what and when to eat. For many people, this
+          mental noise is exhausting and overwhelming.
+        </p>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      How GLP-1s Quiet Food Noise
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      GLP-1 medications work on multiple levels to reduce food-related thoughts:
+    </p>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Brain Reward Centers</h3>
+        <p className="text-sm text-muted-foreground">
+          GLP-1 receptors exist in brain regions controlling reward and motivation. The medications
+          appear to reduce the rewarding signals from food, making it less compelling.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Appetite Regulation</h3>
+        <p className="text-sm text-muted-foreground">
+          By reducing physical hunger signals, there&apos;s simply less biological drive prompting
+          food-seeking thoughts.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Craving Reduction</h3>
+        <p className="text-sm text-muted-foreground">
+          Many users report dramatic decreases in cravings for specific foods, especially high-calorie,
+          highly palatable options.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      What Users Report
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Common experiences include:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li>&quot;I forget to eat—something that never happened before&quot;</li>
+      <li>&quot;I can walk past the break room donuts without a second thought&quot;</li>
+      <li>&quot;The constant mental battle about food just... stopped&quot;</li>
+      <li>&quot;I eat when I&apos;m hungry and stop when I&apos;m satisfied. It&apos;s that simple now&quot;</li>
+      <li>&quot;Food has become fuel rather than an obsession&quot;</li>
+      <li>&quot;I finally understand how naturally thin people think about food&quot;</li>
+    </ul>
+
+    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          A Note on Individual Variation
+        </h3>
+        <p className="text-muted-foreground">
+          Not everyone experiences this dramatic quieting of food noise. Some people notice significant
+          appetite reduction without the mental shift. The experience is highly individual, and
+          expectations should be realistic.
+        </p>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      The Research Behind Food Noise
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Scientific studies support these experiences:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>Brain imaging studies</strong> show GLP-1s reduce activation in reward centers when viewing food</li>
+      <li><strong>Preference changes</strong> documented—many users develop aversions to previously craved foods</li>
+      <li><strong>Reduced eating behaviors</strong> beyond calorie counting (less snacking, smaller portions naturally)</li>
+      <li><strong>Effects beyond appetite</strong> suggest central nervous system actions</li>
+    </ul>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Food Noise and Emotional Eating
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      An important distinction:
+    </p>
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">What GLP-1s Help</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• Physical hunger cues</li>
+          <li>• Food reward pathways</li>
+          <li>• Cravings for specific foods</li>
+          <li>• Constant food thoughts</li>
+        </ul>
+      </div>
+      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
+        <h3 className="font-semibold text-foreground mb-2">May Still Need Work</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• Emotional eating patterns</li>
+          <li>• Deep-rooted food relationships</li>
+          <li>• Stress-triggered eating</li>
+          <li>• Social eating pressures</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Making the Most of Quieter Food Noise
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Use this window to build healthier patterns:
+    </p>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">1. Develop New Habits</h3>
+        <p className="text-sm text-muted-foreground">
+          With less food noise, it&apos;s easier to establish regular eating patterns, meal prep routines,
+          and healthier choices.
+        </p>
+      </div>
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">2. Address Emotional Triggers</h3>
+        <p className="text-sm text-muted-foreground">
+          Work with a therapist or counselor on emotional eating patterns while the medication
+          reduces physical urges.
+        </p>
+      </div>
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">3. Focus on Nutrition Quality</h3>
+        <p className="text-sm text-muted-foreground">
+          With reduced appetite, make every calorie count. Prioritize protein and nutrients over
+          volume.
+        </p>
+      </div>
+    </div>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          The quieting of food noise may be one of the most life-changing aspects of GLP-1 treatment
+          for many people. It&apos;s not just about eating less—it&apos;s about finally getting
+          mental freedom from constant food thoughts. Use this opportunity to build sustainable
+          habits that will support long-term success.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// Oral vs Injectable GLP-1s: Pros and Cons
+export const OralVsInjectableContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      GLP-1 medications come in two main forms: weekly injections (Ozempic, Wegovy, Mounjaro) and
+      daily oral tablets (Rybelsus). Each has distinct advantages and drawbacks. Here&apos;s what
+      you need to know to make an informed choice.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Currently Available Options
+        </h2>
+        <div className="grid gap-4 md:grid-cols-2">
+          <div>
+            <h3 className="font-semibold text-foreground mb-2">Injectable GLP-1s</h3>
+            <ul className="text-sm text-muted-foreground space-y-1">
+              <li>• Ozempic (semaglutide weekly)</li>
+              <li>• Wegovy (semaglutide weekly)</li>
+              <li>• Mounjaro (tirzepatide weekly)</li>
+              <li>• Zepbound (tirzepatide weekly)</li>
+              <li>• Saxenda (liraglutide daily)</li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground mb-2">Oral GLP-1s</h3>
+            <ul className="text-sm text-muted-foreground space-y-1">
+              <li>• Rybelsus (semaglutide daily)</li>
+              <li>• Oral tirzepatide (in trials)</li>
+            </ul>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Injectable GLP-1s: Pros and Cons
+    </h2>
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Advantages</h3>
+        <ul className="text-sm text-muted-foreground space-y-2">
+          <li>• <strong>Once weekly dosing</strong> — More convenient than daily</li>
+          <li>• <strong>Higher bioavailability</strong> — More medication reaches your system</li>
+          <li>• <strong>More consistent levels</strong> — Steady release over the week</li>
+          <li>• <strong>Higher maximum doses</strong> — Access to 2 mg+ for semaglutide</li>
+          <li>• <strong>Greater weight loss</strong> — Generally more effective than oral</li>
+          <li>• <strong>No food timing requirements</strong> — Inject any time</li>
+        </ul>
+      </div>
+      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
+        <h3 className="font-semibold text-foreground mb-2">Disadvantages</h3>
+        <ul className="text-sm text-muted-foreground space-y-2">
+          <li>• <strong>Needles required</strong> — Barrier for needle-phobic patients</li>
+          <li>• <strong>Injection site reactions</strong> — Possible redness, itching</li>
+          <li>• <strong>Refrigeration needed</strong> — More complex storage</li>
+          <li>• <strong>Travel complications</strong> — Need to bring supplies, keep cool</li>
+          <li>• <strong>Visible to others</strong> — Less discreet than taking a pill</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Oral GLP-1s (Rybelsus): Pros and Cons
+    </h2>
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Advantages</h3>
+        <ul className="text-sm text-muted-foreground space-y-2">
+          <li>• <strong>No injections</strong> — Ideal for needle-phobic patients</li>
+          <li>• <strong>Easy to travel with</strong> — No refrigeration or needles</li>
+          <li>• <strong>Discreet</strong> — Looks like any other medication</li>
+          <li>• <strong>Familiar format</strong> — Taking pills is routine for most</li>
+          <li>• <strong>No injection site reactions</strong> — Avoids skin issues</li>
+        </ul>
+      </div>
+      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
+        <h3 className="font-semibold text-foreground mb-2">Disadvantages</h3>
+        <ul className="text-sm text-muted-foreground space-y-2">
+          <li>• <strong>Daily dosing</strong> — Must remember every day</li>
+          <li>• <strong>Strict timing rules</strong> — Empty stomach, 30 min before food</li>
+          <li>• <strong>Lower absorption</strong> — Only ~1% of dose absorbed</li>
+          <li>• <strong>Lower max dose</strong> — Tops out at 14 mg (less effective)</li>
+          <li>• <strong>Modest weight loss</strong> — Less effective than injections</li>
+          <li>• <strong>Water restrictions</strong> — Only 4 oz with the pill</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Effectiveness Comparison
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Injectable semaglutide (Wegovy 2.4 mg) produces significantly more weight loss than oral
+      semaglutide (Rybelsus 14 mg):
+    </p>
+    <div className="overflow-x-auto mb-8">
+      <table className="w-full text-sm border-collapse">
+        <thead>
+          <tr className="border-b-2 border-primary/20">
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Formulation</th>
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Average Weight Loss</th>
+            <th className="text-left py-3 px-4 font-semibold text-foreground">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="border-b">
+            <td className="py-3 px-4 text-muted-foreground">Wegovy 2.4 mg (injection)</td>
+            <td className="py-3 px-4 text-muted-foreground">~15% body weight</td>
+            <td className="py-3 px-4 text-muted-foreground">68-week data</td>
+          </tr>
+          <tr className="border-b">
+            <td className="py-3 px-4 text-muted-foreground">Rybelsus 14 mg (oral)</td>
+            <td className="py-3 px-4 text-muted-foreground">~5-7% body weight</td>
+            <td className="py-3 px-4 text-muted-foreground">26-week data</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          Rybelsus Timing Requirements
+        </h3>
+        <p className="text-muted-foreground mb-3">
+          For Rybelsus to work properly, you must:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-1">
+          <li>Take it first thing in the morning on a completely empty stomach</li>
+          <li>Swallow with no more than 4 ounces of plain water</li>
+          <li>Wait at least 30 minutes before eating or drinking anything else</li>
+          <li>Take it at the same time each day for best results</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Who Should Choose Which?
+    </h2>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Consider Injectable If:</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• Maximum weight loss is your priority</li>
+          <li>• You&apos;re comfortable with small needles</li>
+          <li>• You prefer weekly over daily dosing</li>
+          <li>• Your morning routine is unpredictable</li>
+        </ul>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Consider Oral If:</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• You have severe needle phobia</li>
+          <li>• You travel frequently without refrigeration access</li>
+          <li>• You want a stepping stone to injectables later</li>
+          <li>• Modest weight loss meets your goals</li>
+        </ul>
+      </div>
+    </div>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Injectable GLP-1s are more effective for weight loss but require comfort with needles.
+          Oral Rybelsus offers needle-free convenience but with more modest results and strict
+          timing requirements. Some people start with oral and transition to injectable. Discuss
+          your lifestyle, goals, and preferences with your healthcare provider.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// GLP-1 Dose Titration: Why Starting Low Matters
+export const DoseTitrationContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Every GLP-1 medication starts at a low dose and gradually increases over weeks or months.
+      This process—called titration—isn&apos;t optional. Here&apos;s why it matters and what to
+      expect at each stage.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Why Titration Is Essential
+        </h2>
+        <p className="text-muted-foreground mb-3">
+          Starting at full dose would cause severe side effects in most people:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>GI tolerance</strong> — Your digestive system needs time to adapt</li>
+          <li><strong>Nausea management</strong> — Gradual increases minimize nausea</li>
+          <li><strong>Side effect monitoring</strong> — Allows identification of problems early</li>
+          <li><strong>Finding optimal dose</strong> — Some people do well on lower doses</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Standard Titration Schedules
+    </h2>
+
+    <div className="space-y-6 mb-8">
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-foreground mb-3">Ozempic (Semaglutide for Diabetes)</h3>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-muted">
+                  <th className="text-left py-2 px-3 font-medium text-foreground">Weeks</th>
+                  <th className="text-left py-2 px-3 font-medium text-foreground">Dose</th>
+                  <th className="text-left py-2 px-3 font-medium text-foreground">Purpose</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted-foreground">
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">1-4</td><td className="py-2 px-3">0.25 mg</td><td className="py-2 px-3">Initial tolerance</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">5-8</td><td className="py-2 px-3">0.5 mg</td><td className="py-2 px-3">Building up</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">9+</td><td className="py-2 px-3">1 mg</td><td className="py-2 px-3">Maintenance (can go to 2 mg)</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-foreground mb-3">Wegovy (Semaglutide for Weight Loss)</h3>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-muted">
+                  <th className="text-left py-2 px-3 font-medium text-foreground">Weeks</th>
+                  <th className="text-left py-2 px-3 font-medium text-foreground">Dose</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted-foreground">
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">1-4</td><td className="py-2 px-3">0.25 mg</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">5-8</td><td className="py-2 px-3">0.5 mg</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">9-12</td><td className="py-2 px-3">1 mg</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">13-16</td><td className="py-2 px-3">1.7 mg</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">17+</td><td className="py-2 px-3">2.4 mg (maintenance)</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-foreground mb-3">Mounjaro/Zepbound (Tirzepatide)</h3>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="border-b border-muted">
+                  <th className="text-left py-2 px-3 font-medium text-foreground">Weeks</th>
+                  <th className="text-left py-2 px-3 font-medium text-foreground">Dose</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted-foreground">
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">1-4</td><td className="py-2 px-3">2.5 mg</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">5-8</td><td className="py-2 px-3">5 mg</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">9-12</td><td className="py-2 px-3">7.5 mg</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">13-16</td><td className="py-2 px-3">10 mg</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">17-20</td><td className="py-2 px-3">12.5 mg</td></tr>
+                <tr className="border-b border-muted/50"><td className="py-2 px-3">21+</td><td className="py-2 px-3">15 mg (maximum)</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      What to Expect During Titration
+    </h2>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Early Weeks (Lowest Dose)</h3>
+        <p className="text-sm text-muted-foreground">
+          You may notice mild appetite reduction but don&apos;t expect dramatic weight loss yet.
+          Some nausea is common but usually manageable. This phase is about adjustment.
+        </p>
+      </div>
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Each Dose Increase</h3>
+        <p className="text-sm text-muted-foreground">
+          Side effects often temporarily return or worsen when you increase the dose. This usually
+          settles within 1-2 weeks. Appetite suppression typically increases with each step.
+        </p>
+      </div>
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Maintenance Dose</h3>
+        <p className="text-sm text-muted-foreground">
+          Once you reach your maintenance dose, effects stabilize. Weight loss continues but may
+          slow compared to the initial rapid phase. Side effects typically diminish.
+        </p>
+      </div>
+    </div>
+
+    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          Don&apos;t Skip Titration Steps
+        </h3>
+        <p className="text-muted-foreground">
+          It&apos;s tempting to move faster, especially when side effects are mild. But skipping
+          steps increases the risk of severe nausea, vomiting, and other complications that might
+          force you to stop treatment entirely. Patience during titration leads to better long-term
+          outcomes.
+        </p>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      When Titration Can Be Modified
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Your doctor may adjust the schedule if:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>Side effects are severe</strong> — May stay at current dose longer before increasing</li>
+      <li><strong>Minimal response</strong> — May increase sooner if tolerating well with no effect</li>
+      <li><strong>Good results at lower dose</strong> — May not need to reach maximum dose</li>
+      <li><strong>Switching medications</strong> — May start higher if transitioning from another GLP-1</li>
+    </ul>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Titration isn&apos;t about delaying your weight loss—it&apos;s about setting you up for
+          success. Rushing the process increases side effects and dropout rates. Trust the
+          established schedules, communicate with your provider about how you&apos;re feeling,
+          and know that the full effects will come with time.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// Switching Between GLP-1 Medications
+export const SwitchingMedicationsContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Thinking about switching from one GLP-1 medication to another? Whether you&apos;re moving from
+      semaglutide to tirzepatide, dealing with shortages, or seeking better results, here&apos;s how
+      to switch safely.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Common Reasons for Switching
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Inadequate weight loss</strong> on current medication</li>
+          <li><strong>Persistent side effects</strong> that don&apos;t improve</li>
+          <li><strong>Medication shortages</strong> affecting supply</li>
+          <li><strong>Insurance changes</strong> covering different options</li>
+          <li><strong>Weight loss plateau</strong> after initial success</li>
+          <li><strong>Seeking stronger results</strong> (e.g., semaglutide to tirzepatide)</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      General Switching Principles
+    </h2>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">1. No Washout Period Needed</h3>
+        <p className="text-sm text-muted-foreground">
+          You can typically switch directly from one GLP-1 to another without waiting. Start the new
+          medication when your next dose would be due.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">2. Don&apos;t Start at Maximum Dose</h3>
+        <p className="text-sm text-muted-foreground">
+          Even if you were on a high dose of your old medication, you&apos;ll usually start at a
+          lower dose of the new one. The medications have different potencies and structures.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">3. Expect Some Adjustment</h3>
+        <p className="text-sm text-muted-foreground">
+          Side effects may temporarily return or change when switching. Your body needs to adjust
+          to the new medication even though the mechanism is similar.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Specific Switching Scenarios
+    </h2>
+
+    <div className="space-y-6 mb-8">
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-foreground mb-3">Semaglutide → Tirzepatide</h3>
+          <p className="text-muted-foreground mb-3">
+            The most common switch for those seeking more weight loss:
+          </p>
+          <ul className="list-disc list-inside text-muted-foreground space-y-1">
+            <li>Stop semaglutide when your next dose would be due</li>
+            <li>Typically start tirzepatide at 2.5 or 5 mg</li>
+            <li>5 mg tirzepatide is roughly equivalent to 0.5-1 mg semaglutide</li>
+            <li>May accelerate titration if well-tolerated</li>
+          </ul>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-foreground mb-3">Tirzepatide → Semaglutide</h3>
+          <p className="text-muted-foreground mb-3">
+            Less common, but sometimes needed for insurance or availability:
+          </p>
+          <ul className="list-disc list-inside text-muted-foreground space-y-1">
+            <li>Stop tirzepatide when your next dose would be due</li>
+            <li>Usually start semaglutide at 0.5 mg or higher</li>
+            <li>Watch for changes in side effects or efficacy</li>
+            <li>May need higher semaglutide dose to match previous results</li>
+          </ul>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-foreground mb-3">Ozempic ↔ Wegovy</h3>
+          <p className="text-muted-foreground mb-3">
+            Same medication, different brand:
+          </p>
+          <ul className="list-disc list-inside text-muted-foreground space-y-1">
+            <li>Direct dose-for-dose switch is typically fine</li>
+            <li>Main difference is the available dose range</li>
+            <li>Wegovy goes up to 2.4 mg; Ozempic to 2 mg</li>
+            <li>Switching brands shouldn&apos;t change your experience</li>
+          </ul>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-foreground mb-3">Rybelsus (Oral) → Injectable</h3>
+          <p className="text-muted-foreground mb-3">
+            Moving from oral to injection for better results:
+          </p>
+          <ul className="list-disc list-inside text-muted-foreground space-y-1">
+            <li>Stop Rybelsus and start injection the next day</li>
+            <li>Rybelsus 14 mg roughly equals 0.5-1 mg injectable semaglutide</li>
+            <li>May still need to titrate up from starting dose</li>
+            <li>Expect more pronounced effects from injectable</li>
+          </ul>
+        </CardContent>
+      </Card>
+    </div>
+
+    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          Important: Always Consult Your Provider
+        </h3>
+        <p className="text-muted-foreground">
+          These are general guidelines. Your specific situation may require different dosing.
+          Factors like your current dose, how long you&apos;ve been on treatment, side effects,
+          and other medications all influence the best switching strategy.
+        </p>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      What to Watch For After Switching
+    </h2>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>Return of side effects</strong> — Nausea, GI issues may temporarily increase</li>
+      <li><strong>Changes in appetite</strong> — May feel different than previous medication</li>
+      <li><strong>Blood sugar changes</strong> — If diabetic, monitor more closely initially</li>
+      <li><strong>Weight trajectory</strong> — Give it 2-3 months to assess new medication&apos;s effect</li>
+    </ul>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Switching between GLP-1 medications is common and generally safe when done with medical
+          guidance. Don&apos;t expect immediate results with the new medication—give it time to
+          work and titrate appropriately. Most people successfully transition between these
+          medications when needed.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// GLP-1 Injection Site Rotation: Best Practices
+export const InjectionRotationContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Proper injection technique and site rotation are essential for GLP-1 medication effectiveness
+      and minimizing skin problems. Here&apos;s a complete guide to injection best practices.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Why Rotation Matters
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Prevents lipodystrophy</strong> — Repeated injections in one spot cause tissue changes</li>
+          <li><strong>Ensures consistent absorption</strong> — Damaged tissue absorbs medication poorly</li>
+          <li><strong>Reduces injection site reactions</strong> — Gives skin time to recover</li>
+          <li><strong>Minimizes scarring</strong> — Distributes impact across larger area</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Approved Injection Sites
+    </h2>
+    <div className="grid gap-4 md:grid-cols-3 mb-8">
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Abdomen</h3>
+        <p className="text-sm text-muted-foreground">
+          Most popular site. Inject at least 2 inches from navel. Avoid waistband area. Offers
+          consistent absorption.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Thigh</h3>
+        <p className="text-sm text-muted-foreground">
+          Front of thigh, about 4 inches above knee and 4 inches below hip. Easy to see and reach.
+          Slightly slower absorption.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">Upper Arm</h3>
+        <p className="text-sm text-muted-foreground">
+          Back of upper arm. May need assistance reaching. Good for those who prefer to hide
+          injection sites.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Rotation Strategies
+    </h2>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">The Clock Method (Abdomen)</h3>
+        <p className="text-sm text-muted-foreground">
+          Imagine a clock around your navel. Start at 12 o&apos;clock and move to a new &quot;hour&quot;
+          position each week. After completing the circle, move further from center.
+        </p>
+      </div>
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">The Zone Method</h3>
+        <p className="text-sm text-muted-foreground">
+          Divide each injection area into zones. Use left side one week, right side the next. Or
+          alternate between abdomen, left thigh, right thigh weekly.
+        </p>
+      </div>
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Distance Rule</h3>
+        <p className="text-sm text-muted-foreground">
+          Always inject at least 1 inch (2.5 cm) from your previous injection site. This ensures
+          adequate tissue recovery between uses.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Injection Technique
+    </h2>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Step 1: Prepare</h3>
+        <p className="text-sm text-muted-foreground">
+          Wash hands thoroughly. Allow refrigerated medication to reach room temperature (10-15 min).
+          Check expiration date and that liquid is clear.
+        </p>
+      </div>
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Step 2: Clean Site</h3>
+        <p className="text-sm text-muted-foreground">
+          Clean the injection site with alcohol swab. Let it dry completely before injecting.
+        </p>
+      </div>
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Step 3: Inject</h3>
+        <p className="text-sm text-muted-foreground">
+          Pinch skin if needed (depending on body composition). Insert needle at 90-degree angle.
+          Press button and hold for 10 seconds after the click.
+        </p>
+      </div>
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Step 4: After Care</h3>
+        <p className="text-sm text-muted-foreground">
+          Remove needle straight out. Don&apos;t rub the site. Light pressure with cotton ball if
+          bleeding. Document site used.
+        </p>
+      </div>
+    </div>
+
+    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          Sites to Avoid
+        </h3>
+        <ul className="list-disc list-inside text-muted-foreground space-y-1">
+          <li>Within 2 inches of the navel</li>
+          <li>Areas with scars, bruises, or skin problems</li>
+          <li>Hardened or lumpy areas (signs of lipodystrophy)</li>
+          <li>Red, swollen, or tender skin</li>
+          <li>Stretch marks or moles</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Tracking Your Injections
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Keep a simple log to ensure proper rotation:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li>Use a journal or app to record date and site</li>
+      <li>Take photos to track site appearance over time</li>
+      <li>Note any reactions or issues at specific sites</li>
+      <li>Set reminders to check injection sites regularly</li>
+    </ul>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Consistent site rotation is a simple habit that prevents problems down the road. Choose
+          a rotation system that works for you and stick with it. If you notice any skin changes,
+          lumps, or persistent reactions, consult your healthcare provider.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// Maintaining Weight Loss After Stopping GLP-1s
+export const MaintainingWeightLossContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      What happens when you stop taking GLP-1 medications? Studies show significant weight regain
+      is common—but not inevitable. Here&apos;s what the research shows and strategies for
+      maintaining your results.
+    </p>
+
+    <Card className="mb-8 border-amber-200 bg-amber-50 dark:bg-amber-950/20">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          The Reality: Weight Regain Is Common
+        </h2>
+        <p className="text-muted-foreground">
+          Research shows that within one year of stopping semaglutide, people regain about two-thirds
+          of their lost weight on average. This isn&apos;t a failure of willpower—it&apos;s biology.
+          The medications address the biological drives that make weight loss hard; when they&apos;re
+          removed, those drives return.
+        </p>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Why Weight Regain Happens
+    </h2>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>Appetite returns</strong> — The medication&apos;s appetite suppression ends</li>
+      <li><strong>Metabolic adaptation</strong> — Your body burned fewer calories at the lower weight</li>
+      <li><strong>Hunger hormones increase</strong> — Ghrelin and other hormones spike after weight loss</li>
+      <li><strong>Food noise returns</strong> — The quiet mind around food often disappears</li>
+      <li><strong>Habits may not stick</strong> — Without the medication&apos;s help, old patterns return</li>
+    </ul>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Strategies for Maintenance
+    </h2>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">1. Build Habits During Treatment</h3>
+        <p className="text-sm text-muted-foreground">
+          Use the easier period while on medication to establish sustainable eating patterns, regular
+          exercise, and stress management. These habits need to become automatic.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">2. Prioritize Protein</h3>
+        <p className="text-sm text-muted-foreground">
+          High protein intake (100+ grams daily) helps preserve muscle mass and provides better satiety
+          than carbohydrates or fat.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">3. Strength Training</h3>
+        <p className="text-sm text-muted-foreground">
+          Building and maintaining muscle is crucial. Muscle mass affects your metabolism and helps
+          with long-term weight maintenance.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">4. Address Emotional Eating</h3>
+        <p className="text-sm text-muted-foreground">
+          Work with a therapist or counselor on the psychological aspects of eating while the
+          medication reduces physical urges.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">5. Consider Maintenance Dosing</h3>
+        <p className="text-sm text-muted-foreground">
+          Some providers prescribe lower &quot;maintenance&quot; doses after reaching goal weight.
+          This may help sustain results while reducing costs and side effects.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      The Case for Long-Term Use
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Medical organizations increasingly recognize obesity as a chronic disease requiring ongoing
+      treatment:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li>Just as you wouldn&apos;t stop blood pressure medication when pressure normalizes</li>
+      <li>GLP-1s address underlying biological issues, not just symptoms</li>
+      <li>Cardiovascular and metabolic benefits may require continued use</li>
+      <li>Many experts recommend indefinite treatment for those who respond well</li>
+    </ul>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          If You Must Stop
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Taper gradually</strong> if possible, rather than stopping abruptly</li>
+          <li><strong>Have a plan ready</strong> before stopping—don&apos;t wing it</li>
+          <li><strong>Monitor weight closely</strong> and intervene early if regaining</li>
+          <li><strong>Consider restarting</strong> if regain exceeds 5-10%</li>
+          <li><strong>Explore alternatives</strong> like other medications or programs</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Setting Realistic Expectations
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Be honest with yourself about what&apos;s realistic:
+    </p>
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Realistic Goals</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• Maintaining some weight loss (&gt;5-10%)</li>
+          <li>• Keeping healthy habits</li>
+          <li>• Improved metabolic markers</li>
+          <li>• Restarting if needed without shame</li>
+        </ul>
+      </div>
+      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
+        <h3 className="font-semibold text-foreground mb-2">Unrealistic Expectations</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• Keeping 100% of weight off forever</li>
+          <li>• &quot;Curing&quot; obesity with temporary treatment</li>
+          <li>• Willpower alone maintaining results</li>
+          <li>• Never needing medication again</li>
+        </ul>
+      </div>
+    </div>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Weight regain after stopping GLP-1 medications is common but not absolute. Use your time
+          on medication to build sustainable habits. If you need to continue treatment long-term,
+          that&apos;s a valid medical approach—not a failure. Work with your healthcare provider
+          to determine the best strategy for your situation.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// GLP-1 Medications for Older Adults
+export const OlderAdultsContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      GLP-1 medications can be highly effective for older adults, but there are special considerations
+      around muscle loss, medication interactions, and monitoring. Here&apos;s what seniors and their
+      caregivers need to know.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Key Considerations for Older Adults
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Sarcopenia risk</strong> — Age-related muscle loss requires extra attention</li>
+          <li><strong>Multiple medications</strong> — More potential for interactions</li>
+          <li><strong>Kidney function</strong> — May affect medication dosing or tolerance</li>
+          <li><strong>Dehydration risk</strong> — GI side effects can be more problematic</li>
+          <li><strong>Fall risk</strong> — Rapid weight loss can affect balance</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Benefits for Older Adults
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Despite the considerations, GLP-1 medications offer significant benefits for older patients:
+    </p>
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Cardiovascular Protection</h3>
+        <p className="text-sm text-muted-foreground">
+          The SELECT trial included adults up to age 65+, showing significant reduction in heart
+          attacks and strokes.
+        </p>
+      </div>
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Kidney Protection</h3>
+        <p className="text-sm text-muted-foreground">
+          The FLOW trial showed semaglutide slowed kidney disease progression—a major concern
+          for older adults.
+        </p>
+      </div>
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Joint Health</h3>
+        <p className="text-sm text-muted-foreground">
+          Weight loss can significantly reduce arthritis pain and improve mobility, enhancing
+          quality of life.
+        </p>
+      </div>
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">Diabetes Management</h3>
+        <p className="text-sm text-muted-foreground">
+          Better blood sugar control with lower hypoglycemia risk compared to insulin or
+          sulfonylureas.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Muscle Preservation Is Critical
+    </h2>
+    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+      <CardContent className="p-6">
+        <p className="text-muted-foreground mb-3">
+          Older adults naturally lose muscle mass with age (sarcopenia). Rapid weight loss can
+          accelerate this. Strategies to protect muscle:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>High protein intake:</strong> Aim for 1.0-1.2 g per kg of body weight daily</li>
+          <li><strong>Resistance exercise:</strong> Even light strength training helps preserve muscle</li>
+          <li><strong>Vitamin D:</strong> Essential for muscle function; often low in older adults</li>
+          <li><strong>Slower weight loss:</strong> May need to stay at lower doses longer</li>
+          <li><strong>Monitor strength:</strong> Track grip strength or functional abilities</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Medication Interactions to Consider
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Common medications in older adults that may interact with GLP-1s:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>Insulin or sulfonylureas</strong> — May need dose reduction to prevent low blood sugar</li>
+      <li><strong>Warfarin</strong> — Monitor INR more frequently initially</li>
+      <li><strong>Thyroid medications</strong> — Absorption may be affected; check levels</li>
+      <li><strong>Blood pressure medications</strong> — May need reduction as weight decreases</li>
+    </ul>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Special Monitoring Recommendations
+    </h2>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Hydration Status</h3>
+        <p className="text-sm text-muted-foreground">
+          Older adults are more susceptible to dehydration, especially with GI side effects.
+          Monitor fluid intake and signs of dehydration.
+        </p>
+      </div>
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Kidney Function</h3>
+        <p className="text-sm text-muted-foreground">
+          More frequent kidney function tests, especially if experiencing nausea, vomiting, or
+          diarrhea that could affect hydration.
+        </p>
+      </div>
+      <div className="p-4 bg-muted/30 rounded-lg">
+        <h3 className="font-semibold text-foreground mb-2">Nutritional Status</h3>
+        <p className="text-sm text-muted-foreground">
+          Watch for signs of malnutrition. Reduced appetite plus already lower intake can lead
+          to deficiencies.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Titration Adjustments
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Older adults may benefit from:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li>Slower titration schedule (longer at each dose)</li>
+      <li>Lower maximum dose if responding well</li>
+      <li>More frequent check-ins during dose increases</li>
+      <li>Patience—don&apos;t rush to maximize dose</li>
+    </ul>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          GLP-1 medications can be safe and highly beneficial for older adults when used appropriately.
+          The key is focusing on muscle preservation, staying hydrated, monitoring for interactions,
+          and potentially using lower doses. Work closely with your healthcare provider to tailor
+          treatment to your individual needs.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+// Compounded GLP-1s: What You Need to Know
+export const CompoundedGLP1sContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      With brand-name GLP-1 medications often in shortage and costing $1,000+ per month, compounded
+      versions have become increasingly popular. But are they safe? Here&apos;s what you need to know
+      about compounded semaglutide and tirzepatide.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          What Is Compounding?
+        </h2>
+        <p className="text-muted-foreground">
+          Compounding pharmacies create custom medications using FDA-approved active ingredients.
+          When brand-name drugs are on the FDA shortage list, compounders can legally produce
+          versions of those medications. Compounded semaglutide and tirzepatide are made from the
+          same active ingredients as Ozempic/Wegovy and Mounjaro/Zepbound.
+        </p>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Types of Compounding Pharmacies
+    </h2>
+    <div className="grid gap-4 md:grid-cols-2 mb-8">
+      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
+        <h3 className="font-semibold text-foreground mb-2">503B Outsourcing Facilities</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• FDA-registered and inspected</li>
+          <li>• Must follow current Good Manufacturing Practices (cGMP)</li>
+          <li>• Can produce larger quantities</li>
+          <li>• Higher quality standards</li>
+          <li>• More reliable potency and sterility</li>
+        </ul>
+      </div>
+      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
+        <h3 className="font-semibold text-foreground mb-2">503A Traditional Pharmacies</h3>
+        <ul className="text-sm text-muted-foreground space-y-1">
+          <li>• State-regulated, not FDA-inspected</li>
+          <li>• Patient-specific prescriptions</li>
+          <li>• Variable quality controls</li>
+          <li>• More risk of sterility issues</li>
+          <li>• Potency may be less consistent</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Benefits of Compounded GLP-1s
+    </h2>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li><strong>Cost savings:</strong> Often $200-400/month vs $1,000+ for brand-name</li>
+      <li><strong>Availability:</strong> Accessible during shortages of brand-name products</li>
+      <li><strong>Flexible dosing:</strong> Can be made in custom doses</li>
+      <li><strong>Legitimate option:</strong> Legal when brand is on FDA shortage list</li>
+    </ul>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      Risks and Concerns
+    </h2>
+    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+      <CardContent className="p-6">
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>No FDA approval:</strong> The compounded product itself isn&apos;t FDA-approved</li>
+          <li><strong>Potency variation:</strong> May not contain exact claimed amount of medication</li>
+          <li><strong>Sterility concerns:</strong> Contamination risk, especially from 503A pharmacies</li>
+          <li><strong>Different salt forms:</strong> Some use semaglutide &quot;salts&quot; that may behave differently</li>
+          <li><strong>Limited recourse:</strong> No manufacturer support if problems occur</li>
+          <li><strong>Future legality:</strong> May become unavailable if shortage ends</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      How to Choose a Safe Compounding Pharmacy
+    </h2>
+    <div className="space-y-4 mb-8">
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">1. Verify 503B Status</h3>
+        <p className="text-sm text-muted-foreground">
+          Check the FDA&apos;s list of registered 503B outsourcing facilities. These undergo regular
+          inspections and follow stricter manufacturing standards.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">2. Ask About Third-Party Testing</h3>
+        <p className="text-sm text-muted-foreground">
+          Reputable compounders test each batch for potency and sterility. Ask to see certificates
+          of analysis.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">3. Use a Licensed Provider</h3>
+        <p className="text-sm text-muted-foreground">
+          Get your prescription from a legitimate telehealth provider or in-person doctor who will
+          monitor your treatment properly.
+        </p>
+      </div>
+      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
+        <h3 className="font-semibold text-foreground mb-2">4. Beware of Red Flags</h3>
+        <p className="text-sm text-muted-foreground">
+          Avoid: prices that seem too good to be true, no prescription required, overseas sources,
+          or inability to verify pharmacy credentials.
+        </p>
+      </div>
+    </div>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      The Salt Form Controversy
+    </h2>
+    <p className="text-muted-foreground mb-4">
+      Some compounders use &quot;semaglutide sodium&quot; or &quot;semaglutide acetate&quot; rather than
+      base semaglutide:
+    </p>
+    <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
+      <li>Salt forms may have different pharmacokinetics</li>
+      <li>Less clinical data on these specific forms</li>
+      <li>Dosing equivalence isn&apos;t fully established</li>
+      <li>Some argue this falls outside FDA shortage exemption</li>
+    </ul>
+
+    <h2 className="text-2xl font-bold text-foreground mb-4">
+      What Happens When Shortages End?
+    </h2>
+    <p className="text-muted-foreground mb-6">
+      Once brand-name medications are no longer on the FDA shortage list, compounders can no longer
+      legally produce copies. You would need to transition to brand-name products or explore other options.
+    </p>
+
+    <Card className="mb-8 border-primary/30 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-lg font-bold text-foreground mb-2">
+          The Bottom Line
+        </h3>
+        <p className="text-muted-foreground">
+          Compounded GLP-1 medications can be a legitimate, more affordable option when obtained
+          from reputable 503B pharmacies with proper medical supervision. However, they carry more
+          risk than brand-name products. If you choose this route, do your due diligence on the
+          pharmacy and provider, and understand that availability may change as shortage status evolves.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
