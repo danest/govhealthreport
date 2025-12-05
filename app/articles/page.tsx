@@ -451,6 +451,56 @@ const articles = [
     readTime: "8 min read",
     category: "Benefits",
   },
+  {
+    slug: "glp-1-and-digestion",
+    title: "How GLP-1 Medications Affect Your Digestive System",
+    excerpt:
+      "Learn how Ozempic and other GLP-1 medications affect digestion, including delayed gastric emptying. Tips for managing digestive side effects.",
+    image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "9 min read",
+    category: "Side Effects",
+  },
+  {
+    slug: "glp-1-meal-timing",
+    title: "Meal Timing on GLP-1 Medications: A Complete Guide",
+    excerpt:
+      "Discover the best meal timing strategies while taking GLP-1 medications. Learn when and how often to eat for optimal results and minimal side effects.",
+    image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Lifestyle",
+  },
+  {
+    slug: "glp-1-hydration-guide",
+    title: "Staying Hydrated on GLP-1 Medications",
+    excerpt:
+      "Learn why proper hydration is crucial while taking GLP-1 medications. Discover how much water you need and strategies to stay hydrated.",
+    image: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "7 min read",
+    category: "Lifestyle",
+  },
+  {
+    slug: "glp-1-protein-requirements",
+    title: "Protein Requirements on GLP-1 Medications",
+    excerpt:
+      "Discover why protein is critical while taking GLP-1 medications. Learn how much you need and the best sources to prevent muscle loss.",
+    image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Nutrition",
+  },
+  {
+    slug: "glp-1-surgery-preparation",
+    title: "Surgery While Taking GLP-1 Medications: What You Need to Know",
+    excerpt:
+      "Essential information about GLP-1 medications and surgery. Learn when to stop Ozempic or Mounjaro before procedures and aspiration risks.",
+    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80&fit=crop&crop=center",
+    date: "December 5, 2025",
+    readTime: "9 min read",
+    category: "Safety",
+  },
 ];
 
 export default function ArticlesPage() {

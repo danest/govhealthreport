@@ -4897,3 +4897,442 @@ export const GLP1BloodPressureContent = () => (
     </Card>
   </>
 );
+
+export const GLP1AndDigestionContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      GLP-1 medications work directly on the digestive system, slowing gastric emptying
+      and altering gut motility. Understanding these effects helps you manage your
+      treatment more effectively and recognize what's normal versus concerning.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          How GLP-1s Affect Digestion
+        </h2>
+        <p className="text-muted-foreground mb-4">
+          GLP-1 receptors are abundant throughout the gastrointestinal tract. When activated,
+          these medications slow down how quickly food leaves your stomach (delayed gastric
+          emptying), which contributes to feeling full longer but can also cause digestive changes.
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Delayed gastric emptying:</strong> Food stays in stomach 30-50% longer</li>
+          <li><strong>Reduced appetite:</strong> Brain signaling decreases hunger</li>
+          <li><strong>Slower intestinal transit:</strong> Food moves more slowly through gut</li>
+          <li><strong>Altered gut hormones:</strong> Changes in digestive enzyme secretion</li>
+          <li><strong>Microbiome shifts:</strong> Some studies show gut bacteria changes</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Common Digestive Side Effects
+        </h2>
+        <div className="space-y-4 text-muted-foreground">
+          <div>
+            <h3 className="font-semibold text-foreground">Nausea (Most Common)</h3>
+            <p>Affects 20-50% of users initially. Usually improves within 4-8 weeks as your body adapts.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground">Constipation</h3>
+            <p>Slowed gut motility can reduce bowel frequency. Fiber and hydration help significantly.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground">Diarrhea</h3>
+            <p>Less common but can occur, especially when eating high-fat foods.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground">Bloating and Gas</h3>
+            <p>Food fermenting longer in the gut can increase gas production.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground">Acid Reflux</h3>
+            <p>Slower stomach emptying can worsen GERD symptoms in some people.</p>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Dietary Strategies for Better Digestion
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Eat smaller portions:</strong> Your stomach capacity effectively feels smaller</li>
+          <li><strong>Chew thoroughly:</strong> Aids digestion and signals fullness</li>
+          <li><strong>Avoid fatty/greasy foods:</strong> These digest slowest and cause most issues</li>
+          <li><strong>Stay upright after eating:</strong> Helps prevent reflux</li>
+          <li><strong>Space meals out:</strong> Allow 4-6 hours between substantial meals</li>
+          <li><strong>Prioritize protein first:</strong> Eat protein before carbs and fats</li>
+          <li><strong>Stay hydrated:</strong> Drink water between meals, not during</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8 border-amber-200 bg-amber-50 dark:bg-amber-950/20">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold text-foreground mb-3">
+          When to Seek Medical Attention
+        </h3>
+        <p className="text-muted-foreground">
+          Contact your doctor if you experience severe abdominal pain, persistent vomiting
+          (unable to keep fluids down), signs of dehydration, blood in stool, or symptoms
+          of pancreatitis. Some digestive effects require dose adjustment or medication change.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+export const GLP1MealTimingContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      When you eat matters almost as much as what you eat on GLP-1 medications. Strategic
+      meal timing can minimize side effects, maximize satiety, and help you get the most
+      from your treatment.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Why Meal Timing Matters on GLP-1s
+        </h2>
+        <p className="text-muted-foreground mb-4">
+          GLP-1 medications slow gastric emptying significantly—food can stay in your stomach
+          30-50% longer than normal. This means traditional eating patterns often need adjustment
+          to avoid overfullness, nausea, and other digestive issues.
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li>Smaller, more frequent meals often work better than 3 large meals</li>
+          <li>Eating when genuinely hungry (not by the clock) improves tolerance</li>
+          <li>Morning appetite often decreases significantly</li>
+          <li>Nighttime eating can worsen reflux symptoms</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Recommended Meal Patterns
+        </h2>
+        <div className="space-y-4 text-muted-foreground">
+          <div>
+            <h3 className="font-semibold text-foreground">Pattern 1: Three Small Meals + Snack</h3>
+            <p>Light breakfast (if hungry), moderate lunch, smaller dinner, optional afternoon protein snack.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground">Pattern 2: Two Meals + Snacks</h3>
+            <p>Skip breakfast if not hungry, substantial lunch, light dinner, protein snacks as needed.</p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-foreground">Pattern 3: Grazing</h3>
+            <p>5-6 very small protein-focused mini-meals throughout the day—good for severe nausea.</p>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Timing Tips for Best Results
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Wait for hunger cues:</strong> Don't force yourself to eat on a schedule</li>
+          <li><strong>Stop eating before full:</strong> Fullness signals are delayed</li>
+          <li><strong>Allow 4+ hours between meals:</strong> Give your stomach time to empty</li>
+          <li><strong>Finish eating 3+ hours before bed:</strong> Prevents reflux and discomfort</li>
+          <li><strong>Front-load protein:</strong> Eat protein early in the day for energy</li>
+          <li><strong>Take medication consistently:</strong> Same day/time each week for injectables</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8 border-primary/20 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold text-foreground mb-3">
+          Key Takeaway
+        </h3>
+        <p className="text-muted-foreground">
+          Listen to your body rather than the clock. Most people naturally shift to eating
+          less frequently on GLP-1 medications. Honor your new hunger patterns while ensuring
+          adequate protein and hydration throughout the day.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+export const GLP1HydrationContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Proper hydration is critical on GLP-1 medications. Reduced appetite often means
+      drinking less, while side effects like nausea and constipation can worsen dehydration.
+      Here's how to stay properly hydrated during treatment.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Why Hydration Matters More on GLP-1s
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Reduced thirst:</strong> GLP-1s can decrease thirst sensation</li>
+          <li><strong>Less food intake:</strong> You get less water from food when eating less</li>
+          <li><strong>Constipation risk:</strong> Dehydration worsens GLP-1 constipation</li>
+          <li><strong>Nausea management:</strong> Proper hydration can reduce nausea</li>
+          <li><strong>Kidney protection:</strong> Adequate fluids support kidney function</li>
+          <li><strong>Energy levels:</strong> Even mild dehydration causes fatigue</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          How Much Water Do You Need?
+        </h2>
+        <p className="text-muted-foreground mb-4">
+          A general guideline is to drink half your body weight in ounces daily. For a
+          200-pound person, that's 100 ounces (about 3 liters). Adjust upward for exercise,
+          heat, or if experiencing vomiting or diarrhea.
+        </p>
+        <div className="space-y-3 text-muted-foreground">
+          <div className="flex justify-between border-b pb-2">
+            <span className="font-semibold text-foreground">Body Weight</span>
+            <span className="font-semibold text-foreground">Daily Water Goal</span>
+          </div>
+          <div className="flex justify-between">
+            <span>150 lbs</span>
+            <span>75 oz (2.2L)</span>
+          </div>
+          <div className="flex justify-between">
+            <span>200 lbs</span>
+            <span>100 oz (3L)</span>
+          </div>
+          <div className="flex justify-between">
+            <span>250 lbs</span>
+            <span>125 oz (3.7L)</span>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Smart Hydration Strategies
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Drink between meals:</strong> Large amounts with food can worsen nausea</li>
+          <li><strong>Set reminders:</strong> Don't rely on thirst—it may be suppressed</li>
+          <li><strong>Start the day with water:</strong> Drink 16 oz before anything else</li>
+          <li><strong>Carry a water bottle:</strong> Visual reminder to keep drinking</li>
+          <li><strong>Track intake:</strong> Use an app or marks on your bottle</li>
+          <li><strong>Flavor your water:</strong> Lemon, cucumber, or sugar-free flavoring</li>
+          <li><strong>Include electrolytes:</strong> Especially if experiencing nausea or diarrhea</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8 border-amber-200 bg-amber-50 dark:bg-amber-950/20">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold text-foreground mb-3">
+          Signs of Dehydration
+        </h3>
+        <p className="text-muted-foreground">
+          Watch for dark urine, headaches, dizziness, dry mouth, fatigue, and reduced
+          urination. If you experience severe dehydration with vomiting, seek medical
+          attention—you may need IV fluids.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+export const GLP1ProteinNeedsContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      Getting adequate protein is perhaps the most important nutritional focus on GLP-1
+      medications. Reduced appetite makes it challenging, but prioritizing protein
+      preserves muscle mass and supports healthy weight loss.
+    </p>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Why Protein Is Critical on GLP-1s
+        </h2>
+        <p className="text-muted-foreground mb-4">
+          Rapid weight loss from any cause can lead to muscle loss. Studies show that
+          up to 40% of weight lost can be muscle mass without adequate protein and exercise.
+          Muscle loss slows metabolism and can make weight regain more likely.
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li>Preserves lean muscle mass during weight loss</li>
+          <li>Maintains metabolic rate</li>
+          <li>Promotes satiety (helps you feel full longer)</li>
+          <li>Supports immune function and wound healing</li>
+          <li>Prevents the "skinny fat" appearance</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          How Much Protein Do You Need?
+        </h2>
+        <p className="text-muted-foreground mb-4">
+          Most experts recommend 0.7-1.0 grams of protein per pound of body weight
+          (or per pound of goal weight if significantly overweight). This is higher
+          than general population recommendations.
+        </p>
+        <div className="space-y-3 text-muted-foreground">
+          <div className="flex justify-between border-b pb-2">
+            <span className="font-semibold text-foreground">Body Weight</span>
+            <span className="font-semibold text-foreground">Daily Protein Goal</span>
+          </div>
+          <div className="flex justify-between">
+            <span>150 lbs</span>
+            <span>105-150g</span>
+          </div>
+          <div className="flex justify-between">
+            <span>200 lbs</span>
+            <span>140-200g</span>
+          </div>
+          <div className="flex justify-between">
+            <span>250 lbs</span>
+            <span>175-200g (use goal weight)</span>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Best Protein Sources
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Lean meats:</strong> Chicken, turkey, lean beef (25-30g per 4 oz)</li>
+          <li><strong>Fish and seafood:</strong> Salmon, tuna, shrimp (20-25g per 4 oz)</li>
+          <li><strong>Eggs:</strong> Easy to digest (6g per egg)</li>
+          <li><strong>Greek yogurt:</strong> High protein, good for nausea (15-20g per cup)</li>
+          <li><strong>Cottage cheese:</strong> Excellent protein density (25g per cup)</li>
+          <li><strong>Protein shakes:</strong> Convenient when eating is difficult (20-40g)</li>
+          <li><strong>Legumes:</strong> Beans, lentils (15g per cup)</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8 border-primary/20 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold text-foreground mb-3">
+          Pro Tip: Protein First
+        </h3>
+        <p className="text-muted-foreground">
+          With reduced appetite, you may not finish meals. Always eat your protein
+          first before moving to vegetables and carbs. This ensures you hit your
+          protein goals even when you can't eat much.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);
+
+export const GLP1SurgeryGuideContent = () => (
+  <>
+    <p className="text-lg text-muted-foreground mb-6">
+      If you're on GLP-1 medications and have upcoming surgery, proper preparation is
+      essential. These medications slow gastric emptying, which can affect anesthesia
+      safety. Here's what you need to know.
+    </p>
+
+    <Card className="mb-8 border-amber-200 bg-amber-50 dark:bg-amber-950/20">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Important: Aspiration Risk
+        </h2>
+        <p className="text-muted-foreground">
+          GLP-1 medications slow stomach emptying, meaning food may remain in your
+          stomach longer than normal. This increases the risk of aspiration (stomach
+          contents entering the lungs) during anesthesia—a serious complication.
+          Always tell your surgical team about your GLP-1 medication.
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Current Guidelines (2024-2025)
+        </h2>
+        <p className="text-muted-foreground mb-4">
+          The American Society of Anesthesiologists recommends:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li><strong>Weekly injections (Ozempic, Mounjaro):</strong> Hold for 1 week before surgery</li>
+          <li><strong>Daily medications (Rybelsus):</strong> Hold for 1 day before surgery</li>
+          <li><strong>GI symptoms present:</strong> Consider delaying elective surgery</li>
+          <li><strong>Emergency surgery:</strong> Treat as full stomach; use rapid sequence intubation</li>
+        </ul>
+        <p className="text-muted-foreground mt-4 text-sm">
+          Note: Guidelines evolve. Always follow your specific surgical team's instructions.
+        </p>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          Pre-Surgery Checklist
+        </h2>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li>Inform your surgeon AND anesthesiologist about your GLP-1 medication</li>
+          <li>Ask about specific timing for your last dose</li>
+          <li>Follow liquid diet instructions carefully (often 24-48 hours)</li>
+          <li>Report any nausea, vomiting, or bloating to your surgical team</li>
+          <li>Confirm fasting instructions (may be longer than standard 8 hours)</li>
+          <li>Discuss when to restart medication post-surgery</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8">
+      <CardContent className="p-6">
+        <h2 className="text-2xl font-bold text-foreground mb-4">
+          After Surgery
+        </h2>
+        <p className="text-muted-foreground mb-4">
+          Restarting your GLP-1 medication depends on several factors:
+        </p>
+        <ul className="list-disc list-inside text-muted-foreground space-y-2">
+          <li>Wait until you're tolerating oral intake well</li>
+          <li>May need to restart at a lower dose if GI system is sensitive</li>
+          <li>Some surgeries require longer delays (especially GI procedures)</li>
+          <li>Coordinate with both your surgeon and prescribing provider</li>
+        </ul>
+      </CardContent>
+    </Card>
+
+    <Card className="mb-8 border-primary/20 bg-primary/5">
+      <CardContent className="p-6">
+        <h3 className="text-xl font-bold text-foreground mb-3">
+          Key Takeaway
+        </h3>
+        <p className="text-muted-foreground">
+          GLP-1 medications are generally safe, but surgery requires special precautions.
+          Communication with your entire medical team is essential. Never hide medication
+          use from your surgical team—the aspiration risk is real and preventable with
+          proper planning.
+        </p>
+      </CardContent>
+    </Card>
+  </>
+);

@@ -48,6 +48,11 @@ import {
   OzempicFatigueContent,
   GLP1JointPainContent,
   GLP1BloodPressureContent,
+  GLP1AndDigestionContent,
+  GLP1MealTimingContent,
+  GLP1HydrationContent,
+  GLP1ProteinNeedsContent,
+  GLP1SurgeryGuideContent,
 } from "./article-content";
 
 // Article type definition
@@ -1847,6 +1852,146 @@ const articles: Record<string, Article> = {
     relatedArticles: [
       { slug: "glp-1-heart-health", title: "GLP-1 and Heart Health" },
       { slug: "ozempic-vs-mounjaro", title: "Ozempic vs Mounjaro Comparison" },
+    ],
+    relatedGuides: [
+      { href: "/best-online-semaglutide-program", title: "Best Online Semaglutide Programs" },
+    ],
+  },
+  "glp-1-and-digestion": {
+    slug: "glp-1-and-digestion",
+    title: "How GLP-1 Medications Affect Your Digestive System",
+    metaTitle: "GLP-1 & Digestion: Understanding Gut Effects (2025 Guide)",
+    description:
+      "Learn how Ozempic and other GLP-1 medications affect digestion, including delayed gastric emptying. Tips for managing digestive side effects.",
+    keywords: [
+      "GLP-1 digestion",
+      "Ozempic stomach",
+      "gastric emptying",
+      "GLP-1 gut health",
+      "semaglutide digestion",
+    ],
+    image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&q=80&fit=crop&crop=center",
+    imageAlt: "Digestive health and wellness concept",
+    date: "December 5, 2025",
+    readTime: "9 min read",
+    category: "Side Effects",
+    author: "Rx Saver Hub Team",
+    content: <GLP1AndDigestionContent />,
+    relatedArticles: [
+      { slug: "managing-ozempic-nausea", title: "Managing Ozempic Nausea" },
+      { slug: "ozempic-constipation-relief", title: "Ozempic Constipation Relief" },
+    ],
+    relatedGuides: [
+      { href: "/best-online-semaglutide-program", title: "Best Online Semaglutide Programs" },
+    ],
+  },
+  "glp-1-meal-timing": {
+    slug: "glp-1-meal-timing",
+    title: "Meal Timing on GLP-1 Medications: A Complete Guide",
+    metaTitle: "Best Meal Timing on Ozempic & Mounjaro (2025 Guide)",
+    description:
+      "Discover the best meal timing strategies while taking GLP-1 medications. Learn when and how often to eat for optimal results and minimal side effects.",
+    keywords: [
+      "meal timing Ozempic",
+      "when to eat GLP-1",
+      "semaglutide eating schedule",
+      "Mounjaro meal plan",
+      "GLP-1 eating tips",
+    ],
+    image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&q=80&fit=crop&crop=center",
+    imageAlt: "Healthy meal timing and nutrition",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Lifestyle",
+    author: "Rx Saver Hub Team",
+    content: <GLP1MealTimingContent />,
+    relatedArticles: [
+      { slug: "ideal-diet-while-taking-glp-1-weight-loss-medications", title: "Ideal Diet on GLP-1s" },
+      { slug: "glp-1-and-digestion", title: "GLP-1 and Digestion" },
+    ],
+    relatedGuides: [
+      { href: "/best-online-tirzepatide-program", title: "Best Online Tirzepatide Programs" },
+    ],
+  },
+  "glp-1-hydration-guide": {
+    slug: "glp-1-hydration-guide",
+    title: "Staying Hydrated on GLP-1 Medications",
+    metaTitle: "Hydration on Ozempic: How Much Water to Drink (2025)",
+    description:
+      "Learn why proper hydration is crucial while taking GLP-1 medications. Discover how much water you need and strategies to stay hydrated.",
+    keywords: [
+      "hydration Ozempic",
+      "water intake GLP-1",
+      "semaglutide dehydration",
+      "drinking water Mounjaro",
+      "GLP-1 fluid intake",
+    ],
+    image: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80&fit=crop&crop=center",
+    imageAlt: "Water and hydration concept",
+    date: "December 5, 2025",
+    readTime: "7 min read",
+    category: "Lifestyle",
+    author: "Rx Saver Hub Team",
+    content: <GLP1HydrationContent />,
+    relatedArticles: [
+      { slug: "ozempic-constipation-relief", title: "Ozempic Constipation Relief" },
+      { slug: "managing-ozempic-nausea", title: "Managing Ozempic Nausea" },
+    ],
+    relatedGuides: [
+      { href: "/best-online-semaglutide-program", title: "Best Online Semaglutide Programs" },
+    ],
+  },
+  "glp-1-protein-requirements": {
+    slug: "glp-1-protein-requirements",
+    title: "Protein Requirements on GLP-1 Medications",
+    metaTitle: "How Much Protein on Ozempic? Complete Guide (2025)",
+    description:
+      "Discover why protein is critical while taking GLP-1 medications. Learn how much you need and the best sources to prevent muscle loss.",
+    keywords: [
+      "protein Ozempic",
+      "muscle loss GLP-1",
+      "semaglutide protein intake",
+      "preventing muscle loss weight loss",
+      "Mounjaro nutrition",
+    ],
+    image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&q=80&fit=crop&crop=center",
+    imageAlt: "High protein foods and nutrition",
+    date: "December 5, 2025",
+    readTime: "8 min read",
+    category: "Nutrition",
+    author: "Rx Saver Hub Team",
+    content: <GLP1ProteinNeedsContent />,
+    relatedArticles: [
+      { slug: "how-to-prevent-muscle-loss-on-glp-1", title: "Preventing Muscle Loss on GLP-1" },
+      { slug: "glp-1-and-exercise", title: "GLP-1 and Exercise" },
+    ],
+    relatedGuides: [
+      { href: "/best-online-tirzepatide-program", title: "Best Online Tirzepatide Programs" },
+    ],
+  },
+  "glp-1-surgery-preparation": {
+    slug: "glp-1-surgery-preparation",
+    title: "Surgery While Taking GLP-1 Medications: What You Need to Know",
+    metaTitle: "Ozempic Before Surgery: Important Safety Guide (2025)",
+    description:
+      "Essential information about GLP-1 medications and surgery. Learn when to stop Ozempic or Mounjaro before procedures and aspiration risks.",
+    keywords: [
+      "Ozempic surgery",
+      "GLP-1 anesthesia",
+      "stop semaglutide before surgery",
+      "Mounjaro procedure",
+      "GLP-1 aspiration risk",
+    ],
+    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80&fit=crop&crop=center",
+    imageAlt: "Medical surgery preparation concept",
+    date: "December 5, 2025",
+    readTime: "9 min read",
+    category: "Safety",
+    author: "Rx Saver Hub Team",
+    content: <GLP1SurgeryGuideContent />,
+    relatedArticles: [
+      { slug: "glp-1-and-digestion", title: "GLP-1 and Digestion" },
+      { slug: "how-to-travel-with-your-medication", title: "Traveling with GLP-1 Medications" },
     ],
     relatedGuides: [
       { href: "/best-online-semaglutide-program", title: "Best Online Semaglutide Programs" },

@@ -85,6 +85,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/articles/ozempic-fatigue',
     '/articles/glp-1-and-joint-pain',
     '/articles/glp-1-and-blood-pressure',
+    '/articles/glp-1-and-digestion',
+    '/articles/glp-1-meal-timing',
+    '/articles/glp-1-hydration-guide',
+    '/articles/glp-1-protein-requirements',
+    '/articles/glp-1-surgery-preparation',
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified,
