@@ -4,124 +4,14 @@ import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Star, ArrowRight, Crown } from "lucide-react";
+import { providers, getRatingColor } from "@/lib/providers";
 
 export const metadata: Metadata = {
   title: "Weight Loss Provider Reviews | Rx Saver Hub",
   description:
     "Read in-depth reviews of the top weight loss treatment providers. Compare features, pricing, and find the best GLP-1 program for your needs.",
 };
-
-const providers = [
-  {
-    rank: 1,
-    name: "CoreAge Rx",
-    slug: "coreage-rx",
-    rating: 9.9,
-    ratingLabel: "Outstanding",
-    description: "Premium GLP-1 weight loss program with personalized treatment plans from board-certified physicians.",
-    badge: "Editor's Choice",
-    badgeColor: "bg-primary text-primary-foreground",
-  },
-  {
-    rank: 2,
-    name: "Mochi Health",
-    slug: "mochi-health",
-    rating: 8.8,
-    ratingLabel: "Very Good",
-    description: "Affordable GLP-1 access starting at $99/mo with live video visits and 24/7 support.",
-    badge: "Best Value",
-    badgeColor: "bg-teal-500 text-white",
-  },
-  {
-    rank: 3,
-    name: "Ro",
-    slug: "ro",
-    rating: 8.6,
-    ratingLabel: "Very Good",
-    description: "FDA-approved GLP-1s at competitive prices with access to Ozempic®, Tirzepatide & Semaglutide.",
-    badge: "Top Rated",
-    badgeColor: "bg-emerald-500 text-white",
-  },
-  {
-    rank: 4,
-    name: "Noom",
-    slug: "noom",
-    rating: 8.4,
-    ratingLabel: "Good",
-    description: "Online prescriptions with psychology-based approach and microdose options available.",
-    badge: null,
-    badgeColor: "",
-  },
-  {
-    rank: 5,
-    name: "Remedy Meds",
-    slug: "remedy-meds",
-    rating: 8.3,
-    ratingLabel: "Good",
-    description: "Lock in $199 for life pricing with America's trusted GLP-1 program.",
-    badge: null,
-    badgeColor: "",
-  },
-  {
-    rank: 6,
-    name: "Hers",
-    slug: "hers",
-    rating: 8.1,
-    ratingLabel: "Good",
-    description: "Monthly plans starting at $69/mo with treatment options including Ozempic®, Wegovy®, and more.",
-    badge: null,
-    badgeColor: "",
-  },
-  {
-    rank: 7,
-    name: "MEDVI",
-    slug: "medvi",
-    rating: 7.9,
-    ratingLabel: "Good",
-    description: "Simple online process with no clinic visits and 24/7 certified medical support.",
-    badge: null,
-    badgeColor: "",
-  },
-  {
-    rank: 8,
-    name: "Eden",
-    slug: "eden",
-    rating: 7.7,
-    ratingLabel: "Good",
-    description: "Same price every dose with no hidden fees and licensed medical professional supervision.",
-    badge: null,
-    badgeColor: "",
-  },
-  {
-    rank: 9,
-    name: "MyStart",
-    slug: "mystart",
-    rating: 7.5,
-    ratingLabel: "Good",
-    description: "Access to 600+ US-based doctors with no membership fees and compounded medications.",
-    badge: null,
-    badgeColor: "",
-  },
-  {
-    rank: 10,
-    name: "Clinic Secret",
-    slug: "clinic-secret",
-    rating: 7.3,
-    ratingLabel: "Fair",
-    description: "Personalized and affordable medication options with no evaluation or membership fees.",
-    badge: null,
-    badgeColor: "",
-  },
-];
-
-function getRatingColor(rating: number): string {
-  if (rating >= 9.5) return "text-emerald-600";
-  if (rating >= 9.0) return "text-teal-600";
-  if (rating >= 8.0) return "text-primary";
-  return "text-amber-600";
-}
 
 export default function ReviewsPage() {
   return (
