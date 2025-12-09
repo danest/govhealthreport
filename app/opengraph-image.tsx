@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { SITE_NAME, SITE_TAGLINE, BRAND_PRIMARY_COLOR } from "@/lib/site-config";
+import { SITE_NAME, SITE_TAGLINE } from "@/lib/site-config";
 
 export const runtime = "edge";
 
@@ -10,12 +10,17 @@ export const size = {
 };
 export const contentType = "image/png";
 
+// Government theme colors
+const NAVY = "#003366";
+const GOLD = "#ffc72c";
+const RED = "#a31621";
+
 export default async function Image() {
   return new ImageResponse(
     (
       <div
         style={{
-          background: `linear-gradient(135deg, ${BRAND_PRIMARY_COLOR} 0%, #047857 100%)`,
+          background: NAVY,
           width: "100%",
           height: "100%",
           display: "flex",
@@ -23,30 +28,77 @@ export default async function Image() {
           alignItems: "center",
           justifyContent: "center",
           padding: "60px",
+          position: "relative",
         }}
       >
-        {/* Logo circle */}
+        {/* Gold accent bar at top */}
         <div
           style={{
-            width: "120px",
-            height: "120px",
-            borderRadius: "60px",
-            backgroundColor: "white",
+            position: "absolute",
+            top: 0,
+            left: 0,
+            right: 0,
+            height: "16px",
+            background: GOLD,
+          }}
+        />
+
+        {/* Red disclaimer bar */}
+        <div
+          style={{
+            position: "absolute",
+            top: "16px",
+            left: 0,
+            right: 0,
+            height: "40px",
+            background: RED,
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            marginBottom: "40px",
-            boxShadow: "0 4px 20px rgba(0,0,0,0.2)",
           }}
         >
+          <span style={{ color: "white", fontSize: "18px", fontWeight: 600 }}>
+            NOT A GOVERNMENT WEBSITE - Independent Health Review Site
+          </span>
+        </div>
+
+        {/* Logo square */}
+        <div
+          style={{
+            width: "140px",
+            height: "140px",
+            borderRadius: "16px",
+            backgroundColor: "white",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            marginBottom: "40px",
+            boxShadow: "0 4px 20px rgba(0,0,0,0.3)",
+            position: "relative",
+            overflow: "hidden",
+          }}
+        >
+          {/* Gold bar on logo */}
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              right: 0,
+              height: "20px",
+              background: GOLD,
+            }}
+          />
           <span
             style={{
-              fontSize: "48px",
-              fontWeight: 700,
-              color: BRAND_PRIMARY_COLOR,
+              fontSize: "52px",
+              fontWeight: 800,
+              color: NAVY,
+              marginTop: "10px",
             }}
           >
-            Rx
+            GOV
           </span>
         </div>
 
@@ -58,7 +110,7 @@ export default async function Image() {
             color: "white",
             margin: 0,
             textAlign: "center",
-            textShadow: "0 2px 10px rgba(0,0,0,0.2)",
+            textShadow: "0 2px 10px rgba(0,0,0,0.3)",
           }}
         >
           {SITE_NAME}
@@ -76,7 +128,7 @@ export default async function Image() {
           {SITE_TAGLINE}
         </p>
 
-        {/* Bottom decorative pills */}
+        {/* Bottom gold accent */}
         <div
           style={{
             display: "flex",
@@ -86,29 +138,40 @@ export default async function Image() {
         >
           <div
             style={{
-              width: "80px",
-              height: "30px",
-              borderRadius: "15px",
-              backgroundColor: "rgba(255,255,255,0.3)",
+              width: "120px",
+              height: "6px",
+              backgroundColor: GOLD,
             }}
           />
           <div
             style={{
               width: "80px",
-              height: "30px",
-              borderRadius: "15px",
-              backgroundColor: "rgba(255,255,255,0.4)",
+              height: "6px",
+              backgroundColor: GOLD,
+              opacity: 0.7,
             }}
           />
           <div
             style={{
-              width: "80px",
-              height: "30px",
-              borderRadius: "15px",
-              backgroundColor: "rgba(255,255,255,0.3)",
+              width: "40px",
+              height: "6px",
+              backgroundColor: GOLD,
+              opacity: 0.5,
             }}
           />
         </div>
+
+        {/* Gold accent bar at bottom */}
+        <div
+          style={{
+            position: "absolute",
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: "8px",
+            background: GOLD,
+          }}
+        />
       </div>
     ),
     {
