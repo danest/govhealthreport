@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Clock, Sun, Moon, Calendar } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Time to Take Tirzepatide for Weight Loss 2025 | Rx Saver Hub",
+  title: "Best Time to Take Tirzepatide for Weight Loss 2025 | GOV Health Report",
   description:
     "Discover the optimal time to take tirzepatide (Mounjaro, Zepbound) for best results. Learn about weekly dosing schedules, timing tips, and how to manage side effects.",
   keywords: [

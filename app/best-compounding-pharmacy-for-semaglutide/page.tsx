@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, FlaskConical, ShieldCheck, BadgeCheck, AlertCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Compounding Pharmacy for Semaglutide 2025 | Rx Saver Hub",
+  title: "Best Compounding Pharmacy for Semaglutide 2025 | GOV Health Report",
   description:
     "Find the best compounding pharmacies for semaglutide. Learn about quality standards, pricing, and what to look for when choosing a compounded GLP-1 medication provider.",
   keywords: [

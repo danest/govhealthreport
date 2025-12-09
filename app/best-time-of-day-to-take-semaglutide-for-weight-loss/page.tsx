@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Clock, Sun, Moon, Coffee, Utensils } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Time of Day to Take Semaglutide for Weight Loss 2025 | Rx Saver Hub",
+  title: "Best Time of Day to Take Semaglutide for Weight Loss 2025 | GOV Health Report",
   description:
     "Discover the optimal time of day to take semaglutide for maximum weight loss results. Learn about morning vs evening injections and tips for managing side effects.",
   keywords: [

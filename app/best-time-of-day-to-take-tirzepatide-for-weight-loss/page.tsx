@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Clock, Sun, Moon, Calendar, Lightbulb } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Time of Day to Take Tirzepatide for Weight Loss 2025 | Rx Saver Hub",
+  title: "Best Time of Day to Take Tirzepatide for Weight Loss 2025 | GOV Health Report",
   description:
     "Find the optimal time of day to take tirzepatide for maximum weight loss. Compare morning vs evening injections and learn tips for minimizing side effects.",
   keywords: [

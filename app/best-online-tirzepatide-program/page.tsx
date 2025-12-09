@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Laptop, Shield, Zap, TrendingDown } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Online Tirzepatide Program 2025 - Compare Top Telehealth Providers | Rx Saver Hub",
+  title: "Best Online Tirzepatide Program 2025 - Compare Top Telehealth Providers | GOV Health Report",
   description:
     "Find the best online tirzepatide program for weight loss. Compare telehealth providers offering Mounjaro, Zepbound, and compounded tirzepatide with medical supervision.",
   keywords: [

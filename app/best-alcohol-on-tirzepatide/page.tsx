@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Wine, AlertTriangle, CheckCircle, XCircle, Info } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Alcohol to Drink on Tirzepatide 2025 | Rx Saver Hub",
+  title: "Best Alcohol to Drink on Tirzepatide 2025 | GOV Health Report",
   description:
     "Learn which alcoholic drinks are safest while taking tirzepatide (Mounjaro, Zepbound). Understand the risks and best practices for drinking on GLP-1 medications.",
   keywords: [

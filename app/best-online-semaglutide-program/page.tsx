@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Laptop, CheckCircle, Users, HeartPulse } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Online Semaglutide Program 2025 - Compare Top Telehealth Providers | Rx Saver Hub",
+  title: "Best Online Semaglutide Program 2025 - Compare Top Telehealth Providers | GOV Health Report",
   description:
     "Compare the best online semaglutide programs for weight loss. Find telehealth providers offering Wegovy, Ozempic, and compounded semaglutide with medical supervision.",
   keywords: [

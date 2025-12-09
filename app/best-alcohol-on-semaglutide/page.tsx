@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Wine, AlertTriangle, CheckCircle, XCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Alcohol to Drink on Semaglutide 2025 | Rx Saver Hub",
+  title: "Best Alcohol to Drink on Semaglutide 2025 | GOV Health Report",
   description:
     "Learn which alcoholic drinks are safest while taking semaglutide. Understand the risks, best choices, and tips for drinking responsibly on GLP-1 medications.",
   keywords: [

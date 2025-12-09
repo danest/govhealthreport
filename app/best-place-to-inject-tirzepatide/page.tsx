@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Target, AlertTriangle, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Place to Inject Tirzepatide - Injection Sites Guide 2025 | Rx Saver Hub",
+  title: "Best Place to Inject Tirzepatide - Injection Sites Guide 2025 | GOV Health Report",
   description:
     "Learn the best injection sites for tirzepatide (Mounjaro, Zepbound). Step-by-step guide for abdomen, thigh, and upper arm injections with tips for reducing pain and bruising.",
   keywords: [

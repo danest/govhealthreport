@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, Pill, Star, AlertCircle, Sparkles } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Vitamins to Take While on Tirzepatide 2025 | Rx Saver Hub",
+  title: "Best Vitamins to Take While on Tirzepatide 2025 | GOV Health Report",
   description:
     "Discover the essential vitamins and supplements to take while on tirzepatide (Mounjaro, Zepbound). Support your health and prevent deficiencies during weight loss.",
   keywords: [

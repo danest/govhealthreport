@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { ArrowLeft, MapPin, Shield, Clock, DollarSign, Stethoscope } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Best Place to Get Tirzepatide in 2025 | Rx Saver Hub",
+  title: "Best Place to Get Tirzepatide in 2025 | GOV Health Report",
   description:
     "Find the best places to get tirzepatide for weight loss. Compare telehealth providers, compounding pharmacies, and online programs offering affordable tirzepatide prescriptions.",
   keywords: [
