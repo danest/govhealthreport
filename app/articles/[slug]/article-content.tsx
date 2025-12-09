@@ -5271,7 +5271,7 @@ export const GLP1SurgeryGuideContent = () => (
     <Card className="mb-8">
       <CardContent className="p-6">
         <h2 className="text-2xl font-bold text-foreground mb-4">
-          Current Guidelines (2024-2025)
+          Current Guidelines (2025)
         </h2>
         <p className="text-muted-foreground mb-4">
           The American Society of Anesthesiologists recommends:

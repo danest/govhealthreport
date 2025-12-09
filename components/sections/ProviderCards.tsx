@@ -88,7 +88,7 @@ export function ProviderCards() {
                 Verified Provider Directory
               </h2>
               <p className="text-sm text-gray-600">
-                Independent Assessments • Updated December 2024
+                Independent Assessments • Updated December 2025
               </p>
             </div>
           </div>
