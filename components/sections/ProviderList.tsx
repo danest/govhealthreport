@@ -1,10 +1,8 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { TrackedLink } from "@/components/ui/tracked-link";
-import { Check, Star, ExternalLink, Award, Crown, Shield, TrendingUp } from "lucide-react";
+import { Check, Star, ExternalLink, Award, Crown, Shield, TrendingUp, AlertTriangle } from "lucide-react";
 
 const UTM_PARAMS = "?utm_source=govhealthreport&utm_medium=affiliate&utm_campaign=weight_loss";
 
@@ -13,12 +11,12 @@ const providers = [
     rank: 1,
     name: "CoreAge Rx",
     slug: "coreage-rx",
-    rating: 9.9,
+    rating: 9.8,
     ratingLabel: "Outstanding",
     votes: "32,847",
     visitsToday: "2,156",
-    badge: "Most Popular",
-    badgeColor: "bg-primary text-primary-foreground",
+    badge: "Editor's Choice",
+    badgeColor: "bg-[#ffc72c] text-[#003366]",
     highlights: [
       "Premium GLP-1 Weight Loss Program",
       "FDA-Approved Semaglutide & Tirzepatide",
@@ -29,180 +27,186 @@ const providers = [
   },
   {
     rank: 2,
-    name: "Mochi Health",
-    slug: "mochi-health",
-    rating: 8.8,
-    ratingLabel: "Very Good",
-    votes: "22,148",
-    visitsToday: "1,004",
+    name: "Henry Meds",
+    slug: "henry-meds",
+    rating: 9.4,
+    ratingLabel: "Excellent",
+    votes: "28,492",
+    visitsToday: "1,847",
     badge: "Best Value",
-    badgeColor: "bg-teal-500 text-white",
+    badgeColor: "bg-[#003366] text-white",
     highlights: [
-      "Meds start at $99/mo, No Long-Term Commitment",
-      "Book a Live Video Visit With a Doctor in 5 Minutes",
-      "Reliable GLP-1 Prescription Access, All 50 states",
-      "24/7 Support + Ongoing Appointments Anytime, Anywhere",
+      "Compounded GLP-1s Starting at $199/month",
+      "No Hidden Fees, Free Shipping Included",
+      "Licensed Physicians in All 50 States",
+      "Fast Online Consultation Process",
     ],
-    url: "https://www.joinmochi.com/",
+    url: "https://www.henrymeds.com/",
   },
   {
     rank: 3,
-    name: "Ro",
-    slug: "ro",
-    rating: 8.6,
-    ratingLabel: "Very Good",
-    votes: "28,114",
-    visitsToday: "1,468",
-    badge: "Top Rated",
-    badgeColor: "bg-emerald-500 text-white",
+    name: "Hims",
+    slug: "hims",
+    rating: 9.2,
+    ratingLabel: "Excellent",
+    votes: "31,205",
+    visitsToday: "1,654",
+    badge: "Most Popular",
+    badgeColor: "bg-[#003366] text-white",
     highlights: [
-      "December Sale: Get Started Online for Just $45",
-      "FDA-Approved GLP-1s at Half the Usual Price",
-      "Access to Ozempic®, Tirzepatide & Semaglutide",
-      "Lose 10%–26% Body Weight Within 12 Months",
+      "GLP-1 Medications From $199/month",
+      "Trusted by Millions of Customers",
+      "Discreet Packaging & Fast Delivery",
+      "24/7 Access to Healthcare Providers",
     ],
-    url: "https://www.ro.co/weight-loss/",
+    url: "https://www.forhims.com/",
   },
   {
     rank: 4,
-    name: "Noom",
-    slug: "noom",
-    rating: 8.4,
-    ratingLabel: "Good",
-    votes: "26,388",
-    visitsToday: "892",
+    name: "Found",
+    slug: "found",
+    rating: 8.9,
+    ratingLabel: "Very Good",
+    votes: "24,118",
+    visitsToday: "1,203",
     badge: null,
     badgeColor: "",
     highlights: [
-      "December Sale: Starting at $99 — No Insurance Required",
-      "100% Online Prescriptions with Fast & Free Shipping",
-      "Microdose Available - 0 Side Effects for Most",
-      "24/7 Support + Ongoing Appointments Anytime, Anywhere",
+      "Personalized Weight Loss Programs",
+      "Board-Certified Obesity Medicine Doctors",
+      "Behavior Change Coaching Included",
+      "Multiple Medication Options Available",
     ],
-    url: "https://www.noom.com/",
+    url: "https://www.joinfound.com/",
   },
   {
     rank: 5,
-    name: "Remedy Meds",
-    slug: "remedy-meds",
-    rating: 8.3,
-    ratingLabel: "Good",
-    votes: "30,025",
-    visitsToday: "1,238",
+    name: "Juniper",
+    slug: "juniper",
+    rating: 8.7,
+    ratingLabel: "Very Good",
+    votes: "19,847",
+    visitsToday: "987",
     badge: null,
     badgeColor: "",
     highlights: [
-      "Lock in $199 for Life - Limited Time Offer",
-      "Save $100 Every Month, Forever",
-      "The Only GLP-1 Program With Lifetime Monthly Savings",
-      "America's #1 Trusted GLP-1 Program Now $199 for Life",
+      "Holistic Weight Management Approach",
+      "Dietitian Support Included",
+      "Semaglutide & Tirzepatide Available",
+      "Ongoing Health Coaching Sessions",
     ],
-    url: "https://www.remedymeds.com/",
+    url: "https://www.myjuniper.com/",
   },
   {
     rank: 6,
-    name: "Hers",
-    slug: "hers",
-    rating: 8.1,
-    ratingLabel: "Good",
-    votes: "23,389",
+    name: "LifeMD",
+    slug: "lifemd",
+    rating: 8.5,
+    ratingLabel: "Very Good",
+    votes: "22,651",
     visitsToday: null,
     badge: null,
     badgeColor: "",
     highlights: [
-      "Monthly Plans Starting at $69/Mo",
-      "Treatment Plans with Ozempic®, Wegovy®, Mounjaro®, Zepbound®",
-      "$0 Membership Fees. Secure 1-12 Months of Weight Loss Treatment",
-      "24/7 Access to Licensed Providers for Questions in the App",
+      "Complete Telehealth Platform",
+      "GLP-1 Weight Loss Programs",
+      "Virtual Doctor Visits Available",
+      "Prescription Delivered to Your Door",
     ],
-    url: "https://www.forhers.com/",
+    url: "https://www.lifemd.com/",
   },
   {
     rank: 7,
-    name: "MEDVI",
-    slug: "medvi",
-    rating: 7.9,
+    name: "Sesame",
+    slug: "sesame",
+    rating: 8.3,
     ratingLabel: "Good",
-    votes: "27,995",
+    votes: "18,994",
     visitsToday: null,
     badge: null,
     badgeColor: "",
     highlights: [
-      "Special Offer: Save $120 + Free Shipping",
-      "Simple Online Process, No Clinic Visits Needed",
-      "Same Active Ingredient as Wegovy® & Ozempic®",
-      "24/7 Support From Certified Medical Professionals",
+      "Affordable Doctor Consultations",
+      "Compare Prices Across Providers",
+      "GLP-1 Prescriptions Available",
+      "No Membership Fees Required",
     ],
-    url: "https://www.medvii.com/",
+    url: "https://www.sesamecare.com/",
   },
   {
     rank: 8,
-    name: "Eden",
-    slug: "eden",
-    rating: 7.7,
+    name: "Teladoc",
+    slug: "teladoc",
+    rating: 8.1,
     ratingLabel: "Good",
-    votes: "24,271",
+    votes: "26,773",
     visitsToday: null,
     badge: null,
     badgeColor: "",
     highlights: [
-      "Save $100 on Your First Order with SAVE100",
-      "Free Expedited Shipping - From $196",
-      "Same Price, Every Dose. No Hidden Fees",
-      "Safe Treatment Supervised by Licensed Medical Professionals",
+      "Established Telehealth Leader",
+      "Weight Management Programs",
+      "Insurance Often Accepted",
+      "Licensed Physicians Nationwide",
     ],
-    url: "https://www.edenhealth.com/",
+    url: "https://www.teladoc.com/",
   },
   {
     rank: 9,
-    name: "MyStart",
-    slug: "mystart",
-    rating: 7.5,
+    name: "Fella Health",
+    slug: "fella-health",
+    rating: 7.8,
     ratingLabel: "Good",
-    votes: "24,790",
+    votes: "15,882",
     visitsToday: null,
     badge: null,
     badgeColor: "",
     highlights: [
-      "Exclusive Offer: Save $120 + Free Shipping",
-      "Access to 600+ US-Based Doctors",
-      "No Membership Fees. Everything you need is included",
-      "Compounded Semaglutide & Tirzepatide",
+      "Men's Weight Loss Specialists",
+      "GLP-1 Medications Available",
+      "Metabolic Health Focus",
+      "Personalized Treatment Plans",
     ],
-    url: "https://www.mystart.com/",
+    url: "https://www.fellahealth.com/",
   },
   {
     rank: 10,
-    name: "Clinic Secret",
-    slug: "clinic-secret",
-    rating: 7.3,
-    ratingLabel: "Fair",
-    votes: "16,388",
+    name: "Form Health",
+    slug: "form-health",
+    rating: 7.6,
+    ratingLabel: "Good",
+    votes: "14,205",
     visitsToday: null,
     badge: null,
     badgeColor: "",
     highlights: [
-      "Limited Offer: $100 Off With Code BEST2025",
-      "Personalized & Affordable Medication Options",
-      "No Evaluation or Membership Fees",
-      "Get Access to Ozempic, Semaglutide & Tirzepatide",
+      "Medical Weight Loss Program",
+      "Board-Certified Doctors",
+      "Insurance May Be Accepted",
+      "Comprehensive Health Approach",
     ],
-    url: "https://www.clinicsecret.com/",
+    url: "https://www.formhealth.co/",
   },
 ];
 
 function getRatingColor(rating: number): string {
-  if (rating >= 9.5) return "text-emerald-600";
-  if (rating >= 9.0) return "text-teal-600";
-  if (rating >= 8.0) return "text-primary";
-  return "text-amber-600";
+  if (rating >= 9.5) return "text-[#003366]";
+  if (rating >= 9.0) return "text-[#003366]";
+  if (rating >= 8.0) return "text-[#003366]";
+  return "text-[#003366]";
 }
 
 export function ProviderList() {
   return (
     <section className="py-8">
-      <div className="space-y-6">
-        {providers.map((provider) => (
+      {/* Section Header */}
+      <div className="bg-[#003366] text-white px-4 py-3 rounded-t-lg flex items-center gap-2 mb-0">
+        <Award className="h-5 w-5 text-[#ffc72c]" />
+        <span className="font-medium">Top 10 Weight Loss Providers - December 2025 Rankings</span>
+      </div>
+
+      <div className="space-y-0 border-2 border-[#003366] border-t-0 rounded-b-lg overflow-hidden">
+        {providers.map((provider, index) => (
           <TrackedLink
             key={provider.name}
             href={`${provider.url}${UTM_PARAMS}`}
@@ -214,70 +218,77 @@ export function ProviderList() {
             position={provider.rank}
             elementType="card_click"
           >
-            <Card
-              className={`overflow-hidden transition-all duration-300 hover:shadow-lg cursor-pointer ${
+            <div
+              className={`transition-all duration-300 hover:bg-[#e8eef4] cursor-pointer ${
                 provider.rank === 1
-                  ? "border-primary shadow-xl ring-2 ring-primary/30 scale-[1.02] relative"
-                  : provider.rank === 2
-                  ? "border-teal-500/50 ring-1 ring-teal-500/20"
-                  : provider.rank === 3
-                  ? "border-emerald-500/50 ring-1 ring-emerald-500/20"
-                  : "border-border/50"
+                  ? "bg-[#ffc72c]/10 border-b-2 border-[#ffc72c]"
+                  : index < providers.length - 1
+                  ? "bg-white border-b border-[#003366]/20"
+                  : "bg-white"
               }`}
             >
               {/* #1 Provider Banner */}
               {provider.rank === 1 && (
-                <div className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground text-center py-3 text-sm font-semibold flex items-center justify-center gap-2">
-                  <Crown className="h-5 w-5" />
-                  #1 RECOMMENDED PROVIDER - EDITOR'S CHOICE
-                  <Crown className="h-5 w-5" />
+                <div className="bg-[#003366] text-white text-center py-2 text-sm font-semibold flex items-center justify-center gap-2">
+                  <Crown className="h-4 w-4 text-[#ffc72c]" />
+                  <span>#1 RECOMMENDED PROVIDER - EDITOR'S CHOICE</span>
+                  <Crown className="h-4 w-4 text-[#ffc72c]" />
                 </div>
               )}
-              <CardContent className="p-0">
+
               <div className="flex flex-col lg:flex-row">
                 {/* Rank & Rating Section */}
-                <div className="flex items-center gap-4 p-6 lg:w-64 lg:flex-col lg:justify-center lg:border-r lg:border-border/50 bg-muted/30">
-                  <div className="flex h-14 w-14 items-center justify-center rounded-full bg-primary text-2xl font-bold text-primary-foreground">
+                <div className="flex items-center gap-4 p-4 lg:w-56 lg:flex-col lg:justify-center lg:border-r lg:border-[#003366]/20">
+                  <div className={`flex h-12 w-12 items-center justify-center rounded text-xl font-bold ${
+                    provider.rank === 1
+                      ? "bg-[#ffc72c] text-[#003366]"
+                      : provider.rank <= 3
+                      ? "bg-[#003366] text-white"
+                      : "bg-[#e8eef4] text-[#003366]"
+                  }`}>
                     #{provider.rank}
                   </div>
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-foreground">
+                    <div className="text-xl font-bold text-[#003366]">
                       {provider.name}
                     </div>
-                    <div className="mt-2 flex items-center justify-center gap-1">
-                      <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                      <span className={`text-xl font-bold ${getRatingColor(provider.rating)}`}>
+                    <div className="mt-1 flex items-center justify-center gap-1">
+                      <Star className="h-4 w-4 fill-[#ffc72c] text-[#ffc72c]" />
+                      <span className={`text-lg font-bold ${getRatingColor(provider.rating)}`}>
                         {provider.rating}
                       </span>
-                      <span className="text-sm text-muted-foreground">/10</span>
+                      <span className="text-xs text-gray-500">/10</span>
                     </div>
-                    <div className={`text-sm font-medium ${getRatingColor(provider.rating)}`}>
+                    <div className="text-xs font-medium text-gray-600">
                       {provider.ratingLabel}
                     </div>
                   </div>
                 </div>
 
                 {/* Main Content */}
-                <div className="flex-1 p-6">
-                  <div className="flex flex-wrap items-center gap-3 mb-4">
+                <div className="flex-1 p-4">
+                  <div className="flex flex-wrap items-center gap-2 mb-3">
                     {provider.badge && (
-                      <Badge className={provider.badgeColor}>
+                      <span className={`text-xs font-bold px-2 py-1 rounded ${provider.badgeColor}`}>
                         {provider.badge}
-                      </Badge>
+                      </span>
                     )}
                     {provider.visitsToday && (
-                      <div className="flex items-center gap-1 text-sm text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <TrendingUp className="h-4 w-4" />
+                      <div className="flex items-center gap-1 text-xs text-gray-500">
+                        <TrendingUp className="h-3 w-3" />
                         <span>{provider.visitsToday} visitors today</span>
                       </div>
                     )}
+                    <span className="text-xs text-gray-500">
+                      {provider.votes} reviews
+                    </span>
                   </div>
 
-                  <ul className="grid gap-2 sm:grid-cols-2">
-                    {provider.highlights.map((highlight, index) => (
-                      <li key={index} className="flex items-start gap-2">
-                        <Check className="h-5 w-5 text-primary shrink-0 mt-0.5" />
-                        <span className="text-sm text-muted-foreground">
+                  <ul className="grid gap-1 sm:grid-cols-2">
+                    {provider.highlights.map((highlight, idx) => (
+                      <li key={idx} className="flex items-start gap-2">
+                        <Check className="h-4 w-4 text-[#003366] shrink-0 mt-0.5" />
+                        <span className="text-sm text-gray-700">
                           {highlight}
                         </span>
                       </li>
@@ -286,32 +297,42 @@ export function ProviderList() {
                 </div>
 
                 {/* CTA Section */}
-                <div className="flex items-center justify-center p-6 lg:w-48 lg:border-l lg:border-border/50 bg-muted/20">
-                  <Button size="lg" className="w-full gap-2 cursor-pointer">
+                <div className="flex items-center justify-center p-4 lg:w-40 lg:border-l lg:border-[#003366]/20">
+                  <Button
+                    size="default"
+                    className={`w-full gap-2 cursor-pointer ${
+                      provider.rank === 1
+                        ? "bg-[#ffc72c] text-[#003366] hover:bg-[#e6b327]"
+                        : "bg-[#003366] text-white hover:bg-[#004080]"
+                    }`}
+                  >
                     Visit Site
                     <ExternalLink className="h-4 w-4" />
                   </Button>
                 </div>
               </div>
-              </CardContent>
-            </Card>
+            </div>
           </TrackedLink>
         ))}
       </div>
 
-      {/* Our Top Choice Section */}
-      <div className="mt-16">
-        <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 mb-4">
-            <Award className="h-8 w-8 text-primary" />
-            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              OUR TOP CHOICE
-            </h2>
-            <Award className="h-8 w-8 text-primary" />
-          </div>
-          <p className="max-w-2xl mx-auto text-lg text-muted-foreground">
-            After extensive research and analysis, we recommend CoreAge Rx as the best weight loss program available.
+      {/* Disclaimer */}
+      <div className="mt-4 bg-[#e8eef4] border border-[#003366] p-3 rounded-lg">
+        <div className="flex items-start gap-2">
+          <AlertTriangle className="h-4 w-4 text-[#003366] shrink-0 mt-0.5" />
+          <p className="text-xs text-[#003366]">
+            <strong>Disclosure:</strong> Rankings may be influenced by compensation. We may earn a commission when you click links on this page.
+            This is an independent review site and is NOT affiliated with any government agency.
           </p>
+        </div>
+      </div>
+
+      {/* Our Top Choice Section */}
+      <div className="mt-12">
+        <div className="bg-[#003366] text-white px-4 py-3 rounded-t-lg flex items-center justify-center gap-2">
+          <Award className="h-5 w-5 text-[#ffc72c]" />
+          <span className="font-bold">OUR TOP CHOICE</span>
+          <Award className="h-5 w-5 text-[#ffc72c]" />
         </div>
 
         <TrackedLink
@@ -324,81 +345,74 @@ export function ProviderList() {
           position={1}
           elementType="top_choice"
         >
-          <Card className="border-primary shadow-2xl ring-2 ring-primary/30 overflow-hidden cursor-pointer hover:shadow-3xl transition-all duration-300">
-            <div className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground text-center py-4 text-lg font-bold flex items-center justify-center gap-3">
-              <Crown className="h-6 w-6" />
-              COREAGE RX - #1 RECOMMENDED
-              <Crown className="h-6 w-6" />
-            </div>
-            <CardContent className="p-8">
-              <div className="grid gap-8 lg:grid-cols-2 items-center">
+          <div className="border-2 border-[#003366] border-t-0 rounded-b-lg overflow-hidden bg-white cursor-pointer hover:bg-[#f5f7fa] transition-all duration-300">
+            <div className="p-6">
+              <div className="grid gap-6 lg:grid-cols-2 items-center">
                 <div>
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary text-2xl font-bold text-primary-foreground">
+                    <div className="flex h-14 w-14 items-center justify-center rounded bg-[#ffc72c] text-xl font-bold text-[#003366]">
                       #1
                     </div>
                     <div>
-                      <h3 className="text-3xl font-bold text-foreground">CoreAge Rx</h3>
+                      <h3 className="text-2xl font-bold text-[#003366]">CoreAge Rx</h3>
                       <div className="flex items-center gap-2 mt-1">
-                        <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                        <span className="text-xl font-bold text-emerald-600">9.9</span>
-                        <span className="text-muted-foreground">/10 Outstanding</span>
+                        <Star className="h-4 w-4 fill-[#ffc72c] text-[#ffc72c]" />
+                        <span className="text-lg font-bold text-[#003366]">9.8</span>
+                        <span className="text-gray-500">/10 Outstanding</span>
                       </div>
                     </div>
                   </div>
 
-                  <p className="text-muted-foreground mb-6">
+                  <p className="text-gray-700 mb-4 text-sm">
                     CoreAge Rx stands out as our top recommendation for weight loss treatment. With their premium GLP-1 program,
                     FDA-approved medications, and personalized treatment plans from board-certified physicians, they offer the
                     complete package for achieving your weight loss goals.
                   </p>
 
-                  <ul className="space-y-3 mb-6">
-                    <li className="flex items-start gap-3">
-                      <Check className="h-6 w-6 text-primary shrink-0 mt-0.5" />
-                      <span className="text-foreground font-medium">Premium GLP-1 Weight Loss Program</span>
+                  <ul className="space-y-2">
+                    <li className="flex items-start gap-2">
+                      <Check className="h-5 w-5 text-[#003366] shrink-0 mt-0.5" />
+                      <span className="text-[#003366] font-medium text-sm">Premium GLP-1 Weight Loss Program</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Check className="h-6 w-6 text-primary shrink-0 mt-0.5" />
-                      <span className="text-foreground font-medium">FDA-Approved Semaglutide & Tirzepatide</span>
+                    <li className="flex items-start gap-2">
+                      <Check className="h-5 w-5 text-[#003366] shrink-0 mt-0.5" />
+                      <span className="text-[#003366] font-medium text-sm">FDA-Approved Semaglutide & Tirzepatide</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Check className="h-6 w-6 text-primary shrink-0 mt-0.5" />
-                      <span className="text-foreground font-medium">Personalized Treatment Plans</span>
+                    <li className="flex items-start gap-2">
+                      <Check className="h-5 w-5 text-[#003366] shrink-0 mt-0.5" />
+                      <span className="text-[#003366] font-medium text-sm">Personalized Treatment Plans</span>
                     </li>
-                    <li className="flex items-start gap-3">
-                      <Check className="h-6 w-6 text-primary shrink-0 mt-0.5" />
-                      <span className="text-foreground font-medium">Lose 10%–26% Body Weight Within 12 Months</span>
+                    <li className="flex items-start gap-2">
+                      <Check className="h-5 w-5 text-[#003366] shrink-0 mt-0.5" />
+                      <span className="text-[#003366] font-medium text-sm">Lose 10%–26% Body Weight Within 12 Months</span>
                     </li>
                   </ul>
                 </div>
 
-                <div className="flex flex-col items-center justify-center bg-muted/30 rounded-xl p-8">
-                  <div className="text-center mb-6">
-                    <div className="text-sm text-muted-foreground mb-2">Why Choose CoreAge Rx?</div>
-                    <div className="text-4xl font-bold text-primary mb-2">Best Overall</div>
-                    <div className="text-muted-foreground">Program for Weight Loss</div>
+                <div className="flex flex-col items-center justify-center bg-[#e8eef4] rounded-lg p-6">
+                  <div className="text-center mb-4">
+                    <div className="text-xs text-gray-600 mb-1">Why Choose CoreAge Rx?</div>
+                    <div className="text-2xl font-bold text-[#003366] mb-1">Best Overall</div>
+                    <div className="text-sm text-gray-600">Program for Weight Loss</div>
                   </div>
 
-                  <div className="flex items-center gap-4 mb-6 text-sm text-muted-foreground">
-                    <div className="flex items-center gap-1">
-                      <Shield className="h-4 w-4 text-primary" />
-                      <span>FDA-Approved</span>
-                    </div>
+                  <div className="flex items-center gap-2 mb-4 text-xs text-gray-600">
+                    <Shield className="h-4 w-4 text-[#003366]" />
+                    <span>FDA-Approved Medications</span>
                   </div>
 
-                  <Button size="lg" className="w-full h-14 text-lg cursor-pointer gap-2">
+                  <Button size="lg" className="w-full bg-[#ffc72c] text-[#003366] hover:bg-[#e6b327] cursor-pointer gap-2 font-bold">
                     Get Started with CoreAge Rx
                     <ExternalLink className="h-5 w-5" />
                   </Button>
 
-                  <p className="text-xs text-muted-foreground mt-4 text-center">
-                    Join thousands of satisfied customers who have transformed their lives
+                  <p className="text-xs text-gray-500 mt-3 text-center">
+                    Join thousands of satisfied customers
                   </p>
                 </div>
               </div>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         </TrackedLink>
       </div>
     </section>
