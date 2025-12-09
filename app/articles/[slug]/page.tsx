@@ -5,7 +5,16 @@ import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { Top3Providers } from "@/components/sections/Top3Providers";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowLeft, Calendar, Clock, User } from "lucide-react";
+import {
+  ArrowLeft,
+  Calendar,
+  Clock,
+  User,
+  FileText,
+  AlertTriangle,
+  BookOpen,
+  Shield,
+} from "lucide-react";
 import {
   IdealDietGLP1Content,
   DoWeightLossPillsWorkContent,
@@ -628,10 +637,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Healthy meal with protein and vegetables for GLP-1 diet",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Nutrition",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <IdealDietGLP1Content />,
     relatedArticles: [
       { slug: "best-fruits-for-weight-loss", title: "Best Fruits for Weight Loss" },
@@ -659,10 +668,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Weight loss medication pills and injections",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Research",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <DoWeightLossPillsWorkContent />,
     relatedArticles: [
       { slug: "who-should-not-take-ozempic", title: "Who Should Not Take Ozempic?" },
@@ -690,10 +699,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Facial changes and skincare during weight loss",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicFaceContent />,
     relatedArticles: [
       { slug: "who-should-not-take-ozempic", title: "Who Should Not Take Ozempic?" },
@@ -721,10 +730,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Fitness and weight maintenance concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Science",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <WeightSetPointContent />,
     relatedArticles: [
       { slug: "do-weight-loss-pills-and-injections-work", title: "Do Weight Loss Pills and Injections Work?" },
@@ -752,10 +761,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1494390248081-4e521a5940db?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Fresh berries and fruits for weight loss",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "6 min read",
     category: "Nutrition",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <BestFruitsWeightLossContent />,
     relatedArticles: [
       { slug: "ideal-diet-while-taking-glp-1-weight-loss-medications", title: "Ideal Diet on GLP-1 Medications" },
@@ -783,10 +792,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Doctor consultation about pregnancy and medication",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Safety",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicPregnancyContent />,
     relatedArticles: [
       { slug: "who-should-not-take-ozempic", title: "Who Should Not Take Ozempic?" },
@@ -815,10 +824,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Medical consultation about Ozempic safety and contraindications",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "10 min read",
     category: "Safety",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <WhoShouldNotTakeOzempicContent />,
     relatedArticles: [
       { slug: "do-glp-1-agonists-cause-gallstones", title: "Do GLP-1 Agonists Cause Gallstones?" },
@@ -847,10 +856,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Medical research on GLP-1 medications and gallstones",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GallstonesArticleContent />,
     relatedArticles: [
       { slug: "who-should-not-take-ozempic", title: "Who Should Not Take Ozempic?" },
@@ -878,10 +887,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Mental health and medication considerations",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicDepressionContent />,
     relatedArticles: [
       { slug: "who-should-not-take-ozempic", title: "Who Should Not Take Ozempic?" },
@@ -909,10 +918,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Medical consultation about Mounjaro safety",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Safety",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <WhoShouldNotTakeMounjaro />,
     relatedArticles: [
       { slug: "who-should-not-take-ozempic", title: "Who Should Not Take Ozempic?" },
@@ -941,10 +950,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Wine glass representing alcohol and medication considerations",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Lifestyle",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicAlcoholContent />,
     relatedArticles: [
       { slug: "who-should-not-take-ozempic", title: "Who Should Not Take Ozempic?" },
@@ -972,10 +981,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Airplane travel with medication",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Lifestyle",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <TravelWithMedicationContent />,
     relatedArticles: [
       { slug: "who-should-not-take-ozempic", title: "Who Should Not Take Ozempic?" },
@@ -1003,10 +1012,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Online coach video call consultation",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Resources",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OnlineWeightLossCoachContent />,
     relatedArticles: [
       { slug: "ideal-diet-while-taking-glp-1-weight-loss-medications", title: "Ideal Diet on GLP-1 Medications" },
@@ -1034,10 +1043,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Mother and baby representing Ozempic babies phenomenon",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Fertility",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicBabiesContent />,
     relatedArticles: [
       { slug: "can-you-take-ozempic-while-pregnant", title: "Can You Take Ozempic While Pregnant?" },
@@ -1064,10 +1073,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Red carpet Hollywood representing celebrity weight loss",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Culture",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <CelebritiesWeightLossDrugsContent />,
     relatedArticles: [
       { slug: "do-weight-loss-pills-and-injections-work", title: "Do Weight Loss Pills and Injections Work?" },
@@ -1092,10 +1101,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Wine glasses representing alcohol considerations",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Lifestyle",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <SemaglutideAlcoholContent />,
     relatedArticles: [
       { slug: "ozempic-and-alcohol", title: "Ozempic and Alcohol" },
@@ -1122,10 +1131,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Medication vials representing compounded vs brand comparison",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Medication",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <CompoundedVsBrandContent />,
     relatedArticles: [
       { slug: "do-weight-loss-pills-and-injections-work", title: "Do Weight Loss Pills Work?" },
@@ -1152,10 +1161,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Gym workout equipment for exercise",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Fitness",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1ExerciseContent />,
     relatedArticles: [
       { slug: "how-to-prevent-muscle-loss-on-glp-1", title: "How to Prevent Muscle Loss" },
@@ -1180,10 +1189,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1581009146145-b5ef050c149a?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Person strength training to prevent muscle loss",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Fitness",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <PreventMuscleLossContent />,
     relatedArticles: [
       { slug: "glp-1-and-exercise", title: "GLP-1 and Exercise" },
@@ -1209,10 +1218,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Medication comparison Ozempic vs Mounjaro",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Medication",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicVsMounjaro />,
     relatedArticles: [
       { slug: "who-should-not-take-ozempic", title: "Who Should Not Take Ozempic?" },
@@ -1238,10 +1247,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Clock representing Ozempic timeline",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Medication",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <HowLongOzempicWorkContent />,
     relatedArticles: [
       { slug: "ozempic-vs-mounjaro", title: "Ozempic vs Mounjaro" },
@@ -1266,10 +1275,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1563213126-a4273aed2016?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Empty pharmacy shelves representing shortage",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Resources",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicShortageContent />,
     relatedArticles: [
       { slug: "compounded-vs-brand-name-glp-1", title: "Compounded vs Brand Name GLP-1" },
@@ -1294,10 +1303,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Scale representing weight changes after stopping Ozempic",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Medication",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <StopTakingOzempicContent />,
     relatedArticles: [
       { slug: "how-long-to-establish-new-weight-set-point", title: "How Long to Establish New Weight Set Point?" },
@@ -1322,10 +1331,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Person managing medication side effects with strategies",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicNauseaContent />,
     relatedArticles: [
       { slug: "glp-1-side-effects-timeline", title: "GLP-1 Side Effects Timeline" },
@@ -1351,10 +1360,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Healthcare provider discussing PCOS treatment options",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Conditions",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1AndPCOSContent />,
     relatedArticles: [
       { slug: "ozempic-babies", title: "Ozempic Babies: The Surprising Fertility Effect" },
@@ -1379,10 +1388,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Insurance paperwork and medication costs concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Cost & Access",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <InsuranceCoverageContent />,
     relatedArticles: [
       { slug: "compounded-vs-brand-name-glp-1", title: "Compounded vs Brand Name GLP-1" },
@@ -1408,10 +1417,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Comparison of diabetes and weight loss medications",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Medication",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicDiabetesVsWeightLossContent />,
     relatedArticles: [
       { slug: "ozempic-vs-mounjaro", title: "Ozempic vs Mounjaro Comparison" },
@@ -1436,10 +1445,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Calendar representing medication side effects timeline",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <SideEffectsTimelineContent />,
     relatedArticles: [
       { slug: "managing-ozempic-nausea", title: "Managing Ozempic Nausea" },
@@ -1464,10 +1473,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Healthy foods for digestive health",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicConstipationContent />,
     relatedArticles: [
       { slug: "managing-ozempic-nausea", title: "Managing Ozempic Nausea" },
@@ -1492,10 +1501,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Healthcare provider examining thyroid area",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Safety",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1ThyroidContent />,
     relatedArticles: [
       { slug: "who-should-not-take-ozempic", title: "Who Should Not Take Ozempic?" },
@@ -1520,10 +1529,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Managing digestive health during weight loss treatment",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicDiarrheaContent />,
     relatedArticles: [
       { slug: "ozempic-constipation-relief", title: "Ozempic Constipation Relief" },
@@ -1548,10 +1557,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Hair health and nutrition during weight loss",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1HairLossContent />,
     relatedArticles: [
       { slug: "how-to-prevent-muscle-loss-on-glp-1", title: "Preventing Muscle Loss on GLP-1" },
@@ -1576,10 +1585,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Heart health and cardiovascular benefits",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Benefits",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1HeartHealthContent />,
     relatedArticles: [
       { slug: "ozempic-vs-mounjaro", title: "Ozempic vs Mounjaro Comparison" },
@@ -1604,10 +1613,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Person sleeping peacefully representing improved sleep quality",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Benefits",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1SleepApneaContent />,
     relatedArticles: [
       { slug: "glp-1-heart-health", title: "GLP-1 and Heart Health" },
@@ -1632,10 +1641,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Healthcare and kidney health concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Benefits",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1KidneyHealthContent />,
     relatedArticles: [
       { slug: "glp-1-heart-health", title: "GLP-1 and Heart Health" },
@@ -1660,10 +1669,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Liver health and medical treatment concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Benefits",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1FattyLiverContent />,
     relatedArticles: [
       { slug: "glp-1-and-kidney-health", title: "GLP-1 and Kidney Health" },
@@ -1688,10 +1697,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Women's health and hormonal changes concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Women's Health",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1MenstruationContent />,
     relatedArticles: [
       { slug: "glp-1-medications-and-pcos", title: "GLP-1 Medications and PCOS" },
@@ -1716,10 +1725,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Healthy aging and vitality concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Research",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1AgingContent />,
     relatedArticles: [
       { slug: "glp-1-heart-health", title: "GLP-1 and Heart Health" },
@@ -1744,10 +1753,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Person managing headache symptoms",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicHeadachesContent />,
     relatedArticles: [
       { slug: "managing-ozempic-nausea", title: "Managing Ozempic Nausea" },
@@ -1772,10 +1781,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1493836512294-502baa1986e2?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Mental health and wellness concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Mental Health",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1AnxietyContent />,
     relatedArticles: [
       { slug: "can-ozempic-cause-depression", title: "Can Ozempic Cause Depression?" },
@@ -1800,10 +1809,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Person managing energy levels during weight loss",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OzempicFatigueContent />,
     relatedArticles: [
       { slug: "ideal-diet-while-taking-glp-1-weight-loss-medications", title: "Ideal Diet on GLP-1s" },
@@ -1828,10 +1837,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Joint health and mobility concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1JointPainContent />,
     relatedArticles: [
       { slug: "glp-1-and-exercise", title: "GLP-1 and Exercise" },
@@ -1856,10 +1865,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Blood pressure and cardiovascular health concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Benefits",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1BloodPressureContent />,
     relatedArticles: [
       { slug: "glp-1-heart-health", title: "GLP-1 and Heart Health" },
@@ -1884,10 +1893,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Digestive health and wellness concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Side Effects",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1AndDigestionContent />,
     relatedArticles: [
       { slug: "managing-ozempic-nausea", title: "Managing Ozempic Nausea" },
@@ -1912,10 +1921,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Healthy meal timing and nutrition",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Lifestyle",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1MealTimingContent />,
     relatedArticles: [
       { slug: "ideal-diet-while-taking-glp-1-weight-loss-medications", title: "Ideal Diet on GLP-1s" },
@@ -1940,10 +1949,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Water and hydration concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Lifestyle",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1HydrationContent />,
     relatedArticles: [
       { slug: "ozempic-constipation-relief", title: "Ozempic Constipation Relief" },
@@ -1968,10 +1977,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&q=80&fit=crop&crop=center",
     imageAlt: "High protein foods and nutrition",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Nutrition",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1ProteinNeedsContent />,
     relatedArticles: [
       { slug: "how-to-prevent-muscle-loss-on-glp-1", title: "Preventing Muscle Loss on GLP-1" },
@@ -1996,10 +2005,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Medical surgery preparation concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Safety",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <GLP1SurgeryGuideContent />,
     relatedArticles: [
       { slug: "glp-1-and-digestion", title: "GLP-1 and Digestion" },
@@ -2025,10 +2034,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Medication comparison for weight loss",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Comparisons",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <WegovyVsOzempicContent />,
     relatedArticles: [
       { slug: "ozempic-vs-mounjaro", title: "Ozempic vs Mounjaro" },
@@ -2055,10 +2064,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Tirzepatide medication comparison",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Comparisons",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <ZepboundVsMounjaro />,
     relatedArticles: [
       { slug: "ozempic-vs-mounjaro", title: "Ozempic vs Mounjaro" },
@@ -2085,10 +2094,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Comparing weight loss medications",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "10 min read",
     category: "Comparisons",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <SemaglutideVsTirzepatideContent />,
     relatedArticles: [
       { slug: "wegovy-vs-ozempic", title: "Wegovy vs Ozempic" },
@@ -2115,10 +2124,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Calendar reminder for medication doses",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "6 min read",
     category: "Medication Guide",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <MissedDoseGuideContent />,
     relatedArticles: [
       { slug: "glp-1-dose-titration", title: "GLP-1 Dose Titration Guide" },
@@ -2145,10 +2154,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Peaceful mind and food relationship",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Science",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <FoodNoiseContent />,
     relatedArticles: [
       { slug: "can-ozempic-cause-depression", title: "Can Ozempic Cause Depression?" },
@@ -2175,10 +2184,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1550572017-edd951aa8f72?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Oral pill versus injection medication",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Medication Guide",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OralVsInjectableContent />,
     relatedArticles: [
       { slug: "glp-1-injection-site-rotation", title: "Injection Site Rotation" },
@@ -2205,10 +2214,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Gradual medication dosing concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Medication Guide",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <DoseTitrationContent />,
     relatedArticles: [
       { slug: "what-to-do-if-you-miss-a-glp-1-dose", title: "What to Do If You Miss a Dose" },
@@ -2235,10 +2244,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1585435557343-3b092031a831?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Switching medications concept",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "7 min read",
     category: "Medication Guide",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <SwitchingMedicationsContent />,
     relatedArticles: [
       { slug: "semaglutide-vs-tirzepatide", title: "Semaglutide vs Tirzepatide" },
@@ -2265,10 +2274,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Injection technique and sites",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "6 min read",
     category: "Medication Guide",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <InjectionRotationContent />,
     relatedArticles: [
       { slug: "oral-vs-injectable-glp-1", title: "Oral vs Injectable GLP-1s" },
@@ -2295,10 +2304,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Weight maintenance and health",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Weight Management",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <MaintainingWeightLossContent />,
     relatedArticles: [
       { slug: "what-happens-if-you-stop-taking-ozempic", title: "What Happens If You Stop Ozempic" },
@@ -2325,10 +2334,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Healthy active senior",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "8 min read",
     category: "Safety",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <OlderAdultsContent />,
     relatedArticles: [
       { slug: "how-to-prevent-muscle-loss-on-glp-1", title: "Preventing Muscle Loss on GLP-1" },
@@ -2355,10 +2364,10 @@ const articles: Record<string, Article> = {
     ],
     image: "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&q=80&fit=crop&crop=center",
     imageAlt: "Compounding pharmacy medications",
-    date: "December 5, 2025",
+    date: "December 9, 2025",
     readTime: "9 min read",
     category: "Cost Savings",
-    author: "Rx Saver Hub Team",
+    author: "GOV Health Report Team",
     content: <CompoundedGLP1sContent />,
     relatedArticles: [
       { slug: "compounded-vs-brand-name-semaglutide", title: "Compounded vs Brand-Name Semaglutide" },
@@ -2389,12 +2398,12 @@ export async function generateMetadata({
 
   if (!article) {
     return {
-      title: "Article Not Found | Rx Saver Hub",
+      title: "Article Not Found | GOV Health Report",
     };
   }
 
   return {
-    title: `${article.metaTitle} | Rx Saver Hub`,
+    title: `${article.metaTitle} | GOV Health Report`,
     description: article.description,
     keywords: article.keywords,
     openGraph: {
@@ -2420,50 +2429,79 @@ export default async function ArticlePage({
   }
 
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
       <Header />
       <main className="flex-1">
-        {/* Hero Section */}
-        <section className="relative py-12 bg-gradient-to-br from-warm-50 via-background to-warm-100/30">
+        {/* Government-style Page Header */}
+        <section className="py-8 bg-white border-b-4 border-[#ffc72c]">
           <div className="container mx-auto max-w-4xl px-4">
             <Link
               href="/articles"
-              className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary mb-6 transition-colors"
+              className="inline-flex items-center gap-2 text-[#003366] hover:text-[#004080] mb-6 transition-colors text-sm font-medium"
             >
               <ArrowLeft className="h-4 w-4" />
               Back to Articles
             </Link>
 
-            <div className="mb-4">
-              <span className="bg-primary text-primary-foreground text-xs font-medium px-2 py-1 rounded">
-                {article.category}
-              </span>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded bg-[#003366]">
+                <FileText className="h-6 w-6 text-white" />
+              </div>
+              <div>
+                <div className="mb-2">
+                  <span className="bg-[#003366] text-white text-xs font-medium px-2 py-1 rounded">
+                    {article.category}
+                  </span>
+                </div>
+                <h1 className="text-2xl font-bold text-[#003366] sm:text-3xl">
+                  {article.title}
+                </h1>
+              </div>
             </div>
+            <div className="h-1 w-24 bg-[#ffc72c]" />
+          </div>
+        </section>
 
-            <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4">
-              {article.title}
-            </h1>
-
-            <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-6">
-              <span className="flex items-center gap-1">
-                <User className="h-4 w-4" />
+        {/* Document Information Bar */}
+        <section className="bg-[#003366] text-white py-3">
+          <div className="container mx-auto max-w-4xl px-4">
+            <div className="flex flex-wrap items-center gap-6 text-sm">
+              <span className="flex items-center gap-2">
+                <User className="h-4 w-4 text-[#ffc72c]" />
                 {article.author}
               </span>
-              <span className="flex items-center gap-1">
-                <Calendar className="h-4 w-4" />
+              <span className="flex items-center gap-2">
+                <Calendar className="h-4 w-4 text-[#ffc72c]" />
                 {article.date}
               </span>
-              <span className="flex items-center gap-1">
-                <Clock className="h-4 w-4" />
+              <span className="flex items-center gap-2">
+                <Clock className="h-4 w-4 text-[#ffc72c]" />
                 {article.readTime}
               </span>
             </div>
+          </div>
+        </section>
 
+        {/* Government Disclaimer Banner */}
+        <section className="bg-[#a31621] text-white py-3">
+          <div className="container mx-auto max-w-4xl px-4">
+            <div className="flex items-center gap-3">
+              <AlertTriangle className="h-5 w-5 flex-shrink-0" />
+              <p className="text-sm">
+                <strong>Notice:</strong> This is NOT a government website. GOV Health Report is an independent review site. Always consult a healthcare provider before starting any treatment.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Featured Image */}
+        <section className="py-6">
+          <div className="container mx-auto max-w-4xl px-4">
             <div className="relative">
               <img
                 src={article.image}
                 alt={article.imageAlt}
-                className="rounded-lg shadow-lg w-full h-64 md:h-80 object-cover"
+                className="rounded-lg shadow-lg w-full h-64 md:h-80 object-cover border-2 border-[#003366]"
                 loading="eager"
               />
             </div>
@@ -2471,11 +2509,19 @@ export default async function ArticlePage({
         </section>
 
         {/* Article Content */}
-        <section className="py-12">
+        <section className="py-8">
           <div className="container mx-auto max-w-4xl px-4">
-            <article className="prose prose-lg max-w-none">
-              {article.content}
-            </article>
+            <div className="bg-white border-2 border-[#003366] rounded-lg overflow-hidden">
+              <div className="bg-[#003366] text-white px-4 py-3 flex items-center gap-2">
+                <BookOpen className="h-5 w-5" />
+                <span className="font-medium">Article Content</span>
+              </div>
+              <div className="p-6">
+                <article className="prose prose-lg max-w-none prose-headings:text-[#003366] prose-a:text-[#003366]">
+                  {article.content}
+                </article>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -2486,39 +2532,55 @@ export default async function ArticlePage({
         />
 
         {/* Related Content */}
-        <section className="py-12 bg-muted/30">
-          <div className="container mx-auto max-w-4xl px-4">
-            <Card className="border-primary/30 bg-primary/5">
-              <CardContent className="p-6">
-                <h2 className="text-xl font-bold text-foreground mb-4">
-                  Related Guides
-                </h2>
+        <section className="py-8">
+          <div className="container mx-auto max-w-4xl px-4 space-y-6">
+            {/* Related Guides */}
+            <div className="bg-white border-2 border-[#003366] rounded-lg overflow-hidden">
+              <div className="bg-[#003366] text-white px-4 py-3 flex items-center gap-2">
+                <BookOpen className="h-5 w-5" />
+                <span className="font-medium">Related Guides</span>
+              </div>
+              <div className="p-6">
                 <div className="grid gap-3 sm:grid-cols-2">
                   {article.relatedGuides.map((guide) => (
                     <Link
                       key={guide.href}
                       href={guide.href}
-                      className="text-primary hover:underline"
+                      className="flex items-center gap-2 p-3 bg-[#e8eef4] rounded-lg text-[#003366] font-medium hover:bg-[#d1d9e6] transition-colors"
                     >
-                      → {guide.title}
+                      <Shield className="h-4 w-4" />
+                      {guide.title}
                     </Link>
                   ))}
                 </div>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
 
             {/* Medical Disclaimer */}
-            <Card className="mt-6 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
-              <CardContent className="p-6">
-                <p className="text-sm text-muted-foreground">
-                  <strong className="text-foreground">Medical Disclaimer:</strong> This article
-                  is for educational purposes only and is not intended as medical advice. Always
-                  consult with a qualified healthcare provider before starting any weight loss
-                  treatment or if you experience symptoms of gallbladder problems. Individual
-                  results and risks may vary.
-                </p>
-              </CardContent>
-            </Card>
+            <div className="bg-[#f59e0b] text-white p-6 rounded-lg">
+              <div className="flex items-start gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/20">
+                  <AlertTriangle className="h-5 w-5 text-white" />
+                </div>
+                <div>
+                  <h2 className="text-lg font-bold mb-2">Medical Disclaimer</h2>
+                  <p className="leading-relaxed text-white/95">
+                    This article is for <strong>educational purposes only</strong> and is not intended as medical advice.
+                    Always consult with a qualified healthcare provider before starting any weight loss treatment.
+                    GOV Health Report is NOT a medical website and we are not licensed healthcare professionals.
+                    Individual results and risks may vary.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Content Notice */}
+            <div className="bg-[#e8eef4] border border-[#003366] p-4 rounded-lg">
+              <p className="text-sm text-[#003366]">
+                <strong>Content Notice:</strong> Information on this page is compiled from publicly available sources and may be AI-assisted.
+                Always verify information with official sources and consult healthcare professionals for medical decisions.
+              </p>
+            </div>
           </div>
         </section>
       </main>

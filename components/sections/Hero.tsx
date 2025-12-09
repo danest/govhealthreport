@@ -1,83 +1,126 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Shield, Clock, DollarSign } from "lucide-react";
+import { ArrowRight, Shield, FileCheck, Scale, BookOpen } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-warm-50 via-background to-warm-100/30 py-12 md:py-16">
-      {/* Background decorative elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-primary/10 blur-3xl" />
-        <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-warm-200/30 blur-3xl" />
-      </div>
+    <section className="relative overflow-hidden bg-gradient-to-b from-[#e8eef4] via-white to-white py-12 md:py-16">
+      {/* Decorative top border */}
+      <div className="absolute top-0 left-0 right-0 h-1 bg-[#ffc72c]" />
 
-      <div className="container relative mx-auto max-w-6xl px-4">
+      <div className="container mx-auto max-w-6xl px-4">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-8 items-center">
           {/* Content */}
           <div className="flex flex-col gap-6">
-            <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary w-fit">
+            <div className="inline-flex items-center gap-2 rounded bg-[#003366] px-3 py-1.5 text-sm font-medium text-white w-fit">
               <Shield className="h-4 w-4" />
-              Trusted by thousands of patients
+              Official Health Resource Portal
             </div>
 
-            <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl">
-              10 Best{" "}
-              <span className="text-primary">Weight Loss</span>{" "}
-              Treatments
+            <h1 className="text-3xl font-bold tracking-tight text-[#003366] sm:text-4xl md:text-5xl">
+              Weight Loss Treatment{" "}
+              <span className="text-[#a31621]">Provider Directory</span>
             </h1>
 
-            <p className="max-w-xl text-lg text-muted-foreground md:text-xl">
-              Review the leading brands in weight loss solutions. Compare effectiveness,
-              safety profiles, approved uses, pricing, and more.
+            <p className="max-w-xl text-lg text-muted-foreground">
+              Access verified provider information and independent assessments.
+              Compare FDA-approved treatments, regulatory compliance, and consumer
+              reviews in one comprehensive resource.
             </p>
 
-            <div className="flex flex-col gap-4 sm:flex-row">
-              <Button size="lg" className="gap-2 cursor-pointer" asChild>
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <Button
+                size="lg"
+                className="gap-2 bg-[#003366] hover:bg-[#004080] cursor-pointer"
+                asChild
+              >
                 <Link href="/best-weight-loss-injections">
-                  Get Started
+                  Access Provider Directory
                   <ArrowRight className="h-4 w-4" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" className="cursor-pointer" asChild>
-                <Link href="/best-weight-loss-injections">
-                  View All Providers
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-[#003366] text-[#003366] hover:bg-[#e8eef4] cursor-pointer"
+                asChild
+              >
+                <Link href="/articles">
+                  View Health Resources
                 </Link>
               </Button>
             </div>
 
-            {/* Trust indicators */}
-            <div className="flex flex-wrap gap-6 pt-4">
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Clock className="h-4 w-4 text-primary" />
-                <span>Results in 12 months</span>
+            {/* Quick Stats */}
+            <div className="grid grid-cols-3 gap-4 pt-4 border-t border-border">
+              <div className="text-center">
+                <div className="text-2xl font-bold text-[#003366]">50+</div>
+                <div className="text-xs text-muted-foreground">Providers Assessed</div>
               </div>
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <Shield className="h-4 w-4 text-primary" />
-                <span>FDA-approved treatments</span>
+              <div className="text-center border-x border-border">
+                <div className="text-2xl font-bold text-[#003366]">FDA</div>
+                <div className="text-xs text-muted-foreground">Approved Treatments</div>
               </div>
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <DollarSign className="h-4 w-4 text-primary" />
-                <span>Affordable pricing</span>
+              <div className="text-center">
+                <div className="text-2xl font-bold text-[#003366]">24/7</div>
+                <div className="text-xs text-muted-foreground">Resource Access</div>
               </div>
             </div>
           </div>
 
-          {/* Hero Image/Visual */}
-          <div className="relative flex items-center justify-center">
-            <div className="relative h-80 w-80 md:h-96 md:w-96">
-              {/* Decorative circles */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 to-warm-200/40 animate-pulse" />
-              <div className="absolute inset-4 rounded-full bg-gradient-to-br from-warm-100 to-white shadow-lg" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl font-bold text-primary">10%</div>
-                  <div className="text-lg text-muted-foreground">to</div>
-                  <div className="text-6xl font-bold text-primary">26%</div>
-                  <div className="mt-2 text-sm text-muted-foreground">Body Weight Loss</div>
-                  <div className="text-sm text-muted-foreground">Within 12 Months</div>
-                </div>
+          {/* Right Side - Featured Services Grid */}
+          <div className="grid grid-cols-2 gap-4">
+            <Link
+              href="/reviews"
+              className="group p-6 bg-white rounded-lg border-2 border-[#003366] hover:bg-[#e8eef4] transition-colors shadow-sm"
+            >
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#003366] mb-4">
+                <FileCheck className="h-6 w-6 text-white" />
               </div>
-            </div>
+              <h3 className="font-semibold text-[#003366] mb-1">Provider Reviews</h3>
+              <p className="text-sm text-muted-foreground">
+                Independent assessments of licensed providers
+              </p>
+            </Link>
+
+            <Link
+              href="/disclosure"
+              className="group p-6 bg-white rounded-lg border-2 border-[#003366] hover:bg-[#e8eef4] transition-colors shadow-sm"
+            >
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#a31621] mb-4">
+                <Scale className="h-6 w-6 text-white" />
+              </div>
+              <h3 className="font-semibold text-[#003366] mb-1">Transparency</h3>
+              <p className="text-sm text-muted-foreground">
+                Full disclosure of our assessment methods
+              </p>
+            </Link>
+
+            <Link
+              href="/articles"
+              className="group p-6 bg-white rounded-lg border-2 border-[#003366] hover:bg-[#e8eef4] transition-colors shadow-sm"
+            >
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#ffc72c] mb-4">
+                <BookOpen className="h-6 w-6 text-[#003366]" />
+              </div>
+              <h3 className="font-semibold text-[#003366] mb-1">Health Resources</h3>
+              <p className="text-sm text-muted-foreground">
+                Educational guides and consumer information
+              </p>
+            </Link>
+
+            <Link
+              href="/faq"
+              className="group p-6 bg-white rounded-lg border-2 border-[#003366] hover:bg-[#e8eef4] transition-colors shadow-sm"
+            >
+              <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-[#003366] mb-4">
+                <Shield className="h-6 w-6 text-white" />
+              </div>
+              <h3 className="font-semibold text-[#003366] mb-1">Consumer FAQ</h3>
+              <p className="text-sm text-muted-foreground">
+                Answers to common questions
+              </p>
+            </Link>
           </div>
         </div>
       </div>

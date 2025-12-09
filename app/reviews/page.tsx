@@ -2,43 +2,95 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
-import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Star, ArrowRight, Crown } from "lucide-react";
+import {
+  Star,
+  ArrowRight,
+  ArrowLeft,
+  Crown,
+  ClipboardList,
+  AlertTriangle,
+  FileText,
+  CheckCircle,
+} from "lucide-react";
 import { providers, getRatingColor } from "@/lib/providers";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Provider Reviews | Rx Saver Hub",
+  title: "Provider Reviews & Assessments | GOV Health Report",
   description:
-    "Read in-depth reviews of the top weight loss treatment providers. Compare features, pricing, and find the best GLP-1 program for your needs.",
+    "Official provider directory and assessment reports. Compare weight loss treatment providers with detailed reviews, ratings, and compliance documentation.",
 };
 
 export default function ReviewsPage() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
       <Header />
       <main className="flex-1">
-        {/* Hero Section */}
-        <section className="relative overflow-hidden bg-gradient-to-br from-warm-50 via-background to-warm-100/30 py-16 md:py-20">
-          <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-primary/10 blur-3xl" />
-            <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-warm-200/30 blur-3xl" />
-          </div>
+        {/* Page Header */}
+        <section className="py-8 bg-white border-b-4 border-[#ffc72c]">
+          <div className="container mx-auto max-w-6xl px-4">
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 text-[#003366] hover:text-[#004080] mb-6 transition-colors text-sm font-medium"
+            >
+              <ArrowLeft className="h-4 w-4" />
+              Back to Home
+            </Link>
 
-          <div className="container relative mx-auto max-w-6xl px-4 text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl mb-6">
-              Provider <span className="text-primary">Reviews</span>
-            </h1>
-            <p className="max-w-3xl mx-auto text-lg text-muted-foreground md:text-xl">
-              In-depth reviews of the top weight loss treatment providers. Read our expert analysis
-              to find the best GLP-1 program for your needs.
+            <div className="flex items-center gap-4 mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded bg-[#003366]">
+                <ClipboardList className="h-6 w-6 text-white" />
+              </div>
+              <div>
+                <h1 className="text-2xl font-bold text-[#003366] sm:text-3xl">
+                  Provider Reviews & Assessments
+                </h1>
+                <p className="text-sm text-gray-600">
+                  Official Directory • {providers.length} Providers Documented
+                </p>
+              </div>
+            </div>
+            <div className="h-1 w-24 bg-[#ffc72c] mb-4" />
+            <p className="text-gray-700 max-w-3xl">
+              Comprehensive assessment reports for weight loss treatment providers.
+              Review documentation includes service offerings, pricing structures, and consumer feedback analysis.
             </p>
           </div>
         </section>
 
-        {/* Reviews Grid */}
-        <section className="py-16 bg-background">
-          <div className="container mx-auto max-w-6xl px-4">
+        {/* Content */}
+        <section className="py-8">
+          <div className="container mx-auto max-w-6xl px-4 space-y-6">
+
+            {/* Government Disclaimer */}
+            <div className="bg-[#a31621] text-white p-4 rounded-lg">
+              <div className="flex items-start gap-3">
+                <AlertTriangle className="h-5 w-5 shrink-0 mt-0.5" />
+                <p className="text-sm text-white/95">
+                  <strong>Notice:</strong> GOV Health Report is NOT a government website. Reviews are compiled from public sources and AI research.
+                  Always verify information directly with providers and consult healthcare professionals before making medical decisions.
+                </p>
+              </div>
+            </div>
+
+            {/* Status Bar */}
+            <div className="bg-[#003366] text-white p-4 rounded-lg flex flex-wrap items-center justify-between gap-4">
+              <div className="flex items-center gap-6 flex-wrap">
+                <div className="flex items-center gap-2 text-sm">
+                  <FileText className="h-4 w-4 text-[#ffc72c]" />
+                  <span>{providers.length} Active Listings</span>
+                </div>
+                <div className="flex items-center gap-2 text-sm">
+                  <CheckCircle className="h-4 w-4 text-[#ffc72c]" />
+                  <span>Independently Researched</span>
+                </div>
+              </div>
+              <span className="text-xs text-white/70">
+                Last Updated: {new Date().toLocaleDateString("en-US", { year: "numeric", month: "long" })}
+              </span>
+            </div>
+
+            {/* Reviews Grid */}
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {providers.map((provider) => (
                 <Link
@@ -46,56 +98,80 @@ export default function ReviewsPage() {
                   href={`/reviews/${provider.slug}`}
                   className="block group"
                 >
-                  <Card className={`h-full overflow-hidden transition-all duration-300 hover:shadow-lg cursor-pointer ${
+                  <div className={`h-full bg-white border-2 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg ${
                     provider.rank === 1
-                      ? "border-primary ring-2 ring-primary/20"
-                      : "border-border/50 hover:-translate-y-1"
+                      ? "border-[#ffc72c] ring-2 ring-[#ffc72c]/30"
+                      : "border-[#003366] hover:-translate-y-1"
                   }`}>
-                    {provider.rank === 1 && (
-                      <div className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground text-center py-2 text-sm font-semibold flex items-center justify-center gap-2">
-                        <Crown className="h-4 w-4" />
-                        #1 Recommended
+                    {/* Header */}
+                    <div className={`px-4 py-2 flex items-center justify-between ${
+                      provider.rank === 1 ? "bg-[#ffc72c]" : "bg-[#003366]"
+                    }`}>
+                      <div className="flex items-center gap-2">
+                        <span className={`text-sm font-bold ${provider.rank === 1 ? "text-[#003366]" : "text-white"}`}>
+                          Assessment #{provider.rank}
+                        </span>
+                        {provider.rank === 1 && (
+                          <Crown className="h-4 w-4 text-[#003366]" />
+                        )}
                       </div>
-                    )}
-                    <CardContent className="p-6">
-                      <div className="flex items-start justify-between mb-4">
+                      <div className="flex items-center gap-1">
+                        <Star className={`h-4 w-4 ${provider.rank === 1 ? "fill-[#003366] text-[#003366]" : "fill-[#ffc72c] text-[#ffc72c]"}`} />
+                        <span className={`text-sm font-bold ${provider.rank === 1 ? "text-[#003366]" : "text-white"}`}>
+                          {provider.rating}
+                        </span>
+                      </div>
+                    </div>
+
+                    {/* Content */}
+                    <div className="p-5">
+                      <div className="flex items-start justify-between mb-3">
                         <div>
-                          <div className="flex items-center gap-2 mb-1">
-                            <span className="text-sm font-medium text-muted-foreground">#{provider.rank}</span>
-                            {provider.badge && (
-                              <Badge className={provider.badgeColor} variant="secondary">
-                                {provider.badge}
-                              </Badge>
-                            )}
-                          </div>
-                          <h2 className="text-xl font-bold text-foreground">{provider.name}</h2>
-                        </div>
-                        <div className="text-right">
-                          <div className="flex items-center gap-1">
-                            <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-                            <span className={`text-lg font-bold ${getRatingColor(provider.rating)}`}>
-                              {provider.rating}
-                            </span>
-                          </div>
-                          <span className={`text-xs ${getRatingColor(provider.rating)}`}>
-                            {provider.ratingLabel}
-                          </span>
+                          <h2 className="text-lg font-bold text-[#003366] mb-1">{provider.name}</h2>
+                          {provider.badge && (
+                            <Badge className="bg-[#e8eef4] text-[#003366] border-[#003366] text-xs">
+                              {provider.badge}
+                            </Badge>
+                          )}
                         </div>
                       </div>
 
-                      <p className="text-sm text-muted-foreground mb-4">
+                      <p className="text-sm text-gray-700 mb-4 leading-relaxed">
                         {provider.description}
                       </p>
 
-                      <div className="flex items-center text-primary font-medium text-sm group-hover:gap-2 transition-all">
-                        Read Full Review
+                      {/* Rating Label */}
+                      <div className="mb-4 p-2 bg-[#e8eef4] rounded text-center">
+                        <span className={`text-sm font-medium ${getRatingColor(provider.rating)}`}>
+                          Assessment Rating: {provider.ratingLabel}
+                        </span>
+                      </div>
+
+                      <div className="flex items-center text-[#003366] font-medium text-sm group-hover:gap-2 transition-all">
+                        <FileText className="h-4 w-4 mr-2" />
+                        View Full Assessment
                         <ArrowRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
                       </div>
-                    </CardContent>
-                  </Card>
+                    </div>
+                  </div>
                 </Link>
               ))}
             </div>
+
+            {/* Information Notice */}
+            <div className="bg-[#f59e0b] text-white p-4 rounded-lg">
+              <div className="flex items-start gap-3">
+                <AlertTriangle className="h-5 w-5 shrink-0 mt-0.5" />
+                <div>
+                  <p className="font-medium mb-1">Affiliate Disclosure</p>
+                  <p className="text-sm text-white/95">
+                    We may earn commissions when you click links and sign up with providers. This may influence rankings and featured placements.
+                    See our <Link href="/disclosure" className="underline hover:text-white">full disclosure</Link> for details.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </section>
       </main>

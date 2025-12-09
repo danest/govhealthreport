@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { Separator } from "@/components/ui/separator";
-import { Pill } from "lucide-react";
+import { Shield, AlertTriangle } from "lucide-react";
 
 const footerLinks = {
   info: [
@@ -47,34 +46,49 @@ const footerLinks = {
 
 export function Footer() {
   return (
-    <footer className="bg-muted/30 border-t border-border/50">
-      <div className="container mx-auto max-w-6xl px-4 py-8">
+    <footer className="bg-[#003366] text-white">
+      {/* Government Disclaimer Banner */}
+      <div className="bg-[#a31621] py-4 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="flex items-start gap-3">
+            <AlertTriangle className="h-5 w-5 flex-shrink-0 mt-0.5" />
+            <p className="text-sm leading-relaxed">
+              <strong>Official Disclaimer:</strong> GOV Health Report is NOT an official government website.
+              We are NOT affiliated with, endorsed by, or connected to any federal, state, or local government agency,
+              including the FDA, HHS, CDC, or any other government entity. The &quot;GOV&quot; in our name refers to our focus
+              on governance and transparency in health reporting, not government affiliation.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto max-w-6xl px-4 py-10">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                <Pill className="h-6 w-6 text-primary-foreground" />
+            <Link href="/" className="flex items-center gap-3 mb-4">
+              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white border-2 border-[#ffc72c]">
+                <Shield className="h-6 w-6 text-[#003366]" />
               </div>
-              <span className="text-xl font-bold text-foreground">
-                Rx Saver Hub
+              <span className="text-lg font-bold">
+                GOV Health Report
               </span>
             </Link>
-            <p className="text-sm text-muted-foreground leading-relaxed">
-              Your trusted resource for comparing and reviewing weight loss treatments.
-              We help you make informed decisions about your health journey.
+            <p className="text-sm text-white/90 leading-relaxed">
+              Independent health resource portal providing verified provider information and
+              consumer assessments for weight loss treatments.
             </p>
           </div>
 
           {/* Info Links */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Information</h3>
-            <ul className="space-y-3">
+            <h3 className="font-semibold text-[#ffc72c] mb-4 text-sm uppercase tracking-wide">Information</h3>
+            <ul className="space-y-2">
               {footerLinks.info.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                    className="text-sm text-white/90 hover:text-[#ffc72c] transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -85,13 +99,13 @@ export function Footer() {
 
           {/* Legal Links */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Legal</h3>
-            <ul className="space-y-3">
+            <h3 className="font-semibold text-[#ffc72c] mb-4 text-sm uppercase tracking-wide">Legal</h3>
+            <ul className="space-y-2">
               {footerLinks.legal.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                    className="text-sm text-white/90 hover:text-[#ffc72c] transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -102,13 +116,13 @@ export function Footer() {
 
           {/* Provider Reviews */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Provider Reviews</h3>
-            <ul className="space-y-3">
+            <h3 className="font-semibold text-[#ffc72c] mb-4 text-sm uppercase tracking-wide">Provider Directory</h3>
+            <ul className="space-y-2">
               {footerLinks.providers.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                    className="text-sm text-white/90 hover:text-[#ffc72c] transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -119,13 +133,13 @@ export function Footer() {
 
           {/* Guides */}
           <div>
-            <h3 className="font-semibold text-foreground mb-4">Guides</h3>
-            <ul className="space-y-3">
+            <h3 className="font-semibold text-[#ffc72c] mb-4 text-sm uppercase tracking-wide">Resources</h3>
+            <ul className="space-y-2">
               {footerLinks.guides.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                    className="text-sm text-white/90 hover:text-[#ffc72c] transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -135,44 +149,53 @@ export function Footer() {
           </div>
         </div>
 
-        <Separator className="my-8" />
-
-        {/* Bottom Section */}
-        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Rx Saver Hub. All rights reserved.
-          </p>
-          <div className="flex items-center gap-4">
-            <Link
-              href="/privacy"
-              className="text-sm text-muted-foreground hover:text-primary transition-colors"
-            >
-              Privacy
-            </Link>
-            <Link
-              href="/terms"
-              className="text-sm text-muted-foreground hover:text-primary transition-colors"
-            >
-              Terms
-            </Link>
-            <Link
-              href="/cookies"
-              className="text-sm text-muted-foreground hover:text-primary transition-colors"
-            >
-              Cookies
-            </Link>
-          </div>
-        </div>
-
         {/* Medical Disclaimer */}
-        <div className="mt-8 p-4 bg-muted/50 rounded-lg">
-          <p className="text-xs text-muted-foreground leading-relaxed">
-            <strong>Medical Disclaimer:</strong> The information provided on this website is for
+        <div className="mt-10 p-4 bg-[#004080] rounded-lg border border-[#005599]">
+          <p className="text-xs text-white/95 leading-relaxed">
+            <strong className="text-[#ffc72c]">Medical Notice:</strong> The information provided on this website is for
             general informational purposes only and is not intended as medical advice. Always
             consult with a qualified healthcare provider before starting any weight loss treatment.
             Individual results may vary. This site may receive compensation from some of the
-            companies whose products we review.
+            companies whose products we review. See our <Link href="/disclosure" className="text-[#ffc72c] hover:underline">Disclosure</Link> for details.
           </p>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="mt-8 pt-6 border-t border-[#004080]">
+          <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+            <p className="text-sm text-white/90">
+              © {new Date().getFullYear()} GOV Health Report. All rights reserved. Not a government entity.
+            </p>
+            <div className="flex items-center gap-4">
+              <Link
+                href="/privacy"
+                className="text-sm text-white/90 hover:text-[#ffc72c] transition-colors"
+              >
+                Privacy
+              </Link>
+              <span className="text-white/30">|</span>
+              <Link
+                href="/terms"
+                className="text-sm text-white/90 hover:text-[#ffc72c] transition-colors"
+              >
+                Terms
+              </Link>
+              <span className="text-white/30">|</span>
+              <Link
+                href="/cookies"
+                className="text-sm text-white/90 hover:text-[#ffc72c] transition-colors"
+              >
+                Cookies
+              </Link>
+              <span className="text-white/30">|</span>
+              <Link
+                href="/disclaimer"
+                className="text-sm text-white/90 hover:text-[#ffc72c] transition-colors"
+              >
+                Disclaimer
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

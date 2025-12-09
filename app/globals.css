@@ -58,74 +58,74 @@
   --color-emerald-600: #059669;
 }
 
-/* Warm and inviting theme - optimized for readability */
+/* Philippine Government-style theme - Blue, Red, Gold */
 :root {
-  --radius: 0.75rem;
-  --background: #fffcf8;
-  --foreground: #1a1a1a;
+  --radius: 0.375rem;
+  --background: #f5f7fa;
+  --foreground: #1c1c1c;
   --card: #ffffff;
-  --card-foreground: #1a1a1a;
+  --card-foreground: #1c1c1c;
   --popover: #ffffff;
-  --popover-foreground: #1a1a1a;
-  --primary: #d95a1b;
+  --popover-foreground: #1c1c1c;
+  --primary: #003366;
   --primary-foreground: #ffffff;
-  --secondary: #fef3e8;
-  --secondary-foreground: #7a3a10;
-  --muted: #faf6f2;
-  --muted-foreground: #4a4a4a;
-  --accent: #fff5eb;
-  --accent-foreground: #8a4010;
-  --destructive: #dc2626;
-  --border: #e8ddd2;
-  --input: #e8ddd2;
-  --ring: #d95a1b;
-  --chart-1: #d95a1b;
-  --chart-2: #0d9488;
-  --chart-3: #d97706;
-  --chart-4: #7c3aed;
-  --chart-5: #db2777;
-  --sidebar: #fef7f0;
-  --sidebar-foreground: #1a1a1a;
-  --sidebar-primary: #d95a1b;
-  --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #fff5eb;
-  --sidebar-accent-foreground: #8a4010;
-  --sidebar-border: #e8ddd2;
-  --sidebar-ring: #d95a1b;
+  --secondary: #e8eef4;
+  --secondary-foreground: #003366;
+  --muted: #f0f3f7;
+  --muted-foreground: #4a5568;
+  --accent: #ffc72c;
+  --accent-foreground: #1c1c1c;
+  --destructive: #a31621;
+  --border: #d1d9e0;
+  --input: #d1d9e0;
+  --ring: #003366;
+  --chart-1: #003366;
+  --chart-2: #a31621;
+  --chart-3: #ffc72c;
+  --chart-4: #2e7d32;
+  --chart-5: #0277bd;
+  --sidebar: #003366;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ffc72c;
+  --sidebar-primary-foreground: #1c1c1c;
+  --sidebar-accent: #004080;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #004080;
+  --sidebar-ring: #ffc72c;
 }
 
 .dark {
-  --background: #1c1410;
-  --foreground: #faf5f0;
-  --card: #2a1f18;
-  --card-foreground: #faf5f0;
-  --popover: #2a1f18;
-  --popover-foreground: #faf5f0;
-  --primary: #f59e0b;
-  --primary-foreground: #1c1410;
-  --secondary: #3d2e1f;
-  --secondary-foreground: #fad4b2;
-  --muted: #3d2e1f;
-  --muted-foreground: #b5a090;
-  --accent: #3d2e1f;
-  --accent-foreground: #fad4b2;
+  --background: #0d1117;
+  --foreground: #e6edf3;
+  --card: #161b22;
+  --card-foreground: #e6edf3;
+  --popover: #161b22;
+  --popover-foreground: #e6edf3;
+  --primary: #4a8fe2;
+  --primary-foreground: #0d1117;
+  --secondary: #1f2937;
+  --secondary-foreground: #97c1f1;
+  --muted: #1f2937;
+  --muted-foreground: #8b949e;
+  --accent: #1f2937;
+  --accent-foreground: #97c1f1;
   --destructive: #ef4444;
   --border: rgba(255, 255, 255, 0.1);
   --input: rgba(255, 255, 255, 0.15);
-  --ring: #f59e0b;
-  --chart-1: #f59e0b;
+  --ring: #4a8fe2;
+  --chart-1: #4a8fe2;
   --chart-2: #14b8a6;
-  --chart-3: #eb6a28;
+  --chart-3: #3fb950;
   --chart-4: #a78bfa;
   --chart-5: #f472b6;
-  --sidebar: #2a1f18;
-  --sidebar-foreground: #faf5f0;
-  --sidebar-primary: #f59e0b;
-  --sidebar-primary-foreground: #1c1410;
-  --sidebar-accent: #3d2e1f;
-  --sidebar-accent-foreground: #fad4b2;
+  --sidebar: #161b22;
+  --sidebar-foreground: #e6edf3;
+  --sidebar-primary: #4a8fe2;
+  --sidebar-primary-foreground: #0d1117;
+  --sidebar-accent: #1f2937;
+  --sidebar-accent-foreground: #97c1f1;
   --sidebar-border: rgba(255, 255, 255, 0.1);
-  --sidebar-ring: #f59e0b;
+  --sidebar-ring: #4a8fe2;
 }
 
 @layer base {
@@ -146,10 +146,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  /* Improve readability for all text */
-  p, li, span, label {
-    @apply text-foreground;
-  }
+  /* Note: Removed global text-foreground override that was breaking text-white classes */
   /* Make muted text more readable */
   .text-muted-foreground {
     color: #3a3a3a !important;

@@ -77,10 +77,10 @@ export interface ProviderRatingStats {
 export function getUserIdentifier(): string {
   if (typeof window === "undefined") return "";
 
-  let identifier = localStorage.getItem("rxsaverhub_user_id");
+  let identifier = localStorage.getItem("govhealthreport_user_id");
   if (!identifier) {
     identifier = `anon_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-    localStorage.setItem("rxsaverhub_user_id", identifier);
+    localStorage.setItem("govhealthreport_user_id", identifier);
   }
   return identifier;
 }

@@ -14,9 +14,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy | Rx Saver Hub",
+  title: "Cookie Policy | GOV Health Report",
   description:
-    "Learn about how Rx Saver Hub uses cookies and similar tracking technologies. Understand what data we collect and how to manage your preferences.",
+    "Learn about how GOV Health Report uses cookies and similar tracking technologies. Understand what data we collect and how to manage your preferences.",
 };
 
 export default function CookiesPage() {
@@ -57,7 +57,7 @@ export default function CookiesPage() {
                       Important Notice About Tracking
                     </h2>
                     <p className="text-foreground leading-relaxed">
-                      Rx Saver Hub uses cookies and tracking technologies primarily for <strong>affiliate link tracking</strong>.
+                      GOV Health Report uses cookies and tracking technologies primarily for <strong>affiliate link tracking</strong>.
                       When you click on links to our partner websites, we track these clicks to receive credit for referrals.
                       This is how we generate revenue. Please read this policy and our{" "}
                       <Link href="/disclosure" className="text-primary hover:underline font-medium">
@@ -155,7 +155,7 @@ export default function CookiesPage() {
                       </p>
                       <ul className="list-disc pl-6 space-y-2">
                         <li>
-                          <strong>Track referrals:</strong> Identify that you came from Rx Saver Hub so we
+                          <strong>Track referrals:</strong> Identify that you came from GOV Health Report so we
                           receive credit for the referral
                         </li>
                         <li>
@@ -173,7 +173,7 @@ export default function CookiesPage() {
                       </ul>
                       <p>
                         <strong>UTM Parameters:</strong> Our outbound links contain UTM parameters (like
-                        utm_source=rxsaverhub) that identify us as the referral source. These parameters
+                        utm_source=govhealthreport) that identify us as the referral source. These parameters
                         are visible in the URL and shared with partner websites.
                       </p>
                       <p>

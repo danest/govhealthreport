@@ -6,7 +6,7 @@ import { getProviderBySlug } from "@/lib/providers";
 const provider = getProviderBySlug("medvi");
 
 export const metadata: Metadata = {
-  title: `${provider?.name} Review 2026 - Is It Worth It? | Rx Saver Hub`,
+  title: `${provider?.name} Reviews 2025 - Provider Assessment | GOV Health Report`,
   description: provider?.description,
 };
 

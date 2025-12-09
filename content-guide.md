@@ -1,36 +1,41 @@
-# Rx Saver Hub Content Style Guide
+# GOV Health Report Content Style Guide
 
-This guide ensures all content across the site maintains a consistent voice, tone, and helpful, trustworthy theme.
+This guide ensures all content across the site maintains a consistent voice, tone, and professional government-inspired theme.
+
+## CRITICAL DISCLAIMER
+**GOV Health Report is NOT an official government website.** We are NOT affiliated with, endorsed by, or connected to any federal, state, or local government agency, including the FDA, HHS, CDC, or any other government entity. The "GOV" in our name refers to our focus on governance and transparency in health reporting, not government affiliation.
+
+This disclaimer MUST appear prominently on all disclosure, about, and legal pages.
 
 ## Brand Voice & Tone
 
 ### Core Messaging Pillars
-1. **Trust & Transparency** - Honest comparisons, real reviews, no hidden agendas
-2. **Savings First** - Helping people find affordable weight loss treatments
-3. **Quality Assured** - FDA-approved treatments, board-certified physicians, proven results
-4. **Empowerment** - Helping readers take control of their health journey
+1. **Transparency & Accountability** - Clear disclosures, honest assessments, no hidden agendas
+2. **Public Service Focus** - Helping citizens make informed health decisions
+3. **Verified Information** - FDA-approved treatments, licensed providers, documented results
+4. **Citizen Empowerment** - Providing resources for informed decision-making
 
-### Language Guidelines
+### Government-Style Language Guidelines
 
-#### Use These Phrases
-- "Save on your treatment"
-- "Compare and save"
-- "Affordable options"
-- "Find the best price"
-- "US-based providers"
-- "Board-certified physicians"
-- "Your weight loss journey"
-- "Proven results"
-- "FDA-approved treatments"
-- "Take control of your health"
-- "Your trusted resource"
-- "Real reviews, real results"
-- "Your path to success"
-- "Achieve your goals"
-- "Expert-reviewed"
-- "Thoroughly researched"
-- "Compare top programs"
-- "Find what works for you"
+#### Use These Phrases (Government-Inspired)
+- "Public health resource"
+- "Verified provider information"
+- "Regulatory compliance status"
+- "Licensed and accredited"
+- "Independent assessment"
+- "Consumer protection focus"
+- "Full disclosure statement"
+- "Official provider verification"
+- "Compliance documentation"
+- "Citizen health initiative"
+- "Transparent reporting standards"
+- "Accountability measures"
+- "Consumer advisory notice"
+- "Health resource portal"
+- "Independent review board"
+- "Verified treatment information"
+- "Regulatory-compliant providers"
+- "Public interest disclosure"
 
 #### Avoid These
 - Overly clinical/medical jargon without explanation
@@ -39,33 +44,35 @@ This guide ensures all content across the site maintains a consistent voice, ton
 - Pushy sales language ("Buy now or miss out!")
 - Guarantees about weight loss results
 - Claims that could be construed as medical advice
+- Any language implying government endorsement or affiliation
 
 ### Tone Characteristics
-- **Helpful** but not pushy
-- **Informative** but not overwhelming
-- **Supportive** but not patronizing
-- **Professional** but approachable
-- **Honest** about limitations and disclaimers
+- **Official** but accessible
+- **Informative** and thorough
+- **Authoritative** but not intimidating
+- **Professional** and trustworthy
+- **Transparent** about limitations and disclaimers
+- **Neutral** and objective in assessments
 
 ## Content Structure
 
 ### Page Headlines
-- Lead with benefit or answer to user's question
-- Include savings/comparison element where natural
+- Lead with informational/educational benefit
+- Include compliance/verification element where natural
 - Keep under 60 characters for SEO
 - Examples:
-  - "Best Place to Inject Tirzepatide: Complete Guide"
-  - "Best Time to Take Semaglutide for Weight Loss"
-  - "Top Compounding Pharmacies for Semaglutide"
-  - "Compare Online Tirzepatide Programs"
+  - "Tirzepatide Injection Sites: Official Guide"
+  - "Semaglutide Timing Guidelines for Weight Loss"
+  - "Verified Compounding Pharmacy Directory"
+  - "Provider Comparison: Independent Assessment"
 
 ### Section Structure
-1. **Hero Section** - Clear headline, brief intro, relevant image
-2. **Quick Answer** - Direct answer to the page's main question
-3. **Top Providers** - Feature top 3 providers relevant to topic
-4. **Detailed Content** - Comprehensive information with subheadings
-5. **Related Topics** - Links to related guides
-6. **CTA** - Clear next step for the reader
+1. **Header Section** - Clear headline, brief intro, official-style presentation
+2. **Consumer Notice** - Important disclaimers and disclosures
+3. **Verified Providers** - Feature assessed providers relevant to topic
+4. **Detailed Information** - Comprehensive content with clear subheadings
+5. **Related Resources** - Links to related guides
+6. **Next Steps** - Clear guidance for the reader
 
 ### Content Formatting
 - Use short paragraphs (2-4 sentences)
@@ -74,33 +81,38 @@ This guide ensures all content across the site maintains a consistent voice, ton
 - Bold key terms and important information
 - Include relevant internal links
 - Use cards for provider information
+- Include official-looking notices for important disclaimers
 
 ## Color Usage in Content
 
-### Primary Colors
-- **Primary (Teal/Emerald)** - CTAs, links, highlights, badges
+### Primary Colors (Government Blue Theme)
+- **Primary (Navy Blue)** - CTAs, links, highlights, badges
 - **Foreground** - Headlines, body text
 - **Muted** - Secondary text, descriptions
 
 ### Accent Colors
-- **Yellow/Amber** - Star ratings, warnings
-- **Green** - Success indicators, positive highlights, do's
-- **Red** - Important warnings, don'ts
-- **Blue/Indigo** - Information callouts
+- **Amber/Gold** - Star ratings, important notices
+- **Green** - Verification indicators, positive status
+- **Red** - Critical warnings, consumer alerts
+- **Light Blue** - Information callouts, secondary highlights
 
 ## Writing Medical Content
 
 ### Always Include
-- Disclaimer that we're not medical providers
+- Prominent disclaimer that we are NOT a government agency
+- Disclaimer that we are NOT medical providers
 - Recommendation to consult healthcare professionals
 - Note that individual results may vary
 - Reference to FDA approval status
+- Clear affiliate relationship disclosure
 
 ### Standard Disclaimers
 ```
-This information is for educational purposes only and is not intended as
-medical advice. Always consult with a qualified healthcare provider before
-starting any weight loss treatment.
+IMPORTANT NOTICE: GOV Health Report is NOT an official government website
+and is NOT affiliated with any government agency. This information is for
+educational purposes only and is not intended as medical advice. Always
+consult with a qualified healthcare provider before starting any weight
+loss treatment.
 ```
 
 ### Be Careful With
@@ -112,14 +124,14 @@ starting any weight loss treatment.
 ## SEO Guidelines
 
 ### Title Tags
-Format: `[Primary Keyword] [Year] | Rx Saver Hub`
-Example: `Best Time to Take Tirzepatide for Weight Loss 2025 | Rx Saver Hub`
+Format: `[Primary Keyword] [Year] | GOV Health Report`
+Example: `Tirzepatide Timing Guide 2025 | GOV Health Report`
 
 ### Meta Descriptions
 - 150-160 characters
 - Include primary keyword naturally
 - End with call-to-action or benefit
-- Example: "Discover the best time to take tirzepatide for maximum weight loss. Expert tips and provider comparisons. Find the right program for you."
+- Example: "Access verified information about the best time to take tirzepatide for weight loss. Independent provider assessments and consumer resources."
 
 ### Headers
 - H1: One per page, includes primary keyword
@@ -191,7 +203,7 @@ Article 3: photo-1571019614234-3cb2f99b2d7d (fitness - same photographer!)
 
 ### Alt Text
 - Descriptive and includes keywords naturally
-- Example: `alt="Person discussing weight loss options with healthcare provider"`
+- Example: `alt="Healthcare professional discussing weight loss treatment options"`
 
 ## Provider References
 
@@ -205,38 +217,52 @@ Article 3: photo-1571019614234-3cb2f99b2d7d (fitness - same photographer!)
 - Reference current pricing where applicable
 
 ### Provider CTAs
-- Primary: "Get Started" or "Visit [Provider Name]"
-- Secondary: "Read Full Review" or "Compare Options"
+- Primary: "View Provider Details" or "Access Provider Information"
+- Secondary: "Read Full Assessment" or "Compare Providers"
 
 ## Sample Content Blocks
 
 ### Introduction Template
 ```
-Looking for [topic]? You're in the right place. At Rx Saver Hub,
-we've researched the top providers to help you [benefit].
-Whether you're [scenario 1] or [scenario 2], this guide covers everything
-you need to know.
+Access verified information about [topic]. GOV Health Report provides
+independent assessments to help you [benefit]. Whether you're [scenario 1]
+or [scenario 2], this resource covers essential information you need.
 ```
 
 ### Quick Answer Template
 ```
-**The Quick Answer:** [Direct answer to page question]. [1-2 sentences
-of supporting context]. Keep reading for [what they'll learn in detail].
+**Summary:** [Direct answer to page question]. [1-2 sentences
+of supporting context]. Continue reading for comprehensive details on [topic].
 ```
 
 ### Provider Mention Template
 ```
-**[Provider Name]** stands out for [key differentiator]. With
-[notable feature] and [another benefit], they're a top choice for
-those seeking [relevant goal]. [Link to review]
+**[Provider Name]** offers [key differentiator]. With
+[notable feature] and [another benefit], they serve those
+seeking [relevant goal]. [Link to assessment]
 ```
 
-### Related Guides Card
+### Consumer Notice Template
+```tsx
+<Card className="border-amber-500/50 bg-amber-50/50">
+  <CardContent className="p-6">
+    <div className="flex items-start gap-4">
+      <AlertTriangle className="h-5 w-5 text-amber-600" />
+      <div>
+        <h2 className="text-lg font-bold">Consumer Notice</h2>
+        <p>GOV Health Report is NOT an official government website...</p>
+      </div>
+    </div>
+  </CardContent>
+</Card>
+```
+
+### Related Resources Card
 ```tsx
 <Card className="border-primary/30 bg-primary/5">
   <CardContent className="p-6">
     <h2 className="text-xl font-bold text-foreground mb-4">
-      Related Guides
+      Related Resources
     </h2>
     <div className="grid gap-3 sm:grid-cols-2">
       <Link href="/page-url" className="text-primary hover:underline">
@@ -248,7 +274,7 @@ those seeking [relevant goal]. [Link to review]
 </Card>
 ```
 
-## Top 3 Providers Component
+## Top Providers Component
 
 Use the `Top3Providers` component on all guide pages:
 
@@ -256,8 +282,8 @@ Use the `Top3Providers` component on all guide pages:
 import { Top3Providers } from "@/components/sections/Top3Providers";
 
 <Top3Providers
-  title="Top Recommended Providers"
-  subtitle="Custom subtitle for this page context."
+  title="Verified Provider Directory"
+  subtitle="Independent assessments for this category."
 />
 ```
 
@@ -271,20 +297,21 @@ import { Top3Providers } from "@/components/sections/Top3Providers";
 ### Link Text Guidelines
 - Use descriptive anchor text
 - Format: "→ [Page Title]"
-- Group in "Related Guides" section at bottom
+- Group in "Related Resources" section at bottom
 
 ## Quality Checklist
 
 Before publishing, ensure content:
+- [ ] Includes prominent "NOT a government website" disclaimer
 - [ ] Answers the user's primary question clearly
-- [ ] Maintains helpful, trustworthy tone
+- [ ] Maintains professional, authoritative tone
 - [ ] Includes Top3Providers component
 - [ ] Has proper internal linking (4-6 related pages)
 - [ ] Contains appropriate medical disclaimers
 - [ ] Is scannable with headers and lists
 - [ ] Has optimized title and meta description
 - [ ] Includes relevant Unsplash image with alt text
-- [ ] Links to related guides at bottom
+- [ ] Links to related resources at bottom
 - [ ] Uses consistent provider naming
 - [ ] Has "Back to Home" link at top
 
@@ -297,10 +324,10 @@ import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { Top3Providers } from "@/components/sections/Top3Providers";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, AlertTriangle } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "[Page Title] 2025 | Rx Saver Hub",
+  title: "[Page Title] 2025 | GOV Health Report",
   description: "[150-160 character description with keywords]",
   keywords: ["keyword1", "keyword2", "keyword3"],
 };
@@ -310,19 +337,29 @@ export default function PageName() {
     <div className="flex min-h-screen flex-col">
       <Header />
       <main className="flex-1">
-        {/* Hero Section */}
-        <section className="relative py-12 bg-gradient-to-br from-warm-50 via-background to-warm-100/30">
+        {/* Header Section */}
+        <section className="relative py-12 bg-gradient-to-br from-background via-muted/30 to-secondary/20">
           {/* Back link, H1, intro text, image */}
         </section>
 
-        {/* Top 3 Providers */}
+        {/* Consumer Notice */}
+        <section className="py-4 bg-amber-50 border-y border-amber-200">
+          <div className="container mx-auto max-w-4xl px-4 text-center">
+            <p className="text-amber-800 text-sm">
+              <strong>Notice:</strong> GOV Health Report is NOT an official
+              government website and is not affiliated with any government agency.
+            </p>
+          </div>
+        </section>
+
+        {/* Verified Providers */}
         <Top3Providers title="..." subtitle="..." />
 
         {/* Content Section */}
         <section className="py-12">
           <div className="container mx-auto max-w-4xl px-4 space-y-8">
             {/* Cards with content */}
-            {/* Related Guides card at bottom */}
+            {/* Related Resources card at bottom */}
           </div>
         </section>
       </main>

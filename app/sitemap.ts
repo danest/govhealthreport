@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 
-const BASE_URL = 'https://www.rxsaverhub.com'
+const BASE_URL = 'https://www.govhealthreport.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date()

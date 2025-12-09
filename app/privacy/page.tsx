@@ -15,9 +15,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Rx Saver Hub",
+  title: "Privacy Policy | GOV Health Report",
   description:
-    "Learn how Rx Saver Hub collects, uses, and protects your information. Our privacy policy explains our data practices and your rights.",
+    "Learn how GOV Health Report collects, uses, and protects your information. Our privacy policy explains our data practices and your rights.",
 };
 
 export default function PrivacyPage() {
@@ -58,7 +58,7 @@ export default function PrivacyPage() {
                       Important Notice
                     </h2>
                     <p className="text-foreground leading-relaxed">
-                      Rx Saver Hub is a review and comparison website. We are <strong>not a medical website</strong> and
+                      GOV Health Report is a review and comparison website, NOT an official government website. We are <strong>not a medical website</strong> and
                       do not provide medical advice. Please read our{" "}
                       <Link href="/disclosure" className="text-primary hover:underline font-medium">
                         Disclosure
@@ -87,7 +87,7 @@ export default function PrivacyPage() {
                     </h2>
                     <div className="space-y-4 text-foreground leading-relaxed">
                       <p>
-                        This Privacy Policy explains how Rx Saver Hub ("we," "us," or "our") collects, uses, shares,
+                        This Privacy Policy explains how GOV Health Report ("we," "us," or "our") collects, uses, shares,
                         and protects information when you visit our website. By using our website, you agree to the
                         collection and use of information in accordance with this policy.
                       </p>
@@ -180,7 +180,7 @@ export default function PrivacyPage() {
                       </ul>
                       <p>
                         Our affiliate links contain tracking parameters (such as UTM tags) that identify
-                        Rx Saver Hub as the referral source. This information is shared with our affiliate
+                        GOV Health Report as the referral source. This information is shared with our affiliate
                         partners to properly attribute referrals and calculate commissions.
                       </p>
                     </div>

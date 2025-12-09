@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { TrackedLink } from "@/components/ui/tracked-link";
 import { Check, Star, ExternalLink, Award, Crown, Shield, TrendingUp } from "lucide-react";
 
-const UTM_PARAMS = "?utm_source=rxsaverhub&utm_medium=affiliate&utm_campaign=weight_loss";
+const UTM_PARAMS = "?utm_source=govhealthreport&utm_medium=affiliate&utm_campaign=weight_loss";
 
 const providers = [
   {

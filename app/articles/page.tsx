@@ -2,13 +2,22 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
-import { Card, CardContent } from "@/components/ui/card";
-import { ArrowLeft, Calendar, Clock, ArrowRight } from "lucide-react";
+import {
+  ArrowLeft,
+  Calendar,
+  Clock,
+  ArrowRight,
+  FileText,
+  AlertTriangle,
+  BookOpen,
+  Search,
+  Filter,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Articles & Research | Rx Saver Hub",
+  title: "Health Information Articles & Research | GOV Health Report",
   description:
-    "Expert articles on GLP-1 medications, weight loss treatments, and healthy lifestyle tips. Stay informed with the latest research and practical guides.",
+    "Educational articles on GLP-1 medications, weight loss treatments, and health information. Research-based content for informational purposes only.",
   keywords: [
     "weight loss articles",
     "GLP-1 research",
@@ -623,134 +632,219 @@ const articles = [
   },
 ];
 
+// Get unique categories
+const categories = Array.from(new Set(articles.map(a => a.category))).sort();
+
 export default function ArticlesPage() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
       <Header />
       <main className="flex-1">
-        {/* Hero Section */}
-        <section className="py-12 bg-gradient-to-br from-warm-50 via-background to-warm-100/30">
-          <div className="container mx-auto max-w-4xl px-4">
+        {/* Page Header */}
+        <section className="py-8 bg-white border-b-4 border-[#ffc72c]">
+          <div className="container mx-auto max-w-6xl px-4">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary mb-6 transition-colors"
+              className="inline-flex items-center gap-2 text-[#003366] hover:text-[#004080] mb-6 transition-colors text-sm font-medium"
             >
               <ArrowLeft className="h-4 w-4" />
               Back to Home
             </Link>
 
-            <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4">
-              Weight Loss <span className="text-primary">Articles</span>
-            </h1>
-            <p className="text-lg text-muted-foreground">
-              Expert-researched articles on GLP-1 medications, weight loss treatments,
-              and practical tips for your health journey. Stay informed with the latest
-              science and guidance.
-            </p>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded bg-[#003366]">
+                <FileText className="h-6 w-6 text-white" />
+              </div>
+              <div>
+                <h1 className="text-2xl font-bold text-[#003366] sm:text-3xl">
+                  Health Information Articles
+                </h1>
+                <p className="text-sm text-gray-600">
+                  Educational Content Library • {articles.length} Publications Available
+                </p>
+              </div>
+            </div>
+            <div className="h-1 w-24 bg-[#ffc72c]" />
+          </div>
+        </section>
+
+        {/* Important Disclaimer */}
+        <section className="py-4 bg-[#a31621]">
+          <div className="container mx-auto max-w-6xl px-4">
+            <div className="flex items-center gap-3 text-white">
+              <AlertTriangle className="h-5 w-5 flex-shrink-0" />
+              <p className="text-sm">
+                <strong>Important:</strong> This content is for informational purposes only and does not constitute medical advice.
+                Always consult a qualified healthcare provider before making health decisions.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Stats Bar */}
+        <section className="py-3 bg-[#003366] text-white">
+          <div className="container mx-auto max-w-6xl px-4">
+            <div className="flex flex-wrap items-center justify-between gap-4 text-sm">
+              <div className="flex items-center gap-6">
+                <span className="flex items-center gap-2">
+                  <BookOpen className="h-4 w-4 text-[#ffc72c]" />
+                  <strong>{articles.length}</strong> Articles
+                </span>
+                <span className="flex items-center gap-2">
+                  <Filter className="h-4 w-4 text-[#ffc72c]" />
+                  <strong>{categories.length}</strong> Categories
+                </span>
+              </div>
+              <span className="text-white/80">
+                Research-based educational content
+              </span>
+            </div>
+          </div>
+        </section>
+
+        {/* Category Navigation */}
+        <section className="py-4 bg-white border-b">
+          <div className="container mx-auto max-w-6xl px-4">
+            <div className="flex flex-wrap gap-2">
+              {categories.slice(0, 12).map((category) => (
+                <span
+                  key={category}
+                  className="px-3 py-1 bg-[#e8eef4] text-[#003366] text-sm rounded-full font-medium"
+                >
+                  {category}
+                </span>
+              ))}
+              {categories.length > 12 && (
+                <span className="px-3 py-1 bg-gray-100 text-gray-600 text-sm rounded-full">
+                  +{categories.length - 12} more
+                </span>
+              )}
+            </div>
           </div>
         </section>
 
         {/* Articles Grid */}
-        <section className="py-12">
-          <div className="container mx-auto max-w-4xl px-4">
-            <div className="grid gap-6">
-              {articles.map((article) => (
+        <section className="py-8">
+          <div className="container mx-auto max-w-6xl px-4">
+            <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+              {articles.map((article, index) => (
                 <Link key={article.slug} href={`/articles/${article.slug}`}>
-                  <Card className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer">
-                    <div className="grid md:grid-cols-3 gap-0">
-                      <div className="relative h-48 md:h-full">
-                        <img
-                          src={article.image}
-                          alt={article.title}
-                          className="w-full h-full object-cover"
-                          loading="lazy"
-                        />
-                        <div className="absolute top-3 left-3">
-                          <span className="bg-primary text-primary-foreground text-xs font-medium px-2 py-1 rounded">
-                            {article.category}
-                          </span>
-                        </div>
+                  <div className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden hover:border-[#003366] hover:shadow-lg transition-all h-full flex flex-col">
+                    {/* Image */}
+                    <div className="relative h-40">
+                      <img
+                        src={article.image}
+                        alt={article.title}
+                        className="w-full h-full object-cover"
+                        loading="lazy"
+                      />
+                      <div className="absolute top-0 left-0 bg-[#003366] text-white text-xs font-bold px-2 py-1">
+                        #{String(index + 1).padStart(2, '0')}
                       </div>
-                      <CardContent className="p-6 md:col-span-2 flex flex-col justify-center">
-                        <h2 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
-                          {article.title}
-                        </h2>
-                        <p className="text-muted-foreground mb-4 line-clamp-2">
-                          {article.excerpt}
-                        </p>
-                        <div className="flex items-center gap-4 text-sm text-muted-foreground">
-                          <span className="flex items-center gap-1">
-                            <Calendar className="h-4 w-4" />
-                            {article.date}
-                          </span>
-                          <span className="flex items-center gap-1">
-                            <Clock className="h-4 w-4" />
-                            {article.readTime}
-                          </span>
-                        </div>
-                        <div className="mt-4 flex items-center text-primary font-medium">
-                          Read Article
-                          <ArrowRight className="h-4 w-4 ml-1" />
-                        </div>
-                      </CardContent>
+                      <div className="absolute top-2 right-2">
+                        <span className="bg-[#ffc72c] text-[#003366] text-xs font-bold px-2 py-1 rounded">
+                          {article.category}
+                        </span>
+                      </div>
                     </div>
-                  </Card>
+
+                    {/* Content */}
+                    <div className="p-4 flex-1 flex flex-col">
+                      <h2 className="text-base font-bold text-[#003366] mb-2 line-clamp-2">
+                        {article.title}
+                      </h2>
+                      <p className="text-sm text-gray-600 mb-3 line-clamp-2 flex-1">
+                        {article.excerpt}
+                      </p>
+
+                      {/* Meta */}
+                      <div className="flex items-center justify-between text-xs text-gray-500 pt-3 border-t border-gray-100">
+                        <span className="flex items-center gap-1">
+                          <Clock className="h-3 w-3" />
+                          {article.readTime}
+                        </span>
+                        <span className="flex items-center gap-1 text-[#003366] font-medium">
+                          Read Article
+                          <ArrowRight className="h-3 w-3" />
+                        </span>
+                      </div>
+                    </div>
+                  </div>
                 </Link>
               ))}
             </div>
 
             {articles.length === 0 && (
-              <Card>
-                <CardContent className="p-12 text-center">
-                  <p className="text-muted-foreground">
-                    No articles yet. Check back soon for expert-researched content
-                    on weight loss treatments.
-                  </p>
-                </CardContent>
-              </Card>
+              <div className="bg-white border-2 border-gray-200 rounded-lg p-12 text-center">
+                <p className="text-gray-600">
+                  No articles yet. Check back soon for educational content.
+                </p>
+              </div>
             )}
           </div>
         </section>
 
-        {/* Browse Guides Section */}
-        <section className="py-12 bg-muted/30">
-          <div className="container mx-auto max-w-4xl px-4">
-            <Card className="border-primary/30 bg-primary/5">
-              <CardContent className="p-6">
-                <h2 className="text-xl font-bold text-foreground mb-4">
-                  Looking for Quick Guides?
-                </h2>
-                <p className="text-muted-foreground mb-4">
-                  Check out our practical guides on injection sites, timing, supplements, and more.
+        {/* Quick Guides Section */}
+        <section className="py-8 bg-white border-t-4 border-[#ffc72c]">
+          <div className="container mx-auto max-w-6xl px-4">
+            <div className="bg-[#e8eef4] border-2 border-[#003366] rounded-lg overflow-hidden">
+              <div className="bg-[#003366] text-white px-4 py-3 flex items-center gap-2">
+                <Search className="h-5 w-5" />
+                <span className="font-medium">Quick Reference Guides</span>
+              </div>
+              <div className="p-6">
+                <p className="text-gray-700 mb-4">
+                  Access our practical quick-reference guides on injection sites, timing, supplements, and more.
                 </p>
-                <div className="grid gap-3 sm:grid-cols-2">
+                <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
                   <Link
                     href="/best-place-to-inject-semaglutide"
-                    className="text-primary hover:underline"
+                    className="flex items-center gap-2 p-3 bg-white rounded border border-gray-200 text-[#003366] font-medium hover:bg-[#003366] hover:text-white transition-colors text-sm"
                   >
-                    → Best Place to Inject Semaglutide
+                    <ArrowRight className="h-4 w-4" />
+                    Injection Sites Guide
                   </Link>
                   <Link
                     href="/best-time-of-day-to-take-semaglutide-for-weight-loss"
-                    className="text-primary hover:underline"
+                    className="flex items-center gap-2 p-3 bg-white rounded border border-gray-200 text-[#003366] font-medium hover:bg-[#003366] hover:text-white transition-colors text-sm"
                   >
-                    → Best Time to Take Semaglutide
+                    <ArrowRight className="h-4 w-4" />
+                    Best Time to Take
                   </Link>
                   <Link
                     href="/best-vitamins-to-take-while-on-semaglutide"
-                    className="text-primary hover:underline"
+                    className="flex items-center gap-2 p-3 bg-white rounded border border-gray-200 text-[#003366] font-medium hover:bg-[#003366] hover:text-white transition-colors text-sm"
                   >
-                    → Best Vitamins on Semaglutide
+                    <ArrowRight className="h-4 w-4" />
+                    Vitamin Guide
                   </Link>
                   <Link
                     href="/best-online-semaglutide-program"
-                    className="text-primary hover:underline"
+                    className="flex items-center gap-2 p-3 bg-white rounded border border-gray-200 text-[#003366] font-medium hover:bg-[#003366] hover:text-white transition-colors text-sm"
                   >
-                    → Best Online Semaglutide Programs
+                    <ArrowRight className="h-4 w-4" />
+                    Online Programs
                   </Link>
                 </div>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Disclaimer Footer */}
+        <section className="py-6 bg-[#f59e0b]/10 border-t border-[#f59e0b]/30">
+          <div className="container mx-auto max-w-6xl px-4">
+            <div className="flex items-start gap-3">
+              <AlertTriangle className="h-5 w-5 text-[#92400e] flex-shrink-0 mt-0.5" />
+              <div className="text-sm text-[#92400e]">
+                <p className="font-medium mb-1">Content Disclaimer</p>
+                <p>
+                  Articles are compiled from publicly available sources and may use AI assistance.
+                  Information may not reflect the most current medical research. Always verify with
+                  healthcare professionals and official sources before making health decisions.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
       </main>

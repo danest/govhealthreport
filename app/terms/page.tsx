@@ -15,9 +15,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Rx Saver Hub",
+  title: "Terms of Service | GOV Health Report",
   description:
-    "Terms of Service for Rx Saver Hub. Please read these terms carefully before using our website.",
+    "Terms of Service for GOV Health Report. Please read these terms carefully before using our website.",
 };
 
 export default function TermsPage() {
@@ -59,8 +59,8 @@ export default function TermsPage() {
                     </h2>
                     <div className="space-y-2 text-foreground leading-relaxed">
                       <p>
-                        <strong>Rx Saver Hub is NOT a medical website.</strong> We do NOT provide medical advice,
-                        diagnoses, or treatment recommendations. We are a review and comparison website ONLY.
+                        <strong>GOV Health Report is NOT a medical website or government entity.</strong> We do NOT provide medical advice,
+                        diagnoses, or treatment recommendations. We are a review and comparison website ONLY. We are NOT affiliated with any government agency.
                       </p>
                       <p>
                         <strong>You MUST consult with qualified healthcare professionals</strong> (doctors,
@@ -89,7 +89,7 @@ export default function TermsPage() {
                     </h2>
                     <div className="space-y-4 text-foreground leading-relaxed">
                       <p>
-                        By accessing or using Rx Saver Hub ("the Website"), you agree to be bound by these Terms of
+                        By accessing or using GOV Health Report ("the Website"), you agree to be bound by these Terms of
                         Service. If you do not agree with any part of these terms, you must not use this website.
                       </p>
                       <p>
@@ -125,14 +125,17 @@ export default function TermsPage() {
                       Nature of This Website
                     </h2>
                     <div className="space-y-4 text-foreground leading-relaxed">
-                      <p>Rx Saver Hub is:</p>
+                      <p>GOV Health Report is:</p>
                       <ul className="list-disc pl-6 space-y-2">
                         <li>A <strong>review and comparison website</strong> for weight loss treatments</li>
                         <li>An <strong>affiliate marketing website</strong> that earns commissions from partner companies</li>
                         <li>A <strong>content website</strong> that uses AI tools to gather and present information</li>
+                        <li>A <strong>privately operated website</strong> with NO government affiliation</li>
                       </ul>
-                      <p>Rx Saver Hub is NOT:</p>
+                      <p>GOV Health Report is NOT:</p>
                       <ul className="list-disc pl-6 space-y-2">
+                        <li>An official government website or agency</li>
+                        <li>Affiliated with the FDA, HHS, CDC, or any government entity</li>
                         <li>A medical website or healthcare provider</li>
                         <li>A source of medical advice, diagnosis, or treatment recommendations</li>
                         <li>A substitute for professional medical consultation</li>
@@ -257,7 +260,7 @@ export default function TermsPage() {
                         <strong>TO THE MAXIMUM EXTENT PERMITTED BY LAW:</strong>
                       </p>
                       <p>
-                        Rx Saver Hub, its owners, operators, employees, and affiliates shall NOT be liable for
+                        GOV Health Report, its owners, operators, employees, and affiliates shall NOT be liable for
                         any direct, indirect, incidental, special, consequential, or punitive damages arising
                         from:
                       </p>
@@ -360,7 +363,7 @@ export default function TermsPage() {
                       Indemnification
                     </h2>
                     <p className="text-foreground leading-relaxed">
-                      You agree to indemnify, defend, and hold harmless Rx Saver Hub and its owners, operators,
+                      You agree to indemnify, defend, and hold harmless GOV Health Report and its owners, operators,
                       employees, and affiliates from any claims, damages, losses, or expenses (including legal fees)
                       arising from your use of the website, violation of these terms, or infringement of any
                       third-party rights.

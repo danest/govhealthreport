@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.rxsaverhub.com/sitemap.xml',
+    sitemap: 'https://www.govhealthreport.com/sitemap.xml',
   }
 }

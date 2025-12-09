@@ -2,37 +2,52 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
-import { Card, CardContent } from "@/components/ui/card";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { ArrowLeft, HelpCircle } from "lucide-react";
+import {
+  ArrowLeft,
+  HelpCircle,
+  AlertTriangle,
+  Building,
+  Pill,
+  Stethoscope,
+  Globe,
+  ExternalLink,
+  MessageCircle,
+} from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "FAQ | Rx Saver Hub",
+  title: "Frequently Asked Questions | GOV Health Report",
   description:
-    "Frequently asked questions about weight loss treatments, GLP-1 medications, telehealth providers, and how Rx Saver Hub can help you compare options.",
+    "Frequently asked questions about weight loss treatments, GLP-1 medications, telehealth providers, and how GOV Health Report can help you compare options.",
 };
 
 const faqs = [
   {
-    category: "About Rx Saver Hub",
+    category: "About GOV Health Report",
+    icon: Building,
     questions: [
       {
-        question: "What is Rx Saver Hub?",
+        question: "What is GOV Health Report?",
         answer:
-          "Rx Saver Hub is a comparison and review website that helps you research weight loss treatment providers. We compile information about pricing, medications offered, and program features to help you make informed decisions. We are NOT a medical provider and do not prescribe medications or provide medical advice.",
+          "GOV Health Report is a comparison and review website that helps you research weight loss treatment providers. We compile information about pricing, medications offered, and program features to help you make informed decisions. We are NOT a medical provider, NOT a government agency, and do not prescribe medications or provide medical advice. The 'GOV' in our name refers to our focus on governance and transparency, not government affiliation.",
       },
       {
-        question: "Is Rx Saver Hub a medical provider?",
+        question: "Is GOV Health Report a government website?",
         answer:
-          "No. Rx Saver Hub is strictly a review and comparison website. We do not provide medical advice, prescribe medications, or replace consultations with healthcare professionals. Always consult with a qualified healthcare provider before starting any weight loss treatment.",
+          "No. GOV Health Report is NOT an official government website. We are NOT affiliated with, endorsed by, or connected to any federal, state, or local government agency, including the FDA, HHS, CDC, or any other government entity. We are a privately operated review and comparison website.",
       },
       {
-        question: "How does Rx Saver Hub make money?",
+        question: "Is GOV Health Report a medical provider?",
+        answer:
+          "No. GOV Health Report is strictly a review and comparison website. We do not provide medical advice, prescribe medications, or replace consultations with healthcare professionals. Always consult with a qualified healthcare provider before starting any weight loss treatment.",
+      },
+      {
+        question: "How does GOV Health Report make money?",
         answer:
           "We may earn affiliate commissions when you click on links to providers featured on our site and sign up for their services. This compensation may influence which providers we feature. For full details, please see our Disclosure page.",
       },
@@ -45,6 +60,7 @@ const faqs = [
   },
   {
     category: "Weight Loss Treatments",
+    icon: Pill,
     questions: [
       {
         question: "What are GLP-1 medications?",
@@ -75,6 +91,7 @@ const faqs = [
   },
   {
     category: "Telehealth Providers",
+    icon: Stethoscope,
     questions: [
       {
         question: "How do telehealth weight loss programs work?",
@@ -100,6 +117,7 @@ const faqs = [
   },
   {
     category: "Using Our Site",
+    icon: Globe,
     questions: [
       {
         question: "How current is the information on your site?",
@@ -107,12 +125,12 @@ const faqs = [
           "We work to keep our information current, but pricing, medications offered, and program details change frequently. Always verify current pricing and offerings directly with providers before making decisions. If you notice outdated information, please let us know through our Contact page.",
       },
       {
-        question: "Can I leave a review on Rx Saver Hub?",
+        question: "Can I leave a review on GOV Health Report?",
         answer:
           "Yes! We encourage users to share their experiences with different providers. You can leave ratings and reviews on individual provider pages. Your feedback helps others make informed decisions and helps us improve our content.",
       },
       {
-        question: "How do I contact Rx Saver Hub?",
+        question: "How do I contact GOV Health Report?",
         answer:
           "You can reach us through our Contact page. We welcome questions, feedback, suggestions, and corrections to our content. Please note that we cannot provide medical advice or help with issues related to specific providers—you'll need to contact them directly.",
       },
@@ -122,83 +140,141 @@ const faqs = [
 
 export default function FAQPage() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
       <Header />
       <main className="flex-1">
-        <section className="py-8 bg-gradient-to-br from-warm-50 via-background to-warm-100/30">
+        {/* Page Header */}
+        <section className="py-8 bg-white border-b-4 border-[#ffc72c]">
           <div className="container mx-auto max-w-4xl px-4">
             <Link
               href="/"
-              className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary mb-6 transition-colors"
+              className="inline-flex items-center gap-2 text-[#003366] hover:text-[#004080] mb-6 transition-colors text-sm font-medium"
             >
               <ArrowLeft className="h-4 w-4" />
               Back to Home
             </Link>
 
-            <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl mb-4">
-              Frequently Asked <span className="text-primary">Questions</span>
-            </h1>
-            <p className="text-lg text-muted-foreground">
-              Find answers to common questions about weight loss treatments,
-              telehealth providers, and how Rx Saver Hub can help.
-            </p>
+            <div className="flex items-center gap-4 mb-4">
+              <div className="flex h-12 w-12 items-center justify-center rounded bg-[#003366]">
+                <HelpCircle className="h-6 w-6 text-white" />
+              </div>
+              <div>
+                <h1 className="text-2xl font-bold text-[#003366] sm:text-3xl">
+                  Frequently Asked Questions
+                </h1>
+                <p className="text-sm text-gray-600">
+                  Public Information & Consumer Guidance
+                </p>
+              </div>
+            </div>
+            <div className="h-1 w-24 bg-[#ffc72c]" />
           </div>
         </section>
 
+        {/* Content */}
         <section className="py-8">
-          <div className="container mx-auto max-w-4xl px-4 space-y-8">
+          <div className="container mx-auto max-w-4xl px-4 space-y-6">
+
+            {/* Critical Government Disclaimer */}
+            <div className="bg-[#a31621] text-white p-6 rounded-lg">
+              <div className="flex items-start gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/20">
+                  <AlertTriangle className="h-5 w-5 text-white" />
+                </div>
+                <div>
+                  <h2 className="text-lg font-bold mb-2">
+                    Important: NOT a Government Website
+                  </h2>
+                  <p className="leading-relaxed text-white/95">
+                    GOV Health Report is <strong>NOT</strong> an official government website. We are NOT affiliated with,
+                    endorsed by, or connected to any federal, state, or local government agency. The &quot;GOV&quot; in our name
+                    refers to our focus on governance and transparency in health reporting, not government affiliation.
+                    This is a privately operated review and comparison website.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* FAQ Categories */}
             {faqs.map((category, categoryIndex) => (
-              <Card key={categoryIndex}>
-                <CardContent className="p-6">
-                  <div className="flex items-start gap-4">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10">
-                      <HelpCircle className="h-5 w-5 text-primary" />
-                    </div>
-                    <div className="flex-1">
-                      <h2 className="text-xl font-bold text-foreground mb-4">
-                        {category.category}
-                      </h2>
-                      <Accordion type="single" collapsible className="w-full">
-                        {category.questions.map((faq, faqIndex) => (
-                          <AccordionItem
-                            key={faqIndex}
-                            value={`${categoryIndex}-${faqIndex}`}
-                          >
-                            <AccordionTrigger className="text-left font-medium text-foreground">
-                              {faq.question}
-                            </AccordionTrigger>
-                            <AccordionContent className="text-muted-foreground leading-relaxed">
-                              {faq.answer}
-                            </AccordionContent>
-                          </AccordionItem>
-                        ))}
-                      </Accordion>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
+              <div key={categoryIndex} className="bg-white border-2 border-[#003366] rounded-lg overflow-hidden">
+                <div className="bg-[#003366] text-white px-4 py-3 flex items-center gap-2">
+                  <category.icon className="h-5 w-5" />
+                  <span className="font-medium">{category.category}</span>
+                </div>
+                <div className="p-6">
+                  <Accordion type="single" collapsible className="w-full">
+                    {category.questions.map((faq, faqIndex) => (
+                      <AccordionItem
+                        key={faqIndex}
+                        value={`${categoryIndex}-${faqIndex}`}
+                        className="border-b border-[#d1d9e0] last:border-b-0"
+                      >
+                        <AccordionTrigger className="text-left font-medium text-[#003366] hover:text-[#004080] py-4">
+                          <div className="flex items-start gap-3">
+                            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#e8eef4] text-xs font-bold text-[#003366]">
+                              {faqIndex + 1}
+                            </span>
+                            <span>{faq.question}</span>
+                          </div>
+                        </AccordionTrigger>
+                        <AccordionContent className="text-gray-700 leading-relaxed pl-9 pb-4">
+                          {faq.answer}
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </div>
+              </div>
             ))}
 
-            {/* Still Have Questions */}
-            <Card className="border-primary/30 bg-primary/5">
-              <CardContent className="p-6">
-                <div className="text-center">
-                  <h2 className="text-xl font-bold text-foreground mb-2">
-                    Still Have Questions?
-                  </h2>
-                  <p className="text-muted-foreground mb-4">
-                    Can&apos;t find what you&apos;re looking for? We&apos;re
-                    here to help.
-                  </p>
-                  <Link
-                    href="/contact"
-                    className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90 transition-colors"
-                  >
-                    Contact Us
-                  </Link>
+            {/* Medical Disclaimer Notice */}
+            <div className="bg-[#f59e0b] text-white p-6 rounded-lg">
+              <div className="flex items-start gap-4">
+                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/20">
+                  <AlertTriangle className="h-5 w-5 text-white" />
                 </div>
-              </CardContent>
-            </Card>
+                <div>
+                  <h2 className="text-lg font-bold mb-2">
+                    Medical Information Notice
+                  </h2>
+                  <p className="leading-relaxed text-white/95">
+                    The information provided in these FAQs is for general informational purposes only and should not
+                    be considered medical advice. Always consult with a qualified healthcare provider before starting
+                    any weight loss treatment or medication. For complete medical disclaimer, visit our{" "}
+                    <Link href="/disclaimer" className="underline font-medium hover:text-white">
+                      Disclaimer page
+                    </Link>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Still Have Questions */}
+            <div className="bg-[#e8eef4] border border-[#003366] p-6 rounded-lg">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div className="flex items-start gap-3">
+                  <MessageCircle className="h-6 w-6 text-[#003366] flex-shrink-0" />
+                  <div>
+                    <h2 className="text-lg font-bold text-[#003366] mb-1">
+                      Still Have Questions?
+                    </h2>
+                    <p className="text-gray-700 text-sm">
+                      Can&apos;t find what you&apos;re looking for? Contact us and we&apos;ll do our best to help.
+                      Note: We cannot provide medical advice.
+                    </p>
+                  </div>
+                </div>
+                <Link
+                  href="/contact"
+                  className="inline-flex items-center gap-2 bg-[#003366] text-white px-4 py-2 rounded font-medium hover:bg-[#004080] transition-colors"
+                >
+                  Contact Us
+                  <ExternalLink className="h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+
           </div>
         </section>
       </main>

@@ -1,4 +1,4 @@
-export const UTM_PARAMS = "?utm_source=rxsaverhub&utm_medium=affiliate&utm_campaign=weight_loss";
+export const UTM_PARAMS = "?utm_source=govhealthreport&utm_medium=affiliate&utm_campaign=weight_loss";
 
 export interface Provider {
   rank: number;
@@ -17,6 +17,18 @@ export interface Provider {
   features: string[];
   pricing: string;
   bestFor: string;
+  // Extended fields for comprehensive reviews
+  medicationsOffered?: string[];
+  howItWorks?: string[];
+  eligibilityRequirements?: string[];
+  sideEffects?: string[];
+  insuranceInfo?: string;
+  shippingInfo?: string;
+  cancellationPolicy?: string;
+  customerSupport?: string;
+  foundedYear?: string;
+  headquarters?: string;
+  additionalServices?: string[];
 }
 
 export const providers: Provider[] = [
@@ -51,7 +63,46 @@ export const providers: Provider[] = [
       "Free Shipping"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those seeking a premium, comprehensive weight loss program with personalized medical care"
+    bestFor: "Those seeking a premium, comprehensive weight loss program with personalized medical care",
+    medicationsOffered: [
+      "Semaglutide (compounded)",
+      "Tirzepatide (compounded)",
+      "Brand-name options available upon request"
+    ],
+    howItWorks: [
+      "Complete a comprehensive online health assessment questionnaire",
+      "Board-certified physician reviews your medical history and eligibility",
+      "Receive a personalized treatment plan tailored to your goals",
+      "Medication is shipped directly to your door with cold packaging",
+      "Ongoing check-ins and dose adjustments as needed"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related health condition, or BMI of 30+",
+      "Must be 18 years or older",
+      "No history of medullary thyroid cancer or MEN 2 syndrome",
+      "Not currently pregnant or breastfeeding",
+      "No severe gastrointestinal conditions"
+    ],
+    sideEffects: [
+      "Nausea (most common, usually temporary)",
+      "Vomiting and diarrhea",
+      "Constipation",
+      "Stomach pain",
+      "Injection site reactions",
+      "Headache and fatigue"
+    ],
+    insuranceInfo: "CoreAge Rx is a cash-pay service. They do not bill insurance directly, but patients may submit receipts to their insurance for possible reimbursement. FSA/HSA cards are accepted.",
+    shippingInfo: "Free shipping on all orders. Medications are shipped in temperature-controlled packaging to ensure efficacy. Standard delivery takes 3-5 business days.",
+    cancellationPolicy: "Cancel anytime with no cancellation fees. Simply contact customer support before your next billing cycle to avoid being charged.",
+    customerSupport: "24/7 support available via phone, email, and in-app messaging. Dedicated care team responds within 2-4 hours during business hours.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Metabolic health coaching",
+      "Nutritional guidance",
+      "Exercise recommendations",
+      "Progress tracking through patient portal"
+    ]
   },
   {
     rank: 2,
@@ -84,7 +135,46 @@ export const providers: Provider[] = [
       "All 50 States Coverage"
     ],
     pricing: "Starting at $99/month",
-    bestFor: "Budget-conscious individuals looking for affordable GLP-1 access without long-term commitments"
+    bestFor: "Budget-conscious individuals looking for affordable GLP-1 access without long-term commitments",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Metformin (as add-on therapy)"
+    ],
+    howItWorks: [
+      "Sign up online and complete a health questionnaire",
+      "Schedule a live video consultation with a licensed physician",
+      "Physician creates your personalized treatment plan",
+      "Medication ships to your home within 3-5 days",
+      "Regular follow-ups to monitor progress and adjust dosing"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27 or higher with comorbidity, or BMI of 30+",
+      "At least 18 years old",
+      "No personal or family history of medullary thyroid carcinoma",
+      "No history of pancreatitis",
+      "Resident of the United States"
+    ],
+    sideEffects: [
+      "Nausea (especially when starting or increasing dose)",
+      "Diarrhea or constipation",
+      "Abdominal discomfort",
+      "Decreased appetite",
+      "Fatigue",
+      "Injection site bruising"
+    ],
+    insuranceInfo: "Mochi Health does not accept insurance directly. Payment is made out-of-pocket, but receipts can be submitted to insurance for potential reimbursement. FSA/HSA eligible.",
+    shippingInfo: "Free standard shipping included with all subscriptions. Medications arrive within 3-5 business days. Cold chain packaging ensures medication quality.",
+    cancellationPolicy: "No long-term contracts. Cancel anytime through your account dashboard or by contacting support. No cancellation fees.",
+    customerSupport: "24/7 support via chat, email, and phone. Average response time under 1 hour. Dedicated care team for medical questions.",
+    foundedYear: "2022",
+    headquarters: "San Francisco, CA",
+    additionalServices: [
+      "Personalized meal planning guidance",
+      "Activity tracking integration",
+      "Progress photos and measurements tracking",
+      "Community support forums"
+    ]
   },
   {
     rank: 3,
@@ -117,7 +207,48 @@ export const providers: Provider[] = [
       "Ongoing Support"
     ],
     pricing: "Starting at $45/month",
-    bestFor: "Those who value an established telehealth provider with multiple medication options"
+    bestFor: "Those who value an established telehealth provider with multiple medication options",
+    medicationsOffered: [
+      "Ozempic® (brand-name semaglutide)",
+      "Wegovy® (brand-name semaglutide for weight loss)",
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Metformin"
+    ],
+    howItWorks: [
+      "Complete a free online assessment (takes about 5 minutes)",
+      "Licensed provider reviews your information within 24 hours",
+      "If approved, choose your treatment plan and medication",
+      "Medication is shipped directly to your home",
+      "Ongoing care with unlimited messaging to your provider"
+    ],
+    eligibilityRequirements: [
+      "BMI of 30 or higher, or BMI 27+ with weight-related condition",
+      "Must be 18-64 years old",
+      "No history of thyroid cancer or MEN 2 syndrome",
+      "Not pregnant, planning pregnancy, or breastfeeding",
+      "No severe kidney or liver disease"
+    ],
+    sideEffects: [
+      "Nausea and vomiting (common initially)",
+      "Diarrhea or constipation",
+      "Abdominal pain and bloating",
+      "Headache",
+      "Fatigue",
+      "Low blood sugar (if combined with other diabetes meds)"
+    ],
+    insuranceInfo: "Ro works with insurance for brand-name medications. They help check your coverage and may provide savings cards. Compounded medications are self-pay only.",
+    shippingInfo: "Free standard shipping on all orders. Most orders arrive within 5-7 business days. Expedited shipping available for an additional fee.",
+    cancellationPolicy: "Cancel your subscription anytime online or by contacting support. Cancellations take effect at the end of your current billing cycle.",
+    customerSupport: "Support available via in-app messaging, email, and phone. Response within 24-48 hours. Urgent medical concerns addressed same day.",
+    foundedYear: "2017",
+    headquarters: "New York, NY",
+    additionalServices: [
+      "Body Program with nutrition coaching",
+      "Metabolic testing kits",
+      "Sleep and stress management resources",
+      "Mental health support"
+    ]
   },
   {
     rank: 4,
@@ -150,7 +281,47 @@ export const providers: Provider[] = [
       "No Insurance Required"
     ],
     pricing: "Starting at $99/month",
-    bestFor: "Those who want a holistic approach combining behavior change with medication"
+    bestFor: "Those who want a holistic approach combining behavior change with medication",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Metformin (as adjunct therapy)"
+    ],
+    howItWorks: [
+      "Download the Noom app and complete health assessment",
+      "Get matched with a virtual care team including coaches",
+      "Complete medical evaluation for GLP-1 eligibility",
+      "Receive personalized medication and behavior plan",
+      "Track progress with daily lessons and coaching"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition, or BMI of 30+",
+      "Must be 18 years or older",
+      "No history of medullary thyroid carcinoma",
+      "No personal or family history of MEN 2 syndrome",
+      "Not pregnant or planning pregnancy"
+    ],
+    sideEffects: [
+      "Nausea (most common, especially at start)",
+      "Constipation or diarrhea",
+      "Stomach pain",
+      "Headache",
+      "Fatigue",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Noom Med is a cash-pay service. Insurance is not accepted, but FSA/HSA cards can be used for payment.",
+    shippingInfo: "Free shipping on all medication orders. Medications typically arrive within 5-7 business days in temperature-controlled packaging.",
+    cancellationPolicy: "Cancel anytime through the app or by contacting support. No long-term contracts required.",
+    customerSupport: "24/7 support available through the Noom app. Email and chat support with typical response within 24 hours.",
+    foundedYear: "2008",
+    headquarters: "New York, NY",
+    additionalServices: [
+      "Psychology-based behavior change curriculum",
+      "Personal coaching",
+      "Food logging with database of 1M+ items",
+      "Weight tracking and progress analytics",
+      "Community support groups"
+    ]
   },
   {
     rank: 5,
@@ -183,7 +354,46 @@ export const providers: Provider[] = [
       "Comprehensive Support"
     ],
     pricing: "$199/month (locked for life)",
-    bestFor: "Those looking for long-term price stability and willing to commit to a program"
+    bestFor: "Those looking for long-term price stability and willing to commit to a program",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "B12 vitamin injections (optional add-on)"
+    ],
+    howItWorks: [
+      "Complete online health questionnaire",
+      "Schedule free expert consultation with medical team",
+      "Physician reviews your information and creates treatment plan",
+      "Medication shipped directly to your home",
+      "Ongoing support with dose adjustments as needed"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27 or higher with weight-related health condition",
+      "BMI of 30 or higher (no additional conditions required)",
+      "Must be 18 years or older",
+      "No history of thyroid cancer or MEN 2",
+      "Not currently pregnant or breastfeeding"
+    ],
+    sideEffects: [
+      "Nausea and vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions",
+      "Fatigue"
+    ],
+    insuranceInfo: "Remedy Meds is a self-pay program. Insurance is not accepted but FSA/HSA cards are eligible for payment.",
+    shippingInfo: "Free shipping included with all orders. Medications arrive in temperature-controlled packaging within 3-5 business days.",
+    cancellationPolicy: "Cancel anytime with no penalties. Your locked-in price is guaranteed as long as you remain a member.",
+    customerSupport: "Dedicated support team available via phone and email. Free consultations included with membership.",
+    foundedYear: "2022",
+    headquarters: "United States",
+    additionalServices: [
+      "Free expert consultations",
+      "Nutritional guidance",
+      "Progress tracking",
+      "Vitamin B12 injection add-ons"
+    ]
   },
   {
     rank: 6,
@@ -216,7 +426,50 @@ export const providers: Provider[] = [
       "Flexible Plan Lengths"
     ],
     pricing: "Starting at $69/month",
-    bestFor: "Women looking for affordable, flexible weight loss treatment options"
+    bestFor: "Women looking for affordable, flexible weight loss treatment options",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Ozempic® (brand-name)",
+      "Wegovy® (brand-name)",
+      "Mounjaro® (brand-name)",
+      "Zepbound® (brand-name)"
+    ],
+    howItWorks: [
+      "Complete a quick online health assessment",
+      "Licensed provider reviews your information",
+      "Choose your treatment plan (1-12 months)",
+      "Medication delivered to your door",
+      "24/7 provider access through the app for adjustments"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition, or BMI of 30+",
+      "Must be 18 years or older",
+      "No history of medullary thyroid cancer",
+      "No MEN 2 syndrome",
+      "Not pregnant or breastfeeding"
+    ],
+    sideEffects: [
+      "Nausea (common initially)",
+      "Diarrhea or constipation",
+      "Stomach pain",
+      "Vomiting",
+      "Headache",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Hers is primarily a cash-pay service with $0 membership fees. FSA/HSA cards are accepted. Insurance coverage may be available for brand-name medications.",
+    shippingInfo: "Free shipping on all orders. Medications typically arrive within 3-7 business days.",
+    cancellationPolicy: "Flexible 1-12 month plans. Cancel anytime through your account with no cancellation fees.",
+    customerSupport: "24/7 access to licensed providers through the Hers app. Customer support available via chat and email.",
+    foundedYear: "2017",
+    headquarters: "San Francisco, CA",
+    additionalServices: [
+      "Skin care treatments",
+      "Hair loss treatments",
+      "Mental health support",
+      "Birth control services",
+      "Comprehensive women's health platform"
+    ]
   },
   {
     rank: 7,
@@ -249,7 +502,45 @@ export const providers: Provider[] = [
       "Special Savings Available"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those who prefer a simple, fully online process with no in-person visits"
+    bestFor: "Those who prefer a simple, fully online process with no in-person visits",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Same active ingredients as Wegovy® and Ozempic®"
+    ],
+    howItWorks: [
+      "Complete simple online health questionnaire",
+      "Medical team reviews your information (no clinic visit needed)",
+      "Licensed provider creates personalized treatment plan",
+      "Medication shipped to your home",
+      "24/7 medical support for questions and adjustments"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27 or higher with weight-related health condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No history of thyroid cancer or MEN 2",
+      "Not pregnant or breastfeeding"
+    ],
+    sideEffects: [
+      "Nausea (most common)",
+      "Vomiting",
+      "Diarrhea",
+      "Constipation",
+      "Stomach pain",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "MEDVI is a cash-pay service. Insurance is not accepted directly but FSA/HSA cards are eligible.",
+    shippingInfo: "Free shipping on all orders. Medications delivered in temperature-controlled packaging.",
+    cancellationPolicy: "Cancel anytime with no fees or penalties. No long-term contracts required.",
+    customerSupport: "24/7 certified medical professional support available via phone and online messaging.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Vitamin B12 injections",
+      "Weight loss coaching",
+      "Nutritional guidance"
+    ]
   },
   {
     rank: 8,
@@ -282,7 +573,44 @@ export const providers: Provider[] = [
       "First Order Discount"
     ],
     pricing: "Starting from $196 (save $100 on first order)",
-    bestFor: "Those who value transparent pricing with no surprises"
+    bestFor: "Those who value transparent pricing with no surprises",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Licensed medical professional reviews your profile",
+      "Receive personalized treatment recommendation",
+      "Medication shipped with free expedited delivery",
+      "Ongoing medical supervision and dose adjustments"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related health condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No history of medullary thyroid carcinoma",
+      "Not pregnant or breastfeeding"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Stomach pain",
+      "Headache",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Eden is a self-pay service. FSA/HSA cards are accepted. Insurance is not billed directly.",
+    shippingInfo: "Free expedited shipping on all orders. Temperature-controlled packaging ensures medication efficacy.",
+    cancellationPolicy: "Cancel anytime. No hidden fees or long-term commitments required.",
+    customerSupport: "Licensed medical professionals available for support. Contact via phone or secure messaging.",
+    foundedYear: "2020",
+    headquarters: "United States",
+    additionalServices: [
+      "Ongoing medical supervision",
+      "Dose adjustment consultations",
+      "Progress tracking"
+    ]
   },
   {
     rank: 9,
@@ -315,7 +643,44 @@ export const providers: Provider[] = [
       "Free Shipping"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those who want access to a large network of doctors with all-inclusive pricing"
+    bestFor: "Those who want access to a large network of doctors with all-inclusive pricing",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete comprehensive online health assessment",
+      "Connect with one of 600+ US-based doctors",
+      "Receive personalized treatment plan",
+      "Medication shipped directly to you",
+      "Follow-up care with your assigned physician"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with comorbidity, or BMI of 30+",
+      "Must be 18 years or older",
+      "No history of thyroid cancer",
+      "No MEN 2 syndrome",
+      "Not pregnant or planning pregnancy"
+    ],
+    sideEffects: [
+      "Nausea (especially initially)",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Stomach discomfort",
+      "Fatigue",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "MyStart operates on a cash-pay model with all-inclusive pricing. No membership fees. FSA/HSA cards accepted.",
+    shippingInfo: "Free shipping included with all orders. Medications delivered in temperature-controlled packaging.",
+    cancellationPolicy: "No long-term contracts. Cancel anytime without penalties.",
+    customerSupport: "Access to 600+ US-based doctors for ongoing support. Customer service available via phone and email.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Large physician network",
+      "Personalized treatment plans",
+      "Ongoing medical consultations"
+    ]
   },
   {
     rank: 10,
@@ -348,7 +713,45 @@ export const providers: Provider[] = [
       "Promo Code Available"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Budget-conscious individuals who want basic access without additional fees"
+    bestFor: "Budget-conscious individuals who want basic access without additional fees",
+    medicationsOffered: [
+      "Ozempic® (brand-name)",
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete free online evaluation",
+      "No evaluation or membership fees",
+      "Physician reviews and approves treatment",
+      "Choose from personalized medication options",
+      "Medication shipped to your home"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No thyroid cancer history",
+      "Not pregnant or breastfeeding"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea",
+      "Constipation",
+      "Stomach pain",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Clinic Secret is a cash-pay service with no evaluation or membership fees. FSA/HSA may be accepted.",
+    shippingInfo: "Medication shipped directly to your home. Delivery times vary by location.",
+    cancellationPolicy: "Flexible program with no long-term commitments required.",
+    customerSupport: "Customer support available via phone and email for questions and assistance.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Free consultations",
+      "Personalized treatment options",
+      "Promotional discounts available"
+    ]
   },
   {
     rank: 11,
@@ -381,7 +784,48 @@ export const providers: Provider[] = [
       "Trusted Telehealth Platform"
     ],
     pricing: "Starting at $79/month",
-    bestFor: "Men seeking a trusted telehealth platform for weight loss treatment"
+    bestFor: "Men seeking a trusted telehealth platform for weight loss treatment",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Ozempic® (brand-name)",
+      "Wegovy® (brand-name)"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Licensed provider reviews your information",
+      "Choose your preferred treatment plan",
+      "Medication delivered discreetly to your door",
+      "24/7 provider access through the Hims app"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No history of thyroid cancer or MEN 2",
+      "Not currently pregnant"
+    ],
+    sideEffects: [
+      "Nausea (common initially)",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Headache",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Hims is primarily cash-pay with no membership fees. FSA/HSA accepted. Insurance may cover brand-name medications.",
+    shippingInfo: "Free discreet shipping on all orders. Medications typically arrive within 3-7 business days.",
+    cancellationPolicy: "Flexible monthly plans. Cancel anytime through your account with no fees.",
+    customerSupport: "24/7 provider access through the Hims app. Customer support via chat and email.",
+    foundedYear: "2017",
+    headquarters: "San Francisco, CA",
+    additionalServices: [
+      "Hair loss treatments",
+      "Erectile dysfunction treatments",
+      "Skin care",
+      "Mental health services",
+      "Comprehensive men's health platform"
+    ]
   },
   {
     rank: 12,
@@ -414,7 +858,54 @@ export const providers: Provider[] = [
       "83% Sustain Results 1 Year"
     ],
     pricing: "Starting at $17/month with insurance",
-    bestFor: "Those wanting comprehensive care with multiple medication options and insurance coverage"
+    bestFor: "Those wanting comprehensive care with multiple medication options and insurance coverage",
+    medicationsOffered: [
+      "Wegovy® (brand-name semaglutide)",
+      "Ozempic® (brand-name semaglutide)",
+      "Zepbound® (brand-name tirzepatide)",
+      "Mounjaro® (brand-name tirzepatide)",
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Metformin",
+      "Contrave",
+      "Topiramate",
+      "Bupropion/Naltrexone"
+    ],
+    howItWorks: [
+      "Take a quick 5-minute health assessment",
+      "Get matched with an obesity medicine specialist",
+      "Receive personalized treatment plan with 10+ medication options",
+      "Medication delivered to your home or local pharmacy",
+      "Ongoing care with in-app community support"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Insurance coverage recommended for best value",
+      "Not pregnant or breastfeeding"
+    ],
+    sideEffects: [
+      "Nausea (varies by medication)",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Headache",
+      "Side effects vary by medication type"
+    ],
+    insuranceInfo: "Found accepts insurance from major providers including Cigna, Aetna, UnitedHealthcare, and more. Membership starts at $17/month with insurance.",
+    shippingInfo: "Medications can be delivered to your home or picked up at local pharmacy. Shipping times vary.",
+    cancellationPolicy: "Cancel membership anytime. Medication costs separate from membership fees.",
+    customerSupport: "In-app messaging with care team. Community support forums available.",
+    foundedYear: "2019",
+    headquarters: "San Francisco, CA",
+    additionalServices: [
+      "In-app community support",
+      "Obesity medicine specialists",
+      "Nutrition guidance",
+      "Progress tracking",
+      "Multiple medication options"
+    ]
   },
   {
     rank: 13,
@@ -447,7 +938,47 @@ export const providers: Provider[] = [
       "30-Day Money-Back Guarantee"
     ],
     pricing: "Starting at $264/month with code START50",
-    bestFor: "Those seeking a holistic program with coaching and community support"
+    bestFor: "Those seeking a holistic program with coaching and community support",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Mounjaro® (brand-name, where available)"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Schedule unlimited practitioner consultations",
+      "Receive personalized meal plans and coaching",
+      "Medication shipped to your door",
+      "Ongoing support via app with health coaches and community"
+    ],
+    eligibilityRequirements: [
+      "BMI of 30 or higher",
+      "BMI of 27+ with weight-related health condition",
+      "Must be 18 years or older",
+      "No history of thyroid cancer",
+      "Not pregnant or breastfeeding"
+    ],
+    sideEffects: [
+      "Nausea (common initially)",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal discomfort",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Juniper is primarily a cash-pay service. FSA/HSA cards are accepted. 30-day money-back guarantee available.",
+    shippingInfo: "Medications shipped directly to your home in temperature-controlled packaging.",
+    cancellationPolicy: "30-day money-back guarantee. Cancel anytime after the guarantee period.",
+    customerSupport: "Unlimited practitioner consultations included. Health coach support available through the app.",
+    foundedYear: "2021",
+    headquarters: "Australia (serves multiple countries)",
+    additionalServices: [
+      "Unlimited practitioner consultations",
+      "Personalized meal plans",
+      "Health coach support",
+      "Private community access",
+      "Progress tracking"
+    ]
   },
   {
     rank: 14,
@@ -480,7 +1011,49 @@ export const providers: Provider[] = [
       "24/7 Care Team"
     ],
     pricing: "Consultation $49, Wegovy from $199/mo",
-    bestFor: "Those who want to combine behavioral change methodology with GLP-1 medications"
+    bestFor: "Those who want to combine behavioral change methodology with GLP-1 medications",
+    medicationsOffered: [
+      "Wegovy® (brand-name semaglutide)",
+      "Ozempic® (brand-name semaglutide)",
+      "Zepbound® (brand-name tirzepatide)",
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Schedule $49 initial consultation with clinician",
+      "Receive personalized medication recommendation",
+      "Combine medication with WeightWatchers Points® program",
+      "1:1 clinician check-ins and registered dietitian support",
+      "24/7 care team access for ongoing support"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No history of medullary thyroid carcinoma",
+      "Not pregnant or breastfeeding"
+    ],
+    sideEffects: [
+      "Nausea (common, especially initially)",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Headache",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "WeightWatchers Clinic offers insurance support for brand-name medications. FSA/HSA accepted. Separate costs for membership and medication.",
+    shippingInfo: "Medications shipped directly to your home. Brand-name medications may be picked up at local pharmacy.",
+    cancellationPolicy: "Consultation fee is non-refundable. Medication and membership can be cancelled separately.",
+    customerSupport: "24/7 care team available. 1:1 clinician check-ins and registered dietitian support included.",
+    foundedYear: "1963 (Clinic launched 2023)",
+    headquarters: "New York, NY",
+    additionalServices: [
+      "WeightWatchers Points® program",
+      "1:1 clinician check-ins",
+      "Registered dietitian support",
+      "24/7 care team",
+      "Proven behavioral change methodology"
+    ]
   },
   {
     rank: 15,
@@ -513,7 +1086,48 @@ export const providers: Provider[] = [
       "HSA/FSA Eligible"
     ],
     pricing: "Starting at $149/month",
-    bestFor: "Men wanting guaranteed results with comprehensive health optimization"
+    bestFor: "Men wanting guaranteed results with comprehensive health optimization",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Testosterone Replacement Therapy",
+      "Combination treatments available"
+    ],
+    howItWorks: [
+      "Complete comprehensive health assessment",
+      "Free lab work included to establish baseline",
+      "Board-certified clinician creates personalized plan",
+      "Bi-weekly video coaching sessions for accountability",
+      "6-month program with money-back guarantee"
+    ],
+    eligibilityRequirements: [
+      "Men only",
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Commitment to 6-month program for guarantee"
+    ],
+    sideEffects: [
+      "Nausea (common initially)",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Fatigue",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Fella Health is HSA/FSA eligible. Cash-pay model with no insurance billing. 6-month money-back guarantee if you don't lose 5% body weight.",
+    shippingInfo: "Medications shipped directly to your home. Free shipping included.",
+    cancellationPolicy: "6-month money-back guarantee if you don't lose at least 5% body weight. Terms and conditions apply.",
+    customerSupport: "Bi-weekly video coaching sessions. Board-certified clinicians available for questions and adjustments.",
+    foundedYear: "2022",
+    headquarters: "United States",
+    additionalServices: [
+      "Free lab work included",
+      "Bi-weekly video coaching",
+      "Testosterone therapy options",
+      "Longevity treatments",
+      "Comprehensive men's health optimization"
+    ]
   },
   {
     rank: 16,
@@ -546,7 +1160,45 @@ export const providers: Provider[] = [
       "Online Consultations"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Men seeking combined weight loss and hormone optimization solutions"
+    bestFor: "Men seeking combined weight loss and hormone optimization solutions",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Testosterone Replacement Therapy"
+    ],
+    howItWorks: [
+      "Complete online health questionnaire",
+      "Consult with US-licensed physician",
+      "Receive personalized treatment plan",
+      "Medication delivered to your door",
+      "Ongoing support and adjustments as needed"
+    ],
+    eligibilityRequirements: [
+      "Men only",
+      "BMI requirements for GLP-1 medications",
+      "Must be 18 years or older",
+      "No contraindications for selected treatment",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Fatigue",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Henry Meds is primarily a cash-pay service. FSA/HSA may be accepted.",
+    shippingInfo: "Medications delivered directly to your home.",
+    cancellationPolicy: "Flexible program. Contact support for cancellation options.",
+    customerSupport: "US-licensed physicians available for consultations and support.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Testosterone therapy",
+      "Combined weight loss and TRT programs",
+      "Men's health optimization"
+    ]
   },
   {
     rank: 17,
@@ -579,7 +1231,48 @@ export const providers: Provider[] = [
       "Virtual Care App"
     ],
     pricing: "Insurance-based pricing",
-    bestFor: "Those seeking insurance-covered, physician-led medical weight loss"
+    bestFor: "Those seeking insurance-covered, physician-led medical weight loss",
+    medicationsOffered: [
+      "Wegovy® (brand-name semaglutide)",
+      "Ozempic® (brand-name semaglutide)",
+      "Zepbound® (brand-name tirzepatide)",
+      "Mounjaro® (brand-name tirzepatide)",
+      "Other FDA-approved weight loss medications"
+    ],
+    howItWorks: [
+      "Check insurance coverage and eligibility",
+      "Complete health assessment",
+      "Meet with obesity medicine certified physician",
+      "Receive personalized treatment plan from care team",
+      "Ongoing care through virtual app with registered dietitians"
+    ],
+    eligibilityRequirements: [
+      "Insurance coverage from participating plans",
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Medicare coverage accepted"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Headache",
+      "Side effects vary by medication"
+    ],
+    insuranceInfo: "Form Health is covered by national health insurance plans including Medicare. Check your coverage for specific details.",
+    shippingInfo: "Medications obtained through local pharmacy or mail-order pharmacy based on insurance.",
+    cancellationPolicy: "Contact Form Health directly for cancellation and insurance-related questions.",
+    customerSupport: "Comprehensive care team including obesity medicine physicians, registered dietitians, and advanced practice providers.",
+    foundedYear: "2019",
+    headquarters: "Boston, MA",
+    additionalServices: [
+      "American Board of Obesity Medicine certified physicians",
+      "Registered dietitian support",
+      "Virtual care through app",
+      "Comprehensive care team approach"
+    ]
   },
   {
     rank: 18,
@@ -612,7 +1305,46 @@ export const providers: Provider[] = [
       "All 50 States"
     ],
     pricing: "Insurance-covered in most cases",
-    bestFor: "Women in midlife seeking comprehensive care including weight management"
+    bestFor: "Women in midlife seeking comprehensive care including weight management",
+    medicationsOffered: [
+      "GLP-1 medications for weight management",
+      "Hormone Replacement Therapy (HRT)",
+      "Menopause symptom treatments"
+    ],
+    howItWorks: [
+      "Complete health assessment focused on midlife health",
+      "Schedule virtual face-to-face appointment (same-day available)",
+      "Meet with menopause-trained practitioner",
+      "Receive comprehensive treatment plan",
+      "Ongoing care and adjustments as needed"
+    ],
+    eligibilityRequirements: [
+      "Women in midlife/menopause",
+      "Insurance coverage from participating plans",
+      "BMI requirements for GLP-1 medications",
+      "Must be 18 years or older",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea (for GLP-1 medications)",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Side effects vary by treatment type",
+      "Hormone therapy side effects vary"
+    ],
+    insuranceInfo: "Midi Health accepts insurance nationwide. Available as a Fortune 100 company benefit. Check coverage for specific details.",
+    shippingInfo: "Medications obtained based on insurance and treatment type.",
+    cancellationPolicy: "Contact Midi Health for cancellation and insurance questions.",
+    customerSupport: "Same-day appointments available. Menopause-trained practitioners for specialized care.",
+    foundedYear: "2020",
+    headquarters: "United States",
+    additionalServices: [
+      "Menopause specialist care",
+      "Hormone replacement therapy",
+      "Comprehensive midlife health",
+      "Same-day appointments",
+      "All 50 states coverage"
+    ]
   },
   {
     rank: 19,
@@ -645,7 +1377,48 @@ export const providers: Provider[] = [
       "Free Shipping"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Women in midlife seeking fast access to GLP-1s with expert support"
+    bestFor: "Women in midlife seeking fast access to GLP-1s with expert support",
+    medicationsOffered: [
+      "Zepbound® (brand-name tirzepatide)",
+      "Wegovy® (brand-name semaglutide)",
+      "Compounded GLP-1 options",
+      "Hormone therapy treatments"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Care begins within 12 business hours",
+      "Meet with board-certified menopause specialist",
+      "Receive personalized treatment plan",
+      "24/7 doctor messaging for ongoing support"
+    ],
+    eligibilityRequirements: [
+      "Women in midlife (typically 40+)",
+      "BMI requirements for GLP-1 medications",
+      "Must be 18 years or older",
+      "No contraindications for treatment",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Alloy is a cash-pay service. FSA/HSA accepted for payment.",
+    shippingInfo: "Free shipping on all orders. Medications delivered directly to your home.",
+    cancellationPolicy: "Cancel anytime. Contact support for assistance.",
+    customerSupport: "24/7 doctor messaging available. Care starts within 12 business hours.",
+    foundedYear: "2019",
+    headquarters: "New York, NY",
+    additionalServices: [
+      "Menopause specialist care",
+      "Hormone replacement therapy",
+      "24/7 doctor messaging",
+      "Fast care start (12 hours)",
+      "Comprehensive midlife health"
+    ]
   },
   {
     rank: 20,
@@ -678,7 +1451,49 @@ export const providers: Provider[] = [
       "Coaching Hub Access"
     ],
     pricing: "$50 off with code LIVE50",
-    bestFor: "Those wanting medication plus coaching with insurance assistance"
+    bestFor: "Those wanting medication plus coaching with insurance assistance",
+    medicationsOffered: [
+      "Ozempic® (brand-name semaglutide)",
+      "Zepbound® (brand-name tirzepatide)",
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Oral GLP-1 options"
+    ],
+    howItWorks: [
+      "Complete health assessment",
+      "Insurance concierge helps with coverage",
+      "Meet with licensed provider",
+      "Receive medication with free delivery",
+      "1:1 nutritionist coaching and therapeutic support"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Insurance recommended for brand medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Fridays offers insurance concierge assistance to help with coverage. Both insurance-covered and cash-pay options available.",
+    shippingInfo: "Free medication delivery included with all plans.",
+    cancellationPolicy: "Flexible plans. Contact support for cancellation assistance.",
+    customerSupport: "1:1 nutritionist coaching included. Therapeutic support through Coaching Hub platform.",
+    foundedYear: "2022",
+    headquarters: "United States",
+    additionalServices: [
+      "Insurance concierge",
+      "1:1 nutritionist coaching",
+      "Therapeutic support",
+      "Coaching Hub platform access",
+      "Oral and injectable options"
+    ]
   },
   {
     rank: 21,
@@ -711,7 +1526,46 @@ export const providers: Provider[] = [
       "Video Consultations"
     ],
     pricing: "$249/month including medication",
-    bestFor: "Those wanting simple, all-inclusive pricing with medication included"
+    bestFor: "Those wanting simple, all-inclusive pricing with medication included",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Sign up for $249/month all-inclusive program",
+      "Complete health assessment",
+      "Video consultation with provider",
+      "Free labs included",
+      "3 months of personalized care with unlimited messaging"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "US resident",
+      "No contraindications for GLP-1 medications"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Sesame is primarily cash-pay with all-inclusive pricing. FSA/HSA may be accepted. 50% refund if medication unavailable.",
+    shippingInfo: "Medication included in monthly price. Delivered to your home.",
+    cancellationPolicy: "Cancel anytime. 50% refund offered if medication is unavailable.",
+    customerSupport: "Unlimited clinician messaging included. Video consultations with providers.",
+    foundedYear: "2019",
+    headquarters: "Seattle, WA",
+    additionalServices: [
+      "Free labs included",
+      "Unlimited clinician messaging",
+      "Video consultations",
+      "Pre-authorization paperwork coordination",
+      "Sesame Plus discounts"
+    ]
   },
   {
     rank: 22,
@@ -744,7 +1598,45 @@ export const providers: Provider[] = [
       "Comprehensive Care"
     ],
     pricing: "Contact for pricing",
-    bestFor: "Those who prefer an established, trusted telehealth provider"
+    bestFor: "Those who prefer an established, trusted telehealth provider",
+    medicationsOffered: [
+      "GLP-1 medications (varies by coverage)",
+      "Other FDA-approved weight loss medications"
+    ],
+    howItWorks: [
+      "Connect with Teladoc through employer or insurance",
+      "Schedule appointment with board-certified physician",
+      "Complete health evaluation",
+      "Receive appropriate treatment recommendation",
+      "Ongoing care through Teladoc platform"
+    ],
+    eligibilityRequirements: [
+      "Access often through employer or insurance",
+      "BMI requirements for weight loss medications",
+      "Must be 18 years or older",
+      "Medical eligibility determined by physician",
+      "US resident"
+    ],
+    sideEffects: [
+      "Side effects vary by medication prescribed",
+      "Nausea (common with GLP-1s)",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Headache"
+    ],
+    insuranceInfo: "Teladoc often works with employer and insurance plans. Coverage varies by plan. Contact for specific pricing.",
+    shippingInfo: "Medication delivery varies based on prescription and coverage.",
+    cancellationPolicy: "Contact Teladoc for cancellation and membership details.",
+    customerSupport: "Large provider network with board-certified physicians. Support through Teladoc platform.",
+    foundedYear: "2002",
+    headquarters: "Purchase, NY",
+    additionalServices: [
+      "Comprehensive telehealth platform",
+      "Multiple health services",
+      "Large provider network",
+      "Insurance integration",
+      "Established track record"
+    ]
   },
   {
     rank: 23,
@@ -777,7 +1669,51 @@ export const providers: Provider[] = [
       "FSA Eligible"
     ],
     pricing: "20% off with code SHED2025",
-    bestFor: "Those wanting guaranteed results with flexible medication options"
+    bestFor: "Those wanting guaranteed results with flexible medication options",
+    medicationsOffered: [
+      "Compounded Semaglutide (injectable)",
+      "Compounded Tirzepatide (injectable)",
+      "Semaglutide liquid drops",
+      "Semaglutide lozenges",
+      "Oral tablets",
+      "Wegovy® (brand-name)",
+      "Zepbound® (brand-name)"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Meet with licensed provider",
+      "Choose from multiple medication formats",
+      "Unlimited follow-up appointments included",
+      "Health coaching and support throughout"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Commitment to program for money-back guarantee",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Side effects vary by medication format"
+    ],
+    insuranceInfo: "Shed is primarily cash-pay. FSA eligible. Money-back guarantee if you don't lose 10% body weight (terms apply).",
+    shippingInfo: "Medications shipped directly to your home.",
+    cancellationPolicy: "10% weight loss money-back guarantee. Terms and conditions apply.",
+    customerSupport: "Unlimited follow-up appointments included. Health coaching available.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Multiple medication formats",
+      "Unlimited follow-up appointments",
+      "Health coaching",
+      "150,000+ member community",
+      "Money-back guarantee"
+    ]
   },
   {
     rank: 24,
@@ -810,7 +1746,46 @@ export const providers: Provider[] = [
       "Free Consultations"
     ],
     pricing: "Semaglutide from $99/month",
-    bestFor: "Those wanting transparent pricing with no subscription traps"
+    bestFor: "Those wanting transparent pricing with no subscription traps",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete free consultation online",
+      "No membership fees or hidden charges",
+      "Licensed physician reviews your information",
+      "Start low and go slow dosing approach",
+      "Medication ships with free express delivery"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea (minimized with slow dosing)",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "GobyMeds is cash-pay only. No insurance accepted. HSA/FSA may be eligible. No auto-renewal subscriptions.",
+    shippingInfo: "Free express shipping on all orders. LegitScript certified pharmacy.",
+    cancellationPolicy: "No auto-renewal. Order only when needed. No subscription traps.",
+    customerSupport: "Free consultations included. 30,000+ satisfied users.",
+    foundedYear: "2022",
+    headquarters: "United States",
+    additionalServices: [
+      "LegitScript certification",
+      "No auto-renewal subscriptions",
+      "Free consultations",
+      "Start low and go slow approach",
+      "Transparent pricing"
+    ]
   },
   {
     rank: 25,
@@ -843,7 +1818,44 @@ export const providers: Provider[] = [
       "Weight Loss Focus"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those wanting a specialized GLP-1 focused platform"
+    bestFor: "Those wanting a specialized GLP-1 focused platform",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Licensed physician reviews your information",
+      "Receive GLP-1 medication prescription",
+      "Medication delivered to your home",
+      "Ongoing support for your weight loss journey"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "OnlineSemaglutide is primarily cash-pay. Contact for pricing and payment options.",
+    shippingInfo: "Medications delivered directly to your home.",
+    cancellationPolicy: "Contact OnlineSemaglutide for cancellation options.",
+    customerSupport: "Dedicated platform focused on GLP-1 medications with expert support.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "GLP-1 specialist expertise",
+      "500,000+ patients served",
+      "Dedicated weight loss platform"
+    ]
   },
   {
     rank: 26,
@@ -876,7 +1888,49 @@ export const providers: Provider[] = [
       "FSA/HSA Eligible"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those wanting a comprehensive digital program alongside medications"
+    bestFor: "Those wanting a comprehensive digital program alongside medications",
+    medicationsOffered: [
+      "Wegovy® (brand-name semaglutide)",
+      "Zepbound® (brand-name tirzepatide)",
+      "Ozempic® (brand-name semaglutide)",
+      "Compounded alternatives",
+      "Pill-form options available"
+    ],
+    howItWorks: [
+      "Complete health assessment",
+      "Meet with licensed provider",
+      "Receive personalized medication and program plan",
+      "Access Apple Fitness+ and custom meal planning",
+      "Consistent medical support throughout"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "FuturHealth offers cash-pay options. FSA/HSA eligible. LegitScript certified. Check for insurance options.",
+    shippingInfo: "Medications shipped directly to your home.",
+    cancellationPolicy: "Contact FuturHealth for cancellation options and details.",
+    customerSupport: "Consistent medical support. 4.7 star rating from 13,000+ reviews.",
+    foundedYear: "2020",
+    headquarters: "United States",
+    additionalServices: [
+      "Apple Fitness+ included",
+      "GLP-1 customized meal planning",
+      "Comprehensive digital platform",
+      "400,000+ enrolled members",
+      "58.5% more weight loss with full program"
+    ]
   },
   {
     rank: 27,
@@ -909,7 +1963,48 @@ export const providers: Provider[] = [
       "Nutrition Assistance"
     ],
     pricing: "Wegovy from $199 (uninsured)",
-    bestFor: "Those with insurance seeking copay support and comprehensive care"
+    bestFor: "Those with insurance seeking copay support and comprehensive care",
+    medicationsOffered: [
+      "Wegovy® (brand-name semaglutide)",
+      "Ozempic® (brand-name semaglutide)",
+      "Mounjaro® (brand-name tirzepatide)",
+      "Compounded alternatives"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Same-day prescription request possible",
+      "Insurance copay support available",
+      "Medication delivered or picked up at pharmacy",
+      "Ongoing care with nutrition assistance"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Insurance recommended for best value",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "LifeMD supports insurance with $0 copay possible. Program fee $75-149. Prescription discount card saves up to 92% at pharmacies.",
+    shippingInfo: "Medications can be delivered or picked up at local pharmacy.",
+    cancellationPolicy: "Contact LifeMD for program cancellation options.",
+    customerSupport: "700,000+ member community. Same-day prescription requests. Nutrition assistance included.",
+    foundedYear: "2020",
+    headquarters: "United States",
+    additionalServices: [
+      "$0 copay possible with insurance",
+      "Same-day prescription requests",
+      "Prescription discount card (92% savings)",
+      "Nutrition assistance",
+      "700,000+ member community"
+    ]
   },
   {
     rank: 28,
@@ -942,7 +2037,41 @@ export const providers: Provider[] = [
       "Mobile App Available"
     ],
     pricing: "Free to use (medication costs vary)",
-    bestFor: "Those with prescriptions looking to find the best pharmacy prices"
+    bestFor: "Those with prescriptions looking to find the best pharmacy prices",
+    medicationsOffered: [
+      "Price comparison for all GLP-1 medications",
+      "Works with existing prescriptions"
+    ],
+    howItWorks: [
+      "Search for your medication on GoodRx",
+      "Compare prices at pharmacies near you",
+      "Get free coupon for best price",
+      "Show coupon at pharmacy when filling prescription",
+      "Save on medication costs"
+    ],
+    eligibilityRequirements: [
+      "Must have existing prescription from doctor",
+      "GoodRx does not prescribe medications",
+      "Works at participating pharmacies",
+      "US resident"
+    ],
+    sideEffects: [
+      "N/A - GoodRx is a price comparison tool",
+      "Side effects depend on medication prescribed"
+    ],
+    insuranceInfo: "GoodRx is free to use. Can sometimes offer better prices than insurance copays. Works separately from insurance.",
+    shippingInfo: "Pick up at local pharmacy. GoodRx is not a pharmacy.",
+    cancellationPolicy: "Free service. No subscription required.",
+    customerSupport: "Mobile app available. Website support for price comparisons.",
+    foundedYear: "2011",
+    headquarters: "Santa Monica, CA",
+    additionalServices: [
+      "Free price comparison",
+      "Pharmacy coupons",
+      "Mobile app",
+      "Works with all major pharmacies",
+      "Trusted by millions"
+    ]
   },
   {
     rank: 29,
@@ -975,7 +2104,49 @@ export const providers: Provider[] = [
       "US-Licensed Pharmacies"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those seeking no-insurance weight loss options with longevity focus"
+    bestFor: "Those seeking no-insurance weight loss options with longevity focus",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Ozempic® (brand-name)",
+      "Wegovy® (brand-name)",
+      "Mounjaro® (brand-name)"
+    ],
+    howItWorks: [
+      "Complete 100% online health assessment",
+      "No insurance required for service",
+      "Licensed physician reviews your information",
+      "Medication shipped from US-licensed pharmacies",
+      "Free discreet shipping included"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Bioverse requires no insurance. Cash-pay model. FSA/HSA eligible. No membership or hidden fees.",
+    shippingInfo: "Free discreet shipping from US-licensed pharmacies.",
+    cancellationPolicy: "No membership fees. Order as needed.",
+    customerSupport: "Online support available. Longevity-focused care.",
+    foundedYear: "2020",
+    headquarters: "United States",
+    additionalServices: [
+      "Longevity-focused health platform",
+      "No insurance required",
+      "No membership fees",
+      "US-licensed pharmacies",
+      "Free discreet shipping"
+    ]
   },
   {
     rank: 30,
@@ -1008,7 +2179,47 @@ export const providers: Provider[] = [
       "Oral & Injectable Options"
     ],
     pricing: "Consultation $9.99, meds from $149",
-    bestFor: "Budget-conscious individuals wanting low consultation fees"
+    bestFor: "Budget-conscious individuals wanting low consultation fees",
+    medicationsOffered: [
+      "Compounded Semaglutide (injectable)",
+      "Compounded Tirzepatide (injectable)",
+      "Oral dissolving tablet options"
+    ],
+    howItWorks: [
+      "Pay $9.99 consultation fee",
+      "Complete health assessment",
+      "Licensed physician reviews your information",
+      "Choose from injectable or oral options",
+      "Free shipping on medications"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Available in certain states",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Curex is cash-pay only. HSA/FSA accepted. Transparent pricing with no hidden fees.",
+    shippingInfo: "Free shipping on all medication orders.",
+    cancellationPolicy: "No subscription required. Pay per consultation.",
+    customerSupport: "Support available for questions and assistance.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Low $9.99 consultation fee",
+      "Transparent medication pricing",
+      "Oral and injectable options",
+      "No hidden fees",
+      "HSA/FSA accepted"
+    ]
   },
   {
     rank: 31,
@@ -1041,7 +2252,46 @@ export const providers: Provider[] = [
       "24/7 Support"
     ],
     pricing: "Starting at $4.99/day",
-    bestFor: "Those needing flexible payment options with no upfront cost"
+    bestFor: "Those needing flexible payment options with no upfront cost",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Free blood work included",
+      "Meet with licensed provider",
+      "Choose $0 down payment plan through Afterpay/Klarna",
+      "Unlimited telehealth visits included"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Qualify for payment plan (Afterpay/Klarna)",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Elevate Health offers $0 down payment plans through Afterpay and Klarna. Cash-pay with flexible financing.",
+    shippingInfo: "Medications shipped directly to your home.",
+    cancellationPolicy: "Contact Elevate Health for cancellation and payment plan details.",
+    customerSupport: "24/7 customer support. 94% would recommend the service.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Free blood work",
+      "Unlimited telehealth visits",
+      "$0 down payment options",
+      "Afterpay/Klarna integration",
+      "2+ million pounds lost by members"
+    ]
   },
   {
     rank: 32,
@@ -1074,7 +2324,46 @@ export const providers: Provider[] = [
       "USA-Based Pharmacy"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those seeking affordable, community-focused weight loss care"
+    bestFor: "Those seeking affordable, community-focused weight loss care",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete online health questionnaire",
+      "Meet with licensed clinician",
+      "Receive personalized weight loss solution",
+      "Medication delivered from USA-based pharmacy",
+      "Ongoing support from medical team"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Sunlight is a cash-pay service. No insurance required. No hidden fees.",
+    shippingInfo: "Medications delivered from RedRock Pharmacy (USA-based).",
+    cancellationPolicy: "Contact Sunlight for cancellation details.",
+    customerSupport: "Licensed clinicians available for support. Community-focused care.",
+    foundedYear: "2022",
+    headquarters: "Kirkland, WA",
+    additionalServices: [
+      "No insurance required",
+      "No hidden fees",
+      "Licensed clinicians",
+      "Community-focused platform",
+      "USA-based pharmacy"
+    ]
   },
   {
     rank: 33,
@@ -1107,7 +2396,47 @@ export const providers: Provider[] = [
       "Licensed Pharmacy"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Men seeking combined weight loss and testosterone optimization"
+    bestFor: "Men seeking combined weight loss and testosterone optimization",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Testosterone Replacement Therapy"
+    ],
+    howItWorks: [
+      "Complete men's health assessment",
+      "Meet with US-licensed physician",
+      "Receive personalized treatment plan",
+      "Medication from licensed pharmacy",
+      "Full refund if physician cannot prescribe"
+    ],
+    eligibilityRequirements: [
+      "Men only",
+      "BMI requirements for GLP-1 medications",
+      "Must be 18 years or older",
+      "No contraindications for selected treatment",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "TRT side effects vary",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Maximus is a cash-pay service. Full refund if physician cannot prescribe treatment.",
+    shippingInfo: "Medications shipped from licensed pharmacy.",
+    cancellationPolicy: "Full refund guarantee if prescription cannot be provided.",
+    customerSupport: "US-licensed physicians for consultations and support.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Testosterone therapy",
+      "Men's health optimization",
+      "Full refund guarantee",
+      "US-licensed physicians",
+      "Licensed pharmacy"
+    ]
   },
   {
     rank: 34,
@@ -1140,7 +2469,46 @@ export const providers: Provider[] = [
       "Mobile App Available"
     ],
     pricing: "$199/month",
-    bestFor: "Those wanting simple, predictable monthly pricing"
+    bestFor: "Those wanting simple, predictable monthly pricing",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Meet with licensed physician",
+      "Receive personalized treatment plan",
+      "Flat $199/month pricing",
+      "Target 10-15% body weight reduction in 6 months"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Gala GLP-1 is cash-pay with flat $199/month pricing. No hidden fees.",
+    shippingInfo: "Medications shipped directly to your home.",
+    cancellationPolicy: "Simple monthly billing. Contact for cancellation.",
+    customerSupport: "Doctor-trusted protocols. Mobile app available.",
+    foundedYear: "2022",
+    headquarters: "United States",
+    additionalServices: [
+      "Flat rate pricing",
+      "No hidden fees",
+      "Doctor-trusted protocols",
+      "Mobile app",
+      "10-15% weight loss target"
+    ]
   },
   {
     rank: 35,
@@ -1173,7 +2541,47 @@ export const providers: Provider[] = [
       "Oral GLP-1 Options"
     ],
     pricing: "Starting at $215/month",
-    bestFor: "Those wanting personalized, quality-tested compounded medications"
+    bestFor: "Those wanting personalized, quality-tested compounded medications",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Oral dissolving options"
+    ],
+    howItWorks: [
+      "Complete health assessment",
+      "Meet with wellness advisor",
+      "Receive personalized compounded medication",
+      "All medications quality tested",
+      "Free expedited shipping"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Alan Meds is cash-pay. Medications from licensed 503A/503B pharmacies. All medications quality tested.",
+    shippingInfo: "Free expedited shipping on all orders.",
+    cancellationPolicy: "Contact Alan Meds for cancellation options.",
+    customerSupport: "Wellness advisors available for ongoing support.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Quality tested medications",
+      "Licensed 503A/503B pharmacies",
+      "Wellness advisor support",
+      "Free expedited shipping",
+      "Oral GLP-1 options"
+    ]
   },
   {
     rank: 36,
@@ -1206,7 +2614,47 @@ export const providers: Provider[] = [
       "Brand & Compounded Options"
     ],
     pricing: "Starting at $299/month",
-    bestFor: "Those wanting guaranteed results with nationwide coverage"
+    bestFor: "Those wanting guaranteed results with nationwide coverage",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Ozempic® (brand-name, $1,299/month)"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Meet with medical specialist",
+      "Receive personalized treatment plan",
+      "24/7 support from medical team",
+      "Money-back guarantee if goals not met"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Available in all 50 states",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "VivioMD is primarily cash-pay. Money-back guarantee if weight loss goals aren't met.",
+    shippingInfo: "Free shipping on all orders. Available in all 50 states.",
+    cancellationPolicy: "Money-back guarantee on weight loss. Contact for details.",
+    customerSupport: "24/7 medical specialist support available.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "50-state coverage",
+      "24/7 support",
+      "Money-back guarantee",
+      "15-20% average weight loss",
+      "Brand-name options available"
+    ]
   },
   {
     rank: 37,
@@ -1239,7 +2687,48 @@ export const providers: Provider[] = [
       "Free 2-Day Shipping"
     ],
     pricing: "$299-399/month",
-    bestFor: "Those wanting fast approval with flexible medication formats"
+    bestFor: "Those wanting fast approval with flexible medication formats",
+    medicationsOffered: [
+      "Compounded Semaglutide (injectable)",
+      "Compounded Tirzepatide (injectable)",
+      "Sublingual tablets",
+      "Sublingual drops"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Same-day approval possible",
+      "Choose from multiple medication formats",
+      "Unlimited doctor access included",
+      "Free follow-up consultations"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No insurance required",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Side effects vary by medication format"
+    ],
+    insuranceInfo: "Willow is cash-pay. No insurance required. FSA/HSA may be accepted.",
+    shippingInfo: "Free 2-day shipping on all orders.",
+    cancellationPolicy: "Contact Willow for cancellation options.",
+    customerSupport: "Unlimited doctor access. Free follow-up consultations. Board-certified US physicians.",
+    foundedYear: "2022",
+    headquarters: "United States",
+    additionalServices: [
+      "Same-day approval",
+      "Multiple medication formats",
+      "Unlimited doctor access",
+      "Free follow-ups",
+      "Free 2-day shipping"
+    ]
   },
   {
     rank: 38,
@@ -1272,7 +2761,47 @@ export const providers: Provider[] = [
       "Online Tools"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those interested in combined weight loss and anti-aging solutions"
+    bestFor: "Those interested in combined weight loss and anti-aging solutions",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Anti-aging treatments"
+    ],
+    howItWorks: [
+      "Complete online health questionnaire",
+      "Telemedicine consultation",
+      "Receive personalized treatment plan",
+      "Medication delivered to your home",
+      "Access BMI and weight loss calculators"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for selected treatment",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "BMIMD is primarily cash-pay. Contact for pricing details.",
+    shippingInfo: "Medications delivered to your home.",
+    cancellationPolicy: "Contact BMIMD for cancellation options.",
+    customerSupport: "Telemedicine consultations available. BMI calculator tools.",
+    foundedYear: "2020",
+    headquarters: "United States",
+    additionalServices: [
+      "GLP-1 treatments",
+      "Anti-aging options",
+      "Telemedicine consultations",
+      "BMI calculators",
+      "Personalized treatment plans"
+    ]
   },
   {
     rank: 39,
@@ -1305,7 +2834,46 @@ export const providers: Provider[] = [
       "Free Expedited Shipping"
     ],
     pricing: "Semaglutide from $186.99/month",
-    bestFor: "Those wanting proven track record with app-based support"
+    bestFor: "Those wanting proven track record with app-based support",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Meet with licensed clinician",
+      "Get $100 off your first month",
+      "Access Healthi App PRO for tracking",
+      "Unlimited clinical and coaching support"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "HealthiCare is cash-pay. No membership fees. $100 off first month available.",
+    shippingInfo: "Free expedited shipping on all orders.",
+    cancellationPolicy: "Cancel anytime. No membership fees.",
+    customerSupport: "Unlimited clinical and coaching support. 100,000+ five-star reviews.",
+    foundedYear: "2020",
+    headquarters: "United States",
+    additionalServices: [
+      "Healthi App PRO included",
+      "$100 off first month",
+      "Unlimited clinical support",
+      "Coaching support",
+      "Free expedited shipping"
+    ]
   },
   {
     rank: 40,
@@ -1338,7 +2906,46 @@ export const providers: Provider[] = [
       "No Contracts"
     ],
     pricing: "Semaglutide from $149 (promo)",
-    bestFor: "Those wanting fast approval and quick medication delivery"
+    bestFor: "Those wanting fast approval and quick medication delivery",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete online assessment (5-minute approval)",
+      "Licensed physician reviews your information",
+      "Medication ships within 3 days",
+      "Free overnight shipping included",
+      "100% satisfaction guarantee"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "NativeMed is cash-pay. No insurance required. No long-term contracts.",
+    shippingInfo: "Free overnight shipping. Medications ship within 3 days.",
+    cancellationPolicy: "No long-term contracts. 100% satisfaction guarantee.",
+    customerSupport: "Fast 5-minute approval process. Support available for questions.",
+    foundedYear: "2022",
+    headquarters: "United States",
+    additionalServices: [
+      "5-minute approval",
+      "3-day delivery",
+      "Free overnight shipping",
+      "100% satisfaction guarantee",
+      "No long-term contracts"
+    ]
   },
   {
     rank: 41,
@@ -1371,7 +2978,46 @@ export const providers: Provider[] = [
       "Expert Medical Team"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those interested in longevity-focused weight management"
+    bestFor: "Those interested in longevity-focused weight management",
+    medicationsOffered: [
+      "Compounded Semaglutide (microdosing protocols)",
+      "Compounded Tirzepatide",
+      "Longevity medications"
+    ],
+    howItWorks: [
+      "Complete longevity-focused health assessment",
+      "Meet with experienced medical team",
+      "Receive personalized microdosing protocol",
+      "Focus on healthspan optimization",
+      "Ongoing support and adjustments"
+    ],
+    eligibilityRequirements: [
+      "Interest in longevity medicine approach",
+      "BMI requirements for GLP-1 medications",
+      "Must be 18 years or older",
+      "No contraindications for selected treatment",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea (often reduced with microdosing)",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite"
+    ],
+    insuranceInfo: "AgelessRx is cash-pay. Premium positioning with longevity focus.",
+    shippingInfo: "Medications shipped to your home.",
+    cancellationPolicy: "Contact AgelessRx for cancellation options.",
+    customerSupport: "Experienced medical team for longevity consultations.",
+    foundedYear: "2019",
+    headquarters: "United States",
+    additionalServices: [
+      "Longevity medicine focus",
+      "GLP-1 microdosing protocols",
+      "Healthspan optimization",
+      "Science-backed approach",
+      "Expert medical team"
+    ]
   },
   {
     rank: 42,
@@ -1404,7 +3050,46 @@ export const providers: Provider[] = [
       "Free Expedited Shipping"
     ],
     pricing: "$250/month (6-month package)",
-    bestFor: "Those willing to commit to 6 months for better pricing and results"
+    bestFor: "Those willing to commit to 6 months for better pricing and results",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete health assessment",
+      "Meet with board-certified healthcare provider",
+      "Choose 6-month package for best pricing",
+      "Consistent pricing across all dosages",
+      "Continuous support and follow-ups"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Commitment to program recommended",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "Ark Health is cash-pay. 6-month packages offer best value. Consistent pricing all dosages.",
+    shippingInfo: "Free expedited shipping on all orders.",
+    cancellationPolicy: "6-month commitment for best pricing. Contact for cancellation options.",
+    customerSupport: "Board-certified providers. Continuous support and follow-ups. 95% program adherence rate.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "95% program adherence rate",
+      "75% achieve goals in 6 months",
+      "Consistent dosage pricing",
+      "Continuous support",
+      "Free expedited shipping"
+    ]
   },
   {
     rank: 43,
@@ -1437,7 +3122,45 @@ export const providers: Provider[] = [
       "Convenient Access"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those seeking straightforward online GLP-1 access"
+    bestFor: "Those seeking straightforward online GLP-1 access",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Meet with licensed provider",
+      "Receive prescription if approved",
+      "Medication delivered to your home",
+      "Ongoing support available"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "EverlifeMD is primarily cash-pay. Contact for pricing details.",
+    shippingInfo: "Medications delivered to your home.",
+    cancellationPolicy: "Contact EverlifeMD for cancellation options.",
+    customerSupport: "Licensed providers for consultations and support.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "100% online process",
+      "Licensed providers",
+      "Home delivery",
+      "Convenient access"
+    ]
   },
   {
     rank: 44,
@@ -1470,7 +3193,46 @@ export const providers: Provider[] = [
       "No Dose Increase Fees"
     ],
     pricing: "Tirzepatide from $450/month (3-month)",
-    bestFor: "Those wanting holistic support with nutritionist access"
+    bestFor: "Those wanting holistic support with nutritionist access",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete health assessment",
+      "Telemedicine consultation",
+      "Access in-house nutritionists and health coaches",
+      "Monthly check-ins with dose adjustments",
+      "No extra charge for dose increases"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "WeightCare is cash-pay. No extra charge for dose increases. 3-month packages available.",
+    shippingInfo: "Medications shipped within 7-9 days.",
+    cancellationPolicy: "Contact WeightCare for cancellation options.",
+    customerSupport: "24/7 customer support. In-house nutritionists. Secure doctor messaging.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "85,000+ member community",
+      "In-house nutritionists",
+      "Health coaches",
+      "24/7 support",
+      "No dose increase fees"
+    ]
   },
   {
     rank: 45,
@@ -1503,7 +3265,46 @@ export const providers: Provider[] = [
       "Personalized Plans"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those wanting community support with quality-tested medications"
+    bestFor: "Those wanting community support with quality-tested medications",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete health assessment",
+      "Doctor-led personalized treatment plan",
+      "Medications from FDA-registered pharmacies",
+      "Rigorous testing for potency and sterility",
+      "Community support with expert-led groups"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No insurance required",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "ReadyRx is cash-pay. No insurance required. FDA-registered pharmacy sourcing.",
+    shippingInfo: "Medications shipped from FDA-registered US-based compounding pharmacies.",
+    cancellationPolicy: "Contact ReadyRx for cancellation options.",
+    customerSupport: "Community support with expert-led groups. 92% report positive changes.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "FDA-registered pharmacies",
+      "Rigorous medication testing",
+      "Community support groups",
+      "Expert-led groups",
+      "5,000+ member community"
+    ]
   },
   {
     rank: 46,
@@ -1536,7 +3337,47 @@ export const providers: Provider[] = [
       "Care Coordinator"
     ],
     pricing: "$100 consultation (refundable)",
-    bestFor: "Those wanting insurance support with personal phone assistance"
+    bestFor: "Those wanting insurance support with personal phone assistance",
+    medicationsOffered: [
+      "Ozempic® (brand-name semaglutide)",
+      "Wegovy® (brand-name semaglutide)",
+      "Zepbound® (brand-name tirzepatide)"
+    ],
+    howItWorks: [
+      "Pay $100 refundable consultation fee",
+      "Talk to real person (not machine)",
+      "Insurance paperwork assistance included",
+      "Dedicated care coordinator assigned",
+      "Up to 30% body weight reduction potential"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "Insurance coverage recommended",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "MultiMedRx offers insurance assistance. $100 consultation fee fully refundable. Brand-name medications with insurance support.",
+    shippingInfo: "Medications obtained through pharmacy based on insurance coverage.",
+    cancellationPolicy: "Consultation fee refundable. Contact for cancellation options.",
+    customerSupport: "Real human phone support. Dedicated care coordinator. Insurance paperwork assistance.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Human phone support",
+      "Insurance assistance",
+      "Refundable consultation",
+      "Care coordinator",
+      "Up to 30% weight loss potential"
+    ]
   },
   {
     rank: 47,
@@ -1569,7 +3410,47 @@ export const providers: Provider[] = [
       "Licensed Pharmacy"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those seeking comprehensive gender-specific wellness treatments"
+    bestFor: "Those seeking comprehensive gender-specific wellness treatments",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide",
+      "Testosterone therapy (men)",
+      "Hormone therapy (women)"
+    ],
+    howItWorks: [
+      "Choose men's or women's program",
+      "Complete health assessment",
+      "Meet with US-licensed physician",
+      "Receive treatment from licensed pharmacy",
+      "Full refund if prescription not possible"
+    ],
+    eligibilityRequirements: [
+      "Gender-specific programs available",
+      "BMI requirements for GLP-1 medications",
+      "Must be 18 years or older",
+      "No contraindications for selected treatment",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Side effects vary by treatment type"
+    ],
+    insuranceInfo: "Zeuss is cash-pay. Full refund if physician cannot prescribe treatment.",
+    shippingInfo: "Medications shipped from licensed pharmacy.",
+    cancellationPolicy: "Full refund guarantee if prescription cannot be provided.",
+    customerSupport: "US-licensed physicians. Gender-specific programs. Licensed pharmacy.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Gender-specific programs",
+      "Multiple treatment areas",
+      "Full refund guarantee",
+      "US-licensed physicians",
+      "Licensed pharmacy"
+    ]
   },
   {
     rank: 48,
@@ -1602,7 +3483,45 @@ export const providers: Provider[] = [
       "Phone Support"
     ],
     pricing: "Click here for best pricing",
-    bestFor: "Those seeking basic online GLP-1 access"
+    bestFor: "Those seeking basic online GLP-1 access",
+    medicationsOffered: [
+      "Compounded Semaglutide",
+      "Compounded Tirzepatide"
+    ],
+    howItWorks: [
+      "Complete online health assessment",
+      "Meet with licensed provider",
+      "Receive prescription if approved",
+      "Medication delivered to your home",
+      "Phone support available"
+    ],
+    eligibilityRequirements: [
+      "BMI of 27+ with weight-related condition",
+      "BMI of 30 or higher",
+      "Must be 18 years or older",
+      "No contraindications for GLP-1 medications",
+      "US resident"
+    ],
+    sideEffects: [
+      "Nausea",
+      "Vomiting",
+      "Diarrhea or constipation",
+      "Abdominal pain",
+      "Decreased appetite",
+      "Injection site reactions"
+    ],
+    insuranceInfo: "SkinnyRx is primarily cash-pay. Contact for pricing details.",
+    shippingInfo: "Medications delivered to your home.",
+    cancellationPolicy: "Contact SkinnyRx for cancellation options.",
+    customerSupport: "Phone support available for questions and assistance.",
+    foundedYear: "2021",
+    headquarters: "United States",
+    additionalServices: [
+      "Online convenience",
+      "GLP-1 access",
+      "Telehealth consultations",
+      "Phone support"
+    ]
   }
 ];
 
