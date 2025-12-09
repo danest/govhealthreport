@@ -56,6 +56,21 @@ const faqs = [
         answer:
           "We compile information from public sources including company websites, user reviews, articles, and videos. We also use AI tools to help research and organize information. Our community contributes ratings, reviews, and discussions. For full details on our methodology, see our Disclosure page.",
       },
+      {
+        question: "How do you determine provider rankings?",
+        answer:
+          "Our rankings are based on multiple factors including user reviews, program features, pricing, medication options, customer support, and overall value. However, rankings may be influenced by affiliate compensation. We recommend reading full provider reviews and doing your own research before making any decisions.",
+      },
+      {
+        question: "Do you verify the accuracy of pricing information?",
+        answer:
+          "We attempt to keep pricing information current by regularly checking provider websites and promotional materials. However, pricing changes frequently and may vary based on individual circumstances, promotions, or location. Always verify current pricing directly with the provider before purchasing.",
+      },
+      {
+        question: "Can I trust the reviews on your site?",
+        answer:
+          "We compile reviews from multiple sources and allow community members to share their experiences. While we moderate for spam and inappropriate content, we cannot verify every individual review. Use reviews as one data point among many when making your decision, and consider patterns across multiple reviews rather than relying on any single review.",
+      },
     ],
   },
   {
@@ -87,6 +102,31 @@ const faqs = [
         answer:
           "GLP-1 medications have been extensively studied and are FDA-approved for weight management when prescribed appropriately. However, they can have side effects and are not suitable for everyone. Common side effects include nausea, vomiting, and digestive issues. Serious side effects are rare but possible. Only a qualified healthcare provider can determine if these medications are safe and appropriate for you.",
       },
+      {
+        question: "How much weight can I expect to lose on GLP-1 medications?",
+        answer:
+          "Clinical trials show that people taking semaglutide lose an average of 10-15% of their body weight, while those on tirzepatide may lose 15-22% on average. However, individual results vary significantly based on starting weight, dosage, diet, exercise, and other factors. Some people lose more, some less. Weight loss is gradual, typically occurring over 12-18 months.",
+      },
+      {
+        question: "What's the difference between Ozempic and Wegovy?",
+        answer:
+          "Both contain the same active ingredient (semaglutide), but Ozempic is FDA-approved for type 2 diabetes while Wegovy is FDA-approved specifically for weight management. Wegovy is typically prescribed at higher doses than Ozempic. Some providers prescribe Ozempic off-label for weight loss, especially during Wegovy shortages.",
+      },
+      {
+        question: "Do I need to diet and exercise on these medications?",
+        answer:
+          "While GLP-1 medications can promote weight loss on their own, the best results come when combined with healthy eating and regular physical activity. Most providers recommend following a reduced-calorie diet and incorporating exercise. The medications help by reducing appetite and cravings, making it easier to stick to healthier habits.",
+      },
+      {
+        question: "What happens when I stop taking the medication?",
+        answer:
+          "Weight regain is common after stopping GLP-1 medications. Clinical studies show that many people regain a significant portion of the weight they lost within a year of stopping. These medications work best as part of a long-term weight management strategy. Some people may need to continue treatment indefinitely to maintain their weight loss.",
+      },
+      {
+        question: "Who should not take GLP-1 medications?",
+        answer:
+          "GLP-1 medications are not suitable for people with a personal or family history of medullary thyroid cancer or Multiple Endocrine Neoplasia syndrome type 2. They're also not recommended during pregnancy or breastfeeding. People with severe gastrointestinal disease, pancreatitis history, or certain other conditions may not be good candidates. A healthcare provider must evaluate your medical history.",
+      },
     ],
   },
   {
@@ -113,6 +153,26 @@ const faqs = [
         answer:
           "Some telehealth providers accept insurance, while others are cash-pay only. Insurance coverage for weight loss medications varies widely by plan. Even if a provider doesn't accept insurance directly, you may be able to submit claims for reimbursement. Check with both the provider and your insurance company for specific coverage details.",
       },
+      {
+        question: "What should I expect during the online consultation?",
+        answer:
+          "Online consultations typically involve a video call or questionnaire-based assessment where you discuss your medical history, current health conditions, medications, weight loss goals, and lifestyle. The provider will determine if GLP-1 medications are appropriate for you. Good providers will ask detailed questions and may request additional information or tests.",
+      },
+      {
+        question: "How long does it take to get started with a telehealth provider?",
+        answer:
+          "The timeline varies by provider. Some offer same-day or next-day consultations, while others may take several days to schedule. Once approved, medication shipping typically takes 3-7 business days. The entire process from initial assessment to receiving your first dose usually takes 1-2 weeks.",
+      },
+      {
+        question: "What if I'm not approved for medication?",
+        answer:
+          "Not everyone is a good candidate for GLP-1 medications. If you're not approved, the provider should explain why and may suggest alternative weight loss approaches. Some providers offer refunds for consultation fees if you're not approved, while others do not. Check the provider's policy before signing up.",
+      },
+      {
+        question: "Can I switch providers if I'm not satisfied?",
+        answer:
+          "Yes, you can typically switch providers, though you may need a new consultation and prescription. Some providers require subscription commitments, so check cancellation policies. If switching, ensure your new provider is aware of your current medication and dosage to maintain continuity of care.",
+      },
     ],
   },
   {
@@ -133,6 +193,21 @@ const faqs = [
         question: "How do I contact GOV Health Report?",
         answer:
           "You can reach us through our Contact page. We welcome questions, feedback, suggestions, and corrections to our content. Please note that we cannot provide medical advice or help with issues related to specific providers—you'll need to contact them directly.",
+      },
+      {
+        question: "Do you sell my personal information?",
+        answer:
+          "We do not sell personal information. When you click links to providers, they may collect information about your visit according to their own privacy policies. We may use cookies and analytics to improve our site. For full details, see our Privacy Policy.",
+      },
+      {
+        question: "Why do some providers appear multiple times on your site?",
+        answer:
+          "Popular or highly-rated providers may appear in multiple comparisons, rankings, and articles because they're relevant to different searches and topics. This doesn't necessarily mean they paid for additional placement—though affiliate relationships may influence visibility.",
+      },
+      {
+        question: "Can I suggest a provider to review?",
+        answer:
+          "Yes! We're always looking to expand our coverage. You can suggest providers through our Contact page. We evaluate suggestions based on the provider's legitimacy, user interest, and available information. We cannot guarantee we'll review every suggested provider.",
       },
     ],
   },
