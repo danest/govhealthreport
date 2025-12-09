@@ -106,7 +106,7 @@ const GallstonesArticleContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           The Short Answer
         </h2>
         <p className="text-muted-foreground">
@@ -118,11 +118,11 @@ const GallstonesArticleContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Understanding the Connection
     </h2>
 
-    <h3 className="text-xl font-semibold text-foreground mb-3 mt-6">
+    <h3 className="text-xl font-semibold text-[#003366] mb-3 mt-6">
       Why Does Rapid Weight Loss Cause Gallstones?
     </h3>
     <p className="text-muted-foreground mb-4">
@@ -137,7 +137,7 @@ const GallstonesArticleContent = () => (
       <li><strong>Changes in bile composition</strong> — Weight loss can alter the balance of bile salts and cholesterol</li>
     </ul>
 
-    <h3 className="text-xl font-semibold text-foreground mb-3">
+    <h3 className="text-xl font-semibold text-[#003366] mb-3">
       What Do the Clinical Trials Show?
     </h3>
     <p className="text-muted-foreground mb-4">
@@ -148,10 +148,10 @@ const GallstonesArticleContent = () => (
     <div className="overflow-x-auto mb-6">
       <table className="w-full text-sm border-collapse">
         <thead>
-          <tr className="border-b-2 border-primary/20">
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Study</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Medication Group</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Placebo Group</th>
+          <tr className="border-b-2 border-[#003366]">
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Study</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Medication Group</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Placebo Group</th>
           </tr>
         </thead>
         <tbody>
@@ -174,9 +174,9 @@ const GallstonesArticleContent = () => (
       placebo. Importantly, the greater the weight loss, the higher the risk appears to be.
     </p>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
-        <h3 className="text-lg font-bold text-foreground mb-2">
+        <h3 className="text-lg font-bold text-[#003366] mb-2">
           Important Context
         </h3>
         <p className="text-muted-foreground">
@@ -188,7 +188,7 @@ const GallstonesArticleContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Who Is at Higher Risk?
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -204,7 +204,7 @@ const GallstonesArticleContent = () => (
       <li><strong>High starting weight</strong> — More weight to lose means more cholesterol mobilization</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Signs and Symptoms to Watch For
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -223,7 +223,7 @@ const GallstonesArticleContent = () => (
       especially with fever, jaundice, or persistent vomiting.
     </p>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       How to Reduce Your Risk
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -231,48 +231,48 @@ const GallstonesArticleContent = () => (
     </p>
 
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">1. Maintain Regular Meals</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">1. Maintain Regular Meals</h3>
         <p className="text-sm text-muted-foreground">
           Even if you&apos;re not hungry, try to eat small, regular meals. This keeps your gallbladder
           contracting and prevents bile from sitting too long. Aim for at least 2-3 meals per day.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">2. Include Some Healthy Fats</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">2. Include Some Healthy Fats</h3>
         <p className="text-sm text-muted-foreground">
           Fat triggers gallbladder contraction. Include small amounts of healthy fats like olive oil,
           avocado, or nuts in your diet to help your gallbladder empty regularly.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">3. Stay Hydrated</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">3. Stay Hydrated</h3>
         <p className="text-sm text-muted-foreground">
           Adequate water intake helps maintain proper bile consistency. Aim for at least 64 ounces
           of water daily.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">4. Increase Fiber Intake</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">4. Increase Fiber Intake</h3>
         <p className="text-sm text-muted-foreground">
           High-fiber foods help regulate bile acid metabolism. Focus on vegetables, fruits, and
           whole grains.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">5. Consider Ursodiol (Discuss with Doctor)</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">5. Consider Ursodiol (Discuss with Doctor)</h3>
         <p className="text-sm text-muted-foreground">
           Some doctors prescribe ursodeoxycholic acid (Ursodiol) preventively for high-risk patients.
           This medication helps dissolve cholesterol in bile and is commonly used after bariatric surgery.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">6. Monitor Your Rate of Weight Loss</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">6. Monitor Your Rate of Weight Loss</h3>
         <p className="text-sm text-muted-foreground">
           While GLP-1 medications can cause impressive weight loss, discuss with your provider if
           you&apos;re losing more than 3 pounds per week consistently. Dose adjustments may help
@@ -281,7 +281,7 @@ const GallstonesArticleContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Should This Stop You From Taking GLP-1 Medications?
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -299,7 +299,7 @@ const GallstonesArticleContent = () => (
 
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
-        <h3 className="text-lg font-bold text-foreground mb-2">
+        <h3 className="text-lg font-bold text-[#003366] mb-2">
           Talk to Your Provider
         </h3>
         <p className="text-muted-foreground">
@@ -311,7 +311,7 @@ const GallstonesArticleContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The Bottom Line
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -343,7 +343,7 @@ const WhoShouldNotTakeOzempicContent = () => (
 
     <Card className="mb-8 border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-950/30">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Absolute Contraindications
         </h2>
         <p className="text-muted-foreground mb-4">
@@ -370,7 +370,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Medical Conditions Requiring Caution
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -380,7 +380,7 @@ const WhoShouldNotTakeOzempicContent = () => (
 
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">History of Pancreatitis</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">History of Pancreatitis</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 medications have been associated with acute pancreatitis. If you&apos;ve had pancreatitis
           before, the risk may be elevated. Your doctor will weigh the benefits against the risks and
@@ -389,7 +389,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </div>
 
       <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Diabetic Retinopathy</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Diabetic Retinopathy</h3>
         <p className="text-sm text-muted-foreground">
           Rapid blood sugar improvements can sometimes worsen diabetic eye disease temporarily. If you
           have diabetic retinopathy, especially proliferative retinopathy, close monitoring is essential.
@@ -398,7 +398,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </div>
 
       <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Kidney Disease</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Kidney Disease</h3>
         <p className="text-sm text-muted-foreground">
           While Ozempic doesn&apos;t require dose adjustment for mild to moderate kidney disease, severe
           kidney impairment requires caution. Dehydration from nausea and vomiting (common side effects)
@@ -407,7 +407,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </div>
 
       <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Gallbladder Disease</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Gallbladder Disease</h3>
         <p className="text-sm text-muted-foreground">
           As covered in our <Link href="/articles/do-glp-1-agonists-cause-gallstones" className="text-primary hover:underline">gallstones article</Link>,
           rapid weight loss increases gallstone risk. If you have existing gallbladder problems or
@@ -416,7 +416,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </div>
 
       <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Gastroparesis or Severe GI Disorders</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Gastroparesis or Severe GI Disorders</h3>
         <p className="text-sm text-muted-foreground">
           Ozempic slows gastric emptying—that&apos;s part of how it works. But if you already have
           gastroparesis (delayed stomach emptying) or severe GI motility disorders, this effect
@@ -425,7 +425,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       People Who Should Not Take Ozempic
     </h2>
 
@@ -482,7 +482,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Drug Interactions to Consider
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -493,10 +493,10 @@ const WhoShouldNotTakeOzempicContent = () => (
     <div className="overflow-x-auto mb-6">
       <table className="w-full text-sm border-collapse">
         <thead>
-          <tr className="border-b-2 border-primary/20">
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Medication Type</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Concern</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Action</th>
+          <tr className="border-b-2 border-[#003366]">
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Medication Type</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Concern</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Action</th>
           </tr>
         </thead>
         <tbody>
@@ -524,7 +524,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </table>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       People Who May Want to Reconsider
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -533,7 +533,7 @@ const WhoShouldNotTakeOzempicContent = () => (
 
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">You Have a History of Eating Disorders</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">You Have a History of Eating Disorders</h3>
         <p className="text-sm text-muted-foreground">
           The strong appetite suppression from Ozempic may trigger or worsen disordered eating patterns.
           If you have a history of anorexia, bulimia, or binge eating disorder, discuss this thoroughly
@@ -542,7 +542,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">You Have Significant Mental Health Concerns</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">You Have Significant Mental Health Concerns</h3>
         <p className="text-sm text-muted-foreground">
           Some patients report mood changes on GLP-1 medications. If you have depression, anxiety, or
           other mental health conditions, monitor your symptoms closely and report any changes to your
@@ -551,7 +551,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">You&apos;re Only Looking for Quick Weight Loss</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">You&apos;re Only Looking for Quick Weight Loss</h3>
         <p className="text-sm text-muted-foreground">
           Ozempic is a long-term medication. Many people regain weight after stopping. If you&apos;re
           not prepared for potentially indefinite use or making lifestyle changes, the medication may
@@ -560,7 +560,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">You Have Difficulty with Injections</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">You Have Difficulty with Injections</h3>
         <p className="text-sm text-muted-foreground">
           Ozempic is a once-weekly injection. If you have severe needle phobia or conditions that make
           self-injection difficult, oral alternatives like Rybelsus (oral semaglutide) might be worth
@@ -569,7 +569,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What to Tell Your Doctor
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -587,7 +587,7 @@ const WhoShouldNotTakeOzempicContent = () => (
 
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
-        <h3 className="text-lg font-bold text-foreground mb-2">
+        <h3 className="text-lg font-bold text-[#003366] mb-2">
           The Bottom Line
         </h3>
         <p className="text-muted-foreground">
@@ -599,7 +599,7 @@ const WhoShouldNotTakeOzempicContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Alternatives to Consider
     </h2>
     <p className="text-muted-foreground mb-4">

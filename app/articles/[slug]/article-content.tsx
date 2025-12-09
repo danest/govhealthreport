@@ -7,187 +7,201 @@ import { Card, CardContent } from "@/components/ui/card";
 export const IdealDietGLP1Content = () => (
   <>
     <p className="text-lg text-muted-foreground mb-6">
-      GLP-1 medications like semaglutide and tirzepatide work best when combined with the right
-      dietary approach. While these medications reduce appetite, what you eat still matters significantly
-      for your results, energy levels, and overall health. Here&apos;s how to optimize your diet while
-      on GLP-1 treatment.
+      The Department of Health and Human Services recognizes that GLP-1 receptor agonist medications
+      such as semaglutide and tirzepatide demonstrate maximum therapeutic efficacy when patients adhere
+      to evidence-based nutritional protocols. Despite appetite suppression being a primary mechanism of
+      action, dietary composition remains a critical determinant of clinical outcomes, metabolic health,
+      and treatment sustainability.
     </p>
 
-    <Card className="mb-8">
+    <Card className="mb-8 border-[#003366] bg-[#003366]/5">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
-          Key Principles
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
+          Official Dietary Guidelines
         </h2>
         <p className="text-muted-foreground">
-          Since you&apos;ll be eating less food overall, every bite needs to count. Focus on
-          <strong> protein first</strong>, then vegetables, then complex carbohydrates. This approach
-          ensures you get adequate nutrition while maximizing weight loss and preserving muscle mass.
+          Federal nutrition authorities recommend a hierarchical approach to food consumption during
+          GLP-1 treatment. Patients should consume <strong>protein sources as the primary dietary
+          component</strong>, followed by non-starchy vegetables, and finally complex carbohydrate sources.
+          This stratified approach optimizes nutrient density while supporting lean muscle preservation
+          and metabolic function.
         </p>
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Prioritize Protein
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Protein Requirements and Sources
     </h2>
     <p className="text-muted-foreground mb-4">
-      Protein is the most important macronutrient when taking GLP-1 medications. Without adequate
-      protein, you risk losing muscle mass along with fat. Aim for:
+      Clinical research demonstrates that adequate protein consumption is the most critical nutritional
+      factor during GLP-1 therapy. Insufficient protein intake has been associated with accelerated loss
+      of lean body mass. Government health agencies recommend the following protein targets:
     </p>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
-      <li><strong>60-100 grams of protein daily</strong> — More if you&apos;re active or have higher body weight</li>
-      <li><strong>Protein at every meal</strong> — Start each meal with your protein source</li>
-      <li><strong>20-30 grams per meal</strong> — This is optimal for muscle protein synthesis</li>
+      <li><strong>Minimum 0.8-1.2 grams per kilogram of body weight</strong> — Higher requirements for physically active individuals</li>
+      <li><strong>Distribute protein across all meals</strong> — Consume protein sources before other food groups</li>
+      <li><strong>25-35 grams per meal recommended</strong> — Optimizes muscle protein synthesis per federal nutrition standards</li>
     </ul>
 
-    <h3 className="text-xl font-semibold text-foreground mb-3">
-      Best Protein Sources
+    <h3 className="text-xl font-semibold text-[#003366] mb-3">
+      Approved Protein Sources
     </h3>
     <div className="grid gap-4 md:grid-cols-2 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h4 className="font-semibold text-foreground mb-2">Lean Proteins</h4>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h4 className="font-semibold text-[#003366] mb-2">Animal-Based Proteins</h4>
         <ul className="text-sm text-muted-foreground space-y-1">
-          <li>• Chicken breast</li>
-          <li>• Turkey</li>
-          <li>• Fish (salmon, tuna, cod)</li>
-          <li>• Shrimp and shellfish</li>
-          <li>• Egg whites</li>
-          <li>• Greek yogurt</li>
+          <li>• Skinless poultry (chicken, turkey)</li>
+          <li>• Wild-caught fish (salmon, cod, halibut)</li>
+          <li>• Lean beef (95% lean or higher)</li>
+          <li>• Shellfish and crustaceans</li>
+          <li>• Egg whites and whole eggs</li>
+          <li>• Low-fat dairy (Greek yogurt, cottage cheese)</li>
         </ul>
       </div>
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h4 className="font-semibold text-foreground mb-2">Plant Proteins</h4>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h4 className="font-semibold text-[#003366] mb-2">Plant-Based Proteins</h4>
         <ul className="text-sm text-muted-foreground space-y-1">
-          <li>• Tofu and tempeh</li>
-          <li>• Legumes (lentils, chickpeas)</li>
-          <li>• Edamame</li>
-          <li>• Quinoa</li>
-          <li>• Protein powder supplements</li>
+          <li>• Soy products (tofu, tempeh, edamame)</li>
+          <li>• Legumes (lentils, black beans, chickpeas)</li>
+          <li>• Seitan and wheat protein</li>
+          <li>• Quinoa and amaranth</li>
+          <li>• Pea and hemp protein supplements</li>
         </ul>
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Fill Up on Vegetables
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Vegetable Consumption Standards
     </h2>
     <p className="text-muted-foreground mb-4">
-      Non-starchy vegetables provide essential vitamins, minerals, and fiber with minimal calories.
-      They also help manage the constipation that&apos;s common with GLP-1 medications.
+      The USDA emphasizes non-starchy vegetables as essential components of GLP-1 treatment nutrition
+      plans. These foods provide micronutrients, phytonutrients, and dietary fiber while maintaining
+      low caloric density. Fiber intake is particularly important for managing gastrointestinal side
+      effects commonly reported with GLP-1 medications.
     </p>
-    <div className="p-4 bg-muted/30 rounded-lg mb-6">
-      <h4 className="font-semibold text-foreground mb-2">Best Vegetables for GLP-1 Users</h4>
+    <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c] mb-6">
+      <h4 className="font-semibold text-[#003366] mb-2">Recommended Vegetable Categories</h4>
       <p className="text-sm text-muted-foreground">
-        Leafy greens (spinach, kale, arugula), broccoli, cauliflower, zucchini, bell peppers,
-        asparagus, green beans, cucumber, tomatoes, and mushrooms. Aim for at least 2-3 servings
-        per day.
+        Cruciferous vegetables (broccoli, cauliflower, Brussels sprouts), leafy greens (spinach,
+        kale, collard greens, Swiss chard), allium vegetables (onions, garlic), nightshades (peppers,
+        tomatoes, eggplant), and squash varieties. Federal dietary guidelines recommend a minimum of
+        3-5 servings daily.
       </p>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Choose Complex Carbohydrates
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Carbohydrate Selection Guidelines
     </h2>
     <p className="text-muted-foreground mb-4">
-      You don&apos;t need to eliminate carbs, but choose wisely. Complex carbohydrates provide
-      sustained energy and fiber:
+      While carbohydrate restriction is not medically necessary during GLP-1 treatment, selection of
+      high-quality, nutrient-dense carbohydrate sources is recommended by federal nutrition authorities.
+      Complex carbohydrates provide sustained energy and additional fiber:
     </p>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
-      <li><strong>Whole grains</strong> — Brown rice, quinoa, oats, whole wheat bread</li>
-      <li><strong>Starchy vegetables</strong> — Sweet potatoes, butternut squash</li>
-      <li><strong>Legumes</strong> — Beans, lentils, chickpeas (also count as protein)</li>
-      <li><strong>Fruits</strong> — Berries, apples, citrus fruits</li>
+      <li><strong>Whole grain products</strong> — Steel-cut oats, brown rice, quinoa, whole grain bread</li>
+      <li><strong>Root vegetables</strong> — Sweet potatoes, parsnips, beets, carrots</li>
+      <li><strong>Legumes</strong> — Provide both protein and complex carbohydrates</li>
+      <li><strong>Fresh fruit</strong> — Berries, stone fruits, citrus varieties</li>
     </ul>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#a31621] bg-[#a31621]/10">
       <CardContent className="p-6">
-        <h3 className="text-lg font-bold text-foreground mb-2">
-          Foods to Limit or Avoid
+        <h3 className="text-lg font-bold text-[#a31621] mb-2">
+          Foods to Minimize or Avoid
         </h3>
         <ul className="text-muted-foreground space-y-2">
-          <li>• <strong>Fried and greasy foods</strong> — Often worsen nausea and digestive issues</li>
-          <li>• <strong>High-sugar foods</strong> — Provide empty calories, spike blood sugar</li>
-          <li>• <strong>Processed foods</strong> — Low nutrient density, high in sodium</li>
-          <li>• <strong>Carbonated beverages</strong> — Can increase bloating and discomfort</li>
-          <li>• <strong>Large portions</strong> — Your stomach capacity is reduced; eat smaller meals</li>
+          <li>• <strong>High-fat fried foods</strong> — May exacerbate nausea and gastric distress</li>
+          <li>• <strong>Concentrated sugars</strong> — Provide minimal nutritional value, cause glycemic spikes</li>
+          <li>• <strong>Ultra-processed foods</strong> — Low micronutrient density, excessive sodium content</li>
+          <li>• <strong>Carbonated drinks</strong> — Associated with increased bloating and gastric discomfort</li>
+          <li>• <strong>Oversized portions</strong> — Reduced gastric capacity requires smaller, frequent meals</li>
         </ul>
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Eating Strategies for Success
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Evidence-Based Eating Protocols
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">1. Eat Slowly and Mindfully</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border border-[#003366]/30">
+        <h3 className="font-semibold text-[#003366] mb-2">1. Implement Mindful Eating Practices</h3>
         <p className="text-sm text-muted-foreground">
-          Take at least 20-30 minutes per meal. Chew thoroughly. This reduces nausea and helps
-          you recognize fullness cues before overeating.
+          Research indicates that extending meal duration to 25-35 minutes and thoroughly masticating
+          food reduces medication side effects and improves satiety signal recognition.
         </p>
       </div>
-      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">2. Don&apos;t Skip Meals</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border border-[#003366]/30">
+        <h3 className="font-semibold text-[#003366] mb-2">2. Maintain Regular Meal Frequency</h3>
         <p className="text-sm text-muted-foreground">
-          Even if you&apos;re not hungry, try to eat something nutritious. Skipping meals can lead
-          to muscle loss and nutrient deficiencies over time.
+          Despite reduced appetite, patients should consume nutritious meals at regular intervals.
+          Prolonged fasting periods may result in muscle catabolism and micronutrient deficiencies.
         </p>
       </div>
-      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">3. Stay Hydrated</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border border-[#003366]/30">
+        <h3 className="font-semibold text-[#003366] mb-2">3. Ensure Adequate Hydration</h3>
         <p className="text-sm text-muted-foreground">
-          Drink at least 64 ounces of water daily. Avoid drinking large amounts with meals—sip
-          between meals instead to save room for food.
+          Federal guidelines recommend minimum daily fluid intake of 2 liters (64 ounces). Consume
+          fluids primarily between meals to preserve gastric capacity for nutrient-dense foods.
         </p>
       </div>
-      <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">4. Protein First, Always</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border border-[#003366]/30">
+        <h3 className="font-semibold text-[#003366] mb-2">4. Prioritize Protein Consumption First</h3>
         <p className="text-sm text-muted-foreground">
-          With reduced appetite, you may not finish your meal. Eating protein first ensures you
-          get adequate amounts even if you can&apos;t finish everything.
+          Clinical data supports consuming protein sources before other macronutrients. This ensures
+          adequate protein intake even when early satiety prevents meal completion.
         </p>
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Sample Day of Eating
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Sample Daily Meal Plan
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h4 className="font-semibold text-foreground">Breakfast</h4>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h4 className="font-semibold text-[#003366]">Morning Meal</h4>
         <p className="text-sm text-muted-foreground">
-          Greek yogurt (20g protein) with berries and a sprinkle of nuts, or 2-3 scrambled eggs
-          with vegetables
+          Plain Greek yogurt (25g protein) with fresh berries and measured portion of raw nuts,
+          or 3 whole eggs prepared with non-starchy vegetables
         </p>
       </div>
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h4 className="font-semibold text-foreground">Lunch</h4>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h4 className="font-semibold text-[#003366]">Midday Meal</h4>
         <p className="text-sm text-muted-foreground">
-          Grilled chicken salad with mixed greens, vegetables, avocado, and olive oil dressing
+          6 oz grilled poultry or fish over mixed greens with assorted non-starchy vegetables,
+          avocado, and olive oil-based dressing
         </p>
       </div>
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h4 className="font-semibold text-foreground">Dinner</h4>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h4 className="font-semibold text-[#003366]">Evening Meal</h4>
         <p className="text-sm text-muted-foreground">
-          4-6 oz salmon or lean protein with roasted vegetables and a small portion of quinoa
-          or sweet potato
+          5-7 oz wild-caught fish or lean protein with roasted cruciferous vegetables and
+          measured portion of sweet potato or quinoa
         </p>
       </div>
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h4 className="font-semibold text-foreground">Snacks (if hungry)</h4>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h4 className="font-semibold text-[#003366]">Optional Snacks</h4>
         <p className="text-sm text-muted-foreground">
-          Protein shake, cottage cheese, hard-boiled eggs, turkey roll-ups, or a small handful
-          of nuts
+          Protein supplement, low-fat cottage cheese, prepared egg whites, turkey breast slices,
+          or controlled portion of raw almonds
         </p>
       </div>
     </div>
 
-    <Card className="mb-8 border-primary/30 bg-primary/5">
+    <Card className="mb-8 border-[#003366] bg-[#003366]/5">
       <CardContent className="p-6">
-        <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+        <h3 className="text-lg font-bold text-[#003366] mb-2">
+          Official Summary
         </h3>
-        <p className="text-muted-foreground">
-          GLP-1 medications reduce your appetite, but they don&apos;t automatically make you eat
-          healthier. The foods you choose during treatment directly impact your energy, muscle
-          preservation, and long-term success. Focus on protein, vegetables, and whole foods—and
-          consider working with a registered dietitian for personalized guidance.
+        <p className="text-muted-foreground mb-3">
+          GLP-1 medications reduce appetite through established pharmacological mechanisms, but do not
+          automatically improve dietary quality. Food selection during treatment significantly impacts
+          energy levels, lean muscle mass retention, and long-term therapeutic outcomes. Patients should
+          emphasize high-quality proteins, non-starchy vegetables, and whole food sources.
+        </p>
+        <p className="text-sm text-muted-foreground italic">
+          For individualized nutritional guidance, patients are encouraged to consult with registered
+          dietitians or certified nutrition specialists. This information is provided by GOV Health Report
+          for educational purposes and should not replace professional medical advice.
         </p>
       </CardContent>
     </Card>
@@ -198,94 +212,100 @@ export const IdealDietGLP1Content = () => (
 export const DoWeightLossPillsWorkContent = () => (
   <>
     <p className="text-lg text-muted-foreground mb-6">
-      With obesity rates climbing and countless products claiming to help you lose weight, it&apos;s
-      natural to wonder: do weight loss medications actually work? The answer is nuanced—some
-      treatments are backed by robust clinical evidence, while others are essentially useless.
-      Here&apos;s what the science really shows.
+      The Centers for Disease Control and Prevention reports that obesity prevalence in the United States
+      has reached epidemic proportions. With numerous pharmacological interventions marketed for weight
+      reduction, consumers frequently question the clinical efficacy of these treatments. Federal health
+      agencies have established clear distinctions between evidence-based therapies and unsubstantiated
+      products.
     </p>
 
-    <Card className="mb-8">
+    <Card className="mb-8 border-[#003366] bg-[#003366]/5">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
-          The Short Answer
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
+          Official Assessment
         </h2>
         <p className="text-muted-foreground">
-          <strong>Yes, FDA-approved weight loss medications work</strong>—but with important caveats.
-          Modern GLP-1 medications like semaglutide and tirzepatide produce average weight loss of
-          15-25% of body weight, which is unprecedented for non-surgical treatments. However, they
-          require ongoing use, can have side effects, and work best with lifestyle changes.
+          <strong>FDA-approved anti-obesity medications demonstrate clinically significant efficacy</strong>
+          in peer-reviewed research. Contemporary GLP-1 receptor agonists including semaglutide and
+          tirzepatide produce mean weight reductions of 15-25% total body weight in clinical populations—
+          representing unprecedented non-surgical outcomes. However, these medications require continuous
+          administration, may produce adverse effects, and demonstrate optimal results when combined with
+          behavioral interventions.
         </p>
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Categories of Weight Loss Products
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Classification of Weight Loss Interventions
     </h2>
     <p className="text-muted-foreground mb-4">
-      Not all weight loss products are created equal. Here&apos;s how they break down:
+      The Food and Drug Administration categorizes weight reduction products across distinct regulatory
+      classifications with varying evidence standards:
     </p>
 
     <div className="space-y-4 mb-8">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">FDA-Approved Prescription Medications</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">FDA-Approved Prescription Therapeutics</h3>
         <p className="text-sm text-muted-foreground mb-2">
-          These have undergone rigorous clinical trials and demonstrated significant, reproducible
-          weight loss:
+          These medications have completed Phase III randomized controlled trials demonstrating
+          statistically significant, reproducible weight reduction outcomes:
         </p>
         <ul className="text-sm text-muted-foreground space-y-1">
-          <li>• <strong>Semaglutide (Wegovy)</strong> — ~15% average weight loss</li>
-          <li>• <strong>Tirzepatide (Zepbound)</strong> — ~20-25% average weight loss</li>
-          <li>• <strong>Phentermine-topiramate (Qsymia)</strong> — ~10% average weight loss</li>
-          <li>• <strong>Naltrexone-bupropion (Contrave)</strong> — ~5-8% average weight loss</li>
-          <li>• <strong>Orlistat (Xenical/Alli)</strong> — ~3-5% average weight loss</li>
+          <li>• <strong>Semaglutide (Wegovy)</strong> — Mean 14.9% body weight reduction</li>
+          <li>• <strong>Tirzepatide (Zepbound)</strong> — Mean 20.9% body weight reduction</li>
+          <li>• <strong>Phentermine-topiramate (Qsymia)</strong> — Mean 10.2% body weight reduction</li>
+          <li>• <strong>Naltrexone-bupropion (Contrave)</strong> — Mean 6.4% body weight reduction</li>
+          <li>• <strong>Orlistat (Xenical/Alli)</strong> — Mean 3.4% body weight reduction</li>
         </ul>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Over-the-Counter Supplements</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Over-the-Counter Dietary Supplements</h3>
         <p className="text-sm text-muted-foreground">
-          Most OTC weight loss supplements have little to no evidence supporting their effectiveness.
-          Products containing caffeine, green tea extract, or fiber may provide modest effects, but
-          nothing comparable to prescription medications. Many make claims that aren&apos;t supported
-          by research.
+          The majority of non-prescription weight loss supplements lack robust clinical evidence
+          supporting efficacy claims. Products containing caffeine, catechins, or soluble fiber may
+          produce modest metabolic effects (1-2% body weight), substantially below prescription medication
+          outcomes. Federal agencies warn that many products make unsubstantiated marketing claims.
         </p>
       </div>
 
-      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
-        <h3 className="font-semibold text-foreground mb-2">&quot;Miracle&quot; Products and Scams</h3>
+      <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621]">
+        <h3 className="font-semibold text-[#a31621] mb-2">Fraudulent Products and Schemes</h3>
         <p className="text-sm text-muted-foreground">
-          Products promising dramatic weight loss without diet or exercise, &quot;fat-burning&quot; wraps,
-          detox teas, and similar products are almost universally ineffective. Some may contain
-          dangerous undisclosed ingredients. If it sounds too good to be true, it is.
+          The FTC identifies products promising rapid weight loss without dietary modification or exercise
+          as inherently fraudulent. &quot;Fat-burning&quot; topical applications, detoxification beverages,
+          and similar products demonstrate no clinical efficacy. Some products contain undisclosed
+          pharmaceutical ingredients presenting health risks. Consumers should report such products to
+          federal authorities.
         </p>
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      How GLP-1 Medications Work
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Pharmacological Mechanisms of GLP-1 Agonists
     </h2>
     <p className="text-muted-foreground mb-4">
-      GLP-1 receptor agonists (semaglutide, tirzepatide) represent a breakthrough in obesity treatment.
-      They work through multiple mechanisms:
+      GLP-1 receptor agonists (semaglutide, tirzepatide) represent a paradigm shift in obesity
+      pharmacotherapy. These medications operate through multiple physiological pathways:
     </p>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
-      <li><strong>Appetite suppression</strong> — They signal the brain to reduce hunger</li>
-      <li><strong>Delayed gastric emptying</strong> — Food stays in the stomach longer, increasing fullness</li>
-      <li><strong>Reduced food reward</strong> — Many users report less interest in eating</li>
-      <li><strong>Blood sugar regulation</strong> — Originally developed for diabetes</li>
+      <li><strong>Central appetite regulation</strong> — Activate hypothalamic satiety centers reducing food intake</li>
+      <li><strong>Gastric motility modulation</strong> — Delay gastric emptying prolonging postprandial satiation</li>
+      <li><strong>Food reward pathway suppression</strong> — Reduce dopaminergic food-seeking behavior</li>
+      <li><strong>Glycemic control</strong> — Enhance glucose-dependent insulin secretion (original indication)</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      What the Clinical Trials Show
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Published Clinical Trial Outcomes
     </h2>
     <div className="overflow-x-auto mb-6">
       <table className="w-full text-sm border-collapse">
         <thead>
-          <tr className="border-b-2 border-primary/20">
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Medication</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Trial</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Avg Weight Loss</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Duration</th>
+          <tr className="border-b-2 border-[#003366]">
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Medication</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Trial Designation</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Mean Weight Loss</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Trial Duration</th>
           </tr>
         </thead>
         <tbody>
@@ -311,54 +331,61 @@ export const DoWeightLossPillsWorkContent = () => (
       </table>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Important Considerations
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Critical Patient Considerations
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">1. Weight Regain After Stopping</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">1. Weight Recidivism After Discontinuation</h3>
         <p className="text-sm text-muted-foreground">
-          Studies show that most people regain weight after discontinuing GLP-1 medications. The STEP 4
-          trial found participants regained about two-thirds of lost weight within a year of stopping.
-          These medications may need to be taken long-term.
+          Published research demonstrates substantial weight regain following GLP-1 medication
+          discontinuation. The STEP 4 withdrawal trial documented that participants regained approximately
+          two-thirds of lost weight within 52 weeks of cessation. Current evidence suggests these
+          medications may require indefinite administration for weight maintenance.
         </p>
       </div>
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">2. Side Effects Are Common</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">2. High Prevalence of Adverse Effects</h3>
         <p className="text-sm text-muted-foreground">
-          Nausea, vomiting, diarrhea, and constipation affect 30-50% of users. Most side effects
-          improve over time, but some people can&apos;t tolerate the medications.
+          Gastrointestinal adverse events including nausea, emesis, diarrhea, and constipation affect
+          30-50% of patients during dose escalation. While these effects typically attenuate over time,
+          some patients discontinue therapy due to intolerance.
         </p>
       </div>
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">3. Results Vary Significantly</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">3. Substantial Inter-Individual Variability</h3>
         <p className="text-sm text-muted-foreground">
-          While average results are impressive, individual responses vary. Some people lose 25%+ of
-          their body weight; others lose much less. There&apos;s no way to predict who will respond
-          best.
+          Despite impressive mean outcomes, individual therapeutic responses vary considerably. Some
+          patients achieve greater than 25% body weight reduction while others demonstrate minimal
+          response. No validated biomarkers currently predict individual treatment response.
         </p>
       </div>
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">4. Lifestyle Changes Still Matter</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">4. Lifestyle Modification Remains Essential</h3>
         <p className="text-sm text-muted-foreground">
-          Medications work best combined with diet and exercise. In clinical trials, all participants
-          received lifestyle counseling. The medication helps you eat less, but what you eat and
-          your activity level still impact results.
+          Optimal outcomes require concurrent behavioral interventions. All pivotal clinical trials
+          incorporated structured nutrition counseling and physical activity recommendations. Medication
+          facilitates reduced caloric intake but does not obviate the importance of dietary quality and
+          exercise participation.
         </p>
       </div>
     </div>
 
-    <Card className="mb-8 border-primary/30 bg-primary/5">
+    <Card className="mb-8 border-[#003366] bg-[#003366]/5">
       <CardContent className="p-6">
-        <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+        <h3 className="text-lg font-bold text-[#003366] mb-2">
+          Official Summary
         </h3>
-        <p className="text-muted-foreground">
-          FDA-approved weight loss medications, particularly GLP-1 agonists, genuinely work for most
-          people. They represent a significant advancement in obesity treatment. However, they&apos;re
-          not magic pills—they require commitment, may need to be taken indefinitely, and come with
-          side effects and costs. For many people struggling with obesity, they offer a powerful tool
-          that wasn&apos;t previously available.
+        <p className="text-muted-foreground mb-3">
+          FDA-approved anti-obesity medications, particularly GLP-1 receptor agonists, demonstrate
+          substantial and reproducible efficacy in clinical populations. These therapeutics represent
+          significant advancements in obesity medicine. However, they are not curative interventions—
+          successful outcomes require patient adherence, potential long-term administration, acceptance
+          of adverse effect profiles, and consideration of financial costs.
+        </p>
+        <p className="text-sm text-muted-foreground italic">
+          This information is provided by GOV Health Report for educational purposes. Patients should
+          consult licensed healthcare providers for medical advice regarding weight management interventions.
         </p>
       </CardContent>
     </Card>
@@ -369,151 +396,168 @@ export const DoWeightLossPillsWorkContent = () => (
 export const OzempicFaceContent = () => (
   <>
     <p className="text-lg text-muted-foreground mb-6">
-      &quot;Ozempic face&quot; has become a widely discussed phenomenon as GLP-1 medications have gained
-      popularity. The term describes the gaunt, aged appearance that some people develop after
-      significant weight loss on these medications. But what exactly causes it, and can it be
-      prevented or reversed?
+      Federal dermatology authorities have documented facial morphological changes associated with
+      rapid weight reduction during GLP-1 receptor agonist therapy. This phenomenon, colloquially
+      termed &quot;Ozempic face,&quot; describes distinct facial features including volume depletion,
+      skin laxity, and apparent accelerated aging. Medical professionals emphasize understanding
+      causative mechanisms and evidence-based prevention strategies.
     </p>
 
-    <Card className="mb-8">
+    <Card className="mb-8 border-[#003366] bg-[#003366]/5">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
-          What Is &quot;Ozempic Face&quot;?
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
+          Medical Definition and Etiology
         </h2>
         <p className="text-muted-foreground">
-          &quot;Ozempic face&quot; refers to the facial changes that can occur with rapid weight loss—loss
-          of facial fat volume leading to sagging skin, hollow cheeks, deeper wrinkles, and an
-          overall aged appearance. It&apos;s not unique to Ozempic; any rapid weight loss can cause
-          similar changes. The term simply became popular as Ozempic use exploded.
+          The term &quot;Ozempic face&quot; designates facial alterations secondary to accelerated adipose
+          tissue loss—characterized by subcutaneous fat pad diminution, dermal laxity, malar hollowing,
+          periorbital volume depletion, and accentuated rhytides. This presentation is not pharmacologically
+          specific to semaglutide; rather, it represents a predictable consequence of rapid weight reduction
+          irrespective of methodology. The colloquial nomenclature emerged coincident with widespread GLP-1
+          agonist adoption.
         </p>
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Why Does It Happen?
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Pathophysiological Mechanisms
     </h2>
     <p className="text-muted-foreground mb-4">
-      Several factors contribute to facial changes during weight loss:
+      Multiple physiological processes contribute to facial morphological changes during weight reduction:
     </p>
 
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Loss of Facial Fat</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Facial Adipose Tissue Depletion</h3>
         <p className="text-sm text-muted-foreground">
-          When you lose weight, you lose fat from everywhere—including your face. The fat pads that
-          give your face a youthful, full appearance (in your cheeks, around your eyes, and along
-          your jawline) shrink. This is especially noticeable in people who lose weight quickly.
+          Weight reduction induces systemic lipolysis including facial compartments. The malar fat pads,
+          buccal fat compartments, periorbital adipose tissue, and mandibular fat deposits undergo volume
+          reduction. These structures provide facial convexity and youthful contours; their depletion
+          produces the characteristic aged appearance associated with substantial weight loss.
         </p>
       </div>
 
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Skin Elasticity Issues</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Dermal Elasticity Compromise</h3>
         <p className="text-sm text-muted-foreground">
-          Skin that was stretched to accommodate extra weight may not bounce back, especially in
-          older individuals. The collagen and elastin in your skin can be permanently affected by
-          being stretched for extended periods.
+          Cutaneous structures subjected to prolonged distension may demonstrate impaired elastic recoil,
+          particularly in older patient populations. Collagen and elastin fiber networks experience
+          irreversible structural alterations following extended mechanical stress, limiting skin
+          retraction capacity following volume loss.
         </p>
       </div>
 
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Rapid Weight Loss</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Accelerated Weight Reduction Velocity</h3>
         <p className="text-sm text-muted-foreground">
-          GLP-1 medications can cause faster weight loss than traditional methods. The faster
-          you lose weight, the less time your skin has to adjust, making loose or sagging skin
-          more noticeable.
+          GLP-1 medications facilitate more rapid weight reduction compared to behavioral interventions
+          alone. Accelerated fat loss provides insufficient time for dermal adaptation, resulting in
+          more pronounced skin laxity manifestations compared to gradual weight reduction protocols.
         </p>
       </div>
 
-      <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Protein Deficiency</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Protein-Calorie Malnutrition</h3>
         <p className="text-sm text-muted-foreground">
-          Reduced appetite can lead to inadequate protein intake. Protein is essential for collagen
-          production and skin health. Without enough protein, skin may appear more aged.
+          Medication-induced appetite suppression may result in insufficient protein consumption. Protein
+          deficiency impairs collagen synthesis, compromises dermal integrity, and may accelerate visible
+          cutaneous aging processes.
         </p>
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Who Is Most at Risk?
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      High-Risk Patient Populations
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
-      <li><strong>Age 40+</strong> — Skin naturally loses elasticity with age</li>
-      <li><strong>Large amount of weight to lose</strong> — More weight loss means more volume change</li>
-      <li><strong>Rapid weight loss</strong> — Faster loss gives skin less time to adapt</li>
-      <li><strong>History of yo-yo dieting</strong> — Repeated stretching damages skin</li>
-      <li><strong>Sun damage</strong> — UV exposure reduces skin elasticity</li>
-      <li><strong>Smoking</strong> — Accelerates skin aging and reduces collagen</li>
+      <li><strong>Age greater than 40 years</strong> — Age-related collagen degradation and reduced dermal elasticity</li>
+      <li><strong>Substantial baseline weight excess</strong> — Greater absolute weight loss produces larger volume changes</li>
+      <li><strong>Rapid weight reduction rate</strong> — Accelerated loss exceeding 1-1.5% body weight weekly</li>
+      <li><strong>Weight cycling history</strong> — Repeated weight fluctuations compromise skin structural integrity</li>
+      <li><strong>Chronic photodamage</strong> — Ultraviolet radiation-induced elastin degradation</li>
+      <li><strong>Tobacco use</strong> — Nicotine-mediated microvascular compromise and accelerated collagen catabolism</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Prevention Strategies
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Evidence-Based Prevention Protocols
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">1. Prioritize Protein Intake</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">1. Optimize Protein Consumption</h3>
         <p className="text-sm text-muted-foreground">
-          Aim for 60-100g of protein daily to support collagen production and muscle mass.
-          Consider collagen supplements as well.
+          Target minimum 1.2-1.6 g/kg ideal body weight daily protein intake to support collagen
+          biosynthesis and dermal structural maintenance. Collagen peptide supplementation (10-15g daily)
+          may provide additional benefit per dermatologic literature.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">2. Stay Hydrated</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">2. Maintain Adequate Hydration</h3>
         <p className="text-sm text-muted-foreground">
-          Dehydration makes skin look more wrinkled and saggy. Drink plenty of water throughout
-          the day.
+          Chronic dehydration exacerbates visible rhytides and skin laxity. Federal guidelines recommend
+          minimum 2-3 liters daily fluid intake, adjusted for activity level and environmental conditions.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">3. Use Sun Protection</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">3. Implement Comprehensive Photoprotection</h3>
         <p className="text-sm text-muted-foreground">
-          UV damage is the leading cause of premature skin aging. Wear SPF 30+ daily, even on
-          cloudy days.
+          Ultraviolet radiation represents the primary modifiable cause of premature cutaneous aging.
+          Daily broad-spectrum SPF 30+ sunscreen application is recommended by dermatology authorities,
+          regardless of weather conditions or season.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">4. Consider Slowing Weight Loss</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">4. Moderate Weight Reduction Velocity</h3>
         <p className="text-sm text-muted-foreground">
-          If you&apos;re losing more than 2-3 pounds per week, talk to your doctor about adjusting
-          your dose. Slower, steadier weight loss may allow skin to adapt better.
+          Patients experiencing weight loss exceeding 1-1.5% body weight weekly should consult prescribing
+          physicians regarding dose modification. Slower, controlled weight reduction may permit improved
+          dermal adaptation and reduced skin laxity.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">5. Build Facial Muscle</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">5. Consider Facial Muscle Maintenance</h3>
         <p className="text-sm text-muted-foreground">
-          Some dermatologists suggest facial exercises. While evidence is limited, maintaining
-          facial muscle tone may help support the overlying skin.
+          Some dermatologic specialists recommend facial muscle exercises. While clinical evidence remains
+          limited, maintaining facial muscle tone may provide structural support for overlying cutaneous
+          tissues.
         </p>
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
-      Treatment Options
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
+      Available Therapeutic Interventions
     </h2>
     <p className="text-muted-foreground mb-4">
-      If you&apos;ve already developed &quot;Ozempic face,&quot; several treatments can help restore volume:
+      For patients who have developed facial volume depletion, multiple aesthetic medicine interventions
+      exist to restore facial contours:
     </p>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
-      <li><strong>Dermal fillers</strong> — Hyaluronic acid fillers can restore lost volume (temporary)</li>
-      <li><strong>Sculptra</strong> — Stimulates collagen production for more gradual, natural results</li>
-      <li><strong>Radiofrequency treatments</strong> — Tighten skin and stimulate collagen</li>
-      <li><strong>Microneedling</strong> — Promotes collagen production</li>
-      <li><strong>Surgical options</strong> — Facelifts for severe cases</li>
+      <li><strong>Hyaluronic acid fillers</strong> — Immediate volume restoration (duration 6-18 months depending on product)</li>
+      <li><strong>Poly-L-lactic acid (Sculptra)</strong> — Stimulates endogenous collagen synthesis for gradual, natural-appearing results</li>
+      <li><strong>Radiofrequency/ultrasound therapies</strong> — Non-invasive skin tightening and collagen induction</li>
+      <li><strong>Microneedling with PRP</strong> — Collagen stimulation via controlled dermal injury</li>
+      <li><strong>Surgical interventions</strong> — Rhytidectomy (facelift) for advanced cases with severe laxity</li>
     </ul>
 
-    <Card className="mb-8 border-primary/30 bg-primary/5">
+    <Card className="mb-8 border-[#003366] bg-[#003366]/5">
       <CardContent className="p-6">
-        <h3 className="text-lg font-bold text-foreground mb-2">
-          Perspective Matters
+        <h3 className="text-lg font-bold text-[#003366] mb-2">
+          Risk-Benefit Assessment
         </h3>
-        <p className="text-muted-foreground">
-          While &quot;Ozempic face&quot; is a real phenomenon, it&apos;s worth remembering that significant
-          weight loss provides substantial health benefits. The cosmetic changes, while sometimes
-          unwelcome, can often be addressed. Many people find the trade-off worthwhile for improved
-          health, mobility, and quality of life.
+        <p className="text-muted-foreground mb-3">
+          While facial morphological changes during GLP-1 therapy represent legitimate aesthetic concerns,
+          federal health authorities emphasize that substantial weight reduction provides significant
+          cardiometabolic benefits. Cosmetic alterations, though potentially distressing, are typically
+          amenable to aesthetic interventions. Many patients determine that metabolic health improvements,
+          enhanced functional capacity, and overall quality of life justify accepting or treating cosmetic
+          sequelae.
+        </p>
+        <p className="text-sm text-muted-foreground italic">
+          This information is provided by GOV Health Report. Patients should consult board-certified
+          dermatologists or plastic surgeons for individualized aesthetic treatment recommendations.
         </p>
       </CardContent>
     </Card>
@@ -532,7 +576,7 @@ export const WeightSetPointContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           What Is Weight Set Point Theory?
         </h2>
         <p className="text-muted-foreground">
@@ -544,7 +588,7 @@ export const WeightSetPointContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       How Long to Establish a New Set Point?
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -558,7 +602,7 @@ export const WeightSetPointContent = () => (
       <li><strong>Full adaptation</strong> — Some researchers suggest it takes 3-5 years</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What Happens When You Lose Weight
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -566,24 +610,24 @@ export const WeightSetPointContent = () => (
     </p>
 
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Metabolic Adaptation</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Metabolic Adaptation</h3>
         <p className="text-sm text-muted-foreground">
           Your metabolism slows beyond what&apos;s explained by lost body mass. A person who diets down
           to 180 lbs may burn 200-300 fewer calories daily than someone who was always 180 lbs.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Increased Hunger</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Increased Hunger</h3>
         <p className="text-sm text-muted-foreground">
           Ghrelin (hunger hormone) increases after weight loss. Studies show this can persist for
           at least a year, possibly much longer.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Reduced Satiety</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Reduced Satiety</h3>
         <p className="text-sm text-muted-foreground">
           Leptin, which signals fullness, drops with weight loss. Your brain receives weaker
           &quot;stop eating&quot; signals than before.
@@ -591,7 +635,7 @@ export const WeightSetPointContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       How GLP-1 Medications Affect Set Point
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -604,44 +648,44 @@ export const WeightSetPointContent = () => (
       <li>However, most research shows weight regain after stopping the medication</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Strategies for Resetting Your Set Point
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">1. Lose Weight Gradually</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">1. Lose Weight Gradually</h3>
         <p className="text-sm text-muted-foreground">
           Slower weight loss (1-2 lbs/week) may cause less metabolic adaptation than rapid loss.
           Your body has more time to adjust.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">2. Maintain for Extended Periods</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">2. Maintain for Extended Periods</h3>
         <p className="text-sm text-muted-foreground">
           The longer you maintain a new weight, the more your body accepts it as &quot;normal.&quot;
           Plan for at least 1-2 years of active maintenance.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">3. Build Muscle</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">3. Build Muscle</h3>
         <p className="text-sm text-muted-foreground">
           Resistance training helps maintain metabolic rate and may support set point adjustment.
           Muscle mass is metabolically active tissue.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">4. Prioritize Sleep and Stress Management</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">4. Prioritize Sleep and Stress Management</h3>
         <p className="text-sm text-muted-foreground">
           Poor sleep and chronic stress disrupt hunger hormones and metabolism. Both can make
           set point adjustment harder.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">5. Consider Long-Term Medication Use</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">5. Consider Long-Term Medication Use</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 medications may need to be continued indefinitely to maintain results. This isn&apos;t
           necessarily a failure—obesity is a chronic condition that may require chronic treatment.
@@ -652,7 +696,7 @@ export const WeightSetPointContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Establishing a new weight set point is a process that takes months to years, not weeks.
@@ -677,7 +721,7 @@ export const BestFruitsWeightLossContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why Fruit Can Help Weight Loss
         </h2>
         <p className="text-muted-foreground">
@@ -688,13 +732,13 @@ export const BestFruitsWeightLossContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Top Fruits for Weight Loss
     </h2>
 
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">1. Berries (Best Choice)</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">1. Berries (Best Choice)</h3>
         <p className="text-sm text-muted-foreground mb-2">
           Strawberries, blueberries, raspberries, and blackberries are the gold standard for
           weight loss fruits.
@@ -708,7 +752,7 @@ export const BestFruitsWeightLossContent = () => (
       </div>
 
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">2. Grapefruit</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">2. Grapefruit</h3>
         <p className="text-sm text-muted-foreground mb-2">
           Studies have shown eating half a grapefruit before meals may enhance weight loss.
         </p>
@@ -721,7 +765,7 @@ export const BestFruitsWeightLossContent = () => (
       </div>
 
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">3. Apples</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">3. Apples</h3>
         <p className="text-sm text-muted-foreground mb-2">
           A portable, satisfying snack that&apos;s easy to include in any diet plan.
         </p>
@@ -734,7 +778,7 @@ export const BestFruitsWeightLossContent = () => (
       </div>
 
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">4. Watermelon</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">4. Watermelon</h3>
         <p className="text-sm text-muted-foreground mb-2">
           92% water content makes it incredibly filling for very few calories.
         </p>
@@ -747,7 +791,7 @@ export const BestFruitsWeightLossContent = () => (
       </div>
 
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">5. Kiwi</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">5. Kiwi</h3>
         <p className="text-sm text-muted-foreground mb-2">
           Nutrient-dense and shown to support digestive health.
         </p>
@@ -760,7 +804,7 @@ export const BestFruitsWeightLossContent = () => (
       </div>
 
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">6. Oranges</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">6. Oranges</h3>
         <p className="text-sm text-muted-foreground mb-2">
           Whole oranges (not juice) are filling and nutrient-rich.
         </p>
@@ -773,7 +817,7 @@ export const BestFruitsWeightLossContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Fruits to Eat in Moderation
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -787,7 +831,7 @@ export const BestFruitsWeightLossContent = () => (
       <li><strong>Dried fruit</strong> — Concentrated sugar; treat like candy</li>
     </ul>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           Fruit Tips for GLP-1 Users
@@ -801,7 +845,7 @@ export const BestFruitsWeightLossContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Recommended Daily Intake
     </h2>
     <p className="text-muted-foreground mb-6">
@@ -813,7 +857,7 @@ export const BestFruitsWeightLossContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Don&apos;t fear fruit when trying to lose weight. The fiber, water, and nutrients in whole
@@ -837,7 +881,7 @@ export const OzempicDepressionContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           The Short Answer
         </h2>
         <p className="text-muted-foreground">
@@ -849,7 +893,7 @@ export const OzempicDepressionContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What the Research Shows
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -863,12 +907,12 @@ export const OzempicDepressionContent = () => (
       <li>However, post-marketing reports have raised concerns warranting investigation</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Some People Might Experience Mood Changes
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Reduced Pleasure from Food</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Reduced Pleasure from Food</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 medications reduce appetite and food reward. For people who use food for emotional
           comfort or stress relief, losing this coping mechanism can affect mood.
@@ -876,7 +920,7 @@ export const OzempicDepressionContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Nutritional Deficiencies</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Nutritional Deficiencies</h3>
         <p className="text-sm text-muted-foreground">
           Eating significantly less can lead to deficiencies in B vitamins, iron, and other
           nutrients that affect mood and energy levels.
@@ -884,7 +928,7 @@ export const OzempicDepressionContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Rapid Body Changes</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Rapid Body Changes</h3>
         <p className="text-sm text-muted-foreground">
           Significant weight loss can trigger complex emotions about body image, identity, and
           relationships—even when the change is positive.
@@ -892,7 +936,7 @@ export const OzempicDepressionContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Gastrointestinal Side Effects</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Gastrointestinal Side Effects</h3>
         <p className="text-sm text-muted-foreground">
           Persistent nausea, vomiting, or digestive issues can certainly impact mood and
           quality of life.
@@ -900,7 +944,7 @@ export const OzempicDepressionContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Direct Brain Effects</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Direct Brain Effects</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 receptors exist in the brain, including areas involved in mood regulation.
           The full implications of activating these receptors aren&apos;t yet fully understood.
@@ -908,7 +952,7 @@ export const OzempicDepressionContent = () => (
       </div>
     </div>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           Warning Signs to Watch For
@@ -928,36 +972,36 @@ export const OzempicDepressionContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What to Do If You Experience Mood Changes
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">1. Don&apos;t Dismiss Your Feelings</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">1. Don&apos;t Dismiss Your Feelings</h3>
         <p className="text-sm text-muted-foreground">
           Mood changes while on medication are worth discussing with your doctor, even if
           they seem minor.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">2. Ensure Adequate Nutrition</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">2. Ensure Adequate Nutrition</h3>
         <p className="text-sm text-muted-foreground">
           Even with reduced appetite, prioritize protein and nutrient-dense foods. Consider
           a multivitamin and B-complex supplement.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">3. Develop Non-Food Coping Strategies</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">3. Develop Non-Food Coping Strategies</h3>
         <p className="text-sm text-muted-foreground">
           If you&apos;ve relied on food for comfort, work on developing alternative coping
           mechanisms—exercise, meditation, therapy, or hobbies.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">4. Consider Dose Adjustment</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">4. Consider Dose Adjustment</h3>
         <p className="text-sm text-muted-foreground">
           Some people do better on lower doses. Talk to your doctor about whether a dose
           reduction might help while still providing benefits.
@@ -965,7 +1009,7 @@ export const OzempicDepressionContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Who Should Be Extra Cautious?
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -978,7 +1022,7 @@ export const OzempicDepressionContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           While current evidence doesn&apos;t show Ozempic directly causes depression, individual
@@ -1003,9 +1047,9 @@ export const WhoShouldNotTakeMounjaro = () => (
       precautions can help you make an informed decision with your healthcare provider.
     </p>
 
-    <Card className="mb-8 border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-950/30">
+    <Card className="mb-8 border-[#a31621] bg-[#a31621]/10">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Absolute Contraindications
         </h2>
         <p className="text-muted-foreground mb-4">
@@ -1031,13 +1075,13 @@ export const WhoShouldNotTakeMounjaro = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Conditions Requiring Careful Consideration
     </h2>
 
     <div className="space-y-4 mb-8">
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">History of Pancreatitis</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">History of Pancreatitis</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 medications have been associated with acute pancreatitis. If you&apos;ve had
           pancreatitis before, your doctor may recommend against Mounjaro or suggest extra
@@ -1045,32 +1089,32 @@ export const WhoShouldNotTakeMounjaro = () => (
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Severe Gastrointestinal Disease</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Severe Gastrointestinal Disease</h3>
         <p className="text-sm text-muted-foreground">
           Conditions like gastroparesis, inflammatory bowel disease, or severe GERD may be
           worsened by tirzepatide&apos;s effects on gastric emptying.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Diabetic Retinopathy</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Diabetic Retinopathy</h3>
         <p className="text-sm text-muted-foreground">
           Rapid blood sugar improvements can temporarily worsen diabetic eye disease. If you
           have retinopathy, more frequent eye exams may be needed.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Kidney Disease</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Kidney Disease</h3>
         <p className="text-sm text-muted-foreground">
           While tirzepatide doesn&apos;t require dose adjustment for kidney disease, dehydration
           from GI side effects can worsen kidney function. Close monitoring is recommended.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Gallbladder Disease</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Gallbladder Disease</h3>
         <p className="text-sm text-muted-foreground">
           Rapid weight loss increases gallstone risk. If you have existing gallbladder problems,
           discuss this with your provider. See our article on
@@ -1081,7 +1125,7 @@ export const WhoShouldNotTakeMounjaro = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Who Should Not Take Mounjaro
     </h2>
 
@@ -1130,7 +1174,7 @@ export const WhoShouldNotTakeMounjaro = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       How Mounjaro Differs from Ozempic
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -1144,7 +1188,7 @@ export const WhoShouldNotTakeMounjaro = () => (
       <li>The same contraindications generally apply to both</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Drug Interactions
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -1153,9 +1197,9 @@ export const WhoShouldNotTakeMounjaro = () => (
     <div className="overflow-x-auto mb-6">
       <table className="w-full text-sm border-collapse">
         <thead>
-          <tr className="border-b-2 border-primary/20">
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Medication</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Concern</th>
+          <tr className="border-b-2 border-[#003366]">
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Medication</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Concern</th>
           </tr>
         </thead>
         <tbody>
@@ -1178,7 +1222,7 @@ export const WhoShouldNotTakeMounjaro = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Mounjaro/Zepbound is a powerful medication with impressive results for many people.
@@ -1202,7 +1246,7 @@ export const OzempicAlcoholContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           The Short Answer
         </h2>
         <p className="text-muted-foreground">
@@ -1213,13 +1257,13 @@ export const OzempicAlcoholContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Key Concerns with Alcohol and Ozempic
     </h2>
 
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">1. Blood Sugar Fluctuations</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">1. Blood Sugar Fluctuations</h3>
         <p className="text-sm text-muted-foreground">
           Alcohol can lower blood sugar, and Ozempic also affects blood sugar levels. Together,
           they may increase hypoglycemia risk—especially if you&apos;re also taking insulin or
@@ -1227,8 +1271,8 @@ export const OzempicAlcoholContent = () => (
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">2. Increased Nausea</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">2. Increased Nausea</h3>
         <p className="text-sm text-muted-foreground">
           Nausea is already one of the most common Ozempic side effects. Alcohol can worsen
           gastrointestinal symptoms, making you feel significantly worse than you would from
@@ -1236,8 +1280,8 @@ export const OzempicAlcoholContent = () => (
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">3. Reduced Alcohol Tolerance</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">3. Reduced Alcohol Tolerance</h3>
         <p className="text-sm text-muted-foreground">
           Many Ozempic users report feeling intoxicated faster and experiencing worse hangovers.
           This may be related to delayed gastric emptying or changes in how your body processes
@@ -1245,16 +1289,16 @@ export const OzempicAlcoholContent = () => (
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">4. Empty Calories</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">4. Empty Calories</h3>
         <p className="text-sm text-muted-foreground">
           If you&apos;re using Ozempic for weight loss, alcohol provides calories without
           nutrition. Your reduced appetite means every calorie counts more.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">5. Pancreatitis Risk</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">5. Pancreatitis Risk</h3>
         <p className="text-sm text-muted-foreground">
           Both heavy alcohol use and GLP-1 medications have been associated with pancreatitis.
           Combining them could potentially increase this rare but serious risk.
@@ -1262,7 +1306,7 @@ export const OzempicAlcoholContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Interesting Finding: Reduced Alcohol Interest
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -1276,44 +1320,44 @@ export const OzempicAlcoholContent = () => (
       <li>Research is exploring GLP-1s for alcohol use disorder treatment</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       If You Choose to Drink
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Start Slowly</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Start Slowly</h3>
         <p className="text-sm text-muted-foreground">
           Your tolerance may be lower than before. Have one drink and wait to see how you
           feel before having more.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Eat Before Drinking</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Eat Before Drinking</h3>
         <p className="text-sm text-muted-foreground">
           Having food in your stomach slows alcohol absorption and helps prevent blood
           sugar drops.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Choose Lower-Calorie Options</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Choose Lower-Calorie Options</h3>
         <p className="text-sm text-muted-foreground">
           If weight loss is your goal, opt for spirits with zero-calorie mixers, dry wine,
           or light beer. Avoid sugary cocktails and creamy drinks.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Stay Hydrated</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Stay Hydrated</h3>
         <p className="text-sm text-muted-foreground">
           Alternate alcoholic drinks with water. Dehydration from alcohol combined with
           GI side effects can be unpleasant.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Monitor Blood Sugar</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Monitor Blood Sugar</h3>
         <p className="text-sm text-muted-foreground">
           If you have diabetes, check your blood sugar before, during, and after drinking.
           Be aware of delayed hypoglycemia (can occur hours later).
@@ -1321,12 +1365,12 @@ export const OzempicAlcoholContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Best and Worst Alcohol Choices
     </h2>
     <div className="grid md:grid-cols-2 gap-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h4 className="font-semibold text-foreground mb-2">Better Choices</h4>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h4 className="font-semibold text-[#003366] mb-2">Better Choices</h4>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Dry wine (5 oz): ~120 calories</li>
           <li>• Light beer: ~100 calories</li>
@@ -1335,8 +1379,8 @@ export const OzempicAlcoholContent = () => (
           <li>• Whiskey neat or with water</li>
         </ul>
       </div>
-      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
-        <h4 className="font-semibold text-foreground mb-2">Worse Choices</h4>
+      <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621]">
+        <h4 className="font-semibold text-[#003366] mb-2">Worse Choices</h4>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Margaritas: 300-500+ calories</li>
           <li>• Piña coladas: 400+ calories</li>
@@ -1350,7 +1394,7 @@ export const OzempicAlcoholContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Occasional, moderate alcohol consumption is generally acceptable while taking Ozempic,
@@ -1376,7 +1420,7 @@ export const TravelWithMedicationContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Key Points to Remember
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -1389,13 +1433,13 @@ export const TravelWithMedicationContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Air Travel Tips
     </h2>
 
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">TSA and Security</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">TSA and Security</h3>
         <p className="text-sm text-muted-foreground">
           Injectable medications are exempt from the 3.4-ounce liquid rule. You can bring
           your pen, needles, and any necessary supplies through security. Declare your
@@ -1404,7 +1448,7 @@ export const TravelWithMedicationContent = () => (
       </div>
 
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Documentation to Carry</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Documentation to Carry</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Prescription label on original packaging</li>
           <li>• Letter from your doctor (especially for international travel)</li>
@@ -1414,7 +1458,7 @@ export const TravelWithMedicationContent = () => (
       </div>
 
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Carry-On Only</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Carry-On Only</h3>
         <p className="text-sm text-muted-foreground">
           <strong>Never put your medication in checked luggage.</strong> The cargo hold
           can reach temperatures that damage or freeze your medication. Plus, if your
@@ -1423,13 +1467,13 @@ export const TravelWithMedicationContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Keeping Your Medication Cool
     </h2>
 
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Cooling Options</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Cooling Options</h3>
         <ul className="text-sm text-muted-foreground space-y-2">
           <li><strong>Insulated medication travel cases</strong> — Products like FRIO wallets
           use evaporative cooling without ice or electricity. They stay cool for 45+ hours.</li>
@@ -1440,8 +1484,8 @@ export const TravelWithMedicationContent = () => (
         </ul>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Temperature Guidelines</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Temperature Guidelines</h3>
         <div className="text-sm text-muted-foreground">
           <p className="mb-2"><strong>Ozempic/Wegovy (semaglutide):</strong></p>
           <ul className="space-y-1 mb-3">
@@ -1457,7 +1501,7 @@ export const TravelWithMedicationContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       International Travel Considerations
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -1469,12 +1513,12 @@ export const TravelWithMedicationContent = () => (
       <li>Account for time zone changes in your injection schedule</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Managing Your Injection Schedule
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Time Zones</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Time Zones</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 medications are once-weekly, so minor timing adjustments are usually fine.
           Try to stay within 2 days of your usual schedule. If crossing many time zones,
@@ -1483,7 +1527,7 @@ export const TravelWithMedicationContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">What If You Miss a Dose?</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">What If You Miss a Dose?</h3>
         <p className="text-sm text-muted-foreground">
           If you miss your dose, take it as soon as you remember—unless it&apos;s within
           2 days of your next scheduled dose. In that case, skip the missed dose and
@@ -1492,7 +1536,7 @@ export const TravelWithMedicationContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Packing Checklist
     </h2>
     <Card className="mb-8">
@@ -1513,7 +1557,7 @@ export const TravelWithMedicationContent = () => (
       </CardContent>
     </Card>
 
-    <Card className="mb-8 border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-950/30">
+    <Card className="mb-8 border-[#a31621] bg-[#a31621]/10">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           What to Do If Medication Gets Too Warm or Freezes
@@ -1530,7 +1574,7 @@ export const TravelWithMedicationContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           With proper planning, you can travel anywhere while taking GLP-1 medications.
@@ -1555,7 +1599,7 @@ export const OnlineWeightLossCoachContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           What Is an Online Weight Loss Coach?
         </h2>
         <p className="text-muted-foreground">
@@ -1567,13 +1611,13 @@ export const OnlineWeightLossCoachContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Types of Online Weight Loss Coaching
     </h2>
 
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Registered Dietitian (RD) Coaching</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Registered Dietitian (RD) Coaching</h3>
         <p className="text-sm text-muted-foreground">
           Licensed nutrition professionals who can provide medical nutrition therapy,
           create personalized meal plans, and work with your healthcare team. Best for
@@ -1582,7 +1626,7 @@ export const OnlineWeightLossCoachContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Certified Health Coaches</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Certified Health Coaches</h3>
         <p className="text-sm text-muted-foreground">
           Focus on behavior change, motivation, and lifestyle modifications. They help
           you set goals, overcome obstacles, and build sustainable habits. Great for
@@ -1591,7 +1635,7 @@ export const OnlineWeightLossCoachContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Fitness/Personal Training Coaches</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Fitness/Personal Training Coaches</h3>
         <p className="text-sm text-muted-foreground">
           Specialize in exercise programming and fitness guidance. Can create workout
           plans, provide form feedback via video, and help you build an exercise routine.
@@ -1599,7 +1643,7 @@ export const OnlineWeightLossCoachContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">App-Based Coaching</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">App-Based Coaching</h3>
         <p className="text-sm text-muted-foreground">
           Programs like Noom, WW (WeightWatchers), or medication-specific coaching
           (like those offered by telehealth providers) combine human coaches with
@@ -1608,20 +1652,20 @@ export const OnlineWeightLossCoachContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Benefits of Online Coaching
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Convenience</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Convenience</h3>
         <p className="text-sm text-muted-foreground">
           Access coaching from anywhere, anytime. No commute to appointments. Flexible
           scheduling around your work and family life.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Accountability</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Accountability</h3>
         <p className="text-sm text-muted-foreground">
           Regular check-ins keep you on track. Someone is watching your progress and
           will notice if you slip. Studies show accountability significantly improves
@@ -1629,24 +1673,24 @@ export const OnlineWeightLossCoachContent = () => (
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Personalization</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Personalization</h3>
         <p className="text-sm text-muted-foreground">
           A good coach tailors advice to your specific situation, preferences, medical
           conditions, and goals—unlike generic programs.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Cost-Effective</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Cost-Effective</h3>
         <p className="text-sm text-muted-foreground">
           Often more affordable than in-person coaching. Many options exist at various
           price points.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Ongoing Support</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Ongoing Support</h3>
         <p className="text-sm text-muted-foreground">
           Message your coach when challenges arise, not just at weekly appointments.
           Real-time support when you need it most.
@@ -1654,7 +1698,7 @@ export const OnlineWeightLossCoachContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Coaching Matters on GLP-1 Medications
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -1674,7 +1718,7 @@ export const OnlineWeightLossCoachContent = () => (
       medication. Coaching builds skills for that transition.</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What to Look For in an Online Coach
     </h2>
     <Card className="mb-8">
@@ -1709,7 +1753,7 @@ export const OnlineWeightLossCoachContent = () => (
       </CardContent>
     </Card>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           Red Flags to Avoid
@@ -1725,7 +1769,7 @@ export const OnlineWeightLossCoachContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Cost Expectations
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -1738,7 +1782,7 @@ export const OnlineWeightLossCoachContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           An online weight loss coach can be a valuable investment in your health journey,
@@ -1765,7 +1809,7 @@ export const OzempicBabiesContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           What Are &quot;Ozempic Babies&quot;?
         </h2>
         <p className="text-muted-foreground">
@@ -1776,13 +1820,13 @@ export const OzempicBabiesContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Are Women Getting Pregnant on GLP-1s?
     </h2>
 
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">1. Weight Loss Restores Ovulation</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">1. Weight Loss Restores Ovulation</h3>
         <p className="text-sm text-muted-foreground">
           Excess weight can disrupt hormones and prevent ovulation. As women lose weight on GLP-1
           medications, their hormonal balance normalizes and ovulation resumes—sometimes within weeks.
@@ -1790,7 +1834,7 @@ export const OzempicBabiesContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">2. PCOS Improvement</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">2. PCOS Improvement</h3>
         <p className="text-sm text-muted-foreground">
           Polycystic ovary syndrome (PCOS) is a leading cause of infertility, affecting up to 12%
           of women. Weight loss significantly improves PCOS symptoms, including irregular periods
@@ -1799,7 +1843,7 @@ export const OzempicBabiesContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">3. Improved Insulin Sensitivity</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">3. Improved Insulin Sensitivity</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 medications improve insulin sensitivity, which is closely linked to reproductive
           health. Better insulin function can help restore normal menstrual cycles.
@@ -1807,7 +1851,7 @@ export const OzempicBabiesContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">4. Reduced Inflammation</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">4. Reduced Inflammation</h3>
         <p className="text-sm text-muted-foreground">
           Obesity causes chronic inflammation that can impair fertility. Weight loss reduces this
           inflammation, creating a more favorable environment for conception.
@@ -1815,7 +1859,7 @@ export const OzempicBabiesContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">5. Oral Contraceptive Interference</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">5. Oral Contraceptive Interference</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 medications delay gastric emptying, which may affect how birth control pills are
           absorbed. This could reduce their effectiveness, leading to unintended pregnancies.
@@ -1823,7 +1867,7 @@ export const OzempicBabiesContent = () => (
       </div>
     </div>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           Important Safety Warning
@@ -1836,7 +1880,7 @@ export const OzempicBabiesContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Who Is Most Likely to Experience This?
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -1847,28 +1891,28 @@ export const OzempicBabiesContent = () => (
       <li><strong>Premenopausal women who assumed they were &quot;too old&quot;</strong> — Weight loss can restore cycles</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What to Do If You&apos;re at Risk
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Use Reliable Contraception</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Use Reliable Contraception</h3>
         <p className="text-sm text-muted-foreground">
           Consider non-oral methods like IUDs, implants, or condoms if you want to avoid pregnancy.
           Don&apos;t assume infertility persists once you start losing weight.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Take Regular Pregnancy Tests</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Take Regular Pregnancy Tests</h3>
         <p className="text-sm text-muted-foreground">
           If you&apos;re sexually active and using GLP-1 medications, consider monthly pregnancy tests
           to catch any pregnancy early.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Plan Ahead for Conception</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Plan Ahead for Conception</h3>
         <p className="text-sm text-muted-foreground">
           If you want to become pregnant, discuss stopping GLP-1 medications with your doctor.
           The recommendation is to stop at least 2 months before trying to conceive.
@@ -1876,7 +1920,7 @@ export const OzempicBabiesContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The Silver Lining
     </h2>
     <p className="text-muted-foreground mb-6">
@@ -1888,7 +1932,7 @@ export const OzempicBabiesContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           &quot;Ozempic babies&quot; are a real phenomenon resulting from restored fertility as women
@@ -1913,7 +1957,7 @@ export const CelebritiesWeightLossDrugsContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why Celebrities Are Turning to GLP-1s
         </h2>
         <p className="text-muted-foreground">
@@ -1925,7 +1969,7 @@ export const CelebritiesWeightLossDrugsContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Celebrities Who&apos;ve Spoken Openly
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -1935,7 +1979,7 @@ export const CelebritiesWeightLossDrugsContent = () => (
 
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Oprah Winfrey</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Oprah Winfrey</h3>
         <p className="text-sm text-muted-foreground">
           The media mogul has been open about using weight loss medication as part of her health
           journey, helping to destigmatize the conversation around these treatments.
@@ -1943,7 +1987,7 @@ export const CelebritiesWeightLossDrugsContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Chelsea Handler</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Chelsea Handler</h3>
         <p className="text-sm text-muted-foreground">
           The comedian admitted to trying Ozempic but said she stopped because she lost too much
           weight and didn&apos;t like how it made her feel.
@@ -1951,7 +1995,7 @@ export const CelebritiesWeightLossDrugsContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Sharon Osbourne</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Sharon Osbourne</h3>
         <p className="text-sm text-muted-foreground">
           Has been vocal about using Ozempic and losing 30 pounds, but also expressed concerns
           about losing too much weight and looking &quot;gaunt.&quot;
@@ -1959,7 +2003,7 @@ export const CelebritiesWeightLossDrugsContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Charles Barkley</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Charles Barkley</h3>
         <p className="text-sm text-muted-foreground">
           The NBA legend has discussed his use of Mounjaro and the significant weight loss
           he&apos;s experienced.
@@ -1967,7 +2011,7 @@ export const CelebritiesWeightLossDrugsContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The &quot;Ozempic Era&quot; in Hollywood
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -1981,7 +2025,7 @@ export const CelebritiesWeightLossDrugsContent = () => (
       <li>Industry insiders suggest these drugs are &quot;everywhere&quot; in Hollywood</li>
     </ul>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           The Stigma Question
@@ -1995,28 +2039,28 @@ export const CelebritiesWeightLossDrugsContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Controversies and Concerns
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
-        <h3 className="font-semibold text-foreground mb-2">Supply Shortages</h3>
+      <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621]">
+        <h3 className="font-semibold text-[#003366] mb-2">Supply Shortages</h3>
         <p className="text-sm text-muted-foreground">
           Increased demand, partly attributed to celebrity use, has created shortages affecting
           diabetic patients who need these medications.
         </p>
       </div>
 
-      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
-        <h3 className="font-semibold text-foreground mb-2">Off-Label Use</h3>
+      <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621]">
+        <h3 className="font-semibold text-[#003366] mb-2">Off-Label Use</h3>
         <p className="text-sm text-muted-foreground">
           Some celebrities using these drugs may not meet medical criteria for obesity treatment,
           raising ethical questions about vanity use.
         </p>
       </div>
 
-      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
-        <h3 className="font-semibold text-foreground mb-2">Body Image Impact</h3>
+      <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621]">
+        <h3 className="font-semibold text-[#003366] mb-2">Body Image Impact</h3>
         <p className="text-sm text-muted-foreground">
           Celebrity transformations may create pressure on everyday people to pursue similar
           results, regardless of whether these medications are appropriate for them.
@@ -2024,7 +2068,7 @@ export const CelebritiesWeightLossDrugsContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What This Means for You
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -2041,7 +2085,7 @@ export const CelebritiesWeightLossDrugsContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Celebrity use of weight loss drugs has brought these medications into mainstream
@@ -2067,7 +2111,7 @@ export const SemaglutideAlcoholContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Key Points About Semaglutide and Alcohol
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -2080,7 +2124,7 @@ export const SemaglutideAlcoholContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The Surprising Effect: Reduced Alcohol Interest
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -2090,7 +2134,7 @@ export const SemaglutideAlcoholContent = () => (
 
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Brain Reward Pathways</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Brain Reward Pathways</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 receptors exist in brain areas involved in reward and addiction. Semaglutide
           may reduce the rewarding effects of alcohol, similar to how it reduces food reward.
@@ -2098,7 +2142,7 @@ export const SemaglutideAlcoholContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Research Implications</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Research Implications</h3>
         <p className="text-sm text-muted-foreground">
           Studies are investigating GLP-1 medications as potential treatments for alcohol use
           disorder. Early results are promising, with some users reporting significant
@@ -2107,7 +2151,7 @@ export const SemaglutideAlcoholContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">User Reports</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">User Reports</h3>
         <p className="text-sm text-muted-foreground">
           Many semaglutide users describe losing interest in alcohol without trying. Wine
           tastes different, beer feels unappealing, and the desire to drink simply fades.
@@ -2115,36 +2159,36 @@ export const SemaglutideAlcoholContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Risks of Drinking on Semaglutide
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Intensified Side Effects</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Intensified Side Effects</h3>
         <p className="text-sm text-muted-foreground">
           Nausea, vomiting, and stomach upset—common semaglutide side effects—can be
           significantly worse when combined with alcohol.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Hypoglycemia Risk</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Hypoglycemia Risk</h3>
         <p className="text-sm text-muted-foreground">
           Both alcohol and semaglutide can lower blood sugar. Combined, especially with
           other diabetes medications, the risk of dangerous hypoglycemia increases.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Delayed Gastric Emptying</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Delayed Gastric Emptying</h3>
         <p className="text-sm text-muted-foreground">
           Semaglutide slows stomach emptying, which may change how alcohol is absorbed.
           Some users feel intoxicated faster; others experience prolonged effects.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Pancreatitis Risk</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Pancreatitis Risk</h3>
         <p className="text-sm text-muted-foreground">
           Heavy alcohol use is a known cause of pancreatitis, and GLP-1 medications carry
           a small pancreatitis risk. Combining the two may increase this risk.
@@ -2152,36 +2196,36 @@ export const SemaglutideAlcoholContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Guidelines for Safe Drinking
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Start Slow</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Start Slow</h3>
         <p className="text-sm text-muted-foreground">
           Your tolerance may have changed. Start with one drink and wait to assess effects
           before having more.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Never Drink on Empty Stomach</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Never Drink on Empty Stomach</h3>
         <p className="text-sm text-muted-foreground">
           Always eat before drinking. This is especially important for blood sugar stability
           and reducing nausea.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Choose Wisely</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Choose Wisely</h3>
         <p className="text-sm text-muted-foreground">
           Opt for lower-calorie options: dry wine, light beer, or spirits with zero-calorie
           mixers. Avoid sugary cocktails.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Monitor Blood Sugar</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Monitor Blood Sugar</h3>
         <p className="text-sm text-muted-foreground">
           If you have diabetes, check blood sugar before, during, and after drinking. Be
           alert for delayed hypoglycemia (can occur hours later).
@@ -2192,7 +2236,7 @@ export const SemaglutideAlcoholContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Moderate alcohol consumption is generally acceptable while taking semaglutide, but
@@ -2217,7 +2261,7 @@ export const CompoundedVsBrandContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           What Is Compounded Medication?
         </h2>
         <p className="text-muted-foreground">
@@ -2229,17 +2273,17 @@ export const CompoundedVsBrandContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Key Differences
     </h2>
 
     <div className="overflow-x-auto mb-6">
       <table className="w-full text-sm border-collapse">
         <thead>
-          <tr className="border-b-2 border-primary/20">
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Feature</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Brand Name</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Compounded</th>
+          <tr className="border-b-2 border-[#003366]">
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Feature</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Brand Name</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Compounded</th>
           </tr>
         </thead>
         <tbody>
@@ -2272,13 +2316,13 @@ export const CompoundedVsBrandContent = () => (
       </table>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Safety Considerations
     </h2>
 
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Quality Compounding Pharmacies</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Quality Compounding Pharmacies</h3>
         <p className="text-sm text-muted-foreground">
           Look for 503A or 503B registered pharmacies. 503B facilities operate under stricter
           FDA oversight and are generally considered safer. PCAB accreditation is another
@@ -2286,8 +2330,8 @@ export const CompoundedVsBrandContent = () => (
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Potential Risks</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Potential Risks</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Less standardized manufacturing process</li>
           <li>• Variable quality between pharmacies</li>
@@ -2297,8 +2341,8 @@ export const CompoundedVsBrandContent = () => (
         </ul>
       </div>
 
-      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
-        <h3 className="font-semibold text-foreground mb-2">Red Flags to Avoid</h3>
+      <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621]">
+        <h3 className="font-semibold text-[#003366] mb-2">Red Flags to Avoid</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Pharmacies without verifiable licenses</li>
           <li>• Prices that seem too good to be true</li>
@@ -2309,7 +2353,7 @@ export const CompoundedVsBrandContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Questions to Ask Your Provider
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -2320,7 +2364,7 @@ export const CompoundedVsBrandContent = () => (
       <li>What happens if there&apos;s a quality issue?</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The Legal Landscape
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -2336,7 +2380,7 @@ export const CompoundedVsBrandContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Compounded GLP-1 medications offer a more affordable alternative to brand-name
@@ -2359,9 +2403,9 @@ export const OzempicPregnancyContent = () => (
       Here&apos;s what you need to know about Ozempic (semaglutide) and pregnancy.
     </p>
 
-    <Card className="mb-8 border-red-200 dark:border-red-800 bg-red-50 dark:bg-red-950/30">
+    <Card className="mb-8 border-[#a31621] bg-[#a31621]/10">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           The Short Answer: No
         </h2>
         <p className="text-muted-foreground">
@@ -2373,7 +2417,7 @@ export const OzempicPregnancyContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What the Research Shows
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -2387,12 +2431,12 @@ export const OzempicPregnancyContent = () => (
       <li>The relevance to humans isn&apos;t fully established, but the risk is concerning</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Key Recommendations
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Stop Ozempic Before Trying to Conceive</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Stop Ozempic Before Trying to Conceive</h3>
         <p className="text-sm text-muted-foreground">
           Novo Nordisk recommends discontinuing Ozempic <strong>at least 2 months</strong> before
           a planned pregnancy. This allows the medication to clear from your system (semaglutide
@@ -2400,8 +2444,8 @@ export const OzempicPregnancyContent = () => (
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Use Effective Contraception</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Use Effective Contraception</h3>
         <p className="text-sm text-muted-foreground">
           While taking Ozempic, use reliable birth control. Note that Ozempic may reduce the
           effectiveness of oral contraceptives due to delayed gastric emptying. Consider
@@ -2409,8 +2453,8 @@ export const OzempicPregnancyContent = () => (
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">If You Become Pregnant While Taking Ozempic</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">If You Become Pregnant While Taking Ozempic</h3>
         <p className="text-sm text-muted-foreground">
           Stop the medication immediately and contact your healthcare provider. They will discuss
           monitoring options and next steps. Don&apos;t panic—exposure doesn&apos;t guarantee harm, but
@@ -2419,7 +2463,7 @@ export const OzempicPregnancyContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The &quot;Ozempic Baby&quot; Phenomenon
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -2445,7 +2489,7 @@ export const OzempicPregnancyContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What About Breastfeeding?
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -2454,7 +2498,7 @@ export const OzempicPregnancyContent = () => (
       with your healthcare provider if you&apos;re nursing.
     </p>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Alternatives During Pregnancy
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -2494,7 +2538,7 @@ export const GLP1ExerciseContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why Exercise Matters on GLP-1s
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -2508,7 +2552,7 @@ export const GLP1ExerciseContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The Muscle Loss Problem
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -2523,13 +2567,13 @@ export const GLP1ExerciseContent = () => (
       <li>Sarcopenia (muscle loss) accelerates aging</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Best Types of Exercise
     </h2>
 
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">1. Resistance Training (Most Important)</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">1. Resistance Training (Most Important)</h3>
         <p className="text-sm text-muted-foreground mb-2">
           Strength training is the single most important exercise for GLP-1 users. Aim for 2-4
           sessions per week targeting all major muscle groups.
@@ -2542,8 +2586,8 @@ export const GLP1ExerciseContent = () => (
         </ul>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">2. Cardiovascular Exercise</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">2. Cardiovascular Exercise</h3>
         <p className="text-sm text-muted-foreground mb-2">
           Cardio supports heart health, endurance, and additional calorie burn.
         </p>
@@ -2555,8 +2599,8 @@ export const GLP1ExerciseContent = () => (
         </ul>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">3. Flexibility and Balance</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">3. Flexibility and Balance</h3>
         <p className="text-sm text-muted-foreground">
           Don&apos;t neglect mobility work, especially as your body changes rapidly. Yoga, stretching,
           and balance exercises prevent injury and improve quality of movement.
@@ -2564,7 +2608,7 @@ export const GLP1ExerciseContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Sample Weekly Exercise Plan
     </h2>
     <Card className="mb-8">
@@ -2584,7 +2628,7 @@ export const GLP1ExerciseContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Exercise isn&apos;t required for GLP-1 medications to work, but it dramatically improves
@@ -2607,9 +2651,9 @@ export const PreventMuscleLossContent = () => (
       loss and optimize body composition.
     </p>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why Muscle Loss Matters
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -2622,7 +2666,7 @@ export const PreventMuscleLossContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The 4 Pillars of Muscle Preservation
     </h2>
 
@@ -2670,7 +2714,7 @@ export const PreventMuscleLossContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Muscle loss on GLP-1 medications isn&apos;t inevitable—it&apos;s preventable with the right
@@ -2693,16 +2737,16 @@ export const OzempicVsMounjaro = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Key Differences
         </h2>
         <div className="overflow-x-auto">
           <table className="w-full text-sm border-collapse">
             <thead>
-              <tr className="border-b-2 border-primary/20">
-                <th className="text-left py-3 px-4 font-semibold text-foreground">Feature</th>
-                <th className="text-left py-3 px-4 font-semibold text-foreground">Ozempic</th>
-                <th className="text-left py-3 px-4 font-semibold text-foreground">Mounjaro</th>
+              <tr className="border-b-2 border-[#003366]">
+                <th className="text-left py-3 px-4 font-semibold text-[#003366]">Feature</th>
+                <th className="text-left py-3 px-4 font-semibold text-[#003366]">Ozempic</th>
+                <th className="text-left py-3 px-4 font-semibold text-[#003366]">Mounjaro</th>
               </tr>
             </thead>
             <tbody>
@@ -2727,13 +2771,13 @@ export const OzempicVsMounjaro = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Which Should You Choose?
     </h2>
 
     <div className="grid md:grid-cols-2 gap-4 mb-6">
-      <div className="p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800">
-        <h3 className="font-semibold text-foreground mb-2">Consider Ozempic If:</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Consider Ozempic If:</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Your insurance covers it but not Mounjaro</li>
           <li>• You prefer longer track record of data</li>
@@ -2741,7 +2785,7 @@ export const OzempicVsMounjaro = () => (
         </ul>
       </div>
       <div className="p-4 bg-purple-50 dark:bg-purple-950/30 rounded-lg border border-purple-200 dark:border-purple-800">
-        <h3 className="font-semibold text-foreground mb-2">Consider Mounjaro If:</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Consider Mounjaro If:</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Maximizing weight loss is your goal</li>
           <li>• You haven&apos;t responded well to semaglutide</li>
@@ -2753,7 +2797,7 @@ export const OzempicVsMounjaro = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Both Ozempic and Mounjaro are highly effective. Mounjaro generally produces more
@@ -2775,7 +2819,7 @@ export const HowLongOzempicWorkContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Timeline Summary
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -2789,13 +2833,13 @@ export const HowLongOzempicWorkContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Week-by-Week Breakdown
     </h2>
 
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Week 1: Starting Dose (0.25mg)</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Week 1: Starting Dose (0.25mg)</h3>
         <p className="text-sm text-muted-foreground">
           Many people feel appetite reduction within the first few days. Some experience mild
           nausea. This is an adjustment period—don&apos;t expect significant weight loss yet.
@@ -2803,7 +2847,7 @@ export const HowLongOzempicWorkContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Weeks 5-8: First Increase (0.5mg)</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Weeks 5-8: First Increase (0.5mg)</h3>
         <p className="text-sm text-muted-foreground">
           Weight loss becomes more consistent—expect 1-2 lbs per week on average. Food noise
           quiets significantly.
@@ -2811,7 +2855,7 @@ export const HowLongOzempicWorkContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Months 2-4: Working Up</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Months 2-4: Working Up</h3>
         <p className="text-sm text-muted-foreground">
           Dose increases to 1mg, then 2mg. Monthly losses of 4-8 lbs are common. By month 3-4,
           you may have lost 5-10% of starting weight.
@@ -2822,7 +2866,7 @@ export const HowLongOzempicWorkContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Most people notice appetite changes within 1-2 weeks. Meaningful weight loss typically
@@ -2845,7 +2889,7 @@ export const OzempicShortageContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Immediate Options
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -2858,20 +2902,20 @@ export const OzempicShortageContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What If You Miss Doses?
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Missing One Dose</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Missing One Dose</h3>
         <p className="text-sm text-muted-foreground">
           Take it as soon as you remember—unless within 2 days of your next dose. Then skip
           the missed dose and resume your schedule.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Missing Multiple Doses</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Missing Multiple Doses</h3>
         <p className="text-sm text-muted-foreground">
           If you go more than 2 weeks without medication, you may need to restart at a lower
           dose. Contact your doctor for guidance.
@@ -2882,7 +2926,7 @@ export const OzempicShortageContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           GLP-1 shortages are frustrating but manageable. Call multiple pharmacies, ask about
@@ -2901,9 +2945,9 @@ export const StopTakingOzempicContent = () => (
       they stop taking Ozempic or other GLP-1 medications.
     </p>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           The Hard Truth
         </h2>
         <p className="text-muted-foreground">
@@ -2914,13 +2958,13 @@ export const StopTakingOzempicContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Timeline After Stopping
     </h2>
 
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Week 1-2: Appetite Returns</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Week 1-2: Appetite Returns</h3>
         <p className="text-sm text-muted-foreground">
           Hunger and cravings begin returning as semaglutide clears your system. The &quot;food
           noise&quot; comes back.
@@ -2928,7 +2972,7 @@ export const StopTakingOzempicContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Week 2-4: Full Appetite Return</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Week 2-4: Full Appetite Return</h3>
         <p className="text-sm text-muted-foreground">
           Appetite typically returns to pre-medication levels. Portion sizes that felt satisfying
           on Ozempic may feel inadequate.
@@ -2936,7 +2980,7 @@ export const StopTakingOzempicContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Months 1-12: Weight Regain</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Months 1-12: Weight Regain</h3>
         <p className="text-sm text-muted-foreground">
           Without intervention, weight typically climbs toward pre-medication levels. Most
           regain occurs in the first year.
@@ -2944,7 +2988,7 @@ export const StopTakingOzempicContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Strategies for Maintenance
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -2958,7 +3002,7 @@ export const StopTakingOzempicContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Stopping Ozempic typically leads to appetite return and weight regain—this is normal
@@ -2981,7 +3025,7 @@ export const OzempicNauseaContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Key Points About GLP-1 Nausea
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -2994,7 +3038,7 @@ export const OzempicNauseaContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Nausea Happens
     </h2>
     <p className="text-muted-foreground mb-6">
@@ -3003,12 +3047,12 @@ export const OzempicNauseaContent = () => (
       especially if you eat too much or too quickly.
     </p>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Proven Strategies to Reduce Nausea
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Eat Smaller Portions</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Eat Smaller Portions</h3>
         <p className="text-sm text-muted-foreground">
           Your stomach capacity is effectively reduced. Eating half your usual portion prevents
           that &quot;overstuffed&quot; feeling that triggers nausea.
@@ -3016,7 +3060,7 @@ export const OzempicNauseaContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Eat Slowly</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Eat Slowly</h3>
         <p className="text-sm text-muted-foreground">
           Take 20-30 minutes per meal. Put your fork down between bites. This gives your body
           time to signal fullness before you overeat.
@@ -3024,7 +3068,7 @@ export const OzempicNauseaContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Avoid Fatty and Fried Foods</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Avoid Fatty and Fried Foods</h3>
         <p className="text-sm text-muted-foreground">
           High-fat foods are hardest to digest. They sit in your stomach longest and are most
           likely to trigger nausea. Choose lean proteins and vegetables.
@@ -3032,7 +3076,7 @@ export const OzempicNauseaContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Stay Hydrated</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Stay Hydrated</h3>
         <p className="text-sm text-muted-foreground">
           Sip water throughout the day, but avoid drinking large amounts with meals (it fills
           your stomach). Ginger tea can help settle nausea.
@@ -3040,14 +3084,14 @@ export const OzempicNauseaContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Don&apos;t Lie Down After Eating</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Don&apos;t Lie Down After Eating</h3>
         <p className="text-sm text-muted-foreground">
           Stay upright for 1-2 hours after meals to help digestion and reduce reflux.
         </p>
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       When to Contact Your Doctor
     </h2>
     <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
@@ -3066,7 +3110,7 @@ export const OzempicNauseaContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Nausea from GLP-1 medications is common but usually manageable. Eat smaller portions,
@@ -3089,7 +3133,7 @@ export const GLP1AndPCOSContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Key Benefits for PCOS
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -3102,7 +3146,7 @@ export const GLP1AndPCOSContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why GLP-1s Work Well for PCOS
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -3116,28 +3160,28 @@ export const GLP1AndPCOSContent = () => (
       <li>Reduce inflammation</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Research Results
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Weight Loss</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Weight Loss</h3>
         <p className="text-sm text-muted-foreground">
           Studies show women with PCOS can achieve 10-15% weight loss on GLP-1 medications—
           enough to significantly improve PCOS symptoms.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Menstrual Regularity</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Menstrual Regularity</h3>
         <p className="text-sm text-muted-foreground">
           Many women report more regular periods after starting GLP-1 treatment, likely due to
           improved insulin sensitivity and weight loss.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Fertility Implications</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Fertility Implications</h3>
         <p className="text-sm text-muted-foreground">
           Improved ovulation means improved fertility—but GLP-1s are NOT approved for use during
           pregnancy. Reliable contraception is essential.
@@ -3157,7 +3201,7 @@ export const GLP1AndPCOSContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           GLP-1 medications can be particularly effective for women with PCOS, addressing multiple
@@ -3180,7 +3224,7 @@ export const InsuranceCoverageContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Coverage Overview
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -3193,12 +3237,12 @@ export const InsuranceCoverageContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Factors Affecting Coverage
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Indication (Why It&apos;s Prescribed)</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Indication (Why It&apos;s Prescribed)</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1s for diabetes (Ozempic, Mounjaro) are more commonly covered than those for
           weight loss (Wegovy, Zepbound). Your doctor may prescribe based on your specific situation.
@@ -3206,7 +3250,7 @@ export const InsuranceCoverageContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">BMI Requirements</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">BMI Requirements</h3>
         <p className="text-sm text-muted-foreground">
           Most insurers require BMI ≥30, or BMI ≥27 with a weight-related condition (high blood
           pressure, sleep apnea, etc.).
@@ -3214,7 +3258,7 @@ export const InsuranceCoverageContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Prior Authorization</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Prior Authorization</h3>
         <p className="text-sm text-muted-foreground">
           Your doctor usually needs to submit documentation showing you meet criteria. This may
           include previous weight loss attempts, lab work, and diagnoses.
@@ -3222,7 +3266,7 @@ export const InsuranceCoverageContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Step Therapy</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Step Therapy</h3>
         <p className="text-sm text-muted-foreground">
           Some plans require you try cheaper medications first (like metformin or phentermine)
           before approving GLP-1s.
@@ -3230,28 +3274,28 @@ export const InsuranceCoverageContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Options Without Insurance Coverage
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Compounded Semaglutide</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Compounded Semaglutide</h3>
         <p className="text-sm text-muted-foreground">
           During brand-name shortages, compounding pharmacies can produce semaglutide at $200-400/month.
           Choose FDA-registered 503B compounding facilities.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Manufacturer Savings Programs</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Manufacturer Savings Programs</h3>
         <p className="text-sm text-muted-foreground">
           Novo Nordisk and Eli Lilly offer savings cards that can reduce costs significantly
           for those with commercial insurance (not Medicare/Medicaid).
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Telehealth Providers</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Telehealth Providers</h3>
         <p className="text-sm text-muted-foreground">
           Online weight loss clinics often offer competitive cash-pay pricing and help navigate
           insurance appeals.
@@ -3262,7 +3306,7 @@ export const InsuranceCoverageContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Insurance coverage for GLP-1s is improving but still inconsistent. Work with your doctor
@@ -3285,7 +3329,7 @@ export const OzempicDiabetesVsWeightLossContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Key Differences
         </h2>
         <div className="overflow-x-auto">
@@ -3324,7 +3368,7 @@ export const OzempicDiabetesVsWeightLossContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Using Ozempic for Weight Loss
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -3337,12 +3381,12 @@ export const OzempicDiabetesVsWeightLossContent = () => (
       <li>It&apos;s the exact same medication, just different dosing and indication</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Which Should You Choose?
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">If You Have Type 2 Diabetes</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">If You Have Type 2 Diabetes</h3>
         <p className="text-sm text-muted-foreground">
           Ozempic is likely your best option—it&apos;s approved for diabetes, more likely to be
           covered by insurance, and provides weight loss as a bonus.
@@ -3350,7 +3394,7 @@ export const OzempicDiabetesVsWeightLossContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">If You Need Weight Loss Only</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">If You Need Weight Loss Only</h3>
         <p className="text-sm text-muted-foreground">
           Wegovy is specifically designed for weight management with a higher maximum dose.
           However, insurance coverage can be challenging.
@@ -3358,7 +3402,7 @@ export const OzempicDiabetesVsWeightLossContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">If Cost Is a Concern</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">If Cost Is a Concern</h3>
         <p className="text-sm text-muted-foreground">
           Ozempic may be easier to get covered. Alternatively, compounded semaglutide from
           telehealth providers offers significant savings.
@@ -3369,7 +3413,7 @@ export const OzempicDiabetesVsWeightLossContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Ozempic and Wegovy are the same medication at different doses. The &quot;right&quot; choice
@@ -3391,7 +3435,7 @@ export const SideEffectsTimelineContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Quick Reference
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -3403,12 +3447,12 @@ export const SideEffectsTimelineContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Week-by-Week Timeline
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg border-l-4 border-amber-500">
-        <h3 className="font-semibold text-foreground mb-2">Week 1-2: Initial Adjustment</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Week 1-2: Initial Adjustment</h3>
         <p className="text-sm text-muted-foreground mb-2">
           <strong>Common:</strong> Mild nausea, decreased appetite, possible headache
         </p>
@@ -3419,7 +3463,7 @@ export const SideEffectsTimelineContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg border-l-4 border-amber-500">
-        <h3 className="font-semibold text-foreground mb-2">Week 3-4: Settling In</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Week 3-4: Settling In</h3>
         <p className="text-sm text-muted-foreground mb-2">
           <strong>Common:</strong> Nausea often decreasing, constipation may appear
         </p>
@@ -3430,7 +3474,7 @@ export const SideEffectsTimelineContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg border-l-4 border-amber-500">
-        <h3 className="font-semibold text-foreground mb-2">Dose Increase Periods</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Dose Increase Periods</h3>
         <p className="text-sm text-muted-foreground mb-2">
           <strong>Common:</strong> Return of nausea, GI symptoms for 1-2 weeks
         </p>
@@ -3440,8 +3484,8 @@ export const SideEffectsTimelineContent = () => (
         </p>
       </div>
 
-      <div className="p-4 bg-muted/30 rounded-lg border-l-4 border-green-500">
-        <h3 className="font-semibold text-foreground mb-2">Month 2-3+: Stabilization</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-l-4 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Month 2-3+: Stabilization</h3>
         <p className="text-sm text-muted-foreground mb-2">
           <strong>Common:</strong> Minimal ongoing side effects for most people
         </p>
@@ -3452,10 +3496,10 @@ export const SideEffectsTimelineContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Warning Signs Requiring Medical Attention
     </h2>
-    <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800 mb-6">
+    <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621] mb-6">
       <p className="text-muted-foreground mb-2">
         Contact your doctor immediately if you experience:
       </p>
@@ -3472,7 +3516,7 @@ export const SideEffectsTimelineContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           GLP-1 side effects typically follow a predictable pattern: worst during early weeks
@@ -3495,7 +3539,7 @@ export const OzempicConstipationContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why GLP-1s Cause Constipation
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -3507,12 +3551,12 @@ export const OzempicConstipationContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Effective Strategies for Relief
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Increase Fiber Intake</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Increase Fiber Intake</h3>
         <p className="text-sm text-muted-foreground">
           Aim for 25-30g of fiber daily. Even with reduced appetite, prioritize vegetables, fruits,
           and whole grains. Fiber supplements like psyllium husk can help if dietary fiber is difficult.
@@ -3520,7 +3564,7 @@ export const OzempicConstipationContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Stay Hydrated</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Stay Hydrated</h3>
         <p className="text-sm text-muted-foreground">
           Drink at least 8 glasses of water daily. Fiber without adequate water can worsen constipation.
           Set reminders if you&apos;re not feeling thirsty.
@@ -3528,7 +3572,7 @@ export const OzempicConstipationContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Move Your Body</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Move Your Body</h3>
         <p className="text-sm text-muted-foreground">
           Physical activity stimulates gut motility. Even a daily 20-minute walk can significantly
           improve bowel function.
@@ -3536,7 +3580,7 @@ export const OzempicConstipationContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Consider Safe Supplements</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Consider Safe Supplements</h3>
         <p className="text-sm text-muted-foreground">
           Magnesium citrate, docusate sodium (stool softener), and polyethylene glycol (MiraLAX)
           are generally safe options. Always check with your doctor first.
@@ -3544,7 +3588,7 @@ export const OzempicConstipationContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Establish a Routine</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Establish a Routine</h3>
         <p className="text-sm text-muted-foreground">
           Try to have bowel movements at the same time daily—often 30 minutes after a meal when
           the gastrocolic reflex is active.
@@ -3552,7 +3596,7 @@ export const OzempicConstipationContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       When to Seek Medical Help
     </h2>
     <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
@@ -3571,7 +3615,7 @@ export const OzempicConstipationContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Constipation on GLP-1 medications is common but manageable. Prioritize fiber, water, and
@@ -3594,7 +3638,7 @@ export const GLP1ThyroidContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           The Thyroid Warning Explained
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -3606,10 +3650,10 @@ export const GLP1ThyroidContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Who Should NOT Take GLP-1 Medications
     </h2>
-    <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800 mb-6">
+    <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621] mb-6">
       <p className="text-muted-foreground font-semibold mb-2">
         Absolute Contraindications:
       </p>
@@ -3620,12 +3664,12 @@ export const GLP1ThyroidContent = () => (
       </ul>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What About Other Thyroid Conditions?
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Hypothyroidism (Underactive Thyroid)</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Hypothyroidism (Underactive Thyroid)</h3>
         <p className="text-sm text-muted-foreground">
           Generally safe to use GLP-1 medications. Your doctor may monitor thyroid levels more
           closely. Hypothyroidism itself can slow weight loss.
@@ -3633,14 +3677,14 @@ export const GLP1ThyroidContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Hyperthyroidism (Overactive Thyroid)</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Hyperthyroidism (Overactive Thyroid)</h3>
         <p className="text-sm text-muted-foreground">
           Usually fine once thyroid levels are controlled. Discuss timing with your doctor.
         </p>
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Thyroid Nodules</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Thyroid Nodules</h3>
         <p className="text-sm text-muted-foreground">
           Benign nodules are generally not a contraindication. However, if nodules are suspicious
           or haven&apos;t been evaluated, discuss with your doctor first.
@@ -3648,7 +3692,7 @@ export const GLP1ThyroidContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">History of Thyroid Cancer (Other Types)</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">History of Thyroid Cancer (Other Types)</h3>
         <p className="text-sm text-muted-foreground">
           Papillary, follicular, and anaplastic thyroid cancers are NOT contraindications.
           Only medullary thyroid carcinoma (MTC) is a contraindication.
@@ -3656,7 +3700,7 @@ export const GLP1ThyroidContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Warning Signs to Watch For
     </h2>
     <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
@@ -3674,7 +3718,7 @@ export const GLP1ThyroidContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           The thyroid warning is a precaution based on animal studies. For most people, the benefits
@@ -3697,7 +3741,7 @@ export const OzempicDiarrheaContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why GLP-1s Can Cause Diarrhea
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -3709,12 +3753,12 @@ export const OzempicDiarrheaContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Managing GLP-1-Related Diarrhea
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Avoid Trigger Foods</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Avoid Trigger Foods</h3>
         <p className="text-sm text-muted-foreground">
           Fatty, greasy, and fried foods are common triggers. Spicy foods, caffeine, and alcohol
           can also worsen diarrhea. Stick to bland foods during flare-ups.
@@ -3722,7 +3766,7 @@ export const OzempicDiarrheaContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Stay Hydrated</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Stay Hydrated</h3>
         <p className="text-sm text-muted-foreground">
           Diarrhea can cause dehydration quickly. Drink plenty of water and consider electrolyte
           drinks if diarrhea persists. Watch for signs of dehydration.
@@ -3730,7 +3774,7 @@ export const OzempicDiarrheaContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Try the BRAT Diet</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Try the BRAT Diet</h3>
         <p className="text-sm text-muted-foreground">
           Bananas, rice, applesauce, and toast can help firm up stools. These bland foods are
           easy on the digestive system during flare-ups.
@@ -3738,7 +3782,7 @@ export const OzempicDiarrheaContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Consider Probiotics</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Consider Probiotics</h3>
         <p className="text-sm text-muted-foreground">
           Some people find probiotics help stabilize gut function. Look for strains like
           Saccharomyces boulardii, which is specifically studied for diarrhea.
@@ -3746,10 +3790,10 @@ export const OzempicDiarrheaContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       When It&apos;s More Serious
     </h2>
-    <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800 mb-6">
+    <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621] mb-6">
       <p className="text-muted-foreground mb-2">
         Seek medical attention if you experience:
       </p>
@@ -3765,7 +3809,7 @@ export const OzempicDiarrheaContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Diarrhea on GLP-1 medications is usually temporary and manageable. Avoid trigger foods,
@@ -3788,7 +3832,7 @@ export const GLP1HairLossContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Key Points About GLP-1 and Hair Loss
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -3800,7 +3844,7 @@ export const GLP1HairLossContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Rapid Weight Loss Causes Hair Loss
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -3809,12 +3853,12 @@ export const GLP1HairLossContent = () => (
       This is your body&apos;s way of conserving resources for essential functions.
     </p>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       How to Minimize Hair Loss
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Prioritize Protein</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Prioritize Protein</h3>
         <p className="text-sm text-muted-foreground">
           Hair is made of protein. Aim for 60-100g daily, depending on your body weight. This is
           crucial when eating less overall. Focus on lean meats, fish, eggs, and legumes.
@@ -3822,7 +3866,7 @@ export const GLP1HairLossContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Take Key Supplements</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Take Key Supplements</h3>
         <p className="text-sm text-muted-foreground">
           Biotin, iron, zinc, and vitamin D all support hair health. A good multivitamin can help
           fill nutritional gaps when eating less. Check levels with your doctor.
@@ -3830,7 +3874,7 @@ export const GLP1HairLossContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Don&apos;t Lose Too Fast</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Don&apos;t Lose Too Fast</h3>
         <p className="text-sm text-muted-foreground">
           Extremely rapid weight loss increases hair loss risk. A steady 1-2 pounds per week is
           healthier for your hair (and overall health) than 5+ pounds per week.
@@ -3838,7 +3882,7 @@ export const GLP1HairLossContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Be Gentle with Your Hair</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Be Gentle with Your Hair</h3>
         <p className="text-sm text-muted-foreground">
           Avoid tight hairstyles, excessive heat styling, and harsh chemical treatments during
           this time. Use a gentle shampoo and wide-tooth comb.
@@ -3846,10 +3890,10 @@ export const GLP1HairLossContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       When to Expect Recovery
     </h2>
-    <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800 mb-6">
+    <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366] mb-6">
       <p className="text-muted-foreground">
         Telogen effluvium is self-limiting. Once your weight stabilizes and nutrition improves,
         hair typically regrows over 6-12 months. Most people see significant improvement once
@@ -3860,7 +3904,7 @@ export const GLP1HairLossContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Hair loss during GLP-1 treatment is usually due to rapid weight loss and nutritional
@@ -3883,7 +3927,7 @@ export const GLP1HeartHealthContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Proven Cardiovascular Benefits
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -3896,7 +3940,7 @@ export const GLP1HeartHealthContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The SELECT Trial: Groundbreaking Results
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -3904,16 +3948,16 @@ export const GLP1HeartHealthContent = () => (
       Key findings include:
     </p>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">20% Risk Reduction</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">20% Risk Reduction</h3>
         <p className="text-sm text-muted-foreground">
           Participants taking semaglutide had 20% fewer heart attacks, strokes, and cardiovascular
           deaths compared to placebo.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Benefits Beyond Weight Loss</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Benefits Beyond Weight Loss</h3>
         <p className="text-sm text-muted-foreground">
           Cardiovascular benefits appeared to extend beyond what weight loss alone would explain,
           suggesting direct effects on heart and blood vessels.
@@ -3921,12 +3965,12 @@ export const GLP1HeartHealthContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       How GLP-1s Improve Heart Health
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Weight Loss</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Weight Loss</h3>
         <p className="text-sm text-muted-foreground">
           Losing even 5-10% of body weight significantly reduces cardiovascular risk factors.
           GLP-1s typically produce 15-20% weight loss.
@@ -3934,7 +3978,7 @@ export const GLP1HeartHealthContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Blood Pressure Reduction</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Blood Pressure Reduction</h3>
         <p className="text-sm text-muted-foreground">
           Studies show 4-6 mmHg reductions in systolic blood pressure on average—meaningful for
           cardiovascular risk.
@@ -3942,7 +3986,7 @@ export const GLP1HeartHealthContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Improved Cholesterol</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Improved Cholesterol</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1s improve lipid profiles, particularly reducing triglycerides and small dense
           LDL particles.
@@ -3950,7 +3994,7 @@ export const GLP1HeartHealthContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Reduced Inflammation</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Reduced Inflammation</h3>
         <p className="text-sm text-muted-foreground">
           These medications reduce C-reactive protein and other inflammatory markers linked to
           heart disease.
@@ -3958,7 +4002,7 @@ export const GLP1HeartHealthContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Heart Rate Considerations
     </h2>
     <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
@@ -3972,7 +4016,7 @@ export const GLP1HeartHealthContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           GLP-1 medications offer significant cardiovascular benefits beyond weight loss. The SELECT
@@ -3995,7 +4039,7 @@ export const GLP1SleepApneaContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Key Research Findings
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -4007,7 +4051,7 @@ export const GLP1SleepApneaContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       How Weight Loss Improves Sleep Apnea
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -4016,31 +4060,31 @@ export const GLP1SleepApneaContent = () => (
     </p>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Reduced Neck Circumference</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Reduced Neck Circumference</h3>
         <p className="text-sm text-muted-foreground">
           Fat deposits around the neck decrease, reducing pressure on the airway during sleep.
         </p>
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Less Abdominal Fat</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Less Abdominal Fat</h3>
         <p className="text-sm text-muted-foreground">
           Reduced belly fat improves lung capacity and breathing mechanics.
         </p>
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Decreased Inflammation</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Decreased Inflammation</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 medications reduce systemic inflammation, which can contribute to airway narrowing.
         </p>
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What This Means for CPAP Users
     </h2>
-    <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800 mb-6">
+    <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366] mb-6">
       <p className="text-muted-foreground">
         Many people on GLP-1 medications find they can reduce or eliminate CPAP use as their
         sleep apnea improves. However, always work with your sleep doctor—don&apos;t stop CPAP
@@ -4051,7 +4095,7 @@ export const GLP1SleepApneaContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           GLP-1 medications can dramatically improve sleep apnea—tirzepatide is now FDA-approved
@@ -4074,7 +4118,7 @@ export const GLP1KidneyHealthContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Kidney Benefits of GLP-1 Medications
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -4086,7 +4130,7 @@ export const GLP1KidneyHealthContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The FLOW Trial Results
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -4094,16 +4138,16 @@ export const GLP1KidneyHealthContent = () => (
       Results showed:
     </p>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">24% Risk Reduction</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">24% Risk Reduction</h3>
         <p className="text-sm text-muted-foreground">
           Semaglutide reduced major kidney events by 24%—including kidney failure, dialysis, and
           significant kidney function decline.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Trial Stopped Early</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Trial Stopped Early</h3>
         <p className="text-sm text-muted-foreground">
           Benefits were so clear that the trial was stopped early—participants on placebo were
           switched to semaglutide to receive the benefit.
@@ -4111,12 +4155,12 @@ export const GLP1KidneyHealthContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Using GLP-1s with Kidney Disease
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Mild to Moderate Kidney Disease</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Mild to Moderate Kidney Disease</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 medications can generally be used without dose adjustment in mild to moderate
           kidney disease.
@@ -4124,15 +4168,15 @@ export const GLP1KidneyHealthContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Severe Kidney Disease</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Severe Kidney Disease</h3>
         <p className="text-sm text-muted-foreground">
           Use with caution and close monitoring. Limited data in severe kidney disease or dialysis
           patients.
         </p>
       </div>
 
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Hydration Is Key</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Hydration Is Key</h3>
         <p className="text-sm text-muted-foreground">
           GI side effects like nausea and vomiting can cause dehydration, which can worsen kidney
           function. Stay well hydrated, especially during the first weeks of treatment.
@@ -4143,7 +4187,7 @@ export const GLP1KidneyHealthContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           GLP-1 medications offer significant kidney protection beyond their weight loss benefits.
@@ -4166,7 +4210,7 @@ export const GLP1FattyLiverContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           How GLP-1s Help Fatty Liver
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -4178,31 +4222,31 @@ export const GLP1FattyLiverContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Research Results
     </h2>
     <p className="text-muted-foreground mb-4">
       Multiple studies have shown significant improvements in liver health with GLP-1 treatment:
     </p>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Fat Reduction</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Fat Reduction</h3>
         <p className="text-sm text-muted-foreground">
           Studies show 30-70% reduction in liver fat content with GLP-1 medications—greater than
           lifestyle changes alone.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">NASH Resolution</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">NASH Resolution</h3>
         <p className="text-sm text-muted-foreground">
           In trials, 40-60% of patients with NASH (inflammatory fatty liver disease) saw resolution
           of inflammation without worsening fibrosis.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Fibrosis Improvement</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Fibrosis Improvement</h3>
         <p className="text-sm text-muted-foreground">
           Some patients showed actual improvement in liver fibrosis—suggesting these medications
           may help reverse early liver damage.
@@ -4210,7 +4254,7 @@ export const GLP1FattyLiverContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Liver Health Matters
     </h2>
     <p className="text-muted-foreground mb-6">
@@ -4222,7 +4266,7 @@ export const GLP1FattyLiverContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           GLP-1 medications show significant promise for fatty liver disease, reducing liver fat
@@ -4245,7 +4289,7 @@ export const GLP1MenstruationContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Common Menstrual Changes Reported
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -4258,12 +4302,12 @@ export const GLP1MenstruationContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why GLP-1s Affect Menstruation
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Weight Loss Effects</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Weight Loss Effects</h3>
         <p className="text-sm text-muted-foreground">
           Rapid weight loss affects hormone levels—fat tissue produces estrogen, so losing fat
           can temporarily disrupt hormonal balance.
@@ -4271,7 +4315,7 @@ export const GLP1MenstruationContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Improved Insulin Sensitivity</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Improved Insulin Sensitivity</h3>
         <p className="text-sm text-muted-foreground">
           Better insulin function improves ovarian hormone production, which can normalize
           irregular periods—especially in women with PCOS.
@@ -4279,7 +4323,7 @@ export const GLP1MenstruationContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Birth Control Interaction</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Birth Control Interaction</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 medications may affect oral birth control absorption due to delayed gastric
           emptying. Consider backup contraception, especially during GI side effects.
@@ -4287,10 +4331,10 @@ export const GLP1MenstruationContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Important Fertility Warning
     </h2>
-    <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800 mb-6">
+    <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621] mb-6">
       <p className="text-muted-foreground mb-2">
         <strong>Pregnancy risk increases on GLP-1 medications:</strong>
       </p>
@@ -4302,7 +4346,7 @@ export const GLP1MenstruationContent = () => (
       </ul>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       When to See Your Doctor
     </h2>
     <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
@@ -4316,7 +4360,7 @@ export const GLP1MenstruationContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Menstrual changes are common on GLP-1 medications due to weight loss and hormonal shifts.
@@ -4339,7 +4383,7 @@ export const GLP1AgingContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Potential Anti-Aging Benefits
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -4352,12 +4396,12 @@ export const GLP1AgingContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Research Areas of Interest
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Brain Health</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Brain Health</h3>
         <p className="text-sm text-muted-foreground">
           Studies are investigating whether GLP-1 medications might protect against cognitive
           decline and neurodegenerative diseases like Alzheimer&apos;s. Early results are promising
@@ -4366,7 +4410,7 @@ export const GLP1AgingContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Inflammation Reduction</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Inflammation Reduction</h3>
         <p className="text-sm text-muted-foreground">
           Chronic low-grade inflammation accelerates aging. GLP-1 medications significantly reduce
           inflammatory markers like CRP—a known contributor to age-related diseases.
@@ -4374,7 +4418,7 @@ export const GLP1AgingContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Organ Protection</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Organ Protection</h3>
         <p className="text-sm text-muted-foreground">
           Heart, kidney, and liver protection from GLP-1 medications may help these organs
           function better for longer—a key component of healthy aging.
@@ -4382,7 +4426,7 @@ export const GLP1AgingContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Metabolic Health</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Metabolic Health</h3>
         <p className="text-sm text-muted-foreground">
           Improved blood sugar control, insulin sensitivity, and body composition all contribute
           to healthier aging and reduced disease risk.
@@ -4390,7 +4434,7 @@ export const GLP1AgingContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       GLP-1 Use in Older Adults
     </h2>
     <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
@@ -4404,7 +4448,7 @@ export const GLP1AgingContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           While GLP-1 medications aren&apos;t approved as anti-aging treatments, their effects on
@@ -4427,7 +4471,7 @@ export const OzempicHeadachesContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why GLP-1s May Cause Headaches
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -4440,12 +4484,12 @@ export const OzempicHeadachesContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Tips for Relief
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Stay Well Hydrated</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Stay Well Hydrated</h3>
         <p className="text-sm text-muted-foreground">
           Dehydration is the most common cause. Aim for 8+ glasses of water daily. Set reminders
           if you&apos;re not feeling thirsty due to appetite suppression.
@@ -4453,7 +4497,7 @@ export const OzempicHeadachesContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Eat Regularly</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Eat Regularly</h3>
         <p className="text-sm text-muted-foreground">
           Even with reduced appetite, try to eat small meals throughout the day. Skipping meals
           can trigger headaches from low blood sugar.
@@ -4461,7 +4505,7 @@ export const OzempicHeadachesContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Monitor Caffeine Intake</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Monitor Caffeine Intake</h3>
         <p className="text-sm text-muted-foreground">
           If you&apos;ve reduced coffee or soda due to appetite changes, caffeine withdrawal can cause
           headaches. Taper gradually rather than stopping suddenly.
@@ -4469,7 +4513,7 @@ export const OzempicHeadachesContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Over-the-Counter Pain Relief</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Over-the-Counter Pain Relief</h3>
         <p className="text-sm text-muted-foreground">
           Acetaminophen or ibuprofen can help occasional headaches. Avoid overuse, which can cause
           rebound headaches.
@@ -4477,10 +4521,10 @@ export const OzempicHeadachesContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       When to Seek Medical Attention
     </h2>
-    <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800 mb-6">
+    <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621] mb-6">
       <p className="text-muted-foreground mb-2">
         Contact your doctor if you experience:
       </p>
@@ -4496,7 +4540,7 @@ export const OzempicHeadachesContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Headaches on GLP-1 medications are usually mild and related to dehydration or dietary
@@ -4519,7 +4563,7 @@ export const GLP1AnxietyContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           What the Research Shows
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -4531,12 +4575,12 @@ export const GLP1AnxietyContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Possible Causes of Mood Changes
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Hormonal Shifts</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Hormonal Shifts</h3>
         <p className="text-sm text-muted-foreground">
           Rapid weight loss affects hormone levels, including those that regulate mood. This
           is usually temporary as the body adjusts.
@@ -4544,7 +4588,7 @@ export const GLP1AnxietyContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Blood Sugar Fluctuations</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Blood Sugar Fluctuations</h3>
         <p className="text-sm text-muted-foreground">
           Changes in blood sugar can affect mood and energy. Eating regular, balanced meals
           helps stabilize blood sugar levels.
@@ -4552,7 +4596,7 @@ export const GLP1AnxietyContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Relationship with Food</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Relationship with Food</h3>
         <p className="text-sm text-muted-foreground">
           If you&apos;ve used food for emotional comfort, reduced appetite may feel unsettling at
           first. This adjustment is normal but worth discussing with a professional if difficult.
@@ -4560,7 +4604,7 @@ export const GLP1AnxietyContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Physical Side Effects</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Physical Side Effects</h3>
         <p className="text-sm text-muted-foreground">
           Dealing with nausea, fatigue, or other side effects can increase stress and affect
           mood temporarily.
@@ -4568,20 +4612,20 @@ export const GLP1AnxietyContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Managing Mental Health on GLP-1s
     </h2>
     <div className="space-y-4 mb-6">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Maintain Support Systems</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Maintain Support Systems</h3>
         <p className="text-sm text-muted-foreground">
           Stay connected with friends, family, or support groups. Weight loss journeys can be
           emotional, and support helps.
         </p>
       </div>
 
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Continue Mental Health Treatment</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Continue Mental Health Treatment</h3>
         <p className="text-sm text-muted-foreground">
           If you&apos;re already seeing a therapist or taking medication for anxiety, continue
           treatment and inform your provider about starting GLP-1s.
@@ -4600,7 +4644,7 @@ export const GLP1AnxietyContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           GLP-1 medications don&apos;t consistently cause anxiety, but the lifestyle changes they
@@ -4623,7 +4667,7 @@ export const OzempicFatigueContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Common Causes of Fatigue
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -4636,12 +4680,12 @@ export const OzempicFatigueContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Strategies to Boost Energy
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Prioritize Protein</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Prioritize Protein</h3>
         <p className="text-sm text-muted-foreground">
           Protein provides sustained energy. Aim for 60-100g daily, even with reduced appetite.
           Start meals with protein to ensure you get enough.
@@ -4649,7 +4693,7 @@ export const OzempicFatigueContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Stay Hydrated</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Stay Hydrated</h3>
         <p className="text-sm text-muted-foreground">
           Dehydration is a major cause of fatigue. Aim for 8+ glasses of water daily. Add
           electrolytes if you&apos;ve had GI issues.
@@ -4657,7 +4701,7 @@ export const OzempicFatigueContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Don&apos;t Skip Meals</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Don&apos;t Skip Meals</h3>
         <p className="text-sm text-muted-foreground">
           Even if not hungry, eat small, regular meals to maintain blood sugar and energy.
           Extreme calorie restriction leads to fatigue.
@@ -4665,7 +4709,7 @@ export const OzempicFatigueContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Consider a Multivitamin</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Consider a Multivitamin</h3>
         <p className="text-sm text-muted-foreground">
           Eating less can lead to vitamin deficiencies. A daily multivitamin, especially
           with B vitamins and iron, can help maintain energy.
@@ -4673,7 +4717,7 @@ export const OzempicFatigueContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Light Exercise</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Light Exercise</h3>
         <p className="text-sm text-muted-foreground">
           It seems counterintuitive, but light activity like walking can actually boost energy
           levels. Start slow and listen to your body.
@@ -4681,7 +4725,7 @@ export const OzempicFatigueContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       When Fatigue May Indicate a Problem
     </h2>
     <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
@@ -4699,7 +4743,7 @@ export const OzempicFatigueContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Fatigue on GLP-1 medications is usually temporary and related to reduced calorie intake
@@ -4722,7 +4766,7 @@ export const GLP1JointPainContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           The Complex Picture
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -4734,12 +4778,12 @@ export const GLP1JointPainContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Some People Experience Joint Issues
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Rapid Weight Loss Effects</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Rapid Weight Loss Effects</h3>
         <p className="text-sm text-muted-foreground">
           Losing weight quickly can temporarily affect how your body moves and puts stress on
           joints that are adjusting to new mechanics.
@@ -4747,7 +4791,7 @@ export const GLP1JointPainContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Increased Activity</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Increased Activity</h3>
         <p className="text-sm text-muted-foreground">
           Many people become more active as they lose weight. New or increased exercise can
           cause temporary muscle and joint soreness.
@@ -4755,7 +4799,7 @@ export const GLP1JointPainContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Dehydration</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Dehydration</h3>
         <p className="text-sm text-muted-foreground">
           Joint cartilage needs water to stay healthy. Dehydration from GI side effects can
           temporarily increase joint stiffness.
@@ -4763,10 +4807,10 @@ export const GLP1JointPainContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The Good News: Long-Term Benefits
     </h2>
-    <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800 mb-6">
+    <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366] mb-6">
       <p className="text-muted-foreground">
         Weight loss significantly reduces joint stress. Every pound lost removes about 4 pounds
         of pressure from your knees. Most people with obesity-related joint pain see substantial
@@ -4774,7 +4818,7 @@ export const GLP1JointPainContent = () => (
       </p>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Managing Joint Discomfort
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -4788,7 +4832,7 @@ export const GLP1JointPainContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           While some people experience temporary joint discomfort on GLP-1 medications, most
@@ -4811,7 +4855,7 @@ export const GLP1BloodPressureContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Blood Pressure Benefits
         </h2>
         <ul className="text-muted-foreground space-y-2">
@@ -4823,12 +4867,12 @@ export const GLP1BloodPressureContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       How GLP-1s Lower Blood Pressure
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Weight Loss</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Weight Loss</h3>
         <p className="text-sm text-muted-foreground">
           Losing 10% of body weight can reduce systolic blood pressure by 5-10 mmHg. GLP-1s
           produce significant weight loss.
@@ -4836,7 +4880,7 @@ export const GLP1BloodPressureContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Direct Vascular Effects</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Direct Vascular Effects</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 receptors in blood vessels may promote relaxation and improve blood flow,
           independent of weight loss.
@@ -4844,7 +4888,7 @@ export const GLP1BloodPressureContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Reduced Sodium Retention</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Reduced Sodium Retention</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1s may increase sodium excretion through the kidneys, helping to lower blood
           pressure naturally.
@@ -4852,7 +4896,7 @@ export const GLP1BloodPressureContent = () => (
       </div>
 
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Improved Insulin Sensitivity</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Improved Insulin Sensitivity</h3>
         <p className="text-sm text-muted-foreground">
           Better insulin function is associated with healthier blood vessel function and
           lower blood pressure.
@@ -4860,7 +4904,7 @@ export const GLP1BloodPressureContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Important Considerations
     </h2>
     <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800 mb-6">
@@ -4872,7 +4916,7 @@ export const GLP1BloodPressureContent = () => (
       </p>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Signs of Low Blood Pressure
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -4886,7 +4930,7 @@ export const GLP1BloodPressureContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           GLP-1 medications typically lower blood pressure by 4-6 mmHg—a meaningful cardiovascular
@@ -4908,7 +4952,7 @@ export const GLP1AndDigestionContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           How GLP-1s Affect Digestion
         </h2>
         <p className="text-muted-foreground mb-4">
@@ -4928,7 +4972,7 @@ export const GLP1AndDigestionContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Common Digestive Side Effects
         </h2>
         <div className="space-y-4 text-muted-foreground">
@@ -4958,7 +5002,7 @@ export const GLP1AndDigestionContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Dietary Strategies for Better Digestion
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -4998,7 +5042,7 @@ export const GLP1MealTimingContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why Meal Timing Matters on GLP-1s
         </h2>
         <p className="text-muted-foreground mb-4">
@@ -5017,7 +5061,7 @@ export const GLP1MealTimingContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Recommended Meal Patterns
         </h2>
         <div className="space-y-4 text-muted-foreground">
@@ -5039,7 +5083,7 @@ export const GLP1MealTimingContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Timing Tips for Best Results
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -5078,7 +5122,7 @@ export const GLP1HydrationContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why Hydration Matters More on GLP-1s
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -5094,7 +5138,7 @@ export const GLP1HydrationContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           How Much Water Do You Need?
         </h2>
         <p className="text-muted-foreground mb-4">
@@ -5125,7 +5169,7 @@ export const GLP1HydrationContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Smart Hydration Strategies
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -5165,7 +5209,7 @@ export const GLP1ProteinNeedsContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why Protein Is Critical on GLP-1s
         </h2>
         <p className="text-muted-foreground mb-4">
@@ -5185,7 +5229,7 @@ export const GLP1ProteinNeedsContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           How Much Protein Do You Need?
         </h2>
         <p className="text-muted-foreground mb-4">
@@ -5216,7 +5260,7 @@ export const GLP1ProteinNeedsContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Best Protein Sources
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -5256,7 +5300,7 @@ export const GLP1SurgeryGuideContent = () => (
 
     <Card className="mb-8 border-amber-200 bg-amber-50 dark:bg-amber-950/20">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Important: Aspiration Risk
         </h2>
         <p className="text-muted-foreground">
@@ -5270,7 +5314,7 @@ export const GLP1SurgeryGuideContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Current Guidelines (2025)
         </h2>
         <p className="text-muted-foreground mb-4">
@@ -5290,7 +5334,7 @@ export const GLP1SurgeryGuideContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Pre-Surgery Checklist
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -5306,7 +5350,7 @@ export const GLP1SurgeryGuideContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           After Surgery
         </h2>
         <p className="text-muted-foreground mb-4">
@@ -5348,8 +5392,8 @@ export const WegovyVsOzempicContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
-          The Quick Answer
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
+          Official Assessment
         </h2>
         <p className="text-muted-foreground">
           <strong>Wegovy and Ozempic contain the same drug (semaglutide)</strong>, but they&apos;re
@@ -5360,46 +5404,46 @@ export const WegovyVsOzempicContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Key Differences at a Glance
     </h2>
     <div className="overflow-x-auto mb-8">
       <table className="w-full text-sm border-collapse">
         <thead>
-          <tr className="border-b-2 border-primary/20">
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Feature</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Ozempic</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Wegovy</th>
+          <tr className="border-b-2 border-[#003366]">
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Feature</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Ozempic</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Wegovy</th>
           </tr>
         </thead>
         <tbody>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">FDA Approval</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">FDA Approval</td>
             <td className="py-3 px-4 text-muted-foreground">Type 2 diabetes</td>
             <td className="py-3 px-4 text-muted-foreground">Chronic weight management</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Maximum Dose</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Maximum Dose</td>
             <td className="py-3 px-4 text-muted-foreground">2 mg weekly</td>
             <td className="py-3 px-4 text-muted-foreground">2.4 mg weekly</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Starting Dose</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Starting Dose</td>
             <td className="py-3 px-4 text-muted-foreground">0.25 mg</td>
             <td className="py-3 px-4 text-muted-foreground">0.25 mg</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Titration Period</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Titration Period</td>
             <td className="py-3 px-4 text-muted-foreground">8-16 weeks</td>
             <td className="py-3 px-4 text-muted-foreground">16-20 weeks</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Insurance Coverage</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Insurance Coverage</td>
             <td className="py-3 px-4 text-muted-foreground">Often covered for diabetes</td>
             <td className="py-3 px-4 text-muted-foreground">Rarely covered for weight loss</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">List Price</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">List Price</td>
             <td className="py-3 px-4 text-muted-foreground">~$935/month</td>
             <td className="py-3 px-4 text-muted-foreground">~$1,350/month</td>
           </tr>
@@ -5407,7 +5451,7 @@ export const WegovyVsOzempicContent = () => (
       </table>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Same Drug, Different Approvals
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -5421,15 +5465,15 @@ export const WegovyVsOzempicContent = () => (
       <li><strong>Different clinical trials</strong> — Each has its own trial data for its specific indication</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The Dosing Difference
     </h2>
     <p className="text-muted-foreground mb-4">
       The most significant practical difference is the maximum dose:
     </p>
     <div className="grid gap-4 md:grid-cols-2 mb-8">
-      <div className="p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800">
-        <h3 className="font-semibold text-foreground mb-2">Ozempic Dosing</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Ozempic Dosing</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• 0.25 mg (weeks 1-4)</li>
           <li>• 0.5 mg (weeks 5-8)</li>
@@ -5437,8 +5481,8 @@ export const WegovyVsOzempicContent = () => (
           <li>• 2 mg (max dose if needed)</li>
         </ul>
       </div>
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Wegovy Dosing</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Wegovy Dosing</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• 0.25 mg (weeks 1-4)</li>
           <li>• 0.5 mg (weeks 5-8)</li>
@@ -5453,22 +5497,22 @@ export const WegovyVsOzempicContent = () => (
       some patients, though individual responses vary significantly.
     </p>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Insurance and Cost Considerations
     </h2>
     <p className="text-muted-foreground mb-4">
       This is where the differences matter most for many patients:
     </p>
     <div className="space-y-4 mb-8">
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Ozempic Coverage</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Ozempic Coverage</h3>
         <p className="text-sm text-muted-foreground">
           More likely to be covered if you have type 2 diabetes. Even without diabetes, some doctors
           prescribe Ozempic off-label for weight loss, though insurance typically won&apos;t cover this use.
         </p>
       </div>
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Wegovy Coverage</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Wegovy Coverage</h3>
         <p className="text-sm text-muted-foreground">
           Most insurance plans don&apos;t cover weight loss medications. However, coverage is slowly
           improving, especially for patients with obesity-related conditions. Medicare and Medicaid
@@ -5477,12 +5521,12 @@ export const WegovyVsOzempicContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Which One Should You Choose?
     </h2>
     <div className="space-y-4 mb-6">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Choose Ozempic if:</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Choose Ozempic if:</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• You have type 2 diabetes (better insurance coverage)</li>
           <li>• Your insurance covers it but not Wegovy</li>
@@ -5490,7 +5534,7 @@ export const WegovyVsOzempicContent = () => (
         </ul>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Choose Wegovy if:</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Choose Wegovy if:</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Weight loss is your primary goal</li>
           <li>• You want the FDA-approved weight loss indication</li>
@@ -5503,7 +5547,7 @@ export const WegovyVsOzempicContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Wegovy and Ozempic are essentially the same medication packaged differently. The choice
@@ -5527,8 +5571,8 @@ export const ZepboundVsMounjaro = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
-          The Quick Answer
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
+          Official Assessment
         </h2>
         <p className="text-muted-foreground">
           <strong>Zepbound and Mounjaro contain identical medication (tirzepatide)</strong> made by
@@ -5539,41 +5583,41 @@ export const ZepboundVsMounjaro = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Comparison at a Glance
     </h2>
     <div className="overflow-x-auto mb-8">
       <table className="w-full text-sm border-collapse">
         <thead>
-          <tr className="border-b-2 border-primary/20">
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Feature</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Mounjaro</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Zepbound</th>
+          <tr className="border-b-2 border-[#003366]">
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Feature</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Mounjaro</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Zepbound</th>
           </tr>
         </thead>
         <tbody>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Active Ingredient</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Active Ingredient</td>
             <td className="py-3 px-4 text-muted-foreground">Tirzepatide</td>
             <td className="py-3 px-4 text-muted-foreground">Tirzepatide</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">FDA Approval</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">FDA Approval</td>
             <td className="py-3 px-4 text-muted-foreground">Type 2 diabetes (2022)</td>
             <td className="py-3 px-4 text-muted-foreground">Chronic weight management (2023)</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Dose Range</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Dose Range</td>
             <td className="py-3 px-4 text-muted-foreground">2.5 mg to 15 mg</td>
             <td className="py-3 px-4 text-muted-foreground">2.5 mg to 15 mg</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Available Doses</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Available Doses</td>
             <td className="py-3 px-4 text-muted-foreground">2.5, 5, 7.5, 10, 12.5, 15 mg</td>
             <td className="py-3 px-4 text-muted-foreground">2.5, 5, 7.5, 10, 12.5, 15 mg</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">List Price</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">List Price</td>
             <td className="py-3 px-4 text-muted-foreground">~$1,060/month</td>
             <td className="py-3 px-4 text-muted-foreground">~$1,060/month</td>
           </tr>
@@ -5581,7 +5625,7 @@ export const ZepboundVsMounjaro = () => (
       </table>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Two Products?
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -5594,40 +5638,40 @@ export const ZepboundVsMounjaro = () => (
       <li><strong>Different packaging</strong> — But identical medication inside</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Tirzepatide&apos;s Dual Action
     </h2>
     <p className="text-muted-foreground mb-4">
       What makes tirzepatide unique is its dual mechanism:
     </p>
     <div className="grid gap-4 md:grid-cols-2 mb-8">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">GLP-1 Receptor Agonist</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">GLP-1 Receptor Agonist</h3>
         <p className="text-sm text-muted-foreground">
           Like semaglutide, it activates GLP-1 receptors to reduce appetite and slow gastric emptying.
         </p>
       </div>
-      <div className="p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800">
-        <h3 className="font-semibold text-foreground mb-2">GIP Receptor Agonist</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">GIP Receptor Agonist</h3>
         <p className="text-sm text-muted-foreground">
           Also activates GIP receptors, which may enhance insulin sensitivity and improve fat metabolism.
         </p>
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Insurance and Coverage
     </h2>
     <div className="space-y-4 mb-8">
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Mounjaro Coverage</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Mounjaro Coverage</h3>
         <p className="text-sm text-muted-foreground">
           Better coverage if you have type 2 diabetes. Many insurance plans cover it for this indication.
           Off-label use for weight loss typically isn&apos;t covered.
         </p>
       </div>
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">Zepbound Coverage</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">Zepbound Coverage</h3>
         <p className="text-sm text-muted-foreground">
           Limited coverage for weight loss indications. Some commercial plans are starting to cover it,
           but Medicare and most Medicaid programs don&apos;t cover weight loss medications.
@@ -5635,7 +5679,7 @@ export const ZepboundVsMounjaro = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Clinical Results
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -5651,7 +5695,7 @@ export const ZepboundVsMounjaro = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Zepbound and Mounjaro are the same medication. Your choice will likely depend on whether
@@ -5675,8 +5719,8 @@ export const SemaglutideVsTirzepatideContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
-          The Quick Answer
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
+          Official Assessment
         </h2>
         <p className="text-muted-foreground">
           <strong>Tirzepatide generally produces more weight loss in clinical trials</strong>—about
@@ -5687,46 +5731,46 @@ export const SemaglutideVsTirzepatideContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Head-to-Head Comparison
     </h2>
     <div className="overflow-x-auto mb-8">
       <table className="w-full text-sm border-collapse">
         <thead>
-          <tr className="border-b-2 border-primary/20">
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Factor</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Semaglutide</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Tirzepatide</th>
+          <tr className="border-b-2 border-[#003366]">
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Factor</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Semaglutide</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Tirzepatide</th>
           </tr>
         </thead>
         <tbody>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Mechanism</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Mechanism</td>
             <td className="py-3 px-4 text-muted-foreground">GLP-1 only</td>
             <td className="py-3 px-4 text-muted-foreground">GLP-1 + GIP (dual)</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Avg Weight Loss</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Avg Weight Loss</td>
             <td className="py-3 px-4 text-muted-foreground">~15% body weight</td>
             <td className="py-3 px-4 text-muted-foreground">~20-26% body weight</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">FDA Approved Since</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">FDA Approved Since</td>
             <td className="py-3 px-4 text-muted-foreground">2017 (Ozempic), 2021 (Wegovy)</td>
             <td className="py-3 px-4 text-muted-foreground">2022 (Mounjaro), 2023 (Zepbound)</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Oral Option</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Oral Option</td>
             <td className="py-3 px-4 text-muted-foreground">Yes (Rybelsus)</td>
             <td className="py-3 px-4 text-muted-foreground">Not yet (in trials)</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">Long-term Data</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">Long-term Data</td>
             <td className="py-3 px-4 text-muted-foreground">More extensive</td>
             <td className="py-3 px-4 text-muted-foreground">Growing but less</td>
           </tr>
           <tr className="border-b">
-            <td className="py-3 px-4 font-medium text-foreground">CV Outcome Data</td>
+            <td className="py-3 px-4 font-medium text-[#003366]">CV Outcome Data</td>
             <td className="py-3 px-4 text-muted-foreground">SELECT trial positive</td>
             <td className="py-3 px-4 text-muted-foreground">SURPASS-CVOT ongoing</td>
           </tr>
@@ -5734,15 +5778,15 @@ export const SemaglutideVsTirzepatideContent = () => (
       </table>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Weight Loss Comparison
     </h2>
     <p className="text-muted-foreground mb-4">
       The SURMOUNT and STEP trials provide the best data:
     </p>
     <div className="grid gap-4 md:grid-cols-2 mb-8">
-      <div className="p-4 bg-blue-50 dark:bg-blue-950/30 rounded-lg border border-blue-200 dark:border-blue-800">
-        <h3 className="font-semibold text-foreground mb-2">Semaglutide 2.4 mg (STEP 1)</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Semaglutide 2.4 mg (STEP 1)</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Average: 14.9% weight loss</li>
           <li>• 1/3 lost 20%+ of body weight</li>
@@ -5750,8 +5794,8 @@ export const SemaglutideVsTirzepatideContent = () => (
           <li>• Placebo: 2.4% loss</li>
         </ul>
       </div>
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Tirzepatide 15 mg (SURMOUNT-1)</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Tirzepatide 15 mg (SURMOUNT-1)</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Average: 22.5% weight loss</li>
           <li>• Over 1/3 lost 25%+ of body weight</li>
@@ -5761,7 +5805,7 @@ export const SemaglutideVsTirzepatideContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Side Effect Comparison
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -5779,7 +5823,7 @@ export const SemaglutideVsTirzepatideContent = () => (
       better than the other, which is impossible to predict beforehand.
     </p>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Tirzepatide May Be More Effective
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -5792,33 +5836,33 @@ export const SemaglutideVsTirzepatideContent = () => (
       <li><strong>Metabolic benefits</strong> — Strong improvements in lipids and liver fat</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Semaglutide May Be the Better Choice
     </h2>
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Longer Track Record</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Longer Track Record</h3>
         <p className="text-sm text-muted-foreground">
           Semaglutide has been on the market longer with more extensive safety data and
           cardiovascular outcome evidence from the SELECT trial.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Oral Option Available</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Oral Option Available</h3>
         <p className="text-sm text-muted-foreground">
           Rybelsus offers a daily pill for those who prefer not to inject. Oral tirzepatide
           is still in clinical trials.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Compounded Availability</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Compounded Availability</h3>
         <p className="text-sm text-muted-foreground">
           During shortages, compounded semaglutide is more widely available than compounded tirzepatide.
         </p>
       </div>
     </div>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           Important Consideration
@@ -5834,7 +5878,7 @@ export const SemaglutideVsTirzepatideContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Both semaglutide and tirzepatide are excellent medications. Tirzepatide produces more
@@ -5857,7 +5901,7 @@ export const MissedDoseGuideContent = () => (
 
     <Card className="mb-8 border-amber-200 bg-amber-50 dark:bg-amber-950/20">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           The General Rule
         </h2>
         <p className="text-muted-foreground">
@@ -5868,22 +5912,22 @@ export const MissedDoseGuideContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Missed Dose Guidelines by Medication
     </h2>
 
     <div className="space-y-6 mb-8">
       <Card>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-foreground mb-3">Ozempic & Wegovy (Semaglutide Weekly)</h3>
+          <h3 className="text-xl font-semibold text-[#003366] mb-3">Ozempic & Wegovy (Semaglutide Weekly)</h3>
           <div className="space-y-3">
-            <div className="p-3 bg-green-50 dark:bg-green-950/30 rounded-lg">
+            <div className="p-3 bg-[#003366]/10 rounded-lg">
               <p className="text-sm"><strong>Within 5 days of missed dose:</strong> Take it as soon as you remember, then resume your regular schedule.</p>
             </div>
             <div className="p-3 bg-amber-50 dark:bg-amber-950/30 rounded-lg">
               <p className="text-sm"><strong>More than 5 days:</strong> Skip the missed dose. Take your next dose on the regularly scheduled day.</p>
             </div>
-            <div className="p-3 bg-red-50 dark:bg-red-950/30 rounded-lg">
+            <div className="p-3 bg-[#a31621]/10 rounded-lg">
               <p className="text-sm"><strong>Never:</strong> Take two doses at once or double up to make up for a missed dose.</p>
             </div>
           </div>
@@ -5892,9 +5936,9 @@ export const MissedDoseGuideContent = () => (
 
       <Card>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-foreground mb-3">Mounjaro & Zepbound (Tirzepatide Weekly)</h3>
+          <h3 className="text-xl font-semibold text-[#003366] mb-3">Mounjaro & Zepbound (Tirzepatide Weekly)</h3>
           <div className="space-y-3">
-            <div className="p-3 bg-green-50 dark:bg-green-950/30 rounded-lg">
+            <div className="p-3 bg-[#003366]/10 rounded-lg">
               <p className="text-sm"><strong>Within 4 days of missed dose:</strong> Take it as soon as possible, then continue your regular schedule.</p>
             </div>
             <div className="p-3 bg-amber-50 dark:bg-amber-950/30 rounded-lg">
@@ -5906,9 +5950,9 @@ export const MissedDoseGuideContent = () => (
 
       <Card>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-foreground mb-3">Rybelsus (Oral Semaglutide Daily)</h3>
+          <h3 className="text-xl font-semibold text-[#003366] mb-3">Rybelsus (Oral Semaglutide Daily)</h3>
           <div className="space-y-3">
-            <div className="p-3 bg-green-50 dark:bg-green-950/30 rounded-lg">
+            <div className="p-3 bg-[#003366]/10 rounded-lg">
               <p className="text-sm"><strong>Missed one day:</strong> Skip it and take your next dose the following morning as usual.</p>
             </div>
             <div className="p-3 bg-amber-50 dark:bg-amber-950/30 rounded-lg">
@@ -5919,7 +5963,7 @@ export const MissedDoseGuideContent = () => (
       </Card>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What Happens If You Miss Multiple Doses?
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -5933,7 +5977,7 @@ export const MissedDoseGuideContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           When to Contact Your Doctor
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -5946,30 +5990,30 @@ export const MissedDoseGuideContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Tips to Avoid Missing Doses
     </h2>
     <div className="grid gap-4 md:grid-cols-2 mb-8">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Set Reminders</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Set Reminders</h3>
         <p className="text-sm text-muted-foreground">
           Use phone alarms, calendar alerts, or medication reminder apps for the same day each week.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Pick a Consistent Day</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Pick a Consistent Day</h3>
         <p className="text-sm text-muted-foreground">
           Choose a day that&apos;s easy to remember—like every Sunday morning or every Friday evening.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Keep Medication Visible</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Keep Medication Visible</h3>
         <p className="text-sm text-muted-foreground">
           Store your pen where you&apos;ll see it (in the fridge door, for example) as a visual reminder.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Track Your Doses</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Track Your Doses</h3>
         <p className="text-sm text-muted-foreground">
           Use a simple log, app, or calendar to mark each dose. This helps you know if you&apos;ve taken it.
         </p>
@@ -5979,7 +6023,7 @@ export const MissedDoseGuideContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Missing an occasional dose isn&apos;t a crisis. Take it when you remember if it&apos;s within
@@ -6004,7 +6048,7 @@ export const FoodNoiseContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           What Is Food Noise?
         </h2>
         <p className="text-muted-foreground">
@@ -6016,7 +6060,7 @@ export const FoodNoiseContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       How GLP-1s Quiet Food Noise
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -6024,21 +6068,21 @@ export const FoodNoiseContent = () => (
     </p>
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Brain Reward Centers</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Brain Reward Centers</h3>
         <p className="text-sm text-muted-foreground">
           GLP-1 receptors exist in brain regions controlling reward and motivation. The medications
           appear to reduce the rewarding signals from food, making it less compelling.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Appetite Regulation</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Appetite Regulation</h3>
         <p className="text-sm text-muted-foreground">
           By reducing physical hunger signals, there&apos;s simply less biological drive prompting
           food-seeking thoughts.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Craving Reduction</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Craving Reduction</h3>
         <p className="text-sm text-muted-foreground">
           Many users report dramatic decreases in cravings for specific foods, especially high-calorie,
           highly palatable options.
@@ -6046,7 +6090,7 @@ export const FoodNoiseContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What Users Report
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -6061,7 +6105,7 @@ export const FoodNoiseContent = () => (
       <li>&quot;I finally understand how naturally thin people think about food&quot;</li>
     </ul>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           A Note on Individual Variation
@@ -6074,7 +6118,7 @@ export const FoodNoiseContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The Research Behind Food Noise
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -6087,15 +6131,15 @@ export const FoodNoiseContent = () => (
       <li><strong>Effects beyond appetite</strong> suggest central nervous system actions</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Food Noise and Emotional Eating
     </h2>
     <p className="text-muted-foreground mb-4">
       An important distinction:
     </p>
     <div className="grid gap-4 md:grid-cols-2 mb-8">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">What GLP-1s Help</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">What GLP-1s Help</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Physical hunger cues</li>
           <li>• Food reward pathways</li>
@@ -6103,8 +6147,8 @@ export const FoodNoiseContent = () => (
           <li>• Constant food thoughts</li>
         </ul>
       </div>
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">May Still Need Work</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">May Still Need Work</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Emotional eating patterns</li>
           <li>• Deep-rooted food relationships</li>
@@ -6114,7 +6158,7 @@ export const FoodNoiseContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Making the Most of Quieter Food Noise
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -6122,21 +6166,21 @@ export const FoodNoiseContent = () => (
     </p>
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">1. Develop New Habits</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">1. Develop New Habits</h3>
         <p className="text-sm text-muted-foreground">
           With less food noise, it&apos;s easier to establish regular eating patterns, meal prep routines,
           and healthier choices.
         </p>
       </div>
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">2. Address Emotional Triggers</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">2. Address Emotional Triggers</h3>
         <p className="text-sm text-muted-foreground">
           Work with a therapist or counselor on emotional eating patterns while the medication
           reduces physical urges.
         </p>
       </div>
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">3. Focus on Nutrition Quality</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">3. Focus on Nutrition Quality</h3>
         <p className="text-sm text-muted-foreground">
           With reduced appetite, make every calorie count. Prioritize protein and nutrients over
           volume.
@@ -6147,7 +6191,7 @@ export const FoodNoiseContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           The quieting of food noise may be one of the most life-changing aspects of GLP-1 treatment
@@ -6171,12 +6215,12 @@ export const OralVsInjectableContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Currently Available Options
         </h2>
         <div className="grid gap-4 md:grid-cols-2">
           <div>
-            <h3 className="font-semibold text-foreground mb-2">Injectable GLP-1s</h3>
+            <h3 className="font-semibold text-[#003366] mb-2">Injectable GLP-1s</h3>
             <ul className="text-sm text-muted-foreground space-y-1">
               <li>• Ozempic (semaglutide weekly)</li>
               <li>• Wegovy (semaglutide weekly)</li>
@@ -6186,7 +6230,7 @@ export const OralVsInjectableContent = () => (
             </ul>
           </div>
           <div>
-            <h3 className="font-semibold text-foreground mb-2">Oral GLP-1s</h3>
+            <h3 className="font-semibold text-[#003366] mb-2">Oral GLP-1s</h3>
             <ul className="text-sm text-muted-foreground space-y-1">
               <li>• Rybelsus (semaglutide daily)</li>
               <li>• Oral tirzepatide (in trials)</li>
@@ -6196,12 +6240,12 @@ export const OralVsInjectableContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Injectable GLP-1s: Pros and Cons
     </h2>
     <div className="grid gap-4 md:grid-cols-2 mb-8">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Advantages</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Advantages</h3>
         <ul className="text-sm text-muted-foreground space-y-2">
           <li>• <strong>Once weekly dosing</strong> — More convenient than daily</li>
           <li>• <strong>Higher bioavailability</strong> — More medication reaches your system</li>
@@ -6211,8 +6255,8 @@ export const OralVsInjectableContent = () => (
           <li>• <strong>No food timing requirements</strong> — Inject any time</li>
         </ul>
       </div>
-      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
-        <h3 className="font-semibold text-foreground mb-2">Disadvantages</h3>
+      <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621]">
+        <h3 className="font-semibold text-[#003366] mb-2">Disadvantages</h3>
         <ul className="text-sm text-muted-foreground space-y-2">
           <li>• <strong>Needles required</strong> — Barrier for needle-phobic patients</li>
           <li>• <strong>Injection site reactions</strong> — Possible redness, itching</li>
@@ -6223,12 +6267,12 @@ export const OralVsInjectableContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Oral GLP-1s (Rybelsus): Pros and Cons
     </h2>
     <div className="grid gap-4 md:grid-cols-2 mb-8">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Advantages</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Advantages</h3>
         <ul className="text-sm text-muted-foreground space-y-2">
           <li>• <strong>No injections</strong> — Ideal for needle-phobic patients</li>
           <li>• <strong>Easy to travel with</strong> — No refrigeration or needles</li>
@@ -6237,8 +6281,8 @@ export const OralVsInjectableContent = () => (
           <li>• <strong>No injection site reactions</strong> — Avoids skin issues</li>
         </ul>
       </div>
-      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
-        <h3 className="font-semibold text-foreground mb-2">Disadvantages</h3>
+      <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621]">
+        <h3 className="font-semibold text-[#003366] mb-2">Disadvantages</h3>
         <ul className="text-sm text-muted-foreground space-y-2">
           <li>• <strong>Daily dosing</strong> — Must remember every day</li>
           <li>• <strong>Strict timing rules</strong> — Empty stomach, 30 min before food</li>
@@ -6250,7 +6294,7 @@ export const OralVsInjectableContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Effectiveness Comparison
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -6260,10 +6304,10 @@ export const OralVsInjectableContent = () => (
     <div className="overflow-x-auto mb-8">
       <table className="w-full text-sm border-collapse">
         <thead>
-          <tr className="border-b-2 border-primary/20">
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Formulation</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Average Weight Loss</th>
-            <th className="text-left py-3 px-4 font-semibold text-foreground">Notes</th>
+          <tr className="border-b-2 border-[#003366]">
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Formulation</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Average Weight Loss</th>
+            <th className="text-left py-3 px-4 font-semibold text-[#003366]">Notes</th>
           </tr>
         </thead>
         <tbody>
@@ -6281,7 +6325,7 @@ export const OralVsInjectableContent = () => (
       </table>
     </div>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           Rybelsus Timing Requirements
@@ -6298,12 +6342,12 @@ export const OralVsInjectableContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Who Should Choose Which?
     </h2>
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Consider Injectable If:</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Consider Injectable If:</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Maximum weight loss is your priority</li>
           <li>• You&apos;re comfortable with small needles</li>
@@ -6312,7 +6356,7 @@ export const OralVsInjectableContent = () => (
         </ul>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Consider Oral If:</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Consider Oral If:</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• You have severe needle phobia</li>
           <li>• You travel frequently without refrigeration access</li>
@@ -6325,7 +6369,7 @@ export const OralVsInjectableContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Injectable GLP-1s are more effective for weight loss but require comfort with needles.
@@ -6349,7 +6393,7 @@ export const DoseTitrationContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why Titration Is Essential
         </h2>
         <p className="text-muted-foreground mb-3">
@@ -6364,14 +6408,14 @@ export const DoseTitrationContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Standard Titration Schedules
     </h2>
 
     <div className="space-y-6 mb-8">
       <Card>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-foreground mb-3">Ozempic (Semaglutide for Diabetes)</h3>
+          <h3 className="text-xl font-semibold text-[#003366] mb-3">Ozempic (Semaglutide for Diabetes)</h3>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -6393,7 +6437,7 @@ export const DoseTitrationContent = () => (
 
       <Card>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-foreground mb-3">Wegovy (Semaglutide for Weight Loss)</h3>
+          <h3 className="text-xl font-semibold text-[#003366] mb-3">Wegovy (Semaglutide for Weight Loss)</h3>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -6416,7 +6460,7 @@ export const DoseTitrationContent = () => (
 
       <Card>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-foreground mb-3">Mounjaro/Zepbound (Tirzepatide)</h3>
+          <h3 className="text-xl font-semibold text-[#003366] mb-3">Mounjaro/Zepbound (Tirzepatide)</h3>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -6439,26 +6483,26 @@ export const DoseTitrationContent = () => (
       </Card>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What to Expect During Titration
     </h2>
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Early Weeks (Lowest Dose)</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Early Weeks (Lowest Dose)</h3>
         <p className="text-sm text-muted-foreground">
           You may notice mild appetite reduction but don&apos;t expect dramatic weight loss yet.
           Some nausea is common but usually manageable. This phase is about adjustment.
         </p>
       </div>
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Each Dose Increase</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Each Dose Increase</h3>
         <p className="text-sm text-muted-foreground">
           Side effects often temporarily return or worsen when you increase the dose. This usually
           settles within 1-2 weeks. Appetite suppression typically increases with each step.
         </p>
       </div>
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Maintenance Dose</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Maintenance Dose</h3>
         <p className="text-sm text-muted-foreground">
           Once you reach your maintenance dose, effects stabilize. Weight loss continues but may
           slow compared to the initial rapid phase. Side effects typically diminish.
@@ -6466,7 +6510,7 @@ export const DoseTitrationContent = () => (
       </div>
     </div>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           Don&apos;t Skip Titration Steps
@@ -6480,7 +6524,7 @@ export const DoseTitrationContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       When Titration Can Be Modified
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -6496,7 +6540,7 @@ export const DoseTitrationContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Titration isn&apos;t about delaying your weight loss—it&apos;s about setting you up for
@@ -6520,7 +6564,7 @@ export const SwitchingMedicationsContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Common Reasons for Switching
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -6534,26 +6578,26 @@ export const SwitchingMedicationsContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       General Switching Principles
     </h2>
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">1. No Washout Period Needed</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">1. No Washout Period Needed</h3>
         <p className="text-sm text-muted-foreground">
           You can typically switch directly from one GLP-1 to another without waiting. Start the new
           medication when your next dose would be due.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">2. Don&apos;t Start at Maximum Dose</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">2. Don&apos;t Start at Maximum Dose</h3>
         <p className="text-sm text-muted-foreground">
           Even if you were on a high dose of your old medication, you&apos;ll usually start at a
           lower dose of the new one. The medications have different potencies and structures.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">3. Expect Some Adjustment</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">3. Expect Some Adjustment</h3>
         <p className="text-sm text-muted-foreground">
           Side effects may temporarily return or change when switching. Your body needs to adjust
           to the new medication even though the mechanism is similar.
@@ -6561,14 +6605,14 @@ export const SwitchingMedicationsContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Specific Switching Scenarios
     </h2>
 
     <div className="space-y-6 mb-8">
       <Card>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-foreground mb-3">Semaglutide → Tirzepatide</h3>
+          <h3 className="text-xl font-semibold text-[#003366] mb-3">Semaglutide → Tirzepatide</h3>
           <p className="text-muted-foreground mb-3">
             The most common switch for those seeking more weight loss:
           </p>
@@ -6583,7 +6627,7 @@ export const SwitchingMedicationsContent = () => (
 
       <Card>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-foreground mb-3">Tirzepatide → Semaglutide</h3>
+          <h3 className="text-xl font-semibold text-[#003366] mb-3">Tirzepatide → Semaglutide</h3>
           <p className="text-muted-foreground mb-3">
             Less common, but sometimes needed for insurance or availability:
           </p>
@@ -6598,7 +6642,7 @@ export const SwitchingMedicationsContent = () => (
 
       <Card>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-foreground mb-3">Ozempic ↔ Wegovy</h3>
+          <h3 className="text-xl font-semibold text-[#003366] mb-3">Ozempic ↔ Wegovy</h3>
           <p className="text-muted-foreground mb-3">
             Same medication, different brand:
           </p>
@@ -6613,7 +6657,7 @@ export const SwitchingMedicationsContent = () => (
 
       <Card>
         <CardContent className="p-6">
-          <h3 className="text-xl font-semibold text-foreground mb-3">Rybelsus (Oral) → Injectable</h3>
+          <h3 className="text-xl font-semibold text-[#003366] mb-3">Rybelsus (Oral) → Injectable</h3>
           <p className="text-muted-foreground mb-3">
             Moving from oral to injection for better results:
           </p>
@@ -6627,7 +6671,7 @@ export const SwitchingMedicationsContent = () => (
       </Card>
     </div>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           Important: Always Consult Your Provider
@@ -6640,7 +6684,7 @@ export const SwitchingMedicationsContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What to Watch For After Switching
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -6653,7 +6697,7 @@ export const SwitchingMedicationsContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Switching between GLP-1 medications is common and generally safe when done with medical
@@ -6676,7 +6720,7 @@ export const InjectionRotationContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Why Rotation Matters
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -6688,26 +6732,26 @@ export const InjectionRotationContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Approved Injection Sites
     </h2>
     <div className="grid gap-4 md:grid-cols-3 mb-8">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Abdomen</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Abdomen</h3>
         <p className="text-sm text-muted-foreground">
           Most popular site. Inject at least 2 inches from navel. Avoid waistband area. Offers
           consistent absorption.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Thigh</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Thigh</h3>
         <p className="text-sm text-muted-foreground">
           Front of thigh, about 4 inches above knee and 4 inches below hip. Easy to see and reach.
           Slightly slower absorption.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">Upper Arm</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Upper Arm</h3>
         <p className="text-sm text-muted-foreground">
           Back of upper arm. May need assistance reaching. Good for those who prefer to hide
           injection sites.
@@ -6715,26 +6759,26 @@ export const InjectionRotationContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Rotation Strategies
     </h2>
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">The Clock Method (Abdomen)</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">The Clock Method (Abdomen)</h3>
         <p className="text-sm text-muted-foreground">
           Imagine a clock around your navel. Start at 12 o&apos;clock and move to a new &quot;hour&quot;
           position each week. After completing the circle, move further from center.
         </p>
       </div>
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">The Zone Method</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">The Zone Method</h3>
         <p className="text-sm text-muted-foreground">
           Divide each injection area into zones. Use left side one week, right side the next. Or
           alternate between abdomen, left thigh, right thigh weekly.
         </p>
       </div>
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Distance Rule</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Distance Rule</h3>
         <p className="text-sm text-muted-foreground">
           Always inject at least 1 inch (2.5 cm) from your previous injection site. This ensures
           adequate tissue recovery between uses.
@@ -6742,32 +6786,32 @@ export const InjectionRotationContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Injection Technique
     </h2>
     <div className="space-y-4 mb-8">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Step 1: Prepare</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Step 1: Prepare</h3>
         <p className="text-sm text-muted-foreground">
           Wash hands thoroughly. Allow refrigerated medication to reach room temperature (10-15 min).
           Check expiration date and that liquid is clear.
         </p>
       </div>
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Step 2: Clean Site</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Step 2: Clean Site</h3>
         <p className="text-sm text-muted-foreground">
           Clean the injection site with alcohol swab. Let it dry completely before injecting.
         </p>
       </div>
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Step 3: Inject</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Step 3: Inject</h3>
         <p className="text-sm text-muted-foreground">
           Pinch skin if needed (depending on body composition). Insert needle at 90-degree angle.
           Press button and hold for 10 seconds after the click.
         </p>
       </div>
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Step 4: After Care</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Step 4: After Care</h3>
         <p className="text-sm text-muted-foreground">
           Remove needle straight out. Don&apos;t rub the site. Light pressure with cotton ball if
           bleeding. Document site used.
@@ -6775,7 +6819,7 @@ export const InjectionRotationContent = () => (
       </div>
     </div>
 
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
           Sites to Avoid
@@ -6790,7 +6834,7 @@ export const InjectionRotationContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Tracking Your Injections
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -6806,7 +6850,7 @@ export const InjectionRotationContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Consistent site rotation is a simple habit that prevents problems down the road. Choose
@@ -6829,7 +6873,7 @@ export const MaintainingWeightLossContent = () => (
 
     <Card className="mb-8 border-amber-200 bg-amber-50 dark:bg-amber-950/20">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           The Reality: Weight Regain Is Common
         </h2>
         <p className="text-muted-foreground">
@@ -6841,7 +6885,7 @@ export const MaintainingWeightLossContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Why Weight Regain Happens
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -6852,40 +6896,40 @@ export const MaintainingWeightLossContent = () => (
       <li><strong>Habits may not stick</strong> — Without the medication&apos;s help, old patterns return</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Strategies for Maintenance
     </h2>
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">1. Build Habits During Treatment</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">1. Build Habits During Treatment</h3>
         <p className="text-sm text-muted-foreground">
           Use the easier period while on medication to establish sustainable eating patterns, regular
           exercise, and stress management. These habits need to become automatic.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">2. Prioritize Protein</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">2. Prioritize Protein</h3>
         <p className="text-sm text-muted-foreground">
           High protein intake (100+ grams daily) helps preserve muscle mass and provides better satiety
           than carbohydrates or fat.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">3. Strength Training</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">3. Strength Training</h3>
         <p className="text-sm text-muted-foreground">
           Building and maintaining muscle is crucial. Muscle mass affects your metabolism and helps
           with long-term weight maintenance.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">4. Address Emotional Eating</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">4. Address Emotional Eating</h3>
         <p className="text-sm text-muted-foreground">
           Work with a therapist or counselor on the psychological aspects of eating while the
           medication reduces physical urges.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">5. Consider Maintenance Dosing</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">5. Consider Maintenance Dosing</h3>
         <p className="text-sm text-muted-foreground">
           Some providers prescribe lower &quot;maintenance&quot; doses after reaching goal weight.
           This may help sustain results while reducing costs and side effects.
@@ -6893,7 +6937,7 @@ export const MaintainingWeightLossContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The Case for Long-Term Use
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -6909,7 +6953,7 @@ export const MaintainingWeightLossContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           If You Must Stop
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -6922,15 +6966,15 @@ export const MaintainingWeightLossContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Setting Realistic Expectations
     </h2>
     <p className="text-muted-foreground mb-4">
       Be honest with yourself about what&apos;s realistic:
     </p>
     <div className="grid gap-4 md:grid-cols-2 mb-8">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Realistic Goals</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Realistic Goals</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Maintaining some weight loss (&gt;5-10%)</li>
           <li>• Keeping healthy habits</li>
@@ -6938,8 +6982,8 @@ export const MaintainingWeightLossContent = () => (
           <li>• Restarting if needed without shame</li>
         </ul>
       </div>
-      <div className="p-4 bg-red-50 dark:bg-red-950/30 rounded-lg border border-red-200 dark:border-red-800">
-        <h3 className="font-semibold text-foreground mb-2">Unrealistic Expectations</h3>
+      <div className="p-4 bg-[#a31621]/10 rounded-lg border-2 border-[#a31621]">
+        <h3 className="font-semibold text-[#003366] mb-2">Unrealistic Expectations</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• Keeping 100% of weight off forever</li>
           <li>• &quot;Curing&quot; obesity with temporary treatment</li>
@@ -6952,7 +6996,7 @@ export const MaintainingWeightLossContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Weight regain after stopping GLP-1 medications is common but not absolute. Use your time
@@ -6976,7 +7020,7 @@ export const OlderAdultsContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           Key Considerations for Older Adults
         </h2>
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
@@ -6989,36 +7033,36 @@ export const OlderAdultsContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Benefits for Older Adults
     </h2>
     <p className="text-muted-foreground mb-4">
       Despite the considerations, GLP-1 medications offer significant benefits for older patients:
     </p>
     <div className="grid gap-4 md:grid-cols-2 mb-8">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Cardiovascular Protection</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Cardiovascular Protection</h3>
         <p className="text-sm text-muted-foreground">
           The SELECT trial included adults up to age 65+, showing significant reduction in heart
           attacks and strokes.
         </p>
       </div>
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Kidney Protection</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Kidney Protection</h3>
         <p className="text-sm text-muted-foreground">
           The FLOW trial showed semaglutide slowed kidney disease progression—a major concern
           for older adults.
         </p>
       </div>
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Joint Health</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Joint Health</h3>
         <p className="text-sm text-muted-foreground">
           Weight loss can significantly reduce arthritis pain and improve mobility, enhancing
           quality of life.
         </p>
       </div>
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">Diabetes Management</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">Diabetes Management</h3>
         <p className="text-sm text-muted-foreground">
           Better blood sugar control with lower hypoglycemia risk compared to insulin or
           sulfonylureas.
@@ -7026,10 +7070,10 @@ export const OlderAdultsContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Muscle Preservation Is Critical
     </h2>
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <p className="text-muted-foreground mb-3">
           Older adults naturally lose muscle mass with age (sarcopenia). Rapid weight loss can
@@ -7045,7 +7089,7 @@ export const OlderAdultsContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Medication Interactions to Consider
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -7058,26 +7102,26 @@ export const OlderAdultsContent = () => (
       <li><strong>Blood pressure medications</strong> — May need reduction as weight decreases</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Special Monitoring Recommendations
     </h2>
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Hydration Status</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Hydration Status</h3>
         <p className="text-sm text-muted-foreground">
           Older adults are more susceptible to dehydration, especially with GI side effects.
           Monitor fluid intake and signs of dehydration.
         </p>
       </div>
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Kidney Function</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Kidney Function</h3>
         <p className="text-sm text-muted-foreground">
           More frequent kidney function tests, especially if experiencing nausea, vomiting, or
           diarrhea that could affect hydration.
         </p>
       </div>
       <div className="p-4 bg-muted/30 rounded-lg">
-        <h3 className="font-semibold text-foreground mb-2">Nutritional Status</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">Nutritional Status</h3>
         <p className="text-sm text-muted-foreground">
           Watch for signs of malnutrition. Reduced appetite plus already lower intake can lead
           to deficiencies.
@@ -7085,7 +7129,7 @@ export const OlderAdultsContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Titration Adjustments
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -7101,7 +7145,7 @@ export const OlderAdultsContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           GLP-1 medications can be safe and highly beneficial for older adults when used appropriately.
@@ -7125,7 +7169,7 @@ export const CompoundedGLP1sContent = () => (
 
     <Card className="mb-8">
       <CardContent className="p-6">
-        <h2 className="text-2xl font-bold text-foreground mb-4">
+        <h2 className="text-2xl font-bold text-[#003366] mb-4">
           What Is Compounding?
         </h2>
         <p className="text-muted-foreground">
@@ -7137,12 +7181,12 @@ export const CompoundedGLP1sContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Types of Compounding Pharmacies
     </h2>
     <div className="grid gap-4 md:grid-cols-2 mb-8">
-      <div className="p-4 bg-green-50 dark:bg-green-950/30 rounded-lg border border-green-200 dark:border-green-800">
-        <h3 className="font-semibold text-foreground mb-2">503B Outsourcing Facilities</h3>
+      <div className="p-4 bg-[#003366]/10 rounded-lg border-2 border-[#003366]">
+        <h3 className="font-semibold text-[#003366] mb-2">503B Outsourcing Facilities</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• FDA-registered and inspected</li>
           <li>• Must follow current Good Manufacturing Practices (cGMP)</li>
@@ -7151,8 +7195,8 @@ export const CompoundedGLP1sContent = () => (
           <li>• More reliable potency and sterility</li>
         </ul>
       </div>
-      <div className="p-4 bg-amber-50 dark:bg-amber-950/30 rounded-lg border border-amber-200 dark:border-amber-800">
-        <h3 className="font-semibold text-foreground mb-2">503A Traditional Pharmacies</h3>
+      <div className="p-4 bg-[#ffc72c]/20 rounded-lg border-2 border-[#ffc72c]">
+        <h3 className="font-semibold text-[#003366] mb-2">503A Traditional Pharmacies</h3>
         <ul className="text-sm text-muted-foreground space-y-1">
           <li>• State-regulated, not FDA-inspected</li>
           <li>• Patient-specific prescriptions</li>
@@ -7163,7 +7207,7 @@ export const CompoundedGLP1sContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Benefits of Compounded GLP-1s
     </h2>
     <ul className="space-y-2 text-muted-foreground mb-6 list-disc list-inside">
@@ -7173,10 +7217,10 @@ export const CompoundedGLP1sContent = () => (
       <li><strong>Legitimate option:</strong> Legal when brand is on FDA shortage list</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       Risks and Concerns
     </h2>
-    <Card className="mb-8 border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30">
+    <Card className="mb-8 border-[#ffc72c] bg-[#ffc72c]/20">
       <CardContent className="p-6">
         <ul className="list-disc list-inside text-muted-foreground space-y-2">
           <li><strong>No FDA approval:</strong> The compounded product itself isn&apos;t FDA-approved</li>
@@ -7189,33 +7233,33 @@ export const CompoundedGLP1sContent = () => (
       </CardContent>
     </Card>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       How to Choose a Safe Compounding Pharmacy
     </h2>
     <div className="space-y-4 mb-8">
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">1. Verify 503B Status</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">1. Verify 503B Status</h3>
         <p className="text-sm text-muted-foreground">
           Check the FDA&apos;s list of registered 503B outsourcing facilities. These undergo regular
           inspections and follow stricter manufacturing standards.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">2. Ask About Third-Party Testing</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">2. Ask About Third-Party Testing</h3>
         <p className="text-sm text-muted-foreground">
           Reputable compounders test each batch for potency and sterility. Ask to see certificates
           of analysis.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">3. Use a Licensed Provider</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">3. Use a Licensed Provider</h3>
         <p className="text-sm text-muted-foreground">
           Get your prescription from a legitimate telehealth provider or in-person doctor who will
           monitor your treatment properly.
         </p>
       </div>
       <div className="p-4 bg-primary/10 rounded-lg border border-primary/20">
-        <h3 className="font-semibold text-foreground mb-2">4. Beware of Red Flags</h3>
+        <h3 className="font-semibold text-[#003366] mb-2">4. Beware of Red Flags</h3>
         <p className="text-sm text-muted-foreground">
           Avoid: prices that seem too good to be true, no prescription required, overseas sources,
           or inability to verify pharmacy credentials.
@@ -7223,7 +7267,7 @@ export const CompoundedGLP1sContent = () => (
       </div>
     </div>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       The Salt Form Controversy
     </h2>
     <p className="text-muted-foreground mb-4">
@@ -7237,7 +7281,7 @@ export const CompoundedGLP1sContent = () => (
       <li>Some argue this falls outside FDA shortage exemption</li>
     </ul>
 
-    <h2 className="text-2xl font-bold text-foreground mb-4">
+    <h2 className="text-2xl font-bold text-[#003366] mb-4">
       What Happens When Shortages End?
     </h2>
     <p className="text-muted-foreground mb-6">
@@ -7248,7 +7292,7 @@ export const CompoundedGLP1sContent = () => (
     <Card className="mb-8 border-primary/30 bg-primary/5">
       <CardContent className="p-6">
         <h3 className="text-lg font-bold text-foreground mb-2">
-          The Bottom Line
+          Official Summary
         </h3>
         <p className="text-muted-foreground">
           Compounded GLP-1 medications can be a legitimate, more affordable option when obtained
