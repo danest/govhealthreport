@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -16,6 +19,22 @@ export const metadata: Metadata = {
     "compounded Mounjaro",
     "503B compounding pharmacy",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-compounding-pharmacy-for-tirzepatide`,
+  },
+  openGraph: {
+    title: "Best Compounding Pharmacy for Tirzepatide 2025",
+    description: "Find the best compounding pharmacies for tirzepatide. Learn about quality standards, pricing, and what to look for when choosing a compounded tirzepatide provider.",
+    url: `${SITE_URL}/best-compounding-pharmacy-for-tirzepatide`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Compounding Pharmacy for Tirzepatide 2025",
+    description: "Find the best compounding pharmacies for tirzepatide. Learn about quality standards, pricing, and what to look for when choosing a compounded tirzepatide provider.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestCompoundingPharmacyForTirzepatidePage() {

@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -16,6 +19,22 @@ export const metadata: Metadata = {
     "best alcohol GLP-1",
     "can I drink on semaglutide",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-alcohol-on-semaglutide`,
+  },
+  openGraph: {
+    title: "Best Alcohol to Drink on Semaglutide 2025",
+    description: "Learn which alcoholic drinks are safest while taking semaglutide. Understand the risks, best choices, and tips for drinking responsibly on GLP-1 medications.",
+    url: `${SITE_URL}/best-alcohol-on-semaglutide`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Alcohol to Drink on Semaglutide 2025",
+    description: "Learn which alcoholic drinks are safest while taking semaglutide. Understand the risks, best choices, and tips for drinking responsibly on GLP-1 medications.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestAlcoholOnSemaglutidePage() {

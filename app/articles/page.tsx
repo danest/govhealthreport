@@ -2,6 +2,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateCollectionPageSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import {
   ArrowLeft,
   Calendar,
@@ -26,6 +29,22 @@ export const metadata: Metadata = {
     "weight loss tips",
     "obesity treatment research",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/articles`,
+  },
+  openGraph: {
+    title: "Health Information Articles & Research | GOV Health Report",
+    description:
+      "Educational articles on GLP-1 medications, weight loss treatments, and health information. Research-based content for informational purposes only.",
+    url: `${SITE_URL}/articles`,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Health Information Articles & Research | GOV Health Report",
+    description:
+      "Educational articles on GLP-1 medications, weight loss treatments, and health information. Research-based content for informational purposes only.",
+  },
 };
 
 // Article data - shuffled for variety
@@ -636,8 +655,15 @@ const articles = [
 const categories = Array.from(new Set(articles.map(a => a.category))).sort();
 
 export default function ArticlesPage() {
+  const collectionSchema = generateCollectionPageSchema(
+    "Health Information Articles & Research",
+    "Educational articles on GLP-1 medications, weight loss treatments, and health information. Research-based content for informational purposes only.",
+    `${SITE_URL}/articles`
+  );
+
   return (
     <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
+      <SchemaScript schema={collectionSchema} />
       <Header />
       <main className="flex-1">
         {/* Page Header */}

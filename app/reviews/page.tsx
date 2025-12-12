@@ -3,6 +3,9 @@ import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { Badge } from "@/components/ui/badge";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateCollectionPageSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import {
   Star,
   ArrowRight,
@@ -19,11 +22,34 @@ export const metadata: Metadata = {
   title: "Provider Reviews & Assessments | GOV Health Report",
   description:
     "Official provider directory and assessment reports. Compare weight loss treatment providers with detailed reviews, ratings, and compliance documentation.",
+  alternates: {
+    canonical: `${SITE_URL}/reviews`,
+  },
+  openGraph: {
+    title: "Provider Reviews & Assessments | GOV Health Report",
+    description:
+      "Official provider directory and assessment reports. Compare weight loss treatment providers with detailed reviews, ratings, and compliance documentation.",
+    url: `${SITE_URL}/reviews`,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Provider Reviews & Assessments | GOV Health Report",
+    description:
+      "Official provider directory and assessment reports. Compare weight loss treatment providers with detailed reviews, ratings, and compliance documentation.",
+  },
 };
 
 export default function ReviewsPage() {
+  const collectionSchema = generateCollectionPageSchema(
+    "Provider Reviews & Assessments",
+    "Official provider directory and assessment reports. Compare weight loss treatment providers with detailed reviews, ratings, and compliance documentation.",
+    `${SITE_URL}/reviews`
+  );
+
   return (
     <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
+      <SchemaScript schema={collectionSchema} />
       <Header />
       <main className="flex-1">
         {/* Page Header */}

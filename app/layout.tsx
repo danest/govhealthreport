@@ -3,6 +3,8 @@ import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { PostHogProvider } from "@/components/providers/PostHogProvider";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateOrganizationSchema } from "@/lib/schema";
 import {
   SITE_NAME,
   SITE_URL,
@@ -65,6 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <SchemaScript schema={generateOrganizationSchema()} />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17776219101"
           strategy="afterInteractive"

@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -18,11 +21,51 @@ export const metadata: Metadata = {
     "compounded tirzepatide online",
     "Zepbound online",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-online-tirzepatide-program`,
+  },
+  openGraph: {
+    title: "Best Online Tirzepatide Program 2025 - Compare Top Telehealth Providers",
+    description: "Comprehensive tirzepatide telehealth provider evaluation. Dual GIP/GLP-1 agonist access analysis, compounding pharmacy assessment, and regulatory compliance verification.",
+    url: `${SITE_URL}/best-online-tirzepatide-program`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Online Tirzepatide Program 2025 - Compare Top Telehealth Providers",
+    description: "Comprehensive tirzepatide telehealth provider evaluation. Dual GIP/GLP-1 agonist access analysis, compounding pharmacy assessment, and regulatory compliance verification.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestOnlineTirzepatideProgramPage() {
+  const articleSchema = generateArticleSchema({
+    title: "Best Online Tirzepatide Program 2025 - Compare Top Telehealth Providers",
+    description: "Comprehensive tirzepatide telehealth provider evaluation. Dual GIP/GLP-1 agonist access analysis, compounding pharmacy assessment, and regulatory compliance verification.",
+    image: `${SITE_URL}/opengraph-image`,
+    date: "December 9, 2025",
+    author: "GOV Health Report Team",
+    keywords: [
+    "best online tirzepatide program",
+    "tirzepatide telehealth",
+    "online Mounjaro prescription",
+    "tirzepatide weight loss program",
+    "compounded tirzepatide online",
+    "Zepbound online",
+  ],
+    slug: "best-online-tirzepatide-program",
+    category: "Guides",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Best Online Tirzepatide Program 2025 - Compare Top Telehealth Providers", url: `${SITE_URL}/best-online-tirzepatide-program` },
+  ]);
+
   return (
-    <div className="flex min-h-screen flex-col bg-[#f8f9fa]">
+    <div className="flex min-h-screen flex-col bg-f8f9fa">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Government Header Section */}

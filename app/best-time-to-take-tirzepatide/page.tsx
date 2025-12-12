@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -18,11 +21,51 @@ export const metadata: Metadata = {
     "Zepbound when to take",
     "tirzepatide weekly injection",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-time-to-take-tirzepatide`,
+  },
+  openGraph: {
+    title: "Best Time to Take Tirzepatide for Weight Loss 2025",
+    description: "Evidence-based tirzepatide dosing schedule recommendations. Clinical adherence protocols, weekly timing strategies, and dose administration compliance guidelines.",
+    url: `${SITE_URL}/best-time-to-take-tirzepatide`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Time to Take Tirzepatide for Weight Loss 2025",
+    description: "Evidence-based tirzepatide dosing schedule recommendations. Clinical adherence protocols, weekly timing strategies, and dose administration compliance guidelines.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestTimeToTakeTirzepatidePage() {
+  const articleSchema = generateArticleSchema({
+    title: "Best Time to Take Tirzepatide for Weight Loss 2025",
+    description: "Evidence-based tirzepatide dosing schedule recommendations. Clinical adherence protocols, weekly timing strategies, and dose administration compliance guidelines.",
+    image: `${SITE_URL}/opengraph-image`,
+    date: "December 9, 2025",
+    author: "GOV Health Report Team",
+    keywords: [
+    "best time to take tirzepatide",
+    "when to inject tirzepatide",
+    "tirzepatide dosing schedule",
+    "Mounjaro timing",
+    "Zepbound when to take",
+    "tirzepatide weekly injection",
+  ],
+    slug: "best-time-to-take-tirzepatide",
+    category: "Guides",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Best Time to Take Tirzepatide for Weight Loss 2025", url: `${SITE_URL}/best-time-to-take-tirzepatide` },
+  ]);
+
   return (
-    <div className="flex min-h-screen flex-col bg-[#f8f9fa]">
+    <div className="flex min-h-screen flex-col bg-f8f9fa">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Government Header Section */}

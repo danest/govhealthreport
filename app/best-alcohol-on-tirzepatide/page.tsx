@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -16,6 +19,22 @@ export const metadata: Metadata = {
     "best alcohol GLP-1",
     "can I drink on tirzepatide",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-alcohol-on-tirzepatide`,
+  },
+  openGraph: {
+    title: "Best Alcohol to Drink on Tirzepatide 2025",
+    description: "Learn which alcoholic drinks are safest while taking tirzepatide (Mounjaro, Zepbound). Understand the risks and best practices for drinking on GLP-1 medications.",
+    url: `${SITE_URL}/best-alcohol-on-tirzepatide`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Alcohol to Drink on Tirzepatide 2025",
+    description: "Learn which alcoholic drinks are safest while taking tirzepatide (Mounjaro, Zepbound). Understand the risks and best practices for drinking on GLP-1 medications.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestAlcoholOnTirzepatidePage() {

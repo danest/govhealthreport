@@ -3,6 +3,9 @@ import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { Top3Providers } from "@/components/sections/Top3Providers";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import { ArrowLeft, Pill, AlertCircle, CheckCircle, Info } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -17,11 +20,46 @@ export const metadata: Metadata = {
     "nutrient deficiency GLP-1",
     "best supplements weight loss",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-vitamins-to-take-while-on-tirzepatide`,
+  },
+  openGraph: {
+    title: "Best Vitamins to Take While on Tirzepatide 2025",
+    description:
+      "Evidence-based vitamin supplementation protocol for tirzepatide users. Prevent nutrient deficiencies during Mounjaro and Zepbound treatment with proper supplementation.",
+    url: `${SITE_URL}/best-vitamins-to-take-while-on-tirzepatide`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Vitamins to Take While on Tirzepatide 2025",
+    description:
+      "Evidence-based vitamin supplementation protocol for tirzepatide users. Prevent nutrient deficiencies during Mounjaro and Zepbound treatment with proper supplementation.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestVitaminsOnTirzepatidePage() {
+  const articleSchema = generateArticleSchema({
+    title: "Best Vitamins to Take While on Tirzepatide",
+    description: "Evidence-based vitamin supplementation protocol for tirzepatide users. Prevent nutrient deficiencies during Mounjaro and Zepbound treatment with proper supplementation.",
+    image: `${SITE_URL}/opengraph-image`,
+    date: "December 9, 2025",
+    author: "GOV Health Report Team",
+    keywords: ["vitamins on tirzepatide", "tirzepatide supplements", "Mounjaro vitamins", "Zepbound supplements"],
+    slug: "best-vitamins-to-take-while-on-tirzepatide",
+    category: "Guides",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Best Vitamins on Tirzepatide", url: `${SITE_URL}/best-vitamins-to-take-while-on-tirzepatide` },
+  ]);
+
   return (
     <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Page Header */}

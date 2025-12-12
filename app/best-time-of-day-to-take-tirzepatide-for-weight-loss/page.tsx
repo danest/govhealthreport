@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -18,11 +21,51 @@ export const metadata: Metadata = {
     "tirzepatide timing",
     "GLP-1 injection schedule",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-time-of-day-to-take-tirzepatide-for-weight-loss`,
+  },
+  openGraph: {
+    title: "Best Time of Day to Take Tirzepatide for Weight Loss 2025",
+    description: "Clinical analysis of optimal tirzepatide administration timing. Evidence-based dosing schedule protocols for maximizing therapeutic efficacy and minimizing adverse events.",
+    url: `${SITE_URL}/best-time-of-day-to-take-tirzepatide-for-weight-loss`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Time of Day to Take Tirzepatide for Weight Loss 2025",
+    description: "Clinical analysis of optimal tirzepatide administration timing. Evidence-based dosing schedule protocols for maximizing therapeutic efficacy and minimizing adverse events.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestTimeOfDayToTakeTirzepatidePage() {
+  const articleSchema = generateArticleSchema({
+    title: "Best Time of Day to Take Tirzepatide for Weight Loss 2025",
+    description: "Clinical analysis of optimal tirzepatide administration timing. Evidence-based dosing schedule protocols for maximizing therapeutic efficacy and minimizing adverse events.",
+    image: `${SITE_URL}/opengraph-image`,
+    date: "December 9, 2025",
+    author: "GOV Health Report Team",
+    keywords: [
+    "best time to take tirzepatide",
+    "tirzepatide morning or night",
+    "when to inject Mounjaro",
+    "Zepbound best time",
+    "tirzepatide timing",
+    "GLP-1 injection schedule",
+  ],
+    slug: "best-time-of-day-to-take-tirzepatide-for-weight-loss",
+    category: "Guides",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Best Time of Day to Take Tirzepatide for Weight Loss 2025", url: `${SITE_URL}/best-time-of-day-to-take-tirzepatide-for-weight-loss` },
+  ]);
+
   return (
-    <div className="flex min-h-screen flex-col bg-[#f8f9fa]">
+    <div className="flex min-h-screen flex-col bg-f8f9fa">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Government Header Section */}

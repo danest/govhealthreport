@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -17,11 +20,51 @@ export const metadata: Metadata = {
     "semaglutide timing",
     "GLP-1 injection timing",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-time-of-day-to-take-semaglutide-for-weight-loss`,
+  },
+  openGraph: {
+    title: "Best Time of Day to Take Semaglutide for Weight Loss 2025",
+    description: "Evidence-based analysis of optimal semaglutide injection timing. Clinical data on morning vs evening administration for weight loss efficacy and side effect management.",
+    url: `${SITE_URL}/best-time-of-day-to-take-semaglutide-for-weight-loss`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Time of Day to Take Semaglutide for Weight Loss 2025",
+    description: "Evidence-based analysis of optimal semaglutide injection timing. Clinical data on morning vs evening administration for weight loss efficacy and side effect management.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestTimeOfDayToTakeSemaglutidePage() {
+  const articleSchema = generateArticleSchema({
+    title: "Best Time of Day to Take Semaglutide for Weight Loss 2025",
+    description: "Evidence-based analysis of optimal semaglutide injection timing. Clinical data on morning vs evening administration for weight loss efficacy and side effect management.",
+    image: `${SITE_URL}/opengraph-image`,
+    date: "December 9, 2025",
+    author: "GOV Health Report Team",
+    keywords: [
+    "best time to take semaglutide",
+    "semaglutide morning or night",
+    "when to inject Ozempic",
+    "Wegovy best time",
+    "semaglutide timing",
+    "GLP-1 injection timing",
+  ],
+    slug: "best-time-of-day-to-take-semaglutide-for-weight-loss",
+    category: "Guides",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Best Time of Day to Take Semaglutide for Weight Loss 2025", url: `${SITE_URL}/best-time-of-day-to-take-semaglutide-for-weight-loss` },
+  ]);
+
   return (
-    <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
+    <div className="flex min-h-screen flex-col bg-f5f7fa">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Page Header */}

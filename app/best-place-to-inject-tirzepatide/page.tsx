@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -18,11 +21,51 @@ export const metadata: Metadata = {
     "how to inject tirzepatide",
     "subcutaneous injection",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-place-to-inject-tirzepatide`,
+  },
+  openGraph: {
+    title: "Best Place to Inject Tirzepatide - Injection Sites Guide 2025",
+    description: "Clinical guidelines for tirzepatide injection site selection. Anatomical analysis of optimal subcutaneous zones, dual-agonist absorption considerations, and rotation protocols.",
+    url: `${SITE_URL}/best-place-to-inject-tirzepatide`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Place to Inject Tirzepatide - Injection Sites Guide 2025",
+    description: "Clinical guidelines for tirzepatide injection site selection. Anatomical analysis of optimal subcutaneous zones, dual-agonist absorption considerations, and rotation protocols.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestPlaceToInjectTirzepatidePage() {
+  const articleSchema = generateArticleSchema({
+    title: "Best Place to Inject Tirzepatide - Injection Sites Guide 2025",
+    description: "Clinical guidelines for tirzepatide injection site selection. Anatomical analysis of optimal subcutaneous zones, dual-agonist absorption considerations, and rotation protocols.",
+    image: `${SITE_URL}/opengraph-image`,
+    date: "December 9, 2025",
+    author: "GOV Health Report Team",
+    keywords: [
+    "best place to inject tirzepatide",
+    "tirzepatide injection sites",
+    "Mounjaro injection",
+    "Zepbound injection",
+    "how to inject tirzepatide",
+    "subcutaneous injection",
+  ],
+    slug: "best-place-to-inject-tirzepatide",
+    category: "Guides",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Best Place to Inject Tirzepatide - Injection Sites Guide 2025", url: `${SITE_URL}/best-place-to-inject-tirzepatide` },
+  ]);
+
   return (
-    <div className="flex min-h-screen flex-col bg-[#f8f9fa]">
+    <div className="flex min-h-screen flex-col bg-f8f9fa">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Government Header Section */}

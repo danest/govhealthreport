@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -30,8 +33,35 @@ export const metadata: Metadata = {
 };
 
 export default function BestWeightLossInjectionsPage() {
+  const articleSchema = generateArticleSchema({
+    title: "Best Weight Loss Injections 2025 - Compare Top 10 Providers",
+    description: "Independent comparative analysis of FDA-approved weight loss injections. Evidence-based evaluation of semaglutide, tirzepatide, and emerging GLP-1/GIP agonists.",
+    image: `${SITE_URL}/opengraph-image`,
+    date: "December 9, 2025",
+    author: "GOV Health Report Team",
+    keywords: [
+    "best weight loss injections",
+    "semaglutide",
+    "tirzepatide",
+    "GLP-1 injections",
+    "Ozempic",
+    "Wegovy",
+    "Mounjaro",
+    "weight loss medications",
+    "online weight loss program",
+  ],
+    slug: "best-weight-loss-injections",
+    category: "Guides",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Best Weight Loss Injections 2025 - Compare Top 10 Providers", url: `${SITE_URL}/best-weight-loss-injections` },
+  ]);
+
   return (
-    <div className="flex min-h-screen flex-col bg-[#f8f9fa]">
+    <div className="flex min-h-screen flex-col bg-f8f9fa">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Government Header Section */}

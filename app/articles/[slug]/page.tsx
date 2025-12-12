@@ -5,6 +5,9 @@ import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { Top3Providers } from "@/components/sections/Top3Providers";
 import { Card, CardContent } from "@/components/ui/card";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import {
   ArrowLeft,
   Calendar,
@@ -2402,16 +2405,32 @@ export async function generateMetadata({
     };
   }
 
+  const articleUrl = `${SITE_URL}/articles/${slug}`;
+
   return {
     title: `${article.metaTitle} | GOV Health Report`,
     description: article.description,
     keywords: article.keywords,
+    alternates: {
+      canonical: articleUrl,
+    },
     openGraph: {
       title: article.metaTitle,
       description: article.description,
+      url: articleUrl,
       images: [article.image],
       type: "article",
       publishedTime: article.date,
+      modifiedTime: article.date,
+      authors: [article.author],
+      section: article.category,
+      tags: article.keywords,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.metaTitle,
+      description: article.description,
+      images: [article.image],
     },
   };
 }
@@ -2428,8 +2447,27 @@ export default async function ArticlePage({
     notFound();
   }
 
+  // Generate schemas for this article
+  const articleSchema = generateArticleSchema({
+    title: article.title,
+    description: article.description,
+    image: article.image,
+    date: article.date,
+    author: article.author,
+    keywords: article.keywords,
+    slug: article.slug,
+    category: article.category,
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Articles", url: `${SITE_URL}/articles` },
+    { name: article.title, url: `${SITE_URL}/articles/${slug}` },
+  ]);
+
   return (
     <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Government-style Page Header */}

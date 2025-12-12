@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -17,6 +20,22 @@ export const metadata: Metadata = {
     "Zepbound",
     "GLP-1 medications",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-place-to-get-tirzepatide`,
+  },
+  openGraph: {
+    title: "Best Place to Get Tirzepatide in 2025",
+    description: "Find the best places to get tirzepatide for weight loss. Compare telehealth providers, compounding pharmacies, and online programs offering affordable tirzepatide prescriptions.",
+    url: `${SITE_URL}/best-place-to-get-tirzepatide`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Place to Get Tirzepatide in 2025",
+    description: "Find the best places to get tirzepatide for weight loss. Compare telehealth providers, compounding pharmacies, and online programs offering affordable tirzepatide prescriptions.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestPlaceToGetTirzepatidePage() {

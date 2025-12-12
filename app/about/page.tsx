@@ -2,6 +2,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateWebPageSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import {
   ArrowLeft,
   Target,
@@ -21,11 +24,35 @@ export const metadata: Metadata = {
   title: "About Us | GOV Health Report",
   description:
     "Learn about GOV Health Report - your trusted resource for comparing weight loss treatments. We help you research and compare options so you can make informed decisions.",
+  alternates: {
+    canonical: `${SITE_URL}/about`,
+  },
+  openGraph: {
+    title: "About Us | GOV Health Report",
+    description:
+      "Learn about GOV Health Report - your trusted resource for comparing weight loss treatments. We help you research and compare options so you can make informed decisions.",
+    url: `${SITE_URL}/about`,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us | GOV Health Report",
+    description:
+      "Learn about GOV Health Report - your trusted resource for comparing weight loss treatments. We help you research and compare options so you can make informed decisions.",
+  },
 };
 
 export default function AboutPage() {
+  const aboutSchema = generateWebPageSchema(
+    "About Us",
+    "Learn about GOV Health Report - your trusted resource for comparing weight loss treatments. We help you research and compare options so you can make informed decisions.",
+    `${SITE_URL}/about`,
+    "AboutPage"
+  );
+
   return (
     <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
+      <SchemaScript schema={aboutSchema} />
       <Header />
       <main className="flex-1">
         {/* Page Header */}

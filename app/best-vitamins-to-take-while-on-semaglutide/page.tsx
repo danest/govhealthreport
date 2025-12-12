@@ -4,6 +4,9 @@ import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { Top3Providers } from "@/components/sections/Top3Providers";
 import { Card, CardContent } from "@/components/ui/card";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import { ArrowLeft, Pill, Star, AlertCircle, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -18,11 +21,46 @@ export const metadata: Metadata = {
     "nutrient deficiency GLP-1",
     "best supplements weight loss",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-vitamins-to-take-while-on-semaglutide`,
+  },
+  openGraph: {
+    title: "Best Vitamins to Take While on Semaglutide 2025",
+    description:
+      "Discover the essential vitamins and supplements to take while on semaglutide. Prevent nutrient deficiencies and support your weight loss journey with proper supplementation.",
+    url: `${SITE_URL}/best-vitamins-to-take-while-on-semaglutide`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Vitamins to Take While on Semaglutide 2025",
+    description:
+      "Discover the essential vitamins and supplements to take while on semaglutide. Prevent nutrient deficiencies and support your weight loss journey with proper supplementation.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestVitaminsOnSemaglutidePage() {
+  const articleSchema = generateArticleSchema({
+    title: "Best Vitamins to Take While on Semaglutide",
+    description: "Discover the essential vitamins and supplements to take while on semaglutide. Prevent nutrient deficiencies and support your weight loss journey with proper supplementation.",
+    image: `${SITE_URL}/opengraph-image`,
+    date: "December 9, 2025",
+    author: "GOV Health Report Team",
+    keywords: ["vitamins on semaglutide", "semaglutide supplements", "Ozempic vitamins", "Wegovy supplements"],
+    slug: "best-vitamins-to-take-while-on-semaglutide",
+    category: "Guides",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Best Vitamins on Semaglutide", url: `${SITE_URL}/best-vitamins-to-take-while-on-semaglutide` },
+  ]);
+
   return (
     <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Page Header */}

@@ -4,6 +4,9 @@ import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
 import { Top3Providers } from "@/components/sections/Top3Providers";
 import { Card, CardContent } from "@/components/ui/card";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import { ArrowLeft, Syringe, MapPin, RefreshCw, AlertCircle, FileCheck, ShieldCheck } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -18,11 +21,46 @@ export const metadata: Metadata = {
     "how to inject semaglutide",
     "subcutaneous injection sites",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-place-to-inject-semaglutide`,
+  },
+  openGraph: {
+    title: "Best Place to Inject Semaglutide - Injection Sites Guide 2025",
+    description:
+      "Clinical guidance on optimal semaglutide injection site selection. Evidence-based protocols for subcutaneous administration, site rotation strategies, and technique optimization.",
+    url: `${SITE_URL}/best-place-to-inject-semaglutide`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Place to Inject Semaglutide - Injection Sites Guide 2025",
+    description:
+      "Clinical guidance on optimal semaglutide injection site selection. Evidence-based protocols for subcutaneous administration, site rotation strategies, and technique optimization.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestPlaceToInjectSemaglutidePage() {
+  const articleSchema = generateArticleSchema({
+    title: "Semaglutide Subcutaneous Injection Site Protocol",
+    description: "Clinical guidance on optimal semaglutide injection site selection. Evidence-based protocols for subcutaneous administration, site rotation strategies, and technique optimization.",
+    image: `${SITE_URL}/opengraph-image`,
+    date: "December 9, 2025",
+    author: "GOV Health Report Team",
+    keywords: ["best place to inject semaglutide", "semaglutide injection sites", "Ozempic injection", "Wegovy injection"],
+    slug: "best-place-to-inject-semaglutide",
+    category: "Guides",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Best Place to Inject Semaglutide", url: `${SITE_URL}/best-place-to-inject-semaglutide` },
+  ]);
+
   return (
     <div className="flex min-h-screen flex-col bg-[#f8f9fa]">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Government Header Section */}

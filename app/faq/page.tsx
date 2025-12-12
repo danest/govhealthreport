@@ -2,6 +2,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateFAQSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import {
   Accordion,
   AccordionContent,
@@ -24,6 +27,22 @@ export const metadata: Metadata = {
   title: "Frequently Asked Questions | GOV Health Report",
   description:
     "Frequently asked questions about weight loss treatments, GLP-1 medications, telehealth providers, and how GOV Health Report can help you compare options.",
+  alternates: {
+    canonical: `${SITE_URL}/faq`,
+  },
+  openGraph: {
+    title: "Frequently Asked Questions | GOV Health Report",
+    description:
+      "Frequently asked questions about weight loss treatments, GLP-1 medications, telehealth providers, and how GOV Health Report can help you compare options.",
+    url: `${SITE_URL}/faq`,
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Frequently Asked Questions | GOV Health Report",
+    description:
+      "Frequently asked questions about weight loss treatments, GLP-1 medications, telehealth providers, and how GOV Health Report can help you compare options.",
+  },
 };
 
 const faqs = [
@@ -214,8 +233,19 @@ const faqs = [
 ];
 
 export default function FAQPage() {
+  // Flatten all FAQ questions and answers for schema
+  const allFAQs = faqs.flatMap((category) =>
+    category.questions.map((q) => ({
+      question: q.question,
+      answer: q.answer,
+    }))
+  );
+
+  const faqSchema = generateFAQSchema(allFAQs);
+
   return (
     <div className="flex min-h-screen flex-col bg-[#f5f7fa]">
+      <SchemaScript schema={faqSchema} />
       <Header />
       <main className="flex-1">
         {/* Page Header */}

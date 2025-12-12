@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -18,11 +21,51 @@ export const metadata: Metadata = {
     "compounded semaglutide online",
     "GLP-1 telehealth",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-online-semaglutide-program`,
+  },
+  openGraph: {
+    title: "Best Online Semaglutide Program 2025 - Compare Top Telehealth Providers",
+    description: "Independent assessment of licensed semaglutide telehealth providers. Regulatory compliance analysis, pricing transparency evaluation, and clinical oversight verification.",
+    url: `${SITE_URL}/best-online-semaglutide-program`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Online Semaglutide Program 2025 - Compare Top Telehealth Providers",
+    description: "Independent assessment of licensed semaglutide telehealth providers. Regulatory compliance analysis, pricing transparency evaluation, and clinical oversight verification.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestOnlineSemaglutideProgramPage() {
+  const articleSchema = generateArticleSchema({
+    title: "Best Online Semaglutide Program 2025 - Compare Top Telehealth Providers",
+    description: "Independent assessment of licensed semaglutide telehealth providers. Regulatory compliance analysis, pricing transparency evaluation, and clinical oversight verification.",
+    image: `${SITE_URL}/opengraph-image`,
+    date: "December 9, 2025",
+    author: "GOV Health Report Team",
+    keywords: [
+    "best online semaglutide program",
+    "semaglutide telehealth",
+    "online Wegovy prescription",
+    "semaglutide weight loss program",
+    "compounded semaglutide online",
+    "GLP-1 telehealth",
+  ],
+    slug: "best-online-semaglutide-program",
+    category: "Guides",
+  });
+
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Home", url: SITE_URL },
+    { name: "Best Online Semaglutide Program 2025 - Compare Top Telehealth Providers", url: `${SITE_URL}/best-online-semaglutide-program` },
+  ]);
+
   return (
-    <div className="flex min-h-screen flex-col bg-[#f8f9fa]">
+    <div className="flex min-h-screen flex-col bg-f8f9fa">
+      <SchemaScript schema={[articleSchema, breadcrumbSchema]} />
       <Header />
       <main className="flex-1">
         {/* Government Header Section */}

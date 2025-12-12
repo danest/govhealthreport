@@ -1,4 +1,7 @@
 import { Metadata } from "next";
+import { SchemaScript } from "@/components/SchemaScript";
+import { generateArticleSchema, generateBreadcrumbSchema } from "@/lib/schema";
+import { SITE_URL } from "@/lib/site-config";
 import Link from "next/link";
 import { Header } from "@/components/sections/Header";
 import { Footer } from "@/components/sections/Footer";
@@ -16,6 +19,22 @@ export const metadata: Metadata = {
     "compounded GLP-1",
     "503B compounding pharmacy",
   ],
+  alternates: {
+    canonical: `${SITE_URL}/best-compounding-pharmacy-for-semaglutide`,
+  },
+  openGraph: {
+    title: "Best Compounding Pharmacy for Semaglutide 2025",
+    description: "Find the best compounding pharmacies for semaglutide. Learn about quality standards, pricing, and what to look for when choosing a compounded GLP-1 medication provider.",
+    url: `${SITE_URL}/best-compounding-pharmacy-for-semaglutide`,
+    type: "article",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Best Compounding Pharmacy for Semaglutide 2025",
+    description: "Find the best compounding pharmacies for semaglutide. Learn about quality standards, pricing, and what to look for when choosing a compounded GLP-1 medication provider.",
+    images: [`${SITE_URL}/opengraph-image`],
+  },
 };
 
 export default function BestCompoundingPharmacyForSemaglutidePage() {
