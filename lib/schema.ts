@@ -123,7 +123,7 @@ export function generateAggregateRatingSchema(stats: RatingStats) {
     "@type": "AggregateRating",
     ratingValue: stats.average_rating.toFixed(1),
     ratingCount: stats.total_ratings,
-    bestRating: "5",
+    bestRating: "10",
     worstRating: "1",
   };
 }
@@ -154,11 +154,12 @@ export function generateProductSchema(
   if (ratingStats) {
     schema.aggregateRating = generateAggregateRatingSchema(ratingStats);
   } else {
-    // Use static rating from provider data
+    // Use static rating from provider data (10-point scale)
     schema.aggregateRating = {
       "@type": "AggregateRating",
       ratingValue: provider.rating.toFixed(1),
-      bestRating: "5",
+      ratingCount: 1,
+      bestRating: "10",
       worstRating: "1",
     };
   }
