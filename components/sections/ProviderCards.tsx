@@ -42,7 +42,7 @@ const providers = [
     offer: "Starting at $99/mo",
     badge: "Top Assessed",
     badgeColor: "bg-[#ffc72c] text-[#003366]",
-    url: "https://get.coreagerx.com/home22/",
+    url: "https://app.coreagerx.com/go/sale/",
     featured: true,
     status: "Active",
   },

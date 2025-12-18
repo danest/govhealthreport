@@ -23,7 +23,7 @@ const providers = [
       "Personalized Treatment Plans with Board-Certified Physicians",
       "Lose 10%–26% Body Weight Within 12 Months",
     ],
-    url: "https://get.coreagerx.com/home/",
+    url: "https://app.coreagerx.com/go/sale/",
   },
   {
     rank: 2,
@@ -336,7 +336,7 @@ export function ProviderList() {
         </div>
 
         <TrackedLink
-          href={`https://get.coreagerx.com/home/${UTM_PARAMS}`}
+          href={`https://app.coreagerx.com/go/sale/${UTM_PARAMS}`}
           target="_blank"
           rel="noopener noreferrer"
           className="block"

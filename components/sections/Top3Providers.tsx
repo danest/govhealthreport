@@ -24,7 +24,7 @@ const providers = [
     offer: "Starting at $99/mo",
     badge: "Most Popular",
     badgeColor: "bg-primary text-primary-foreground",
-    url: "https://get.coreagerx.com/home22/",
+    url: "https://app.coreagerx.com/go/sale/",
     featured: true,
   },
   {

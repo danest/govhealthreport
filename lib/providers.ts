@@ -43,7 +43,7 @@ export const providers: Provider[] = [
     longDescription: "CoreAge Rx stands out as our top recommendation for weight loss treatment. With their premium GLP-1 program, FDA-approved medications, and personalized treatment plans from board-certified physicians, they offer the complete package for achieving your weight loss goals. Their comprehensive approach combines medical expertise with ongoing support to help you achieve sustainable results.",
     badge: "Editor's Choice",
     badgeColor: "bg-primary text-primary-foreground",
-    url: "https://get.coreagerx.com/home/",
+    url: "https://app.coreagerx.com/go/sale/",
     pros: [
       "FDA-approved GLP-1 medications",
       "Personalized treatment plans",

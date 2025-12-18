@@ -523,7 +523,7 @@ export default function BestPlaceToGetTirzepatidePage() {
                       <p><strong className="text-[#003366]">States Available:</strong> 48 states (excluding LA, WV)</p>
                       <p className="pt-2">
                         <Link
-                          href="https://www.coreagerx.com"
+                          href="https://app.coreagerx.com/go/sale/"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-block bg-[#003366] text-white px-4 py-2 rounded hover:bg-[#004080] transition-colors font-medium"
