@@ -40,6 +40,7 @@ import { Provider, UTM_PARAMS, getRatingColor } from "@/lib/providers";
 
 interface ReviewPageProps {
   provider: Provider;
+  additionalContent?: React.ReactNode;
 }
 
 // Default content generators for providers without extended fields
@@ -86,7 +87,7 @@ function getDefaultSideEffects(provider: Provider): string[] {
   ];
 }
 
-export function ReviewPage({ provider }: ReviewPageProps) {
+export function ReviewPage({ provider, additionalContent }: ReviewPageProps) {
   const medications = getDefaultMedications(provider);
   const howItWorks = getDefaultHowItWorks(provider);
   const eligibility = getDefaultEligibility(provider);
@@ -703,6 +704,15 @@ export function ReviewPage({ provider }: ReviewPageProps) {
             />
           </div>
         </section>
+
+        {/* Additional Content */}
+        {additionalContent && (
+          <section className="py-8 bg-white border-t-2 border-[#003366]">
+            <div className="container mx-auto max-w-5xl px-4">
+              {additionalContent}
+            </div>
+          </section>
+        )}
 
         {/* Bottom CTA */}
         <section className="bg-[#003366] py-10">
