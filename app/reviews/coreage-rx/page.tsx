@@ -55,8 +55,8 @@ export default function CoreAgeRxReviewPage() {
 
             <div className="p-6 space-y-6">
               <div className="bg-[#e8eef4] border-2 border-[#003366] p-6 rounded-lg">
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  <strong className="text-[#003366]">CoreAge RX</strong> offers both major GLP-1 receptor agonist medications from the same trusted brand. These medications work through similar mechanisms to help with weight loss and metabolic health, giving you options based on your specific needs and physician recommendations.
+                <p className="text-gray-700 leading-relaxed">
+                  <strong className="text-[#003366]">CoreAge RX</strong> (also written as coreage rx) is the same trusted brand offering both major GLP-1 receptor agonist medications. These medications work through similar mechanisms to help with weight loss and metabolic health, giving you options based on your specific needs and physician recommendations.
                 </p>
               </div>
 
