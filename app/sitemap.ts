@@ -113,6 +113,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/best-alcohol-on-tirzepatide',
     '/best-vitamins-to-take-while-on-semaglutide',
     '/best-vitamins-to-take-while-on-tirzepatide',
+    '/wegovy-pill-fda-approval',
+    '/wegovy-pill-review',
   ].map((route) => ({
     url: `${BASE_URL}${route}`,
     lastModified,
