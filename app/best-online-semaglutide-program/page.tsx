@@ -513,6 +513,18 @@ export default function BestOnlineSemaglutideProgramPage() {
               <CardContent className="p-6">
                 <div className="grid gap-3 sm:grid-cols-2">
                   <Link
+                    href="/wegovy-pill-fda-approval"
+                    className="text-[#003366] hover:text-[#004080] underline text-sm"
+                  >
+                    → FDA Approves Wegovy® Pill - First Oral GLP-1
+                  </Link>
+                  <Link
+                    href="/wegovy-pill-review"
+                    className="text-[#003366] hover:text-[#004080] underline text-sm"
+                  >
+                    → Wegovy® Pill: Comprehensive Review
+                  </Link>
+                  <Link
                     href="/best-compounding-pharmacy-for-semaglutide"
                     className="text-[#003366] hover:text-[#004080] underline text-sm"
                   >

@@ -342,6 +342,18 @@ export default function BestTimeOfDayToTakeSemaglutidePage() {
               </h2>
               <div className="grid gap-2 sm:grid-cols-2">
                 <Link
+                  href="/wegovy-pill-fda-approval"
+                  className="text-[#003366] hover:underline font-medium text-sm"
+                >
+                  → FDA Approves Wegovy® Pill
+                </Link>
+                <Link
+                  href="/wegovy-pill-review"
+                  className="text-[#003366] hover:underline font-medium text-sm"
+                >
+                  → Wegovy® Pill Review
+                </Link>
+                <Link
                   href="/best-time-of-day-to-take-tirzepatide-for-weight-loss"
                   className="text-[#003366] hover:underline font-medium text-sm"
                 >
